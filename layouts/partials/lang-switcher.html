@@ -1,0 +1,12 @@
+<nav>
+  <p>{{ i18n "language" }}:
+    {{ range $index, $t := .AllTranslations }}
+      {{- if $index }} · {{ end -}}
+      {{- if eq $t.Language.Lang $.Language.Lang -}}
+        <strong>{{ $t.Language.Label }}</strong>
+      {{- else -}}
+        <a href="{{ $t.RelPermalink }}" hreflang="{{ $t.Language.Locale }}" lang="{{ $t.Language.Locale }}">{{ $t.Language.Label }}</a>
+      {{- end -}}
+    {{ end }}
+  </p>
+</nav>

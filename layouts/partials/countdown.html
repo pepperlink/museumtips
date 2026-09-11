@@ -1,0 +1,15 @@
+{{- $end := time.AsTime .end -}}
+{{- $days := div (sub $end.Unix now.Unix) 86400 -}}
+{{- if lt $days 0 -}}
+  {{- i18n "ended" -}}
+{{- else if eq $days 0 -}}
+  {{- i18n "last_day" -}}
+{{- else if le $days 6 -}}
+  {{- i18n "last_week" -}}
+{{- else if le $days 13 -}}
+  {{- i18n "last_2_weeks" -}}
+{{- else if le $days 20 -}}
+  {{- i18n "last_3_weeks" -}}
+{{- else if le $days 30 -}}
+  {{- i18n "last_month" -}}
+{{- end -}}

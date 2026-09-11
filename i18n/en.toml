@@ -1,0 +1,110 @@
+[nav_home]
+other = "Home"
+
+[nav_calendar]
+other = "Calendar"
+
+[nav_museums]
+other = "Museums"
+
+[nav_about]
+other = "About"
+
+[language]
+other = "Language"
+
+[nearest_endings]
+other = "Closing soon"
+
+[view_calendar]
+other = "Full calendar"
+
+[subscribe_all]
+other = "Subscribe — all exhibitions"
+
+[subscribe_soon]
+other = "Subscribe — closing soon (≤ 30 days)"
+
+[from]
+other = "from"
+
+[until]
+other = "until"
+
+[open_ended]
+other = "Start date unknown"
+
+[ended]
+other = "Ended"
+
+[last_day]
+other = "Last day"
+
+[last_week]
+other = "Last week"
+
+[last_2_weeks]
+other = "Last 2 weeks"
+
+[last_3_weeks]
+other = "Last 3 weeks"
+
+[last_month]
+other = "Last month"
+
+[compiled]
+other = "Data compiled on"
+
+[website]
+other = "Exhibitions page"
+
+[quirks]
+other = "Notes"
+
+[exhibitions_here]
+other = "On now at this museum"
+
+[jump_to_month]
+other = "Jump to month"
+
+[no_exhibitions]
+other = "No exhibitions in the current dataset."
+
+[no_museums]
+other = "No museums in the current dataset."
+
+[month_1]
+other = "January"
+
+[month_2]
+other = "February"
+
+[month_3]
+other = "March"
+
+[month_4]
+other = "April"
+
+[month_5]
+other = "May"
+
+[month_6]
+other = "June"
+
+[month_7]
+other = "July"
+
+[month_8]
+other = "August"
+
+[month_9]
+other = "September"
+
+[month_10]
+other = "October"
+
+[month_11]
+other = "November"
+
+[month_12]
+other = "December"

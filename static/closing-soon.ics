@@ -1,0 +1,822 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hermes Agent//Museum Tracker//NL
+X-WR-CALNAME:Museumtips — closing soon
+X-WR-TIMEZONE:Europe/Amsterdam
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Exhibitions closing within 30 days. Subscribe: https://museumt
+ ips.pepperlink.nl/
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:museum-7bbc4c98dd7e-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: Ed van der Elsken. Up Close - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Photographer Ed van der Elsken up close.\\nhttps://www.rijksmus
+ eum.nl/en/whats-on/exhibitions/ed-van-der-elsken
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/ed-van-der-elsken
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-d283ede93366-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: Fiep Westendorp - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Celebrated Dutch illustrator of Jip and Janneke.\\nhttps://www.
+ rijksmuseum.nl/en/whats-on/exhibitions/fiep-westendorp
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/fiep-westendorp
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-ac5e36c75c46-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: Pixel Pioneers - Museum Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:First major Boijmans exhibition devoted to digital art.\\nhttps
+ ://www.boijmans.nl/en/exhibitions/pixel-pioneers
+URL:https://www.boijmans.nl/en/exhibitions/pixel-pioneers
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-48bc330ae85b-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: Marlow Moss: A Suitcase Full of Sketches - Kunstmuseum De
+ n Haag
+LOCATION:Kunstmuseum Den Haag\, Den Haag
+DESCRIPTION:Newly acquired suitcase of 100+ preliminary studies by Marlow M
+ oss.\\nhttps://www.kunstmuseum.nl/en/exhibitions/marlow-moss
+URL:https://www.kunstmuseum.nl/en/exhibitions/marlow-moss
+CATEGORIES:Museum,Den Haag
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-0e2cdfa9f891@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last week: Gerard van Honthorst - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:First major retrospective of the Utrecht master Gerard van Hont
+ horst (1592-1656)\, 'in alles anders dan Rembrandt'.\\nhttps://www.centraa
+ lmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-a
+ nders-dan-rembrandt
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-va
+ n-honthorst-in-alles-anders-dan-rembrandt
+CATEGORIES:Museum,Utrecht
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-0e2cdfa9f891-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: Gerard van Honthorst - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:First major retrospective of the Utrecht master Gerard van Hont
+ horst (1592-1656)\, 'in alles anders dan Rembrandt'.\\nhttps://www.centraa
+ lmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-a
+ nders-dan-rembrandt
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-va
+ n-honthorst-in-alles-anders-dan-rembrandt
+CATEGORIES:Museum,Utrecht
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-7ccef6a18418@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last week: Annex: Mathias Poledna - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Artist Mathias Poledna combines fashion\, music and history in 
+ 'My Favorite Shop'.\\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/tentoons
+ tellingen/annex-mathias-poledna
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/annex-mat
+ hias-poledna
+CATEGORIES:Museum,Utrecht
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-7ccef6a18418-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: Annex: Mathias Poledna - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Artist Mathias Poledna combines fashion\, music and history in 
+ 'My Favorite Shop'.\\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/tentoons
+ tellingen/annex-mathias-poledna
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/annex-mat
+ hias-poledna
+CATEGORIES:Museum,Utrecht
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-7c3c238000b9-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last day: Meesterwerken uit Le Havre (Renoir\, Monet\, Dufy\, Matis
+ se) - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:80 years of artistic renewal from Le Havre\, Impressionism to F
+ auvism.\\nhttps://www.singerlaren.nl/nl/agenda/meesterwerken-uit-le-havre-
+ 4k1t
+URL:https://www.singerlaren.nl/nl/agenda/meesterwerken-uit-le-havre-4k1t
+CATEGORIES:Museum,Laren
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-0ce4abb3abbe@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20250712
+DTEND;VALUE=DATE:20260918
+SUMMARY:Last week: Experimental Jetset Circuits - Stedelijk Museum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:The Amsterdam design studio Experimental Jetset presents Circui
+ ts\, on graphic design and the city.\\nhttps://www.stedelijk.nl/en/exhibit
+ ions/EN-experimental-jetset
+URL:https://www.stedelijk.nl/en/exhibitions/EN-experimental-jetset
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-0ce4abb3abbe-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Last day: Experimental Jetset Circuits - Stedelijk Museum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:The Amsterdam design studio Experimental Jetset presents Circui
+ ts\, on graphic design and the city.\\nhttps://www.stedelijk.nl/en/exhibit
+ ions/EN-experimental-jetset
+URL:https://www.stedelijk.nl/en/exhibitions/EN-experimental-jetset
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-80d93a8c95df-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: The ReFramers present: In Search of an Anchor - Van Gogh 
+ Museum
+LOCATION:Van Gogh Museum\, Amsterdam
+DESCRIPTION:Contemporary perspectives on Vincent's art - religion\, relatio
+ nships\, daily rituals.\\nhttps://www.vangoghmuseum.nl/en/visit/whats-on/e
+ xhibitions/in-search-of-an-anchor
+URL:https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/in-search-of
+ -an-anchor
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-80d93a8c95df-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last week: The ReFramers present: In Search of an Anchor - Van Gogh
+  Museum
+LOCATION:Van Gogh Museum\, Amsterdam
+DESCRIPTION:Contemporary perspectives on Vincent's art - religion\, relatio
+ nships\, daily rituals.\\nhttps://www.vangoghmuseum.nl/en/visit/whats-on/e
+ xhibitions/in-search-of-an-anchor
+URL:https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/in-search-of
+ -an-anchor
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-365b30fb1995@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: Make Some Noise: Desire. Stage. Change. - Van Abbemus
+ eum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:International exhibition about desire\, daring and change.\\nht
+ tps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-noise-d
+ esire-stage-change
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-no
+ ise-desire-stage-change
+CATEGORIES:Museum,Eindhoven
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-365b30fb1995-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Make Some Noise: Desire. Stage. Change. - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:International exhibition about desire\, daring and change.\\nht
+ tps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-noise-d
+ esire-stage-change
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-no
+ ise-desire-stage-change
+CATEGORIES:Museum,Eindhoven
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-517710de7fec@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: Cremer in context - de vroege jaren - Museum de Funda
+ tie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:First overview after Jan Cremer's death\; his position as visua
+ l artist in the 1950s-60s.\\nhttps://museumdefundatie.nl/nl/te-zien/cremer
+ -context
+URL:https://museumdefundatie.nl/nl/te-zien/cremer-context
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-517710de7fec-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Cremer in context - de vroege jaren - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:First overview after Jan Cremer's death\; his position as visua
+ l artist in the 1950s-60s.\\nhttps://museumdefundatie.nl/nl/te-zien/cremer
+ -context
+URL:https://museumdefundatie.nl/nl/te-zien/cremer-context
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-1ccf425b6211@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: Umbild - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Jules van Hulst & Wieger Steenhuis: Umbild.\\nhttps://museumdef
+ undatie.nl/nl/te-zien/umbild
+URL:https://museumdefundatie.nl/nl/te-zien/umbild
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-1ccf425b6211-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Umbild - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Jules van Hulst & Wieger Steenhuis: Umbild.\\nhttps://museumdef
+ undatie.nl/nl/te-zien/umbild
+URL:https://museumdefundatie.nl/nl/te-zien/umbild
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-755a4c1d029e@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: Ntu - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Buhlebezwe Siwani: Ntu.\\nhttps://museumdefundatie.nl/nl/te-zie
+ n/ntu
+URL:https://museumdefundatie.nl/nl/te-zien/ntu
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-755a4c1d029e-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Ntu - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Buhlebezwe Siwani: Ntu.\\nhttps://museumdefundatie.nl/nl/te-zie
+ n/ntu
+URL:https://museumdefundatie.nl/nl/te-zien/ntu
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-0438efeff45d@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: In de 17e Hemel - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Art installation by Chourouk Hriech.\\nhttps://museumdefundatie
+ .nl/nl/te-zien/de-17e-hemel
+URL:https://museumdefundatie.nl/nl/te-zien/de-17e-hemel
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-0438efeff45d-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: In de 17e Hemel - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Art installation by Chourouk Hriech.\\nhttps://museumdefundatie
+ .nl/nl/te-zien/de-17e-hemel
+URL:https://museumdefundatie.nl/nl/te-zien/de-17e-hemel
+CATEGORIES:Museum,Zwolle
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-3465076b5a10@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: Naakt dat raakt - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Artists use the naked body to discuss freedom\, identity and in
+ equality.\\nhttps://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raa
+ kt
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raakt
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-3465076b5a10-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Naakt dat raakt - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Artists use the naked body to discuss freedom\, identity and in
+ equality.\\nhttps://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raa
+ kt
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raakt
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-8a3e7b6632ad@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: Bakudengar - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Bakudengar in Museum Arnhem.\\nhttps://www.museumarnhem.nl/nl/t
+ entoonstellingen/bakudengar
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/bakudengar
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-8a3e7b6632ad-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Bakudengar - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Bakudengar in Museum Arnhem.\\nhttps://www.museumarnhem.nl/nl/t
+ entoonstellingen/bakudengar
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/bakudengar
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-6ab1facb3878-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Pak een terrasje met Vincent - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Zomerse presentatie rond Vincent van Gogh in de beeldentuin.\\n
+ https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terrasje-
+ met-vincent
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terras
+ je-met-vincent
+CATEGORIES:Museum,Otterlo
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-6ab1facb3878-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last week: Pak een terrasje met Vincent - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Zomerse presentatie rond Vincent van Gogh in de beeldentuin.\\n
+ https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terrasje-
+ met-vincent
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terras
+ je-met-vincent
+CATEGORIES:Museum,Otterlo
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-6c2dd0c75181@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last 2 weeks: Anouk Griffioen. Nu het er nog is - Kröller-Müller Mu
+ seum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Anouk Griffioen in het Kroller-Muller Museum.\\nhttps://kroller
+ muller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioen-nu-het-er-nog-is
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioe
+ n-nu-het-er-nog-is
+CATEGORIES:Museum,Otterlo
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-6c2dd0c75181-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Anouk Griffioen. Nu het er nog is - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Anouk Griffioen in het Kroller-Muller Museum.\\nhttps://kroller
+ muller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioen-nu-het-er-nog-is
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioe
+ n-nu-het-er-nog-is
+CATEGORIES:Museum,Otterlo
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-fc50685f5949-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last day: Amrita Sher-Gil: Europa is van Picasso\, India is van mij
+  - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:Tentoonstelling over Amrita Sher-Gil in de Singelzaal van het D
+ rents Museum.\\nhttps://drentsmuseum.nl/tentoonstellingen/amrita-sher-gil-
+ europa-is-van-picasso-india-is-van-mij
+URL:https://drentsmuseum.nl/tentoonstellingen/amrita-sher-gil-europa-is-van
+ -picasso-india-is-van-mij
+CATEGORIES:Museum,Assen
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-fc50685f5949-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Last week: Amrita Sher-Gil: Europa is van Picasso\, India is van mi
+ j - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:Tentoonstelling over Amrita Sher-Gil in de Singelzaal van het D
+ rents Museum.\\nhttps://drentsmuseum.nl/tentoonstellingen/amrita-sher-gil-
+ europa-is-van-picasso-india-is-van-mij
+URL:https://drentsmuseum.nl/tentoonstellingen/amrita-sher-gil-europa-is-van
+ -picasso-india-is-van-mij
+CATEGORIES:Museum,Assen
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-8e9dd883bd31-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Last day: Salty Tears\, a Bare Wall\, and a Playful Emergency Butto
+ n - Museum Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Temporary exhibition at the Depot.\\nhttps://www.boijmans.nl/en
+ /exhibitions/salty-tears-a-bare-wall-playful-emergency
+URL:https://www.boijmans.nl/en/exhibitions/salty-tears-a-bare-wall-playful-
+ emergency
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-8e9dd883bd31-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Last week: Salty Tears\, a Bare Wall\, and a Playful Emergency Butt
+ on - Museum Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Temporary exhibition at the Depot.\\nhttps://www.boijmans.nl/en
+ /exhibitions/salty-tears-a-bare-wall-playful-emergency
+URL:https://www.boijmans.nl/en/exhibitions/salty-tears-a-bare-wall-playful-
+ emergency
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-7180fc842d49-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Last day: Depot Solo - Mandy El-Sayegh - Museum Boijmans Van Beunin
+ gen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:First edition of the new Depot Solo series\, made possible by A
+ mmodo Art.\\nhttps://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sa
+ yegh
+URL:https://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sayegh
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-7180fc842d49-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Last week: Depot Solo - Mandy El-Sayegh - Museum Boijmans Van Beuni
+ ngen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:First edition of the new Depot Solo series\, made possible by A
+ mmodo Art.\\nhttps://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sa
+ yegh
+URL:https://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sayegh
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-ca57747c6bc4-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Last day: A Diary of Things - Museum Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Reveals the eventful histories of artworks (donated\, sold\, cu
+ t up\, stolen).\\nhttps://www.boijmans.nl/en/exhibitions/diary-of-things
+URL:https://www.boijmans.nl/en/exhibitions/diary-of-things
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-ca57747c6bc4-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Last week: A Diary of Things - Museum Boijmans Van Beuningen (Depot
+ )
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Reveals the eventful histories of artworks (donated\, sold\, cu
+ t up\, stolen).\\nhttps://www.boijmans.nl/en/exhibitions/diary-of-things
+URL:https://www.boijmans.nl/en/exhibitions/diary-of-things
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-617452700b91@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20251018
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last 3 weeks: Dieren in Arnhem (Erfgoedcentrum) - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Animals in Arnhem - heritage centre show.\\nhttps://www.museuma
+ rnhem.nl/nl/tentoonstellingen/dieren-in-arnhem
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/dieren-in-arnhem
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-617452700b91-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last day: Dieren in Arnhem (Erfgoedcentrum) - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Animals in Arnhem - heritage centre show.\\nhttps://www.museuma
+ rnhem.nl/nl/tentoonstellingen/dieren-in-arnhem
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/dieren-in-arnhem
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-62c3ec2f7231-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last day: Beauty of the Beast: Dieren in de art nouveau - De Buiten
+ plaats
+LOCATION:De Buitenplaats\, Eelde
+DESCRIPTION:Tentoonstelling over dieren in de art nouveau in Drents Museum 
+ De Buitenplaats (verlengd t/m 27 september).\\nhttps://dmdebuitenplaats.nl
+ /tentoonstellingen/beauty-of-the-beast-dieren-in-de-art-nouveau
+URL:https://dmdebuitenplaats.nl/tentoonstellingen/beauty-of-the-beast-diere
+ n-in-de-art-nouveau
+CATEGORIES:Museum,Eelde
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-62c3ec2f7231-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Last week: Beauty of the Beast: Dieren in de art nouveau - De Buite
+ nplaats
+LOCATION:De Buitenplaats\, Eelde
+DESCRIPTION:Tentoonstelling over dieren in de art nouveau in Drents Museum 
+ De Buitenplaats (verlengd t/m 27 september).\\nhttps://dmdebuitenplaats.nl
+ /tentoonstellingen/beauty-of-the-beast-dieren-in-de-art-nouveau
+URL:https://dmdebuitenplaats.nl/tentoonstellingen/beauty-of-the-beast-diere
+ n-in-de-art-nouveau
+CATEGORIES:Museum,Eelde
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-1e6dfe265741@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20261004
+SUMMARY:Last month: Patchwork Post - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Colourful landing spot designed by Simone Post.\\nhttps://www.c
+ entraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork-post
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork
+ -post
+CATEGORIES:Museum,Utrecht
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-1e6dfe265741-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Last day: Patchwork Post - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Colourful landing spot designed by Simone Post.\\nhttps://www.c
+ entraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork-post
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork
+ -post
+CATEGORIES:Museum,Utrecht
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-69b9877877b9-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Last day: Woody van Amen - The Best Of - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Retrospective marking Woody van Amen's 90th birthday.\\nhttps:/
+ /www.kunsthal.nl/en/plan-your-visit/exhibitions/woody-van-amen/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/woody-van-amen/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-69b9877877b9-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last week: Woody van Amen - The Best Of - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Retrospective marking Woody van Amen's 90th birthday.\\nhttps:/
+ /www.kunsthal.nl/en/plan-your-visit/exhibitions/woody-van-amen/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/woody-van-amen/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-b42b6b7a2a58-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Last day: Helen Levitt - City at Play - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Overview of street photographer Helen Levitt (1913-2009).\\nhtt
+ ps://www.kunsthal.nl/en/plan-your-visit/exhibitions/helen-levitt/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/helen-levitt/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-b42b6b7a2a58-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last week: Helen Levitt - City at Play - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Overview of street photographer Helen Levitt (1913-2009).\\nhtt
+ ps://www.kunsthal.nl/en/plan-your-visit/exhibitions/helen-levitt/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/helen-levitt/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-856245e3dc28-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Last day: De schoonheid van letters - Rijksmuseum van Oudheden
+LOCATION:Rijksmuseum van Oudheden\, Leiden
+DESCRIPTION:Recent acquisitions: objects with Arabic calligraphy.\\nhttps:/
+ /www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/de-schoonheid-v
+ an-letters/
+URL:https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/de-sc
+ hoonheid-van-letters/
+CATEGORIES:Museum,Leiden
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-856245e3dc28-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Last week: De schoonheid van letters - Rijksmuseum van Oudheden
+LOCATION:Rijksmuseum van Oudheden\, Leiden
+DESCRIPTION:Recent acquisitions: objects with Arabic calligraphy.\\nhttps:/
+ /www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/de-schoonheid-v
+ an-letters/
+URL:https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/de-sc
+ hoonheid-van-letters/
+CATEGORIES:Museum,Leiden
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-2caaa87d1d74@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20261005
+SUMMARY:Last month: Ruud Kuijer - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Beelden van Ruud Kuijer in de beeldentuin.\\nhttps://krollermul
+ ler.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer
+CATEGORIES:Museum,Otterlo
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-2caaa87d1d74-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Last day: Ruud Kuijer - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Beelden van Ruud Kuijer in de beeldentuin.\\nhttps://krollermul
+ ler.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer
+CATEGORIES:Museum,Otterlo
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-13f0f72ac48d@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last month: Het raadsel van het meisje in het blauw - Frans Hals Mu
+ seum
+LOCATION:Frans Hals Museum\, Haarlem
+DESCRIPTION:Collectiepresentatie.\\nhttps://franshalsmuseum.nl/nl/zien-en-d
+ oen
+URL:https://franshalsmuseum.nl/nl/zien-en-doen
+CATEGORIES:Museum,Haarlem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-13f0f72ac48d-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: Het raadsel van het meisje in het blauw - Frans Hals Muse
+ um
+LOCATION:Frans Hals Museum\, Haarlem
+DESCRIPTION:Collectiepresentatie.\\nhttps://franshalsmuseum.nl/nl/zien-en-d
+ oen
+URL:https://franshalsmuseum.nl/nl/zien-en-doen
+CATEGORIES:Museum,Haarlem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-6c4d8b211f56-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: Etha Fles & Medardo Rosso. Voor de kunst - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Centres on 'Rieuse'\, a rare Rosso sculpture from the estate of
+  Etha Fles.\\nhttps://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso
+ -voor-de-kunst-6544
+URL:https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-ku
+ nst-6544
+CATEGORIES:Museum,Laren
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-6c4d8b211f56-lw@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Last week: Etha Fles & Medardo Rosso. Voor de kunst - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Centres on 'Rieuse'\, a rare Rosso sculpture from the estate of
+  Etha Fles.\\nhttps://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso
+ -voor-de-kunst-6544
+URL:https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-ku
+ nst-6544
+CATEGORIES:Museum,Laren
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-8a5ef5e346de@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last month: Sonsbeek 2026: Ik hoef geen tuin\, ik deel een park - M
+ useum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Europe's oldest recurring exhibition of art in public space\; 1
+ 3th edition on remembrance as a living act.\\nhttps://www.museumarnhem.nl/
+ nl/tentoonstellingen/sonsbeek-2026
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/sonsbeek-2026
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-8a5ef5e346de-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: Sonsbeek 2026: Ik hoef geen tuin\, ik deel een park - Mus
+ eum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Europe's oldest recurring exhibition of art in public space\; 1
+ 3th edition on remembrance as a living act.\\nhttps://www.museumarnhem.nl/
+ nl/tentoonstellingen/sonsbeek-2026
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/sonsbeek-2026
+CATEGORIES:Museum,Arnhem
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-299dd975a526@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last month: 50 Years North Sea Jazz Photography - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Festival photography from 50 years of North Sea Jazz by Paul Be
+ rgen\, Rico D'Rozario and Andreas Terlaak (zaal 7).\\nhttps://www.kunsthal
+ .nl/en/plan-your-visit/exhibitions/50-years-north-sea-jazz-photography/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/50-years-north-s
+ ea-jazz-photography/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-299dd975a526-ld@hermes.museumtracker
+DTSTAMP:20260911T213904Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Last day: 50 Years North Sea Jazz Photography - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Festival photography from 50 years of North Sea Jazz by Paul Be
+ rgen\, Rico D'Rozario and Andreas Terlaak (zaal 7).\\nhttps://www.kunsthal
+ .nl/en/plan-your-visit/exhibitions/50-years-north-sea-jazz-photography/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/50-years-north-s
+ ea-jazz-photography/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+END:VCALENDAR

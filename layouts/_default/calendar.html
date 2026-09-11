@@ -1,0 +1,46 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{- partial "subtitle.html" . -}}
+{{- partial "introduction.html" . -}}
+{{ .Content }}
+
+{{ $sorted := sort hugo.Data.exhibitions.exhibitions "end" }}
+{{ if not $sorted }}
+  <p>{{ i18n "no_exhibitions" }}</p>
+{{ else }}
+  <nav>
+    <p>{{ i18n "jump_to_month" }}</p>
+    <ul>
+      {{ $seen := dict }}
+      {{ range $sorted }}
+        {{ $end := time.AsTime .end }}
+        {{ $key := $end.Format "2006-01" }}
+        {{ if not (index $seen $key) }}
+          {{ $seen = merge $seen (dict $key true) }}
+          {{ $month := i18n (printf "month_%d" (int ($end.Format "1"))) }}
+          <li><a href="#{{ $key }}">{{ $month }} {{ $end.Year }}</a></li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </nav>
+
+  {{ $current := "" }}
+  {{ range $sorted }}
+    {{ $end := time.AsTime .end }}
+    {{ $key := $end.Format "2006-01" }}
+    {{ if ne $key $current }}
+      {{ if $current }}
+        </section>
+      {{ end }}
+      {{ $current = $key }}
+      {{ $month := i18n (printf "month_%d" (int ($end.Format "1"))) }}
+      <section id="{{ $key }}">
+        <h2>{{ $month }} {{ $end.Year }}</h2>
+    {{ end }}
+    {{ partial "exhibition.html" . }}
+  {{ end }}
+  {{ if $current }}
+    </section>
+  {{ end }}
+{{ end }}
+{{ end }}

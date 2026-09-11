@@ -1,0 +1,49 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{- partial "subtitle.html" . -}}
+{{- partial "introduction.html" . -}}
+{{ .Content }}
+
+{{ $museums := sort hugo.Data.exhibitions.museums "name" }}
+{{ if not $museums }}
+  <p>{{ i18n "no_museums" }}</p>
+{{ else }}
+  {{ $groups := slice }}
+  {{ range hugo.Data.exhibitions.museums }}
+    {{ if not (in $groups .group) }}
+      {{ $groups = $groups | append .group }}
+    {{ end }}
+  {{ end }}
+
+  {{ range $groups }}
+    {{ $group := . }}
+    <section>
+      <h2>{{ $group }}</h2>
+      {{ range where $museums "group" $group }}
+        <article>
+          <h3>{{ .name }}</h3>
+          <p>
+            {{ .city }}
+            · <a href="{{ .site }}">{{ i18n "website" }}</a>
+          </p>
+          {{ with .quirks }}
+          <p>{{ i18n "quirks" }}: {{ . }}</p>
+          {{ end }}
+          {{ $here := where hugo.Data.exhibitions.exhibitions "museum" .name }}
+          {{ if $here }}
+            <h4>{{ i18n "exhibitions_here" }}</h4>
+            <ul>
+              {{ range sort $here "end" }}
+                <li>
+                  <a href="{{ .url }}">{{ .title }}</a>
+                  — {{ i18n "until" }} {{ partial "format-date.html" .end }}
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        </article>
+      {{ end }}
+    </section>
+  {{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,42 @@
+baseURL = 'https://museumtips.pepperlink.nl/'
+title = 'Museumtips'
+copyright = 'Museumtips · :CURRENTYEAR:'
+
+defaultContentLanguage = 'nl'
+defaultContentLanguageInSubdir = false
+disableKinds = ['taxonomy', 'term', 'RSS']
+enableRobotsTXT = true
+
+# Huguette via git submodule (themes/huguette). Mounts omit the theme's
+# Netlify CMS admin files — this is a plain hugo build, not Netlify.
+[module]
+  [[module.imports]]
+    path = 'huguette'
+    [[module.imports.mounts]]
+      source = 'layouts'
+      target = 'layouts'
+    [[module.imports.mounts]]
+      source = 'archetypes'
+      target = 'archetypes'
+
+# classless.css is copied into static/css (Huguette README).
+[params]
+  css = true
+
+[languages.nl]
+  locale = 'nl'
+  label = 'Nederlands'
+  contentDir = 'content/nl'
+  weight = 1
+  title = 'Museumtips'
+  [languages.nl.params]
+    description = 'Tijdelijke tentoonstellingen in Nederlandse musea, wekelijks ververst.'
+
+[languages.en]
+  locale = 'en'
+  label = 'English'
+  contentDir = 'content/en'
+  weight = 2
+  title = 'Museumtips'
+  [languages.en.params]
+    description = 'Temporary exhibitions at Dutch museums, refreshed weekly.'

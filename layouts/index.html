@@ -1,0 +1,31 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{- partial "subtitle.html" . -}}
+{{- partial "introduction.html" . -}}
+{{ .Content }}
+
+<p>
+  <a href="webcal://museumtips.pepperlink.nl/museumtips.ics">{{ i18n "subscribe_all" }}</a><br>
+  <a href="webcal://museumtips.pepperlink.nl/closing-soon.ics">{{ i18n "subscribe_soon" }}</a>
+</p>
+
+{{ $today := now.Format "2006-01-02" }}
+{{ $upcoming := slice }}
+{{ range sort hugo.Data.exhibitions.exhibitions "end" }}
+  {{ if ge .end $today }}
+    {{ $upcoming = $upcoming | append . }}
+  {{ end }}
+{{ end }}
+
+<h2>{{ i18n "nearest_endings" }}</h2>
+{{ if $upcoming }}
+  {{ range first 5 $upcoming }}
+    {{ partial "exhibition.html" . }}
+  {{ end }}
+  {{ with .Site.GetPage "calendar" }}
+  <p><a href="{{ .RelPermalink }}">{{ i18n "view_calendar" }}</a></p>
+  {{ end }}
+{{ else }}
+  <p>{{ i18n "no_exhibitions" }}</p>
+{{ end }}
+{{ end }}
