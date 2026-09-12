@@ -629,7 +629,9 @@ C1/C2 can interleave after ST-B1 + museum slugs; landing extras before ST-B3 onl
 ## 3b.9 Open questions for the owner
 
 1. Approve D7 URLs (`/musea/<slug>/`, `/en/museums/<slug>/`, `/tentoonstelling/<slug>/`, `/en/exhibition/<slug>/`)?
+   → **Owner 2026-09-12: yes — approved.**
 2. Approve D8 (pipeline-frozen slugs; operator-seeded 30 museum slugs) and the “no pages without slug” gate?
+   → **Owner 2026-09-12: yes — approved (answered together with Q1).**
 3. Any preferred slugs for awkward names (H’ART, Boijmans Depot, De Buitenplaats vs Drents)? Default: operator table, pasted in the PR for a skim.
 4. Museum MORE: confirm one page (D13) vs split Gorssel / Ruurlo / Twickel now?
 5. Exhibition pages for shows already ended but still in JSON (D12) — OK that they vanish next drop?
@@ -641,7 +643,9 @@ C1/C2 can interleave after ST-B1 + museum slugs; landing extras before ST-B3 onl
 11. Should `/musea/` shrink to city + name + one-liner (detail lives on museum pages) or keep today’s in-list exhibition titles?
 12. Build gate: fail `hugo` when a row lacks `slug` once ST-P has shipped, or keep skip-and-warn?
 13. Publish museum/exhibition pages (and retarget cards to them) **before** C1/C2 extras are collected — most pages show only generated-JSON fields for a while — or gate ST-B5 (card retarget) on a minimum extras threshold (e.g. all 30 museums)?
+   → *Owner (2026-09-12) asked how this differs from Q14 — clarification: Q14 = data scope, Q13 = launch timing while collecting. Operator recommendation: ship pages + card retarget as soon as the code is ready; extras land incrementally (missing sections stay hidden by design). **Awaiting confirm.***
 14. C1/C2 are the largest-effort subtasks (30 museums × ~7 cited facts; up to 187 exhibitions × admission + press). First cut with partial coverage (museum hours+pricing + admission flags; press backfilled later), or hold the phase for full coverage?
+   → **Owner 2026-09-12: full coverage.** Refresh cadence for this data becomes a phase-4 design item (owner: “we need to think about how often to refresh this in phase 4”).
 
 ## 3b.10 Definition of done
 
@@ -697,7 +701,8 @@ Revert the implementation PR/branch. Curated JSON reverts with git. Tracker slug
 
 ## 3b.13 Log
 
-- 2026-09-12 · plan cycle: draft `a01d087`; independent review `29671cd`; operator review + fix pass (28 items folded, verified on pinned Hugo v0.166). Awaiting owner decisions.
+- 2026-09-12 · plan cycle: draft `a01d087`; independent review `29671cd`; operator review + fix pass (28 items folded, verified on pinned Hugo v0.166).
+- 2026-09-12 · owner answers (partial): Q1/Q2 approved · Q14 = full coverage (refresh cadence → phase-4 item) · Q13 clarification pending.
 
 *(Append during the build, one bullet per run.)*
 
