@@ -1246,3 +1246,607 @@ No rollback touches `gh-pages` directly, generated feeds/data, frozen slugs, or 
 Status: `draft`
 - 2026-09-13 · **PHASE 3C BUILD COMPLETE** — ST-3c-1…7 via composer-2.5 (1–4, 6, 7) + cursor-grok-4.6-medium (5). Coordinates 30/30 with operator gates after each batch (`9f31cf7`, `5cb99d8`, `1a0b41d`; correction `e2345b5`); Leaflet 1.9.4 vendored byte-identical (`1ac44bf`); conditional maps → 62 script pages / 124 tags exact (`c6cb822`); four-band calendar heat (`6a68d9b`); docs (`21f9809`). Pinned battery v0.166.0: 990 pages / 0 WARN; fixtures (pair-removed + explicit-null) render the empty state with no map assets; regression greps clean; weekly feeds md5 byte-identical; browser gate passed (marker/popup/index-30/zero-script-home/wheel-zoom/referrer/empty-state). PR #14 → owner review.
 - 2026-09-13 · **PHASE 3C LIVE** — PR #14 merged by owner (main `16cfc33`); published @16cfc33 to gh-pages; live sweep green: map scripts + coordinate attrs on museum pages, Leaflet on the museums index, heat classes on both calendars served from the CDN, home still 0 `<script>`, weekly feeds byte-identical (`370a9643…` / `456f8abd…`), route spot-checks 200 (incl. the corrected `singer-laren` page).
+
+---
+
+## Phase 4 — structured data, refresh cadence, navigation & polish
+
+Status: **draft** (2026-09-12) — owner + independent reviewer before any implementation. Do not start feature/build code from this section until the owner signs off (especially §4.5). Planning-cycle boundary: this branch commits and pushes **only `PLAN.md`**; no phase-4 implementation file is authorized until the owner answers §4.5.
+
+### 4.0 Agent ground rules
+
+Follow `AGENTS.md` (outranks defaults). In force: Conventional Commits; `diane/…` or `cursor/…` branches; **owner merges**; never push `main` or `gh-pages` except through the publish scripts; never change `/museumtips.ics` or `/closing-soon.ics` paths; never hand-edit generated `data/exhibitions.json` or any generated ICS; keep NL + EN in sync; no Node or asset build step; Hugo **v0.166.0 extended** is authoritative (Mac lane currently has **v0.165.0 extended** only — every run states which pin it built on; the operator re-verifies on v0.166.0 before anything is marked done); never edit `themes/huguette`; no JavaScript beyond the phase-3c allowlist (`static/js/museum-map.js`, `static/vendor/leaflet/1.9.4/leaflet.js`) — phase 4 adds **zero** new JS.
+
+**Repo/pipeline boundary (load-bearing for this phase — verify before any run starts):** the weekly discovery/scrape pipeline (`/opt/data/museum_tracker/…`) lives entirely **outside this git repo**, on a host this repo's agents cannot reach. `data/exhibitions.json` and root/`static/*.ics` are that pipeline's output and stay hand-edit-forbidden here. `data/museums_info.json` and `data/exhibitions_info.json` are **curated but agent-editable inside this repo** — phase 3b's C1/C2 and phase 3c's coordinate batches (ST-3c-1…3) already established the pattern: agent runs add/update curated fields in dated, human-gated batches, committed here, and the pipeline never touches them. Phase 4 extends that same pattern to structured-data migration, cadence bookkeeping, and press-link fallbacks — **it does not add pipeline-host code**, because this repo's agents have no access to write it. Any work item that is genuinely pipeline-host-only (item 1(b)'s JSON-LD-consuming scraper; the weekly discovery scrape itself) is scoped in this plan as a **documented handoff** the operator implements on the pipeline host, exactly like phase 2's D5.
+
+### 4.1 Goals
+
+1. Give the internal curated data store (`data/museums_info.json`, `data/exhibitions_info.json`) a schema.org-aligned internal shape for both museums (`Museum`) and exhibitions (`ExhibitionEvent`-shaped), migrating current flat fields (dates, address, pricing/cards, venue) into the mapped structure in §4.4.1, **without** changing frozen slugs, file identity, or curated-data ownership.
+2. Document the equivalent target shape for the pipeline-generated `data/exhibitions.json` and hand it to the operator for the pipeline host — **not** implemented in this repo.
+3. Document the target contract for scrapers to additionally consume museum-site JSON-LD (`ExhibitionEvent`) as an extra discovery source — again a pipeline-host handoff, not repo code.
+4. Explicitly defer serving our own JSON-LD on site pages; leave a clean upgrade note pointing at the schema.org-shaped store this phase creates.
+5. Halve the museum-extras refresh cadence: ~15 museums refreshed one week, the other ~15 the next, on top of the unchanged weekly discovery cadence; press links keep collecting weekly and drop when their show ends.
+6. Improve press-link fallback for hard-403 outlets (retry alternate paths; fall back to link-only, recorded honestly).
+7. Fix the invisible main navigation and ship an unmistakable "Home" affordance on every page.
+8. Run a light copy pass (display/URL consistency nits, informal-tone cleanup) **after** the functional workstreams land.
+9. Decide and record the fate of the phase-3d leftovers (share/CTA/Telegram hooks): fold a defined slice into phase 4, or re-defer explicitly.
+
+### 4.2 Non-goals
+
+- **International section** — parked; no new content, routes, or data for it in this phase.
+- **Serving our own JSON-LD** on museum/exhibition/calendar pages — deferred; §4.4.1 notes the upgrade path the schema.org-shaped store leaves open, but no `<script type="application/ld+json">` ships in this phase.
+- **Full copy rewrite** — §4.4.5 is a light pass (consistency + tone nits) on top of the phase-2 operator draft, not a rewrite.
+- **Any theme edit** (`themes/huguette`) — every navigation/banner change lands in this repo's own `layouts/`/`static/css/custom.css`, never the submodule.
+- No pipeline-host code changes from this repo (see §4.0 boundary) — this repo produces target-contract docs for items 1(b)/1(c)'s pipeline-side pieces, not scraper code.
+- No new JavaScript, no CDN assets, no map/heat changes (3c is closed) beyond what's already shipped.
+- No frozen-slug, feed-path/filename, or `/musea/` → `/museums/` redirect changes.
+- No decomposition of free-text opening hours into structured `OpeningHoursSpecification` — 30 free-text variants with holiday exceptions is out of scope for one phase; hours/transit/parking/access stay bilingual free text (§4.4.1).
+- No booking/ticketing integration, CTA button, or Telegram bot code beyond whatever §4.5 Q6 explicitly approves folding in.
+
+### 4.3 Recon and verified baseline
+
+Verified 2026-09-12 in this checkout (Mac lane Hugo **v0.165.0-…+extended**; pin is v0.166.0):
+
+- **Data shapes today.** `data/exhibitions.json` (pipeline-generated, schema 1): `museums[]` = `{name, city, group, site, quirks, slug}` (30 rows); `exhibitions[]` = `{title, museum, city, start, end, description, url, slug}` (187 rows). `data/museums_info.json` (curated, 30 keys by frozen slug): flat fields `name, description_nl/en, address` (single string), `lat, lon` (numeric, phase 3c), `hours_nl/en, transit_nl/en, parking_nl/en, access_nl/en, cards[] ({id,label,accepted,note_nl,note_en}), pricing_nl/en, verified, sources[] ({fact,url}), notes[]`. `data/exhibitions_info.json` (curated, 187 keys by frozen slug): `admission {museumkaart: included|supplement|not_covered|unknown, note_nl, note_en, source, verified}`, `press[] ({title,outlet,url,lang,date})`, `verified`. None of the three files carries any `@type`/schema.org marker today. i18n key parity is **96/96** (grown from 55 at phase-2 ST5 via 3b/3c additions).
+- **Ownership precedent.** Curated-file edits already happen via agent runs in this repo, human-gated, in dated batches: phase 3b's C1 (30 museums) / C2 (187 shows admission+press) and phase 3c's ST-3c-1…3 (10-museum coordinate batches). This is the template phase 4 reuses for the cadence and press-fallback workstreams — no new mechanism needed, just a schedule.
+- **Press fallback today.** `exhibitions_info.json` currently has 92 press entries across 54 shows; two confirmed DVHN entries carry working URLs already (`beauty-of-the-beast-dieren-in-de-art-nouveau`, `into-nature-haunted-by-waters`); no `verified_access` or equivalent field exists yet to record a hard-403/fallback outcome — this phase adds one.
+- **Navigation bug (operator-reproduced 2026-09-13, encode as given).** `layouts/_default/baseof.html` renders `headerimage.html` → `navigation.html` → (inside it) `lang-switcher.html`, each of the latter two emitting a top-level `<nav>` directly under `<body>`. `static/css/classless.css:217-222`: `body>nav, header nav { position: var(--navpos) /* absolute */; top:0; left:0; right:0; z-index:41; box-shadow: 0vw -50vw 0 50vw var(--clight), 0 calc(-50vw + 2px) 4px 50vw var(--cdark); }`. Both bars float, full-bleed, same z-index; the second (`lang-switcher`'s `<nav>`, later in source order) paints its own full-bleed shadow sheet over the first bar's link text — hit-testing still finds the links (that's why nobody filed this as "links don't work"), but the paint hides them, on **every page, both languages**. Operator's proven one-line fix: `body > nav + nav { box-shadow: none !important; }` (+ optional `body > nav:first-of-type { z-index: 43 }`), with before/after screenshots captured live.
+- **Existing `.contentnav` precedent** (PR #8, phase-2 log): in-page navs (museums city list, calendar month jump nav) hit the *same* `body>nav` rule and were pulled out of flow via `body>nav.contentnav, header nav.contentnav { position: static; z-index: auto; box-shadow: none; }` in `static/css/custom.css:26-32`. The main menu bar and the language switcher currently keep the float design; §4.5 Q1 asks whether to extend the same static-in-flow treatment to them too, instead of (or in addition to) the operator's shadow-kill patch.
+- **Existing "Home" menu item.** `content/{nl,en}/_index.md` front matter already sets `menu: { main: { name: Home, weight: 1 } }` — "Home" is already the first (leftmost) menu link in both languages. It has been invisible along with the rest of the bar; §4.5 Q2 is about making it visually unmistakable once visible, not about adding a new link.
+- **Banner/header state.** `layouts/_default/baseof.html:4` unconditionally calls `partial "headerimage.html"`; per the task brief that theme partial only renders a banner when page front matter sets `header:`, and `grep -rn 'header:' content/` in this checkout returns zero hits — the theme's banner slot has always been dormant here. No `layouts/partials/headerimage.html` override exists in this repo (theme-owned, submodule not initialized in this checkout).
+- **3d leftovers, checked against the actual plan text.** `PLAN.md` §3b.2/§3b.4 (D11) already parked, verbatim: "No marketing CTA (tickets, newsletter, donate) — phase 3d. Do not occupy a `cta` slot or add booking buttons," and "no mailto/Web Share in 3b — mailto would need its own i18n subject string; explicitly deferred." §3b.5 item 8 lists "Add to agenda … + share permalink" as already shipped (the per-exhibition `.ics` + canonical URL). So the concrete 3d leftover set is: (a) an optional `mailto:?subject=&body=` share action (needs a new i18n `share_mailto_subject`/body key, D11), (b) a `cta`/booking-button slot (fully unbuilt, no schema field reserved), (c) Telegram hooks — **zero hits** anywhere in `PLAN.md`, `AGENTS.md`, or `README.md` for "Telegram"; this item has no prior spec in the repo and is being introduced fresh by the owner in this phase's brief. Fold-in vs defer is §4.5 Q6.
+- **Cadence/press today have no schema hook.** No `refresh_group`, `last_refreshed`, or similar field exists on any of the 30 `museums_info.json` records; nothing marks which half was last touched. 30 museums ÷ 2 = 15/15 exactly.
+
+### 4.4 Proposed implementation
+
+#### 4.4.1 Structured data (schema.org) — the main workstream
+
+**Scope split (repeat of §4.0's boundary, now applied field-by-field):** this repo migrates the **curated** stores (`museums_info.json`, `exhibitions_info.json`) directly, in-repo, agent-run, human-gated. The **generated** store (`exhibitions.json`) keeps schema 1 unchanged in this phase; phase 4 only writes the target "schema 2" contract doc for the operator to implement on the pipeline host later (§4.6 ST-4-5). Site templates therefore change only where they read curated fields — they keep reading generated `exhibitions.json` exactly as today.
+
+**Design choices baked into the mapping (state these, don't relitigate per-field in every run):**
+
+- Bilingual leaf values (`description`, free-text `hours`/`transit`/`parking`/`access`, admission notes) stay internal `{ "nl": …, "en": … }` sub-objects wherever literal schema.org/JSON-LD expects one string per node. This is a deliberate, documented deviation — the store only needs to be schema.org-**shaped**, not JSON-LD-**valid**, until the deferred serving phase (non-goal #2) actually needs per-language nodes.
+- Free-text `hours_nl/en`, `transit_nl/en`, `parking_nl/en`, `access_nl/en`, `pricing_nl/en`, `cards[]`, and provenance (`sources[]`, `notes[]`, `verified`) move into a documented `_meta`/`_visitor` extension subtree next to the schema.org-shaped fields on the same record — not decomposed into `OpeningHoursSpecification` or fully itemized `Offer[]` (non-goal).
+- `cards[]` gets a light schema.org-flavored rename/nest (still project data, not literal JSON-LD): each entry becomes `{"@type": "Offer", "name": <label>, "category": "discount-card", "availability": accepted ? "https://schema.org/InStock" : "https://schema.org/OutOfStock", "description": {"nl": note_nl, "en": note_en}}` — mechanical, no content loss.
+- Admission (`exhibitions_info.json`) keeps its existing controlled vocabulary (`included|supplement|not_covered|unknown`) as a custom `admissionStatus` property inside an `Offer`-shaped wrapper; press entries map to `subjectOf: NewsArticle[]` (`headline`, `url`, `publisher.name`, `inLanguage`, `datePublished`), plus the new `verified_access`/`access_note` pair from §4.4.3.
+
+**Illustrative before/after (trimmed `rijksmuseum`, one field group per row — full record keeps every existing fact, just regrouped):**
+
+```json
+{
+  "before": {
+    "address": "Museumstraat 1, 1071 XX Amsterdam",
+    "lat": 52.359998, "lon": 4.885219,
+    "cards": [{"id": "museumkaart", "label": "Museumkaart", "accepted": true,
+               "note_nl": "Vrij op vertoon…", "note_en": "Free on presentation…"}]
+  },
+  "after": {
+    "@type": "Museum",
+    "address": {"@type": "PostalAddress", "streetAddress": "Museumstraat 1",
+                 "postalCode": "1071 XX", "addressLocality": "Amsterdam", "addressCountry": "NL"},
+    "geo": {"@type": "GeoCoordinates", "latitude": 52.359998, "longitude": 4.885219},
+    "offers": [{"@type": "Offer", "name": "Museumkaart", "category": "discount-card",
+                "availability": "https://schema.org/InStock",
+                "description": {"nl": "Vrij op vertoon…", "en": "Free on presentation…"}}]
+  }
+}
+```
+
+**Migration ownership rules (stated explicitly, per the user's requirement):**
+
+| Store | Who writes the new shape | How |
+|---|---|---|
+| `data/museums_info.json` | This repo's agents | Structural migration run (§4.6 ST-4-2), same file, same 30 keys, human-gated diff review |
+| `data/exhibitions_info.json` | This repo's agents | Structural migration run (§4.6 ST-4-3), same file, same 187 keys |
+| `data/exhibitions.json` | Pipeline (operator, out-of-repo) | This repo only ships a target-contract doc (§4.6 ST-4-5); no code change here; pipeline emits schema 2 on its own schedule, unchanged until then |
+| Museum-site JSON-LD consumption (item 1(b)) | Pipeline (operator, out-of-repo) | Target-contract doc only (§4.6 ST-4-5); additive discovery source, never a replacement for existing scraping |
+| Serving our own JSON-LD (item 1(c)) | Deferred entirely | No work this phase; §4.4.1 leaves the upgrade path documented (the store is already schema.org-shaped) |
+
+NL is absent from Google's event-rich-result region list, so even once JSON-LD is served (future phase), rich-result coverage will be patchy — this only affects the deferred surface, not this phase's store migration.
+
+#### 4.4.2 Extras refresh cadence
+
+Weekly discovery (pipeline-host, unchanged) keeps finding new/ended exhibitions every week. Museum **extras** (hours/prices/cards/access/transit — the curated, agent-refreshed half of `museums_info.json`) move to a halved cadence: ~15 museums refreshed in week A, the other ~15 in week B, alternating. Press links keep collecting **every** week (tied to the weekly discovery of exhibitions, not the museum-extras halves); a press entry drops naturally when its exhibition slug drops out of `exhibitions_info.json` (ended shows are discarded, not archived).
+
+Mechanism (see §4.5 Q5 for the two candidates): a stored `refresh_group: "A"|"B"` field per museum record, computed once (deterministic, alphabetical-by-slug alternation, 15/15 exact on the current 30), plus `last_refreshed_extras: "YYYY-MM-DD"` updated by whichever batch run touches that museum. No new file, no pipeline-host state.
+
+#### 4.4.3 Press fallback
+
+For links that fail simple verification (hard-403 outlets — currently-known example: DVHN; the brief also names Leeuwarder Courant — ~5 shows total across both), the fallback ladder is: (1) retry with a rendered/headless fetch if available tooling supports it; (2) retry via the Wayback Machine (`web.archive.org`) for an archived snapshot URL; (3) if both fail, keep the original link **as-is** (never drop it) and record `verified_access: false` + a one-line `access_note`. Successes record `verified_access: true`. This is a bounded, one-retry-per-outlet-per-show effort (§4.5 Q9), not an open-ended scrape-around-403 project.
+
+#### 4.4.4 Navigation fix + Home button + banner
+
+Three coupled decisions (§4.5 Q1–Q3), one shared file scope (`static/css/custom.css`, `layouts/partials/navigation.html`; never `themes/huguette`):
+
+1. **Kill the paint bug.** Either the operator's exact one-liner (`body > nav + nav { box-shadow: none !important; }` + optional `z-index: 43` on the first bar) or extend the proven `.contentnav` static-in-flow treatment to both header bars (adds a `.contentnav`-style class to `navigation.html`'s `<nav>` and `lang-switcher.html`'s `<nav>`). Either way: **no theme edit**, `static/css/custom.css` only.
+2. **Unmistakable Home button.** Promote the already-first "Home" menu link into a visually distinct treatment (border/background chip on that one `<li>`, or an equivalent affordance per §4.5 Q2) — scoped via a class hook, not new markup logic.
+3. **Top bar vs banner.** `headerimage.html` (theme-owned) only activates on `header:` front matter, which no page sets. §4.5 Q3 is plain light top bar (status quo, zero new asset/licensing work) vs a subtle header treatment (owner supplies or approves an image, or a CSS-only band) applied consistently across every page/both languages.
+
+Every combination must pass the full-page QA gate in §4.6 ST-4-13: every page type (home, calendar index + one month page, museums index, one museum detail, one exhibition detail, about) × both languages × a mobile width, confirming the menu text (including "Home") is actually visible/paints correctly, not just present in the DOM.
+
+#### 4.4.5 Copy pass (light) — after the functional work
+
+Runs only after §4.4.1–4.4.4 land (nav labels, any new i18n strings, and the schema migration's visible surface, if any, need to be stable first). Scope: (a) display "Musea"/"Museums" wording vs the `/museums/` URL — confirm the phase-3b D7 rename (NL label "Musea", URL word "museums" in both languages) is still the intended visitor-facing pairing, and fix any surrounding copy that reads oddly against it; (b) informal-tone nits left over from the ST5 pass; (c) no full rewrite, no new pages, no URL changes.
+
+#### 4.4.6 3d leftovers
+
+Per §4.3's recon: (a) optional mailto share (needs `share_mailto_subject`/body i18n keys — small, well-scoped); (b) CTA/booking slot (unbuilt, no schema reservation exists); (c) Telegram hooks (no prior spec anywhere in this repo — owner-introduced fresh in this brief). §4.5 Q6 asks whether to fold slice (a) into phase 4 (small, additive, no new external dependency) while leaving (b)/(c) explicitly deferred (both need their own scoping — a booking-button design and a Telegram integration are each their own decision set, not a phase-4-sized add-on), or to leave all three deferred as a block.
+
+### 4.5 DECISIONS FOR OWNER
+
+Answer every numbered question in chat before any ST-4 build run begins.
+
+1. **Navigation CSS treatment?**
+   **Recommendation:** extend the proven `.contentnav` static-in-flow treatment (PR #8) to both header bars — removes the float-stacking bug class entirely (a third `body>nav` sibling added later can't reopen it), at the cost of losing the "floats over content" visual (no real loss: no banner is set today, §4.5 Q3).
+   **Alternative:** the operator's exact one-line kill (`body > nav + nav { box-shadow: none !important; }` + optional `body > nav:first-of-type { z-index: 43 }`) — smallest diff, keeps the float design, but leaves the underlying same-z-index/paint-order fragility in place for any future third nav bar.
+
+2. **Home-button treatment?**
+   **Recommendation:** a visually distinct chip (border/background) on the existing first "Home" `<li>`, via a class hook in `navigation.html` — no new markup logic, no JS.
+   **Alternatives:** (a) bold/larger/differently-colored plain text, least "buttony" but zero layout risk; (b) a persistent fixed-position corner button independent of the nav bar — most unmistakable, but reopens fixed-position/mobile-overlap complexity the site doesn't have today; (c) rely on the visibility fix alone (no extra styling) — risks not meeting "unmistakable."
+
+3. **Top-bar / banner treatment?**
+   **Recommendation:** plain light top bar (status quo, no `header:` front matter anywhere) — zero image sourcing/licensing work, matches the site's existing no-stock-photo minimalism.
+   **Alternative:** a subtle header treatment (owner-supplied/approved image, or a CSS-only color/gradient band with no photo) via `header:` front matter on every page consistently — cosmetic only, needs asset sourcing if a photo is chosen.
+
+4. **Structured-data migration staging — big-bang vs parallel fields?**
+   **Recommendation:** parallel fields — add the schema.org-aligned nested keys alongside the legacy flat keys in one commit per curated file, cut templates over to read only the new keys, then drop the legacy keys in a follow-up commit once templates are proven on the pin. Every commit stays independently revertible (mirrors the 3c coordinate-batch discipline).
+   **Alternative:** big-bang — one commit rewrites shape + templates together; fewer commits, but a template bug and a data-shape bug become indistinguishable in the diff, and rollback must revert both together.
+
+5. **Cadence implementation — week-A/B state file vs deterministic half-split?**
+   **Recommendation:** a stored `refresh_group: "A"|"B"` field per museum in `museums_info.json` itself (computed once, alphabetical-by-slug alternation, no external state) — self-documenting, survives clones, no drift risk.
+   **Alternative:** a separate week-A/B state file (e.g. `data/refresh_state.json`) tracking "next due" group — decouples the rotation pointer from the museum records, but can silently drift if museums are added/removed without updating the state file too.
+
+6. **3d fold — fold slice (a) in, or keep all three leftovers deferred?**
+   **Recommendation:** keep all three deferred — phase 4 already carries six workstreams; the structured-data migration is the load-bearing piece and shouldn't compete with new share/CTA/Telegram scope this phase.
+   **Alternative:** fold in only the smallest leftover — the already-spec'd mailto share (D11, needs one new i18n key pair) — as a single extra subtask (§4.6 ST-4-15a), leaving CTA/booking and Telegram fully deferred (each needs its own future scoping pass).
+
+7. **Curated filenames — keep `museums_info.json`/`exhibitions_info.json`, or rename to signal the new contract?**
+   **Recommendation:** keep the current names — a rename touches every `.Site.Data.*` template reference and this repo's docs for no visitor-facing benefit; only the internal shape changes.
+   **Alternative:** rename (e.g. a `_v2` suffix during the parallel-fields transition, §4.5 Q4) — clearer at a glance that the shape changed, but adds churn independent of the actual migration risk.
+
+8. **Bilingual leaf fields inside a schema.org-shaped store?**
+   **Recommendation:** keep bilingual values as an internal `{ "nl": …, "en": … }` sub-object wherever schema.org expects one string (as stated in §4.4.1) — deliberate, documented deviation from literal JSON-LD, acceptable because serving our own JSON-LD is deferred (non-goal #2).
+   **Alternative:** pick one authoritative language per schema.org node and keep the other as a documented sibling key outside the schema-shaped subtree — more literally correct, but fragments the file and complicates every template lookup for no near-term benefit (nothing serves JSON-LD yet).
+
+9. **Press-link fallback effort budget?**
+   **Recommendation:** the bounded ladder in §4.4.3 — one rendered-fetch retry, then one Wayback Machine retry, per outlet per show; keep link-only with `verified_access: false` if both fail. No further scrape-around-403 attempts.
+   **Alternative:** skip retries entirely and mark link-only immediately for every hard-403 outlet — faster, but skips the owner's explicit ask to attempt alternates first.
+
+10. **Pipeline-host scope boundary (item 1(b), JSON-LD-consuming scraper) — docs-only handoff, or does the owner want to grant pipeline-host access for a repo agent run?**
+    **Recommendation:** docs-only handoff (§4.6 ST-4-5) — this repo's agents have no access to `/opt/data/museum_tracker/`; the operator implements the scraper change there, on their own schedule, exactly like phase 2's D5.
+    **Alternative:** the owner arranges pipeline-host access for an agent session so a phase-4 (or phase-5) run implements it directly — a bigger access/scope change, not assumed by this plan.
+
+If an owner answer changes a surface, file scope, or expected count in any subtask below (especially Q4/Q5/Q6), update the affected subtask before that run starts; do not improvise around a stale acceptance command.
+
+### 4.6 Ordered one-run subtasks
+
+Workstream A (structured data) is serialized (ST-4-1…5 touch the same curated files in sequence). Workstream B (cadence, ST-4-6…8) depends on A's shape landing first so cadence bookkeeping isn't added twice. Workstream C (press fallback, ST-4-9) and Workstream D (navigation, ST-4-10…13) are file-disjoint from A/B and from each other and may run in parallel once their own owner questions are answered. Workstream E (copy, ST-4-14) and F (3d, ST-4-15) run last per §4.4.5/§4.4.6. ST-4-16 closes the phase.
+
+#### ST-4-1 — Structured-data target schema spec (docs only)
+
+- **Model:** `composer-2.5` · **Size:** M · **Depends:** owner Q4, Q7, Q8
+- **Scope:** new `docs/structured-data-schema.md` only. No data or template changes.
+- **Work:** write the full field-by-field mapping (§4.4.1) as the authoritative spec: target shape for `museums_info.json` and `exhibitions_info.json` (schema.org-shaped subtree + `_meta`/`_visitor` extension subtree), the target "schema 2" shape for the pipeline-generated `exhibitions.json` (spec only — not implemented here), and the JSON-LD-consumption contract for item 1(b) (spec only). State the parallel-fields staging plan (Q4 answer) as the literal commit sequence ST-4-2…4 will follow.
+- **Verify:**
+
+```sh
+test -f docs/structured-data-schema.md
+grep -q '"@type": "Museum"' docs/structured-data-schema.md
+grep -q '"@type": "Offer"' docs/structured-data-schema.md
+grep -q 'schema 2' docs/structured-data-schema.md
+git diff --name-only  # expect only docs/structured-data-schema.md
+```
+
+- **Commit:** `docs(data): add structured-data target schema spec`
+
+#### ST-4-2 — Migrate `museums_info.json` (parallel fields, structural only)
+
+- **Model:** `composer-2.5` · **Size:** L · **Depends:** ST-4-1
+- **Scope:** `data/museums_info.json` only. No content collection (values carry over verbatim, just regrouped) — this is a structural transform, not a re-verification pass.
+- **Work:** for all 30 records, add the schema.org-shaped subtree next to the existing flat fields per §4.4.1 (address → `PostalAddress`, lat/lon → `geo`, cards → `offers[]`); leave the legacy flat keys in place this run (parallel-fields staging, Q4). Address-string → `PostalAddress` decomposition needs a human spot-check per record (street/postcode/city split can be ambiguous) — flag any record the transform can't confidently split.
+- **Verify:**
+
+```sh
+python3 - <<'PY'
+import json
+d = json.load(open("data/museums_info.json"))
+assert len(d) == 30
+for slug, v in d.items():
+    assert v.get("@type") == "Museum", slug
+    addr = v["address_v2"]  # or the exact new key name from ST-4-1's spec
+    assert addr["@type"] == "PostalAddress" and addr.get("postalCode") and addr.get("addressLocality"), slug
+    geo = v["geo"]
+    assert geo["@type"] == "GeoCoordinates" and geo["latitude"] == v["lat"] and geo["longitude"] == v["lon"], slug
+    # legacy fields still present (parallel staging):
+    assert "address" in v and "lat" in v and "cards" in v, slug
+print("museums_info.json structural migration: 30/30")
+PY
+hugo --minify
+git diff --name-only  # expect only data/museums_info.json
+```
+
+- **Human gate:** spot-check every `PostalAddress` split against the original address string (30 records).
+- **Commit:** `feat(data): add schema.org-shaped fields to museums_info.json`
+
+#### ST-4-3 — Migrate `exhibitions_info.json` (parallel fields, structural only)
+
+- **Model:** `composer-2.5` · **Size:** M · **Depends:** ST-4-1
+- **Scope:** `data/exhibitions_info.json` only.
+- **Work:** for all 187 records, add `admission` as an `Offer`-shaped wrapper with `admissionStatus` (existing enum unchanged) and add `subjectOf: NewsArticle[]` mirroring each `press[]` entry, per §4.4.1. Leave legacy `admission`/`press` keys in place this run.
+- **Verify:**
+
+```sh
+python3 - <<'PY'
+import json
+d = json.load(open("data/exhibitions_info.json"))
+assert len(d) == 187
+press_total = 0
+for slug, v in d.items():
+    off = v["admission_v2"]  # exact key name from ST-4-1's spec
+    assert off["@type"] == "Offer" and off["admissionStatus"] == v["admission"]["museumkaart"], slug
+    articles = v.get("subjectOf", [])
+    assert len(articles) == len(v.get("press", [])), slug
+    press_total += len(articles)
+    for a in articles:
+        assert a["@type"] == "NewsArticle" and a.get("publisher", {}).get("name"), slug
+print("exhibitions_info.json structural migration: 187/187, press mirrored:", press_total)
+PY
+hugo --minify
+git diff --name-only  # expect only data/exhibitions_info.json
+```
+
+- **Commit:** `feat(data): add schema.org-shaped fields to exhibitions_info.json`
+
+#### ST-4-4 — Cut Hugo templates over to the new curated shape
+
+- **Model:** capable mid-tier (`cursor-grok-4.6-medium`-class) · **Size:** L · **Depends:** ST-4-2, ST-4-3
+- **Scope:** `layouts/partials/museum-info.html`, `layouts/_default/museum-page.html`, `layouts/_default/exhibition-page.html`, any other partial reading the migrated flat fields. Never `data/exhibitions.json` consumption (unchanged schema 1). Never `themes/huguette`.
+- **Work:** point every curated-field read at the new schema.org-shaped keys instead of the legacy flat keys. Rendered HTML output must be **pixel/text-identical** to pre-migration (this run is a data-shape refactor with no visible change intended — JSON-LD serving is still deferred).
+- **Verify:**
+
+```sh
+set -o pipefail
+hugo --minify --destination /tmp/phase4-before  # run BEFORE this ST on main/base ref, keep the tree
+# after this ST's changes:
+hugo --minify 2>&1 | tee /tmp/phase4-st4-build.log
+test "$(grep -ci '^WARN' /tmp/phase4-st4-build.log)" = 0
+diff -rq /tmp/phase4-before public  # expect zero output (byte-identical rendered HTML)
+test -f public/museumtips.ics -a -f public/closing-soon.ics
+```
+
+- **Commit:** `refactor(templates): read schema.org-shaped curated fields`
+
+#### ST-4-5 — Generated-data target-schema + JSON-LD-consumption handoff (docs only)
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-1
+- **Scope:** `docs/structured-data-schema.md` (append a clearly-labeled "pipeline-host handoff" section) + one `AGENTS.md` pointer line. No pipeline-host access, no code.
+- **Work:** state, explicitly, that `data/exhibitions.json`'s schema-2 target shape and the JSON-LD-consuming scraper addition are pipeline-host changes the operator implements outside this repo (§4.0 boundary, §4.5 Q10), with the exact target shape and the "additive, not replacement" constraint spelled out so the operator has a ready-to-implement spec.
+- **Verify:**
+
+```sh
+grep -q 'pipeline-host handoff' docs/structured-data-schema.md
+grep -q 'additive' docs/structured-data-schema.md
+git diff --name-only  # expect only docs/structured-data-schema.md and AGENTS.md
+```
+
+- **Commit:** `docs(data): hand off generated-schema + JSON-LD scraper spec to pipeline host`
+
+#### ST-4-6 — Add cadence bookkeeping fields
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-2, owner Q5
+- **Scope:** `data/museums_info.json` only.
+- **Work:** compute and store `refresh_group: "A"|"B"` (deterministic, alphabetical-by-slug alternation) and `last_refreshed_extras` (set to today for all 30, marking this as the migration baseline) on every record, per the Q5 answer.
+- **Verify:**
+
+```sh
+python3 - <<'PY'
+import json
+d = json.load(open("data/museums_info.json"))
+groups = {}
+for slug, v in d.items():
+    g = v["refresh_group"]
+    assert g in ("A", "B"), slug
+    assert v.get("last_refreshed_extras"), slug
+    groups[g] = groups.get(g, 0) + 1
+assert groups == {"A": 15, "B": 15}, groups
+print("refresh_group split:", groups)
+PY
+hugo --minify
+git diff --name-only  # expect only data/museums_info.json
+```
+
+- **Commit:** `feat(data): add museum extras refresh_group bookkeeping`
+
+#### ST-4-7 — Week-A extras refresh batch (15 museums)
+
+- **Model:** `composer-2.5` · **Size:** M · **Depends:** ST-4-6
+- **Scope:** `data/museums_info.json`, only the 15 records with `refresh_group: "A"`.
+- **Work:** re-verify hours/pricing/cards/access/transit against each museum's own site; update the bilingual free-text fields and `sources[]`/`verified`/`last_refreshed_extras` for changed facts only (do not touch unrelated prose, per the phase-3c precedent).
+- **Verify:**
+
+```sh
+python3 - <<'PY'
+import json, datetime
+d = json.load(open("data/museums_info.json"))
+today = datetime.date.today().isoformat()
+group_a = [s for s, v in d.items() if v["refresh_group"] == "A"]
+assert len(group_a) == 15
+for slug in group_a:
+    assert d[slug]["last_refreshed_extras"] == today, slug
+print("Week-A refresh:", len(group_a))
+PY
+hugo --minify
+git diff --name-only  # expect only data/museums_info.json
+```
+
+- **Human gate:** spot-check a few updated facts against each museum's own current page.
+- **Commit:** `chore(data): refresh museum extras — week A (15)`
+
+#### ST-4-8 — Week-B extras refresh batch (15 museums)
+
+- **Model:** `composer-2.5` · **Size:** M · **Depends:** ST-4-7 (following calendar week)
+- **Scope:** `data/museums_info.json`, only the 15 records with `refresh_group: "B"`.
+- **Work:** same protocol as ST-4-7, group B. This run proves the alternating cadence for a second cycle; document the ongoing weekly hand-off (which group is due next) for the operator to repeat indefinitely — phase 4 does not "finish" the cadence, it establishes and proves it for two cycles.
+- **Verify:** identical shape to ST-4-7's Python block, scoped to group B (expect 15).
+- **Commit:** `chore(data): refresh museum extras — week B (15)`
+
+#### ST-4-9 — Press-link fallback pass
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-3, owner Q9
+- **Scope:** `data/exhibitions_info.json` only, `press[]`/`subjectOf[]` entries lacking a `verified_access` field (currently all 92).
+- **Work:** apply the §4.4.3 ladder to every press entry, prioritizing known hard-403 outlets (DVHN, Leeuwarder Courant, ~5 shows); record `verified_access` + `access_note` on every entry (both the legacy `press[]` item and its mirrored `subjectOf[]` article).
+- **Verify:**
+
+```sh
+python3 - <<'PY'
+import json
+d = json.load(open("data/exhibitions_info.json"))
+total = checked = 0
+for slug, v in d.items():
+    for p in v.get("press", []):
+        total += 1
+        assert "verified_access" in p, (slug, p.get("url"))
+        checked += 1
+assert total == checked and total >= 92
+print("press entries with verified_access:", checked, "/", total)
+PY
+hugo --minify
+git diff --name-only  # expect only data/exhibitions_info.json
+```
+
+- **Commit:** `chore(data): press-link fallback verification pass`
+
+#### ST-4-10 — Navigation visibility fix
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** owner Q1
+- **Scope:** `static/css/custom.css` only (plus a class-hook edit in `layouts/partials/navigation.html` and/or `layouts/partials/lang-switcher.html` if Q1 picks the `.contentnav`-style option). Never `themes/huguette`.
+- **Work:** implement the Q1 answer. Verify against a **built HTML page**, not just the CSS rule text — the bug is about computed paint order, and a passing grep on the CSS source proves nothing about actual visibility.
+- **Verify:**
+
+```sh
+hugo --minify
+hugo server --disableFastRender &
+SERVER_PID=$!; sleep 2
+# Browser gate (see §4.6 ST-4-13) confirms the second bar no longer paints over the first bar's text.
+kill $SERVER_PID
+! grep -RE '<script[^>]*src=["\x27]?https?://' public --include='*.html'
+test -f public/index.html -a -f public/en/index.html
+```
+
+- **Browser gate:** load home NL+EN; confirm "Home / Kalender / Musea / Over" (and EN equivalents) are visibly painted, not just present in the DOM; confirm the language switcher is also visible.
+- **Commit:** `fix(nav): stop the language-switcher bar painting over the main menu`
+
+#### ST-4-11 — Unmistakable Home button
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-10, owner Q2
+- **Scope:** `static/css/custom.css`, `layouts/partials/navigation.html` (class hook on the first `<li>` only).
+- **Work:** implement the Q2 answer.
+- **Verify:**
+
+```sh
+hugo --minify
+grep -q 'class=.*home' public/index.html  # exact selector per Q2's chosen markup
+test -f public/en/index.html
+```
+
+- **Browser gate:** the Home affordance is visually distinct from the other three menu items on every page/both languages/mobile width (folded into ST-4-13's full sweep).
+- **Commit:** `feat(nav): add unmistakable Home button`
+
+#### ST-4-12 — Top-bar / banner treatment
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-10, owner Q3
+- **Scope:** depends on the Q3 answer: plain-bar branch touches nothing beyond confirming no `header:` front matter exists (a no-op verification subtask, may be merged into ST-4-16's audit instead of its own commit); banner branch touches `content/{nl,en}/*.md` front matter (`header:` field) + `static/css/custom.css` if a CSS-only band is chosen, never `themes/huguette`, never a new image without owner-approved sourcing/license.
+- **Verify (banner branch):**
+
+```sh
+hugo --minify
+grep -rl '^header:' content/nl content/en  # every page front matter, both languages, consistently set or consistently absent
+! grep -RE '<script[^>]*src=["\x27]?https?://' public --include='*.html'
+```
+
+- **Commit:** `feat(header): add subtle top-bar treatment` (banner branch) or no commit (plain branch, folded into ST-4-16).
+
+#### ST-4-13 — Full top-bar visual QA (browser gate)
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-10, ST-4-11, ST-4-12
+- **Scope:** no file changes — QA-only run, results recorded in §4.12.
+- **Work:** `hugo server --disableFastRender`; for every page type (home, `/kalender/` + one month page, `/museums/`, one museum detail, one exhibition detail, `/over/`) × both languages × a mobile width (e.g. 375px), confirm: main menu text visible and painted correctly; Home affordance visibly distinct; language switcher visible and functional; no `0.1.`-style card-numbering regression (PR #6 precedent); no overlap with in-content `.contentnav` bars (PR #8 precedent); no console errors.
+- **Verify:** manual checklist, one line per page/language/width combination, pass/fail recorded in the log.
+- **Commit:** none (or `docs(plan): log phase-4 nav visual QA` if the log entry needs its own commit).
+
+#### ST-4-14 — Copy pass (light)
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-10…13 (nav labels stable), owner-approved copy nits list
+- **Scope:** `content/{nl,en}/*.md`, `i18n/{nl,en}.toml`. No new pages, no URL changes.
+- **Work:** per §4.4.5 — confirm/tidy the "Musea"/"Museums" vs `/museums/` pairing, sweep remaining informal-tone nits, keep NL/EN parity.
+- **Verify:**
+
+```sh
+hugo --minify
+python3 - <<'PY'
+import re
+def keys(path):
+    return set(re.findall(r"^\[([^]]+)\]\s*$", open(path).read(), re.M))
+nl = keys("i18n/nl.toml"); en = keys("i18n/en.toml")
+assert nl == en, (sorted(nl - en), sorted(en - nl))
+print("i18n key parity:", len(nl))
+PY
+```
+
+- **Commit:** `docs(copy): light consistency + tone pass (phase 4)`
+
+#### ST-4-15 — 3d leftovers (conditional on owner Q6)
+
+- **Model:** `composer-2.5` · **Size:** S (fold-in branch) · **Depends:** ST-4-14, owner Q6
+- **Scope (fold-in branch only):** `layouts/_default/exhibition-page.html`, `i18n/{nl,en}.toml` (new `share_mailto_subject`/body keys, D11). **Defer branch:** no file changes — update §4.2 non-goals wording only if the owner wants the re-defer stated more explicitly for phase 5.
+- **Work:** implement the smallest leftover (mailto share) only if Q6 says fold-in; otherwise no-op this subtask and record the re-defer decision in §4.12.
+- **Verify (fold-in branch):**
+
+```sh
+hugo --minify
+grep -q 'share_mailto_subject' i18n/nl.toml i18n/en.toml
+! grep -R 'javascript:' public --include='*.html'
+```
+
+- **Commit:** `feat(share): add mailto share action` (fold-in) or no commit (defer).
+
+#### ST-4-16 — Docs + final audit
+
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-4-1…15
+- **Scope:** `README.md`, `AGENTS.md`, `docs/site-plan.md` (pointer only). No visitor display-copy changes beyond what ST-4-14 already landed.
+- **Work:** document the schema.org-shaped curated store, the cadence mechanism (`refresh_group`), the press `verified_access` field, and the navigation fix. Run the full §4.8 QA battery.
+- **Verify:** §4.8 battery in full; `PHASE_START=$(git merge-base HEAD origin/main)`; `git diff --name-only "$PHASE_START"...HEAD` matches the approved phase-4 file set; generated data/feeds/theme absent from the diff.
+- **Commit:** `docs(plan): document phase 4 (structured data, cadence, navigation)`
+
+### 4.7 Acceptance checklist
+
+- [ ] Owner answered Q1–Q10 before implementation.
+- [ ] `museums_info.json` (30/30) and `exhibitions_info.json` (187/187) carry schema.org-shaped fields alongside (parallel staging) or instead of (post-cutover) the legacy flat fields, per the Q4 answer; frozen slugs and file identity unchanged; pipeline-host `exhibitions.json` schema untouched in this phase.
+- [ ] Templates read the migrated curated shape; rendered HTML is unchanged from pre-migration (ST-4-4's byte-identical diff).
+- [ ] `refresh_group` (15 A / 15 B) exists on every museum record; at least one full A+B cycle (ST-4-7 + ST-4-8) has run and updated `last_refreshed_extras`.
+- [ ] Every press entry carries `verified_access`; known hard-403 cases (DVHN, Leeuwarder Courant) show an honest fallback outcome, never a dropped link.
+- [ ] The main menu (all four items, both languages) is visibly painted on every page type and a mobile width — not just present in the DOM.
+- [ ] A distinct, unmistakable Home affordance exists on every page.
+- [ ] Top-bar/banner treatment matches the Q3 answer consistently across every page and both languages.
+- [ ] Copy pass landed after the functional work, NL/EN parity intact, no fixture/inconsistent "Musea"/`/museums/` wording left unexplained.
+- [ ] 3d leftovers explicitly resolved (folded per Q6 with a landed subtask, or re-deferred with an explicit note) — no silent scope creep.
+- [ ] `hugo --minify` on pinned v0.166.0 exits 0 with 0 WARN; weekly feed files/URLs, frozen slugs, `/musea/`→`/museums/` redirect, and the phase-3c JS allowlist all regress clean.
+- [ ] `themes/huguette` untouched; no pipeline-host code added from this repo (only target-contract docs).
+
+### 4.8 QA battery
+
+Run on pinned Hugo **v0.166.0 extended**; Mac-lane runs restate they built on v0.165.0 and flag for operator re-verification.
+
+```sh
+set -o pipefail
+hugo version   # must report v0.166.0+extended on the operator's re-run
+hugo --minify 2>&1 | tee /tmp/phase4-final-build.log
+test "$(grep -ci '^WARN' /tmp/phase4-final-build.log)" = 0
+test -f public/index.html -a -f public/en/index.html
+test -f public/kalender/index.html -a -f public/en/calendar/index.html
+test -f public/museums/rijksmuseum/index.html -a -f public/en/museums/rijksmuseum/index.html
+test -f public/museumtips.ics -a -f public/closing-soon.ics
+
+# Structured-data schema audit (30 museums / 187 exhibitions, both curated files).
+python3 - <<'PY'
+import json
+m = json.load(open("data/museums_info.json"))
+e = json.load(open("data/exhibitions_info.json"))
+assert len(m) == 30 and len(e) == 187
+assert all(v.get("@type") == "Museum" for v in m.values())
+groups = {}
+for v in m.values():
+    groups[v["refresh_group"]] = groups.get(v["refresh_group"], 0) + 1
+assert groups == {"A": 15, "B": 15}, groups
+press_total = sum(len(v.get("press", [])) for v in e.values())
+verified = sum(1 for v in e.values() for p in v.get("press", []) if "verified_access" in p)
+assert press_total == verified
+print("museums:", len(m), "exhibitions:", len(e), "refresh_group:", groups, "press verified:", verified, "/", press_total)
+PY
+
+# Phase-3c regressions unchanged (JS allowlist, script-page counts, heat classes).
+test "$(git ls-files '*.js' | sort | tr '\n' ' ')" = \
+  "static/js/museum-map.js static/vendor/leaflet/1.9.4/leaflet.js "
+! grep -RE '<script[^>]*src=["\x27]?https?://' public --include='*.html'
+! grep -R 'javascript:\| on[a-zA-Z][a-zA-Z]*=' public --include='*.html'
+for class in closing-heat-1 closing-heat-2 closing-heat-3 closing-heat-4; do
+  grep -R "$class" public/kalender public/en/calendar --include='*.html' >/dev/null
+done
+
+# Phase-2 date/nav regressions unchanged.
+! grep -F '1 januari 1' public/kalender/index.html public/museums/index.html
+! grep -F '1 January 1' public/en/calendar/index.html public/en/museums/index.html
+! grep -F '0001-01' public/kalender/index.html public/en/calendar/index.html
+
+# /musea/ -> /museums/ alias still resolves (frozen route, D7).
+grep -q 'musea' <(hugo --minify --destination /tmp/phase4-alias-check >/dev/null 2>&1; find /tmp/phase4-alias-check/musea -type f 2>/dev/null) || \
+  test -f /tmp/phase4-alias-check/musea/index.html
+
+# NL/EN i18n key parity.
+python3 - <<'PY'
+import re
+def keys(path):
+    return set(re.findall(r"^\[([^]]+)\]\s*$", open(path).read(), re.M))
+nl = keys("i18n/nl.toml"); en = keys("i18n/en.toml")
+assert nl == en, (sorted(nl - en), sorted(en - nl))
+print("i18n key parity:", len(nl))
+PY
+
+# Protected artifacts and paths untouched.
+PHASE_START=$(git merge-base HEAD origin/main)
+git diff --exit-code "$PHASE_START" -- data/exhibitions.json \
+  museumtips.ics closing-soon.ics static/museumtips.ics static/closing-soon.ics \
+  themes/huguette CNAME static/CNAME
+```
+
+**VISUAL — real browser on a locally served pinned build** (`hugo server --disableFastRender`):
+
+- Main menu (all four items) and language switcher are both visibly painted on every page type × both languages × a mobile width — record the ST-4-13 checklist results here, not just a pass/fail summary.
+- Home affordance is visually distinct from the other three items everywhere.
+- Museum detail page: address still renders from the migrated `PostalAddress`; map (phase 3c) still shows the correct marker (regression, not new scope).
+- One exhibition detail page: admission line and press links still render correctly from the migrated `Offer`/`NewsArticle` shape.
+- Top-bar/banner treatment (Q3) is applied consistently, no layout shift or overflow at mobile width.
+- Re-check the PR #6/#8 precedents: no stray `0.1.` card numbering; in-content `.contentnav` bars (museums city list, calendar month jump nav) still sit in flow and don't collide with the now-visible header bars.
+
+### 4.9 Documentation
+
+- `README.md` — schema.org-shaped curated store (one paragraph, no full data-format rewrite); cadence mechanism (`refresh_group`); press `verified_access` note; navigation fix.
+- `AGENTS.md` — curated-file ownership note extended to name the schema.org-shaped subtree explicitly; `refresh_group` as a curated (agent-editable) field, never pipeline-written; JS allowlist unchanged; last-verified date bump.
+- `docs/site-plan.md` — one pointer line to this §Phase 4 plan; do not rewrite the historical stack/deployment essay.
+- `docs/structured-data-schema.md` — new: the authoritative field-by-field mapping + the pipeline-host handoff section (ST-4-1, ST-4-5).
+- No content-copy docs beyond what ST-4-14 already covers.
+
+### 4.10 Rollback
+
+Nothing is irreversible if the parallel-fields staging (Q4) is followed — every commit is independently revertible.
+
+1. Revert docs (ST-4-16, ST-4-1/5).
+2. Revert copy pass (ST-4-14) and any folded-in 3d leftover (ST-4-15) — restores prior visitor copy/i18n.
+3. Revert navigation/banner commits (ST-4-10…12) — restores the pre-fix (invisible-menu) CSS state; not desirable long-term, but mechanically clean.
+4. Revert press-fallback (ST-4-9) — `verified_access`/`access_note` fields drop; original `press[]` links untouched either way (never dropped by this phase).
+5. Revert cadence batches (ST-4-7, ST-4-8) — restores pre-refresh museum-extras content; revert bookkeeping (ST-4-6) separately if the owner wants the exact pre-phase-4 schema instance.
+6. **Data-migration rollback:** revert ST-4-4 (templates) before ST-4-2/ST-4-3 (data) if both landed — reverting data first while templates still read the new shape breaks the build. If the legacy flat fields were already dropped (post-cutover, past the parallel-fields window), reverting ST-4-2/ST-4-3 requires restoring the pre-migration JSON from the commit immediately before ST-4-2, not just re-adding fields by hand.
+
+No rollback touches `gh-pages`, `data/exhibitions.json`, frozen slugs, or pipeline-host scripts/state directly. Republish through the normal site pipeline after owner merge/revert.
+
+### 4.11 Risks & unknowns
+
+| Risk / unknown | Mitigation / gate |
+|---|---|
+| Pipeline-host items (1(b)/1(c)) get implemented as repo code by mistake | §4.0 boundary stated up front; ST-4-5's scope is docs-only; verify step checks `git diff --name-only` has no pipeline-host paths (none exist in this repo) |
+| Address-string → `PostalAddress` decomposition mis-splits a record | Human spot-check on all 30 in ST-4-2, not a sample |
+| Template cutover (ST-4-4) silently changes rendered output | Byte-identical `diff -rq` gate against a pre-migration build, not just "build succeeds" |
+| Parallel-fields window leaves two sources of truth for the same fact | Legacy-key removal is its own follow-up commit per record group, not left open-ended; document the cutover commit hash when it happens |
+| `refresh_group` drifts if museums are added/removed later | Deterministic recomputation is idempotent (alphabetical-by-slug); document the recompute step in `AGENTS.md`, don't hand-patch groups |
+| Press fallback effort balloons beyond ~5 known hard-403 shows | Bounded ladder (§4.4.3, Q9); one retry per outlet per show; link-only-with-note is always an acceptable terminal state |
+| Nav CSS fix regresses the PR #8 `.contentnav` in-page navs | ST-4-13's browser gate explicitly re-checks that precedent; both header bars and in-content navs get visual QA in the same pass |
+| Home-button styling looks like a call-to-action / booking button | Keep it a plain internal navigation affordance (link, not a `<button>`/form); Q2's recommendation avoids CTA-like framing; cross-check against §4.2's no-CTA non-goal |
+| Owner picks a banner image (Q3 alternative) without a licensed source ready | Recommendation (plain bar) avoids this; if the owner overrides, ST-4-12 blocks on an owner-approved/licensed asset before any commit |
+| Copy pass (ST-4-14) runs before nav/cadence text stabilizes | Explicit `Depends: ST-4-10…13` in the subtask; sequencing enforced, not just suggested |
+| 3d leftover scope creep (Telegram, CTA) despite Q6 | Q6's recommendation keeps both deferred; ST-4-15's fold-in branch is scoped to the single smallest leftover only |
+| Mac lane (v0.165.0) vs pin (v0.166.0) behavior differs on any new template construct | Every ST states which pin it built on; operator repeats the full §4.8 battery on v0.166.0 before sign-off |
+
+### 4.12 Log
+
+*(Append during the build, one bullet per run.)*
+
