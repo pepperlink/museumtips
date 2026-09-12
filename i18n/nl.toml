@@ -17,13 +17,13 @@ other = "Taal"
 other = "Bijna afgelopen"
 
 [view_calendar]
-other = "Volledige kalender"
+other = "Alles bekijken"
 
 [subscribe_all]
-other = "Abonneer — alle tentoonstellingen"
+other = "Abonneer: alle tentoonstellingen"
 
 [subscribe_soon]
-other = "Abonneer — binnenkort afgelopen (≤ 30 dagen)"
+other = "Abonneer: bijna afgelopen (≤ 30 dagen)"
 
 [from]
 other = "vanaf"
@@ -62,10 +62,10 @@ other = "Laatste 3 weken"
 other = "Laatste maand"
 
 [compiled]
-other = "Data samengesteld op"
+other = "Laatst bijgewerkt:"
 
 [website]
-other = "Tentoonstellingenpagina"
+other = "Meer bij dit museum"
 
 [quirks]
 other = "Bijzonderheden"
@@ -74,10 +74,10 @@ other = "Bijzonderheden"
 other = "Nu in dit museum"
 
 [jump_to_city]
-other = "Spring naar stad"
+other = "Ga naar een stad"
 
 [jump_to_month]
-other = "Spring naar maand"
+other = "Ga naar een maand"
 
 [exhibitions_in_month]
 other = "Tentoonstellingen in {{ .Month }} {{ .Year }}"
@@ -86,10 +86,10 @@ other = "Tentoonstellingen in {{ .Month }} {{ .Year }}"
 other = "Terug naar de kalender"
 
 [no_exhibitions]
-other = "Geen tentoonstellingen in de huidige dataset."
+other = "Geen tentoonstellingen gevonden."
 
 [no_museums]
-other = "Geen musea in de huidige dataset."
+other = "Geen musea gevonden."
 
 [month_1]
 other = "januari"
