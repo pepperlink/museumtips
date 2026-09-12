@@ -45,9 +45,12 @@ hugo server
 
 Open the printed local URL (usually `http://localhost:1313/`). Switch language with the
 Nederlands / English links in the header. Dutch pages live at `/`, `/kalender/`,
-`/kalender/YYYY-MM/` (month views), `/museums/` (grouped by city), `/over/`; English at
-`/en/`, `/en/calendar/`, `/en/calendar/YYYY-MM/`, `/en/museums/` (grouped by city),
-`/en/about/`.
+`/kalender/YYYY-MM/` (month views), `/museums/` (grouped by city),
+`/museums/<museum-slug>/`, `/museums/<museum-slug>/tentoonstelling/<slug>/` (with a
+per-show `.ics` sibling at `/museums/<museum-slug>/tentoonstelling/<slug>.ics`), `/over/`;
+English at `/en/`, `/en/calendar/`, `/en/calendar/YYYY-MM/`, `/en/museums/` (grouped by
+city), `/en/museums/<museum-slug>/`, `/en/museums/<museum-slug>/exhibition/<slug>/` (with
+`/en/museums/<museum-slug>/exhibition/<slug>.ics`), `/en/about/`.
 
 ### Build
 
@@ -74,8 +77,8 @@ Exhibition copy for the website comes from `data/exhibitions.json`:
 {
   "schema": 1,
   "compiled": "YYYY-MM-DD",
-  "museums": [{ "name", "city", "group", "site", "quirks" }],
-  "exhibitions": [{ "title", "museum", "city", "start", "end", "description", "url" }]
+  "museums": [{ "name", "city", "group", "site", "quirks", "slug" }],
+  "exhibitions": [{ "title", "museum", "city", "start", "end", "description", "url", "slug" }]
 }
 ```
 

@@ -12,8 +12,8 @@ Multilingual (NL default, English under `/en/`) Hugo static site — plus two we
 - `content/nl/`, `content/en/` — page copy: `_index.md`, `about.md`, `calendar.md`, `museums.md`. **Keep both languages in sync.**
 - `layouts/` — site layouts extending the theme (`_default/`, `index.html`, `partials/`).
 - `i18n/nl.toml`, `i18n/en.toml` — UI strings (add new strings to both).
-- `data/exhibitions.json` — **generated** by the museum tracker pipeline (schema 1: `compiled` date, `museums[]`, `exhibitions[]` with `title/museum/city/start/end/description/url`). Never hand-edit.
-- `data/museums_info.json`, `data/exhibitions_info.json` — **curated by hand** (visitor extras: hours, prices, cards, press, …). Keyed by museum/exhibition slug in phase 3b. The pipeline must not regenerate or clobber them.
+- `data/exhibitions.json` — **generated** by the museum tracker pipeline (schema 1: `compiled` date, `museums[]` and `exhibitions[]` each with a pipeline-frozen `slug`; exhibitions also carry `title/museum/city/start/end/description/url`). Museum and exhibition pages depend on those slugs — the site never computes production slugs. Never hand-edit.
+- `data/museums_info.json`, `data/exhibitions_info.json` — **curated by hand** (visitor extras: hours, prices, cards, press, …). Keyed by museum/exhibition `slug`. The pipeline and agents must not regenerate or clobber them.
 - `museumtips.ics`, `closing-soon.ics` (repo root) — **generated** weekly; these URLs are a public API for calendar subscribers. Never hand-edit.
 - `static/` — classless.css (mirrors the theme copy; keep in sync), `custom.css` (site-level overrides, e.g. card heading numbering), CNAME, `.nojekyll`, and feed copies used by the Hugo build; the pipeline writes root + `static/` feed copies together in the same commit.
 - `themes/huguette` — git submodule → <https://github.com/cathelijne/hugo-theme-huguette>. Clone with `--recurse-submodules`; do not vendor or edit it here.
@@ -49,7 +49,7 @@ Weekly automation (Hermes cron): tracker + digest Thu 10:05 UTC; site rebuild �
 
 ## Constraints (do not)
 
-- Never hand-edit `museumtips.ics`, `closing-soon.ics`, or `data/exhibitions.json` — the pipeline overwrites them. The two `*_info.json` files are curated — don’t regenerate or clobber them.
+- Never hand-edit `museumtips.ics`, `closing-soon.ics`, or `data/exhibitions.json` — the pipeline overwrites them. `data/museums_info.json` and `data/exhibitions_info.json` are curated — don’t regenerate or clobber them (pipeline or agents).
 - Never break the public feed URLs or change their paths.
 - Never edit `themes/huguette` from this repo (changes belong in the theme repo).
 - No secrets in the repo; deploy credentials live only on the pipeline host.
