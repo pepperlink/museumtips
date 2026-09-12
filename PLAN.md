@@ -837,7 +837,7 @@ Missing/invalid one-sided pairs are treated as missing, never coerced to `0`, an
 
 Add `layouts/partials/calendar-exhibition.html` as the calendar-only wrapper that computes an urgency class and wraps the unchanged output of `exhibition.html` in a `<div class="closing-heat-N">` (its `<article>` has no class hook; the wrapper therefore carries its own padding/box styling — `<article>` has no card box to inherit). Call it only from `calendar.html` and `calendar-month.html`. This avoids changing cards on home/museum/exhibition pages.
 
-Eligible: show has started, has a valid end date, and is not ended. Open-ended, upcoming, ended, and >30-day shows remain neutral. Proposed classes and exact backgrounds:
+Eligible: show has started, has a valid end date, and is not ended. Open-ended, upcoming, and ended shows remain neutral. Proposed classes and exact backgrounds:
 
 | Days until close | Existing label | Class | Background |
 |---:|---|---|---|
@@ -846,7 +846,7 @@ Eligible: show has started, has a valid end date, and is not ended. Open-ended, 
 | 11–25 | 2–4 weeks | `closing-heat-3` | `#bfdbfe` |
 | 0–10 | last 10 days (day 0 included) | `closing-heat-4` | `#60a5fa` |
 
-Use foreground/link color `#172554` within all five classes (links remain underlined). Owner-approved four bands; measured `#172554` contrast across the four backgrounds ranges 13.50:1 to 5.78:1 (all above WCAG AA normal text). The site-default body text color `#433` on the darkest band measures 4.67:1 — an AA pass with a thin margin; re-check if the palette or text color ever changes. Add a non-color cue by retaining the existing bold countdown label; no new legend/i18n is required.
+Use foreground/link color `#172554` within all four classes (links remain underlined). Owner-approved four bands; measured `#172554` contrast across the four backgrounds ranges 13.50:1 to 5.78:1 (all above WCAG AA normal text). The site-default body text color `#433` on the darkest band measures 4.67:1 — an AA pass with a thin margin; re-check if the palette or text color ever changes. Add a non-color cue by retaining the existing bold countdown label; no new legend/i18n is required.
 
 Do not shade month jump-nav: a month can contain mixed urgencies, so one shade would be false precision. Do not shade “Binnenkort te zien / Opening soon”: pre-opening shows are ineligible for closing urgency.
 
