@@ -16,6 +16,15 @@ other = "Taal"
 [nearest_endings]
 other = "Bijna afgelopen"
 
+[opening_soon]
+other = "Binnenkort te zien"
+
+[opens_soon]
+other = "Opent deze week"
+
+[opens_later]
+other = "Opent deze maand"
+
 [view_calendar]
 other = "Alles bekijken"
 

@@ -10,16 +10,27 @@
 </p>
 
 {{ $today := now.Format "2006-01-02" }}
+{{ $running := slice }}
 {{ $upcoming := slice }}
-{{ range sort hugo.Data.exhibitions.exhibitions "end" }}
-  {{ if ge .end $today }}
-    {{ $upcoming = $upcoming | append . }}
+{{ range hugo.Data.exhibitions.exhibitions }}
+  {{ if and .start .end }}
+    {{ if gt .start $today }}
+      {{ $upcoming = $upcoming | append . }}
+    {{ else if ge .end $today }}
+      {{ $running = $running | append . }}
+    {{ end }}
+  {{ else if .end }}
+    {{ if ge .end $today }}
+      {{ $running = $running | append . }}
+    {{ end }}
   {{ end }}
 {{ end }}
+{{ $running = sort $running "end" }}
+{{ $upcoming = sort $upcoming "start" }}
 
 <h2>{{ i18n "nearest_endings" }}</h2>
-{{ if $upcoming }}
-  {{ range first 5 $upcoming }}
+{{ if $running }}
+  {{ range first 5 $running }}
     {{ partial "exhibition.html" . }}
   {{ end }}
   {{ with .Site.GetPage "calendar" }}
@@ -27,6 +38,13 @@
   {{ end }}
 {{ else }}
   <p>{{ i18n "no_exhibitions" }}</p>
+{{ end }}
+
+{{ if $upcoming }}
+<h2>{{ i18n "opening_soon" }}</h2>
+{{ range $upcoming }}
+{{ partial "exhibition.html" . }}
+{{ end }}
 {{ end }}
 
 {{ with .Site.GetPage "museums" }}
