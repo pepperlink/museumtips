@@ -62,6 +62,12 @@ external services. The weekly pipeline writes the feed files at the repo root an
 
 ### Data refresh
 
+`data/exhibitions.json` is **generated** by the weekly pipeline — never hand-edit it.
+
+`data/museums_info.json` and `data/exhibitions_info.json` are **curated by hand** (collection
+process) for visitor extras (hours, prices, cards, press, …). The weekly pipeline must not
+touch or overwrite them.
+
 Exhibition copy for the website comes from `data/exhibitions.json`:
 
 ```json
