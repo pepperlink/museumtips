@@ -1,136 +1,1217 @@
 {
-  "schema": 1,
-  "compiled": "2026-09-11",
-  "museums": [
-    {
-      "name": "Rijksmuseum",
-      "city": "Amsterdam",
-      "group": "West",
-      "site": "https://www.rijksmuseum.nl/en/whats-on/exhibitions",
-      "quirks": "English titles on the EN site; some last-day listings arrive without a start date."
-    },
-    {
-      "name": "Museum Boijmans Van Beuningen",
-      "city": "Rotterdam",
-      "group": "West",
-      "site": "https://www.boijmans.nl/en/exhibitions",
-      "quirks": "Depot vs museum building; English path /en/exhibitions."
-    },
-    {
-      "name": "Kunstmuseum Den Haag",
-      "city": "Den Haag",
-      "group": "West",
-      "site": "https://www.kunstmuseum.nl/en/exhibitions",
-      "quirks": "Bilingual site; exhibition slugs are shared across NL and EN."
-    },
-    {
-      "name": "Stedelijk Museum",
-      "city": "Amsterdam",
-      "group": "West",
-      "site": "https://www.stedelijk.nl/en/exhibitions",
-      "quirks": "English exhibition pages; long-running design shows mixed with collection hangs."
-    },
-    {
-      "name": "Van Gogh Museum",
-      "city": "Amsterdam",
-      "group": "West",
-      "site": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions",
-      "quirks": "EN what's-on paths; guest exhibitions sometimes listed separately from the collection."
-    },
-    {
-      "name": "Centraal Museum",
-      "city": "Utrecht",
-      "group": "Midden",
-      "site": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen",
-      "quirks": "Dutch URLs by default; annex shows share the main exhibition calendar."
-    },
-    {
-      "name": "Bonnefantenmuseum",
-      "city": "Maastricht",
-      "group": "Noord/Oost/Zuid",
-      "site": "https://www.bonnefanten.nl/en/exhibitions",
-      "quirks": "DD.MM.YYYY date format; pop-up shows at festivals excluded."
-    },
-    {
-      "name": "Fries Museum",
-      "city": "Leeuwarden",
-      "group": "Noord/Oost/Zuid",
-      "site": "https://www.friesmuseum.nl/tentoonstellingen",
-      "quirks": "Dutch-only titles and URLs; collection presentations can run for years."
-    }
-  ],
-  "exhibitions": [
-    {
-      "title": "Ed van der Elsken. Up Close",
-      "museum": "Rijksmuseum",
-      "city": "Amsterdam",
-      "start": null,
-      "end": "2026-09-13",
-      "description": "Photographer Ed van der Elsken up close.",
-      "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/ed-van-der-elsken"
-    },
-    {
-      "title": "Pixel Pioneers",
-      "museum": "Museum Boijmans Van Beuningen",
-      "city": "Rotterdam",
-      "start": null,
-      "end": "2026-09-13",
-      "description": "First major Boijmans exhibition devoted to digital art.",
-      "url": "https://www.boijmans.nl/en/exhibitions/pixel-pioneers"
-    },
-    {
-      "title": "Marlow Moss: A Suitcase Full of Sketches",
-      "museum": "Kunstmuseum Den Haag",
-      "city": "Den Haag",
-      "start": null,
-      "end": "2026-09-13",
-      "description": "Newly acquired suitcase of 100+ preliminary studies by Marlow Moss.",
-      "url": "https://www.kunstmuseum.nl/en/exhibitions/marlow-moss"
-    },
-    {
-      "title": "Gerard van Honthorst",
-      "museum": "Centraal Museum",
-      "city": "Utrecht",
-      "start": "2026-04-25",
-      "end": "2026-09-13",
-      "description": "Eerste grote overzicht van de Utrechtse meester Gerard van Honthorst (1592–1656), 'in alles anders dan Rembrandt'.",
-      "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-anders-dan-rembrandt"
-    },
-    {
-      "title": "Experimental Jetset Circuits",
-      "museum": "Stedelijk Museum",
-      "city": "Amsterdam",
-      "start": "2025-07-12",
-      "end": "2026-09-17",
-      "description": "The Amsterdam design studio Experimental Jetset presents Circuits, on graphic design and the city.",
-      "url": "https://www.stedelijk.nl/en/exhibitions/EN-experimental-jetset"
-    },
-    {
-      "title": "The ReFramers present: In Search of an Anchor",
-      "museum": "Van Gogh Museum",
-      "city": "Amsterdam",
-      "start": null,
-      "end": "2026-09-20",
-      "description": "Contemporary perspectives on Vincent's art — religion, relationships, daily rituals.",
-      "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/in-search-of-an-anchor"
-    },
-    {
-      "title": "De levens van Mata Hari",
-      "museum": "Fries Museum",
-      "city": "Leeuwarden",
-      "start": "2023-12-09",
-      "end": "2026-12-09",
-      "description": "Intieme presentatie over de vele kanten van Mata Hari, met hoogtepunten uit de collectie Mata Hari-memorabilia.",
-      "url": "https://www.friesmuseum.nl/tentoonstellingen/delevensvanmatahari"
-    },
-    {
-      "title": "Born to play: do & dare like an artist",
-      "museum": "Bonnefantenmuseum",
-      "city": "Maastricht",
-      "start": "2026-04-17",
-      "end": "2027-03-14",
-      "description": "Discover how artists use play to create art. An exhibition for children aged 6 to 12.",
-      "url": "https://www.bonnefanten.nl/en/exhibitions/born-to-play-dare-and-create-like-an-artist"
-    }
-  ]
+ "schema": 1,
+ "compiled": "2026-09-10",
+ "museums": [
+  {
+   "name": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "group": "Noord/Oost/Zuid",
+   "site": "https://www.bonnefanten.nl/en/exhibitions",
+   "quirks": "DD.MM.YYYY date format; pop-up shows at festivals excluded."
+  },
+  {
+   "name": "Centraal Museum",
+   "city": "Utrecht",
+   "group": "Utrecht",
+   "site": "https://www.centraalmuseum.nl/nl/nu-te-zien",
+   "quirks": ""
+  },
+  {
+   "name": "De Buitenplaats",
+   "city": "Eelde",
+   "group": "Noord/Oost/Zuid",
+   "site": "https://dmdebuitenplaats.nl/tentoonstellingen",
+   "quirks": "Satellite of Drents Museum; Nijsinghhuis + Museumtuin are permanent."
+  },
+  {
+   "name": "De Pont Museum",
+   "city": "Tilburg",
+   "group": "Noord/Oost/Zuid",
+   "site": "https://www.depont.nl/nu-te-zien",
+   "quirks": "Solo shows open 21 Mar/20 Sep; collection display rehung twice yearly."
+  },
+  {
+   "name": "Drents Museum",
+   "city": "Assen",
+   "group": "Noord/Oost/Zuid",
+   "site": "https://drentsmuseum.nl/tentoonstellingen",
+   "quirks": "Some shows run at satellite De Buitenplaats in Eelde (separate entry)."
+  },
+  {
+   "name": "Foam",
+   "city": "Amsterdam",
+   "group": "Amsterdam",
+   "site": "https://www.foam.org/events",
+   "quirks": "Photography museum."
+  },
+  {
+   "name": "Fotomuseum Den Haag",
+   "city": "Den Haag",
+   "group": "The Hague",
+   "site": "https://www.fotomuseumdenhaag.nl/en/exhibitions",
+   "quirks": "Photography museum."
+  },
+  {
+   "name": "Frans Hals Museum",
+   "city": "Haarlem",
+   "group": "Haarlem",
+   "site": "https://franshalsmuseum.nl/nl/zien-en-doen",
+   "quirks": "Current shows often labeled collectiepresentatie (collection presentations with end dates) - flag them."
+  },
+  {
+   "name": "Fries Museum",
+   "city": "Leeuwarden",
+   "group": "Noord/Oost/Zuid",
+   "site": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen",
+   "quirks": "Touring shows listed as 'op paad' (at partner venues) are excluded; Mata Hari is a collection story since the exhibition ended."
+  },
+  {
+   "name": "Groninger Museum",
+   "city": "Groningen",
+   "group": "Groningen",
+   "site": "https://www.groningermuseum.nl/kunst/tentoonstellingen",
+   "quirks": ""
+  },
+  {
+   "name": "H'ART Museum (ex-Hermitage Amsterdam)",
+   "city": "Amsterdam",
+   "group": "Amsterdam",
+   "site": "https://www.hartmuseum.nl/en/exhibitions/",
+   "quirks": "Was Hermitage Amsterdam until Sep 2023 rebrand; domain hartmuseum.nl."
+  },
+  {
+   "name": "Huis Marseille",
+   "city": "Amsterdam",
+   "group": "Amsterdam",
+   "site": "https://huismarseille.nl/en/exhibitions/",
+   "quirks": "Photography museum."
+  },
+  {
+   "name": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "group": "Otterlo",
+   "site": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen",
+   "quirks": ""
+  },
+  {
+   "name": "Kunsthal",
+   "city": "Rotterdam",
+   "group": "Rotterdam",
+   "site": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/",
+   "quirks": ""
+  },
+  {
+   "name": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "group": "The Hague",
+   "site": "https://www.kunstmuseum.nl/en/exhibitions",
+   "quirks": ""
+  },
+  {
+   "name": "Museum Arnhem",
+   "city": "Arnhem",
+   "group": "Arnhem",
+   "site": "https://www.museumarnhem.nl/nl/tentoonstellingen",
+   "quirks": "JS-rendered SPA - use browser or note listing text. Some shows run at Erfgoedcentrum."
+  },
+  {
+   "name": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "group": "Rotterdam",
+   "site": "https://www.boijmans.nl/en/exhibitions",
+   "quirks": "Main building closed for renovation; current shows run at the Depot."
+  },
+  {
+   "name": "Museum Kranenburgh",
+   "city": "Bergen NH",
+   "group": "Bergen NH",
+   "site": "https://kranenburgh.nl/tentoonstellingen/",
+   "quirks": ""
+  },
+  {
+   "name": "Museum MORE",
+   "city": "Gorssel",
+   "group": "Noord/Oost/Zuid",
+   "site": "https://www.museummore.nl",
+   "quirks": "3 locations: Gorssel (main), Ruurlo, Twickel; venue noted per show."
+  },
+  {
+   "name": "Museum Volkenkunde",
+   "city": "Leiden",
+   "group": "Leiden",
+   "site": "https://www.volkenkunde.nl/nl/zien-en-doen/tentoonstellingen",
+   "quirks": ""
+  },
+  {
+   "name": "Museum de Fundatie",
+   "city": "Zwolle",
+   "group": "Zwolle",
+   "site": "https://museumdefundatie.nl/nl/te-zien",
+   "quirks": "Fundatie site shows end dates WITHOUT year ('t/m 20 september') - infer current year. Second venue: Kasteel Het Nijenhuis, Heino."
+  },
+  {
+   "name": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "group": "Rotterdam",
+   "site": "https://nederlandsfotomuseum.nl/nu-te-zien/",
+   "quirks": "Photography museum."
+  },
+  {
+   "name": "Rijksmuseum",
+   "city": "Amsterdam",
+   "group": "Amsterdam",
+   "site": "https://www.rijksmuseum.nl/en/whats-on",
+   "quirks": "Visit the exhibitions listing; check 'currently on view' filter."
+  },
+  {
+   "name": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "group": "Leiden",
+   "site": "https://www.rijksmuseum.nl/en/whats-on",
+   "quirks": ""
+  },
+  {
+   "name": "Singer Laren",
+   "city": "Laren",
+   "group": "Laren",
+   "site": "https://www.singerlaren.nl/nl/agenda",
+   "quirks": ""
+  },
+  {
+   "name": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "group": "Amsterdam",
+   "site": "https://www.stedelijk.nl/en/exhibitions",
+   "quirks": ""
+  },
+  {
+   "name": "Teylers Museum",
+   "city": "Haarlem",
+   "group": "Haarlem",
+   "site": "https://teylersmuseum.nl/nl/zien-en-doen",
+   "quirks": ""
+  },
+  {
+   "name": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "group": "Eindhoven",
+   "site": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen",
+   "quirks": "Dommelplein solo shows (Ayoung Kim, john gerrard, Ad Minoliti) have NO stated end date - list as ongoing."
+  },
+  {
+   "name": "Van Gogh Museum",
+   "city": "Amsterdam",
+   "group": "Amsterdam",
+   "site": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions",
+   "quirks": ""
+  },
+  {
+   "name": "Voorlinden",
+   "city": "Wassenaar",
+   "group": "Wassenaar",
+   "site": "https://www.voorlinden.nl/tentoonstellingen/",
+   "quirks": ""
+  }
+ ],
+ "exhibitions": [
+  {
+   "title": "Ed van der Elsken. Up Close",
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-09-13",
+   "description": "Photographer Ed van der Elsken up close.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/ed-van-der-elsken"
+  },
+  {
+   "title": "Fiep Westendorp",
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-09-13",
+   "description": "Celebrated Dutch illustrator of Jip and Janneke.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/fiep-westendorp"
+  },
+  {
+   "title": "Carel Visser in the Rijksmuseum Gardens",
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-10-25",
+   "description": "Sculptural works by Carel Visser in the museum gardens.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/carel-visser"
+  },
+  {
+   "title": "WORN",
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2027-03-21",
+   "description": "Contemporary fashion and jewellery in the Rijksmuseum.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/now-on-view"
+  },
+  {
+   "title": "Vincent's Path to Fame",
+   "museum": "Van Gogh Museum",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-09-06",
+   "description": "How did Van Gogh become world-famous, and what role did his family play?",
+   "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/vincents-path-to-fame"
+  },
+  {
+   "title": "The ReFramers present: In Search of an Anchor",
+   "museum": "Van Gogh Museum",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-09-20",
+   "description": "Contemporary perspectives on Vincent's art - religion, relationships, daily rituals.",
+   "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/in-search-of-an-anchor"
+  },
+  {
+   "title": "Experimental Jetset Circuits",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2025-07-12",
+   "end": "2026-09-17",
+   "description": "The Amsterdam design studio Experimental Jetset presents Circuits, on graphic design and the city.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/EN-experimental-jetset"
+  },
+  {
+   "title": "Kho Liang Ie Mid-Century Modernist",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2026-05-14",
+   "end": "2026-10-18",
+   "description": "First museum retrospective of Dutch-Chinese designer and interior architect Kho Liang Ie.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/kho-liang-ie-2"
+  },
+  {
+   "title": "Post/No/Bills #7: Kexin Hao - Anatomy of Obstruction",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2026-08-20",
+   "end": "2027-04-30",
+   "description": "In Post/No/Bills #7 presenteert Kexin Hao de installatie Anatomy of Obstruction in het trappenhuis van het Stedelijk.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/post-no-bills-7-en"
+  },
+  {
+   "title": "American Identities: David Levinthal & Chicano Prints",
+   "museum": "H'ART Museum (ex-Hermitage Amsterdam)",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-09-06",
+   "description": "American photography and Chicano printmaking.",
+   "url": "https://www.hartmuseum.nl/en/exhibitions/american-identities/"
+  },
+  {
+   "title": "The Land of Chocolate Sprinkles",
+   "museum": "H'ART Museum (ex-Hermitage Amsterdam)",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-11-08",
+   "description": "Building a new world together.",
+   "url": "https://www.hartmuseum.nl/en/exhibitions/the-land-of-chocolate-sprinkles/"
+  },
+  {
+   "title": "Martine Gutierrez: Wunderkind",
+   "museum": "Huis Marseille",
+   "city": "Amsterdam",
+   "start": null,
+   "end": "2026-10-18",
+   "description": "Solo show by Martine Gutierrez (photo).",
+   "url": "https://huismarseille.nl/en/exhibitions/martine-gutierrez/"
+  },
+  {
+   "title": "The Peanut Butter Floor",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-09-06",
+   "description": "Tribute to Wim T. Schippers - 390kg peanut butter on a 25 m² hexagon.",
+   "url": "https://www.boijmans.nl/en/exhibitions/peanut-butter-floor"
+  },
+  {
+   "title": "Lost Charley Toorop painting comes home after 100 years",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-09-06",
+   "description": "Gezicht op de Maas on public display for the first time in the Depot.",
+   "url": "https://www.boijmans.nl/en/exhibitions/lost-charley-toorop-painting-comes-home-after-100-years"
+  },
+  {
+   "title": "Pixel Pioneers",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-09-13",
+   "description": "First major Boijmans exhibition devoted to digital art.",
+   "url": "https://www.boijmans.nl/en/exhibitions/pixel-pioneers"
+  },
+  {
+   "title": "A Diary of Things",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-09-23",
+   "description": "Reveals the eventful histories of artworks (donated, sold, cut up, stolen).",
+   "url": "https://www.boijmans.nl/en/exhibitions/diary-of-things"
+  },
+  {
+   "title": "Salty Tears, a Bare Wall, and a Playful Emergency Button",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-09-21",
+   "description": "Temporary exhibition at the Depot.",
+   "url": "https://www.boijmans.nl/en/exhibitions/salty-tears-a-bare-wall-playful-emergency"
+  },
+  {
+   "title": "Endless Reflections",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-10-25",
+   "description": "Selection from the oeuvre of Willem van Veldhuizen (1954-2025).",
+   "url": "https://www.boijmans.nl/en/exhibitions/endless-reflections"
+  },
+  {
+   "title": "Research on track - Van Gogh's Poplars near Nuenen",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2027-02-07",
+   "description": "Research on track at the Conservation studios in the Depot.",
+   "url": "https://www.boijmans.nl/en/seeing-and-doing"
+  },
+  {
+   "title": "Woody van Amen - The Best Of",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-10-04",
+   "description": "Retrospective marking Woody van Amen's 90th birthday.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/woody-van-amen/"
+  },
+  {
+   "title": "Helen Levitt - City at Play",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-10-04",
+   "description": "Overview of street photographer Helen Levitt (1913-2009).",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/helen-levitt/"
+  },
+  {
+   "title": "Kunsthal Inside/Out: Sabine Marcelis - Continuum",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": "2026-02-17",
+   "end": "2026-11-01",
+   "description": "Architectural intervention by Rotterdam designer Sabine Marcelis.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/kunsthal-insideout-sabine-marcelis/"
+  },
+  {
+   "title": "Benedikte Bjerre - When the Wind Blows",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-11-01",
+   "description": "Hundreds of helium-filled baby penguins.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/benedikte-bjerre-en/"
+  },
+  {
+   "title": "Good Food",
+   "museum": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-11-01",
+   "description": "Farming, gardening and sustainable food (photo).",
+   "url": "https://nederlandsfotomuseum.nl/nu-te-zien/good-food/"
+  },
+  {
+   "title": "Quickscan 3",
+   "museum": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-11-22",
+   "description": "20 photographers/artists on how photography evolved over the past decade.",
+   "url": "https://nederlandsfotomuseum.nl/nu-te-zien/quickscan-3/"
+  },
+  {
+   "title": "Can Love Be a Photograph: 40 Years of Inez & Vinoodh",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": null,
+   "end": "2026-09-06",
+   "description": "Retrospective of photographers Inez van Lamsweerde & Vinoodh Matadin.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/can-love-be-photograph"
+  },
+  {
+   "title": "Marlow Moss: A Suitcase Full of Sketches",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": null,
+   "end": "2026-09-13",
+   "description": "Newly acquired suitcase of 100+ preliminary studies by Marlow Moss.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/marlow-moss"
+  },
+  {
+   "title": "Jan van der Vaart: for Jan and all",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": null,
+   "end": "2026-10-25",
+   "description": "Retrospective of 'master potter' Jan van der Vaart (1931-2000), 150+ objects.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/jan-van-der-vaart-jan-and-all"
+  },
+  {
+   "title": "Mix & Match - Kamalia Talhaoui: Beauty from the world of Islam",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": null,
+   "end": "2026-10-25",
+   "description": "Beauty explored through the Islamic applied-arts collection.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/mix-match-kamalia-talhaoui"
+  },
+  {
+   "title": "Reflections on Fashion: 75 Years",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": null,
+   "end": "2027-01-03",
+   "description": "Large fashion exhibition marking 75 years of the fashion collection.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/reflections-fashion"
+  },
+  {
+   "title": "Base Line: Music Meets Art",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": null,
+   "end": "2027-02-14",
+   "description": "Multisensory exhibition for the Royal Conservatoire's 200th anniversary.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/base-line"
+  },
+  {
+   "title": "Mix & Match - Antonis Pittas",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": null,
+   "end": "2027-03-07",
+   "description": "How art, politics and ideology interweave, with blue as central colour.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/mix-match-antonis-pittas"
+  },
+  {
+   "title": "Gerard van Honthorst",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": "2026-04-25",
+   "end": "2026-09-13",
+   "description": "First major retrospective of the Utrecht master Gerard van Honthorst (1592-1656), 'in alles anders dan Rembrandt'.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-anders-dan-rembrandt"
+  },
+  {
+   "title": "Annex: Mathias Poledna",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": "2026-04-25",
+   "end": "2026-09-13",
+   "description": "Artist Mathias Poledna combines fashion, music and history in 'My Favorite Shop'.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/annex-mathias-poledna"
+  },
+  {
+   "title": "Patchwork Post",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": "2026-05-10",
+   "end": "2026-10-03",
+   "description": "Colourful landing spot designed by Simone Post.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork-post"
+  },
+  {
+   "title": "Godenschemering - Frans Franciscus",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": null,
+   "end": "2026-11-22",
+   "description": "Franciscus visualizes diversity, injustice and love.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/godenschemering-frans-franciscus"
+  },
+  {
+   "title": "Blik op Bloemen",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": null,
+   "end": "2026-12-31",
+   "description": "Stadscolumn marking 70 years of the Van Baaren Stichting.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/blik-op-bloemen"
+  },
+  {
+   "title": "Simultane - Kleur in onderzoek, boek en alledaags spelen",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": "2025-10-16",
+   "end": "2026-09-10",
+   "description": "Bibliotheektentoonstelling over kleur in onderzoek, boek en alledaags spelen.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/simultane"
+  },
+  {
+   "title": "Make Some Noise: Desire. Stage. Change.",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": "2026-01-31",
+   "end": "2026-09-20",
+   "description": "International exhibition about desire, daring and change.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-noise-desire-stage-change"
+  },
+  {
+   "title": "Plug & Play: Studio Woensel West",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": "2026-06-06",
+   "end": "2028-06-06",
+   "description": "Plug & Play: Studio Woensel West at the Van Abbemuseum.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen"
+  },
+  {
+   "title": "Context: Verborgen Verbanden",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": null,
+   "end": "2028-06-06",
+   "description": "Colonial past of the Van Abbemuseum made visible.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/verborgen-verbanden"
+  },
+  {
+   "title": "Collectie als kosmos",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": null,
+   "end": "2030-05-02",
+   "description": "New collection presentation - a different look at time.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/collectiealskosmos"
+  },
+  {
+   "title": "Ayoung Kim (Dommelplein)",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": null,
+   "end": null,
+   "description": "Solo exhibition at the Dommelplein (no stated end date).",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein/ayoung-kim"
+  },
+  {
+   "title": "john gerrard - Ghost Feed (Dommelplein)",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": null,
+   "end": null,
+   "description": "john gerrard's Ghost Feed at the Dommelplein (no stated end date).",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein/john-gerrard"
+  },
+  {
+   "title": "Ad Minoliti - Feminist School of Painting (Dommelplein)",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": null,
+   "end": null,
+   "description": "Ad Minoliti's Feminist School of Painting at the Dommelplein (no stated end date).",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein/ad-minoliti"
+  },
+  {
+   "title": "Nieuw licht - De Ploeg",
+   "museum": "Groninger Museum",
+   "city": "Groningen",
+   "start": null,
+   "end": "2028-12-31",
+   "description": "Renewed presentation of De Ploeg works from the collection.",
+   "url": "https://www.groningermuseum.nl/kunst/tentoonstellingen/nieuw-licht-de-ploeg"
+  },
+  {
+   "title": "Het raadsel van het meisje in het blauw",
+   "museum": "Frans Hals Museum",
+   "city": "Haarlem",
+   "start": "2026-03-12",
+   "end": "2026-10-11",
+   "description": "Collectiepresentatie.",
+   "url": "https://franshalsmuseum.nl/nl/zien-en-doen"
+  },
+  {
+   "title": "De schoonheid van letters",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "start": null,
+   "end": "2026-10-04",
+   "description": "Recent acquisitions: objects with Arabic calligraphy.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/de-schoonheid-van-letters/"
+  },
+  {
+   "title": "Galleria",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "start": null,
+   "end": "2026-11-01",
+   "description": "Twaalf kleine exposities in een, met raakvlakken met de oudheid.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/galleria/"
+  },
+  {
+   "title": "Monsters en mythische wezens",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "start": null,
+   "end": "2027-06-27",
+   "description": "Museum adventure for children about monsters and mythical creatures.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/monsters-en-mythische-wezens/"
+  },
+  {
+   "title": "Tin",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "start": null,
+   "end": "2027-12-31",
+   "description": "Rijke verzameling gebruiksvoorwerpen, met vakmanschap gemaakt.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/tin/"
+  },
+  {
+   "title": "Hanuman reist de wereld over",
+   "museum": "Museum Volkenkunde",
+   "city": "Leiden",
+   "start": null,
+   "end": null,
+   "description": "Deze tentoonstelling belicht Hanuman als een figuur in de diaspora, en hoe hij verandert door tijd en plaats.",
+   "url": "https://leiden.wereldmuseum.nl/en/whats-on/exhibitions/hanuman-travels-across-globe"
+  },
+  {
+   "title": "Tijd voor Papoea",
+   "museum": "Museum Volkenkunde",
+   "city": "Leiden",
+   "start": null,
+   "end": "2027-01-03",
+   "description": "Exhibition on Papua.",
+   "url": "https://www.volkenkunde.nl/nl/zien-en-doen/tentoonstellingen/tijd-voor-papoea"
+  },
+  {
+   "title": "Yuki Kihara: Darwin in Paradise Camp",
+   "museum": "Museum Volkenkunde",
+   "city": "Leiden",
+   "start": null,
+   "end": "2027-01-03",
+   "description": "Nederlands solodebuut van de internationaal gevierde kunstenaar Yuki Kihara.",
+   "url": "https://leiden.wereldmuseum.nl/en/whats-on/exhibitions/yuki-kihara-darwin-paradise-camp"
+  },
+  {
+   "title": "K-pop: A Snapshot",
+   "museum": "Museum Volkenkunde",
+   "city": "Leiden",
+   "start": "2025-10-18",
+   "end": "2026-12-31",
+   "description": "De esthetiek, storytelling en culturele impact van K-pop, aan de hand van albums, fotokaarten en merchandise (verlengd).",
+   "url": "https://leiden.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/k-pop-snapshot-tentoonstelling"
+  },
+  {
+   "title": "Sami Art, Land, Power",
+   "museum": "Museum Volkenkunde",
+   "city": "Leiden",
+   "start": "2026-05-08",
+   "end": "2027-09-05",
+   "description": "Sámi art, land and power.",
+   "url": "https://www.volkenkunde.nl/nl/zien-en-doen/tentoonstellingen/sami-art-land-power"
+  },
+  {
+   "title": "Deshima Experience",
+   "museum": "Museum Volkenkunde",
+   "city": "Leiden",
+   "start": null,
+   "end": null,
+   "description": "Interactieve tentoonstelling bij het gerestaureerde kamerscherm van Kawahara Keiga, over Deshima in Nagasaki.",
+   "url": "https://www.volkenkunde.nl/nl/zien-en-doen/tentoonstellingen/deshima-experience"
+  },
+  {
+   "title": "Meesterwerken uit Le Havre (Renoir, Monet, Dufy, Matisse)",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": null,
+   "end": "2026-09-13",
+   "description": "80 years of artistic renewal from Le Havre, Impressionism to Fauvism.",
+   "url": "https://www.singerlaren.nl/nl/agenda/meesterwerken-uit-le-havre-4k1t"
+  },
+  {
+   "title": "Etha Fles & Medardo Rosso. Voor de kunst",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": null,
+   "end": "2026-10-11",
+   "description": "Centres on 'Rieuse', a rare Rosso sculpture from the estate of Etha Fles.",
+   "url": "https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-kunst-6544"
+  },
+  {
+   "title": "Dichter bij De denker",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": null,
+   "end": "2026-11-15",
+   "description": "Rodin's 'De Denker' takes centre stage; the sculpture leaves its usual spot.",
+   "url": "https://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker-zw16"
+  },
+  {
+   "title": "Carlijn Kingma. De machinerie van de volkshuisvesting",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": null,
+   "end": "2027-01-10",
+   "description": "Kingma's monumental drawing on the Dutch housing market.",
+   "url": "https://www.singerlaren.nl/nl/agenda/carlijn-kingma-de-machinerie-van-de-volkshuisvesting-mdyw"
+  },
+  {
+   "title": "Vincent de Boer - Omgeven (Window of Opportunity)",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": "2026-03-29",
+   "end": "2027-03-07",
+   "description": "Installation of three elements in the balkonfoyer.",
+   "url": "https://www.singerlaren.nl/nl/agenda/vincent-de-boer-omgeven-yzfj"
+  },
+  {
+   "title": "Cremer in context - de vroege jaren",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-03-21",
+   "end": "2026-09-20",
+   "description": "First overview after Jan Cremer's death; his position as visual artist in the 1950s-60s.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/cremer-context"
+  },
+  {
+   "title": "Umbild",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-05-23",
+   "end": "2026-09-20",
+   "description": "Jules van Hulst & Wieger Steenhuis: Umbild.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/umbild"
+  },
+  {
+   "title": "Ntu",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-03-21",
+   "end": "2026-09-20",
+   "description": "Buhlebezwe Siwani: Ntu.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/ntu"
+  },
+  {
+   "title": "kijk om je heen! (de Fundatie Collectie)",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-03-21",
+   "end": "2027-04-04",
+   "description": "How art can change the way you look at your surroundings.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/kijk-om-je-heen"
+  },
+  {
+   "title": "In de 17e Hemel",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-05-23",
+   "end": "2026-09-20",
+   "description": "Art installation by Chourouk Hriech.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/de-17e-hemel"
+  },
+  {
+   "title": "Buiten de oevers",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": null,
+   "end": "2026-11-08",
+   "description": "Wilma Wilbrink's works from 2,000-year-old bog-oaks on water and landscape change.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/buiten-de-oevers"
+  },
+  {
+   "title": "Museum Murals",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": null,
+   "end": "2026-12-31",
+   "description": "Street art by Kenneth Letsoin & ONUR - giant murals at the Hessenweg.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/museum-murals"
+  },
+  {
+   "title": "Schilder voor iedereen",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": null,
+   "end": "2027-03-07",
+   "description": "Elly Tamminga used art to make social inequality visible.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/schilder-voor-iedereen"
+  },
+  {
+   "title": "Naakt dat raakt",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-03-14",
+   "end": "2026-09-20",
+   "description": "Artists use the naked body to discuss freedom, identity and inequality.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raakt"
+  },
+  {
+   "title": "Bakudengar",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-03-10",
+   "end": "2026-09-20",
+   "description": "Bakudengar in Museum Arnhem.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/bakudengar"
+  },
+  {
+   "title": "Dieren in Arnhem (Erfgoedcentrum)",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2025-10-18",
+   "end": "2026-09-27",
+   "description": "Animals in Arnhem - heritage centre show.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/dieren-in-arnhem"
+  },
+  {
+   "title": "Sonsbeek 2026: Ik hoef geen tuin, ik deel een park",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-07-04",
+   "end": "2026-10-11",
+   "description": "Europe's oldest recurring exhibition of art in public space; 13th edition on remembrance as a living act.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/sonsbeek-2026"
+  },
+  {
+   "title": "Ont-moeten",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2025-01-25",
+   "end": "2027-12-31",
+   "description": "Collection presentation on identity, decolonisation and climate.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/ontmoeten"
+  },
+  {
+   "title": "Beeldentuin",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2024-09-11",
+   "end": "2028-12-31",
+   "description": "Beeldentuin van Museum Arnhem.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/beeldentuin"
+  },
+  {
+   "title": "Pak een terrasje met Vincent",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": null,
+   "end": "2026-09-20",
+   "description": "Zomerse presentatie rond Vincent van Gogh in de beeldentuin.",
+   "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terrasje-met-vincent"
+  },
+  {
+   "title": "Anouk Griffioen. Nu het er nog is",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": "2026-05-09",
+   "end": "2026-09-20",
+   "description": "Anouk Griffioen in het Kroller-Muller Museum.",
+   "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioen-nu-het-er-nog-is"
+  },
+  {
+   "title": "Ruud Kuijer",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": "2026-06-06",
+   "end": "2026-10-04",
+   "description": "Beelden van Ruud Kuijer in de beeldentuin.",
+   "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer"
+  },
+  {
+   "title": "Ruimtereis",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": null,
+   "end": "2026-11-22",
+   "description": "Ruimtereis door de collectie.",
+   "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruimtereis"
+  },
+  {
+   "title": "Wessel Couzijn. Rendez-vous van tafel en stoel",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": null,
+   "end": "2026-11-22",
+   "description": "Wessel Couzijn: Rendez-vous van tafel en stoel.",
+   "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel"
+  },
+  {
+   "title": "Gilbert & George. Drifters",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": "2026-07-04",
+   "end": "2027-04-01",
+   "description": "Gilbert & George: Drifters in de beeldentuin en het museum.",
+   "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-drifters"
+  },
+  {
+   "title": "Lisa Konno Paul Kooiker",
+   "museum": "Museum Kranenburgh",
+   "city": "Bergen NH",
+   "start": null,
+   "end": "2026-11-01",
+   "description": "Fashion designer Lisa Konno and photographer Paul Kooiker on fashion and identity.",
+   "url": "https://kranenburgh.nl/tentoonstelling/lisa-konno-paul-kooiker/"
+  },
+  {
+   "title": "Dromen in het duin (Bernard Essers)",
+   "museum": "Museum Kranenburgh",
+   "city": "Bergen NH",
+   "start": null,
+   "end": "2026-11-01",
+   "description": "Graphic work from the early 20th century, incl. book illustrations.",
+   "url": "https://kranenburgh.nl/tentoonstelling/bernard-essers/"
+  },
+  {
+   "title": "Alles verandert, niets vergaat (Iris Le Rutte)",
+   "museum": "Museum Kranenburgh",
+   "city": "Bergen NH",
+   "start": null,
+   "end": "2026-11-01",
+   "description": "Ovid's Metamorphoses: people, animals, plants change into hybrids.",
+   "url": "https://kranenburgh.nl/tentoonstelling/alles-verandert-niets-vergaat/"
+  },
+  {
+   "title": "De Poptaschat: Fries zilver op wereldschaal",
+   "museum": "Fries Museum",
+   "city": "Leeuwarden",
+   "start": "2026-08-01",
+   "end": "2027-05-30",
+   "description": "Fries zilver op wereldschaal: topstukken uit de zilvercollectie van het Fries Museum.",
+   "url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/de-poptaschat"
+  },
+  {
+   "title": "Robert Zandvliet: Aan de oevers van de tijd",
+   "museum": "Fries Museum",
+   "city": "Leeuwarden",
+   "start": "2026-05-23",
+   "end": "2027-03-21",
+   "description": "Solotentoonstelling van de Friese schilder Robert Zandvliet, 'Aan de oevers van de tijd'.",
+   "url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/robert-zandvliet"
+  },
+  {
+   "title": "Tina Farifteh: Toen ik de zon en de maan tegelijk zag",
+   "museum": "Fries Museum",
+   "city": "Leeuwarden",
+   "start": null,
+   "end": "2027-03-21",
+   "description": "Solotentoonstelling van Tina Farifteh.",
+   "url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/tina-farifteh"
+  },
+  {
+   "title": "Voorbij de horizon",
+   "museum": "Fries Museum",
+   "city": "Leeuwarden",
+   "start": null,
+   "end": "2027-03-21",
+   "description": "Tentoonstelling over landschap en horizon.",
+   "url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/voorbij-de-horizon"
+  },
+  {
+   "title": "De levens van Mata Hari",
+   "museum": "Fries Museum",
+   "city": "Leeuwarden",
+   "start": "2023-12-09",
+   "end": "2026-12-09",
+   "description": "Intieme presentatie over de vele kanten van Mata Hari, met hoogtepunten uit de collectie Mata Hari-memorabilia.",
+   "url": "https://www.friesmuseum.nl/tentoonstellingen/delevensvanmatahari"
+  },
+  {
+   "title": "Charley Toorop & Pyke Koch: Alles of niets",
+   "museum": "Museum MORE",
+   "city": "Gorssel",
+   "start": "2026-06-21",
+   "end": "2026-10-25",
+   "description": "Presentatie van Charley Toorop en Pyke Koch in MORE Gorssel.",
+   "url": "https://www.moregorssel.nl/tentoonstellingen/charley-toorop-en-pyke-koch-alles-of-niets"
+  },
+  {
+   "title": "Robin Wen & Bobbi Essers: Nothing Makes Me Feel As Good",
+   "museum": "Museum MORE",
+   "city": "Gorssel",
+   "start": "2026-05-14",
+   "end": "2026-11-15",
+   "description": "Duo-tentoonstelling van Robin Wen en Bobbi Essers in MORE Gorssel.",
+   "url": "https://www.moregorssel.nl/tentoonstellingen/robin-bobbi"
+  },
+  {
+   "title": "Kabinet: Maeve van Klaveren",
+   "museum": "Museum MORE",
+   "city": "Gorssel",
+   "start": "2026-05-14",
+   "end": "2026-11-15",
+   "description": "Kabinetpresentatie met werk van Maeve van Klaveren in MORE Gorssel.",
+   "url": "https://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klaveren"
+  },
+  {
+   "title": "Sam Drukker: De ouder wordende mens",
+   "museum": "Museum MORE",
+   "city": "Ruurlo",
+   "start": "2026-07-05",
+   "end": "2027-02-07",
+   "description": "Sam Drukker over de ouder wordende mens, in MORE Ruurlo.",
+   "url": "https://www.moreruurlo.nl/tentoonstellingen/sam-drukker-de-ouder-wordende-mens"
+  },
+  {
+   "title": "Bitches Brew",
+   "museum": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "start": "2026-02-13",
+   "end": "2026-09-06",
+   "description": "Three pioneers in figurative painting, three solo exhibitions, one raw, colourful and magical dialogue.",
+   "url": "https://www.bonnefanten.nl/en/exhibitions/bitches-brew"
+  },
+  {
+   "title": "The Studio #11: Malina Suliman",
+   "museum": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "start": "2026-06-12",
+   "end": "2026-09-06",
+   "description": "Bonnefanten presents Malina Suliman, a visual artist in exile who sees her work as an instrument of social and political criticism.",
+   "url": "https://www.bonnefanten.nl/en/exhibitions/the-studio-11-malina-suliman"
+  },
+  {
+   "title": "Born to play: do & dare like an artist",
+   "museum": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "start": "2026-04-17",
+   "end": "2027-03-14",
+   "description": "Discover how artists use play to create art. An exhibition for children aged 6 to 12.",
+   "url": "https://www.bonnefanten.nl/en/exhibitions/born-to-play-dare-and-create-like-an-artist"
+  },
+  {
+   "title": "De Weerd: mini Maas island on the forecourt",
+   "museum": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "start": "2025-05-09",
+   "end": "2027-04-04",
+   "description": "A temporary garden on the forecourt of the Bonnefanten, based on the floodplain along the River Maas.",
+   "url": "https://www.bonnefanten.nl/en/exhibitions/de-weerd-mini-maas-island-on-the-forecourt"
+  },
+  {
+   "title": "Amrita Sher-Gil: Europa is van Picasso, India is van mij",
+   "museum": "Drents Museum",
+   "city": "Assen",
+   "start": null,
+   "end": "2026-09-20",
+   "description": "Tentoonstelling over Amrita Sher-Gil in de Singelzaal van het Drents Museum.",
+   "url": "https://drentsmuseum.nl/tentoonstellingen/amrita-sher-gil-europa-is-van-picasso-india-is-van-mij"
+  },
+  {
+   "title": "Christoph Ruckhaberle: The Fourth Wall",
+   "museum": "Drents Museum",
+   "city": "Assen",
+   "start": null,
+   "end": "2026-11-15",
+   "description": "Tentoonstelling van Christoph Ruckhäberle in de abdijzaal en kloosterzaal van het Drents Museum.",
+   "url": "https://drentsmuseum.nl/tentoonstellingen/christoph-ruckhaberle"
+  },
+  {
+   "title": "DMspotlight: Wilhelmina Proos",
+   "museum": "Drents Museum",
+   "city": "Assen",
+   "start": null,
+   "end": "2026-11-15",
+   "description": "DMspotlight-presentatie over de Haagse kunstenaar Wilhelmina Proos in de brinkzalen.",
+   "url": "https://drentsmuseum.nl/tentoonstellingen/dmspotlight-wilhelmina-proos"
+  },
+  {
+   "title": "Labyrinthia",
+   "museum": "Drents Museum",
+   "city": "Assen",
+   "start": "2024-12-21",
+   "end": "2034-01-05",
+   "description": "Een magische reis door de prehistorie, voor jong en oud.",
+   "url": "https://drentsmuseum.nl/tentoonstellingen/labyrinthia"
+  },
+  {
+   "title": "Beauty of the Beast: Dieren in de art nouveau",
+   "museum": "De Buitenplaats",
+   "city": "Eelde",
+   "start": null,
+   "end": "2026-09-27",
+   "description": "Tentoonstelling over dieren in de art nouveau in Drents Museum De Buitenplaats (verlengd t/m 27 september).",
+   "url": "https://dmdebuitenplaats.nl/tentoonstellingen/beauty-of-the-beast-dieren-in-de-art-nouveau"
+  },
+  {
+   "title": "Into Nature: Haunted by Waters",
+   "museum": "De Buitenplaats",
+   "city": "Eelde",
+   "start": null,
+   "end": "2026-10-25",
+   "description": "Kunstroute in de buitenplaats-tuinen rond het thema water.",
+   "url": "https://dmdebuitenplaats.nl/tentoonstellingen/into-nature-haunted-by-waters"
+  },
+  {
+   "title": "Layers",
+   "museum": "Fotomuseum Den Haag",
+   "city": "Den Haag",
+   "start": "2026-06-12",
+   "end": "2026-11-29",
+   "description": "Student exhibition inspired by Farren van Wyk's Mixedness is my Mythology; pupils of The Hague secondary schools explore colour, background and identity. Free to visit.",
+   "url": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers"
+  },
+  {
+   "title": "Harvest 2026 - Pip Greenaway",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-10-30",
+   "description": "New Depot presentation by Pip Greenaway.",
+   "url": "https://www.boijmans.nl/en/exhibitions/Harvest-2026-Pip-Greenaway"
+  },
+  {
+   "title": "Depot Solo - Mandy El-Sayegh",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": null,
+   "end": "2026-09-21",
+   "description": "First edition of the new Depot Solo series, made possible by Ammodo Art.",
+   "url": "https://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sayegh"
+  },
+  {
+   "title": "Collectie // Reflectie",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "start": null,
+   "end": "2026-11-15",
+   "description": "Egyptische beelden met verdachte kenmerken (kleine tentoonstelling).",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/collectie-reflectie-3/"
+  },
+  {
+   "title": "50 Years North Sea Jazz Photography",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": "2026-09-05",
+   "end": "2026-10-11",
+   "description": "Festival photography from 50 years of North Sea Jazz by Paul Bergen, Rico D'Rozario and Andreas Terlaak (zaal 7).",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/50-years-north-sea-jazz-photography/"
+  },
+  {
+   "title": "REDBAD: de legendarische koning",
+   "museum": "Fries Museum",
+   "city": "Leeuwarden",
+   "start": "2026-09-05",
+   "end": "2027-02-07",
+   "description": "Over koning Redbad en het machtige rijk Frisia langs de Noordzeekust, meer dan 1300 jaar geleden.",
+   "url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/redbad"
+  },
+  {
+   "title": "Eva Besnyö: The Liberated Camera",
+   "museum": "Fotomuseum Den Haag",
+   "city": "Den Haag",
+   "start": "2026-09-05",
+   "end": "2027-01-31",
+   "description": "Photographer, feminist, phenomenon: Eva Besnyö (1910–2003) changed photography forever.",
+   "url": "https://www.fotomuseumdenhaag.nl/en/exhibitions/liberated-camera"
+  }
+ ]
 }
