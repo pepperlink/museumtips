@@ -1,11 +1,30 @@
 {{ $museums := site.GetPage "museums" }}
-{{ $museumURL := "" }}{{ $cityURL := "" }}
-{{ with $museums }}{{ $museumURL = printf "%s#%s" .RelPermalink ($.museum | urlize) }}{{ $cityURL = printf "%s#%s" .RelPermalink ($.city | urlize) }}{{ end }}
-{{ $museumOK := false }}{{ $cityOK := false }}
-{{ with where hugo.Data.exhibitions.museums "name" .museum }}{{ $museumOK = true }}{{ end }}
+{{ $cityURL := "" }}
+{{ with $museums }}{{ $cityURL = printf "%s#%s" .RelPermalink ($.city | urlize) }}{{ end }}
+{{ $cityOK := false }}
 {{ with where hugo.Data.exhibitions.museums "city" .city }}{{ $cityOK = true }}{{ end }}
+{{ $museumSlug := "" }}
+{{ range where hugo.Data.exhibitions.museums "name" .museum }}
+  {{ with .slug }}{{ $museumSlug = . }}{{ end }}
+{{ end }}
+{{ $titleURL := .url }}
+{{ if and $museumSlug .slug }}
+  {{ $seg := "tentoonstelling" }}
+  {{ if ne site.Language.Lang "nl" }}
+    {{ $seg = "exhibition" }}
+  {{ end }}
+  {{ $titleURL = relLangURL (printf "museums/%s/%s/%s/" $museumSlug $seg .slug) }}
+{{ end }}
+{{ $museumURL := "" }}{{ $museumOK := false }}
+{{ if $museumSlug }}
+  {{ $museumURL = relLangURL (printf "museums/%s/" $museumSlug) }}
+  {{ $museumOK = true }}
+{{ else }}
+  {{ with $museums }}{{ $museumURL = printf "%s#%s" .RelPermalink ($.museum | urlize) }}{{ end }}
+  {{ with where hugo.Data.exhibitions.museums "name" .museum }}{{ $museumOK = true }}{{ end }}
+{{ end }}
 <article>
-  <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+  <h3><a href="{{ $titleURL }}">{{ .title }}</a></h3>
   <p>
     {{ if and $museumURL $museumOK }}<a href="{{ $museumURL }}"><strong>{{ .museum }}</strong></a>{{ else }}<strong>{{ .museum }}</strong>{{ end }}, {{ if and $cityURL $cityOK }}<a href="{{ $cityURL }}">{{ .city }}</a>{{ else }}{{ .city }}{{ end -}}
     {{- $dates := partial "format-date.html" . -}}
@@ -19,5 +38,8 @@
   </p>
   {{ with .description }}
   <p>{{ . }}</p>
+  {{ end }}
+  {{ with .url }}
+  <p><a href="{{ . }}">{{ i18n "museum_show_page" }}</a></p>
   {{ end }}
 </article>

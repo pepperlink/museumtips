@@ -30,12 +30,19 @@
     <section id="{{ $city | urlize }}">
       <h2>{{ $city }}</h2>
       {{ range where $museums "city" $city }}
+        {{ $museum := . }}
         <article>
-          <h3 id="{{ .name | urlize }}">{{ .name }}</h3>
+          <h3 id="{{ $museum.name | urlize }}">
+            {{- with $museum.slug -}}
+            <a href="{{ relLangURL (printf "museums/%s/" .) }}">{{ $museum.name }}</a>
+            {{- else -}}
+            {{ $museum.name }}
+            {{- end -}}
+          </h3>
           <p>
             <a href="{{ .site }}">{{ i18n "website" }}</a>
           </p>
-          {{ $here := where hugo.Data.exhibitions.exhibitions "museum" .name }}
+          {{ $here := where hugo.Data.exhibitions.exhibitions "museum" $museum.name }}
           {{ if $here }}
             <h4>{{ i18n "exhibitions_here" }}</h4>
             <ul>
@@ -49,15 +56,41 @@
                 {{ end }}
               {{ end }}
               {{ range sort $datedHere "end" }}
+                {{ $show := . }}
+                {{ $titleURL := $show.url }}
+                {{ $museumSlug := "" }}
+                {{ range where hugo.Data.exhibitions.museums "name" $show.museum }}
+                  {{ with .slug }}{{ $museumSlug = . }}{{ end }}
+                {{ end }}
+                {{ if and $museumSlug $show.slug }}
+                  {{ $seg := "tentoonstelling" }}
+                  {{ if ne site.Language.Lang "nl" }}
+                    {{ $seg = "exhibition" }}
+                  {{ end }}
+                  {{ $titleURL = relLangURL (printf "museums/%s/%s/%s/" $museumSlug $seg $show.slug) }}
+                {{ end }}
                 <li>
-                  <a href="{{ .url }}">{{ .title }}</a>
+                  <a href="{{ $titleURL }}">{{ $show.title }}</a>
                   {{- $dates := partial "format-date.html" . -}}
                   {{- with $dates }} — {{ . }}{{ end }}
                 </li>
               {{ end }}
               {{ range $openHere }}
+                {{ $show := . }}
+                {{ $titleURL := $show.url }}
+                {{ $museumSlug := "" }}
+                {{ range where hugo.Data.exhibitions.museums "name" $show.museum }}
+                  {{ with .slug }}{{ $museumSlug = . }}{{ end }}
+                {{ end }}
+                {{ if and $museumSlug $show.slug }}
+                  {{ $seg := "tentoonstelling" }}
+                  {{ if ne site.Language.Lang "nl" }}
+                    {{ $seg = "exhibition" }}
+                  {{ end }}
+                  {{ $titleURL = relLangURL (printf "museums/%s/%s/%s/" $museumSlug $seg $show.slug) }}
+                {{ end }}
                 <li>
-                  <a href="{{ .url }}">{{ .title }}</a>
+                  <a href="{{ $titleURL }}">{{ $show.title }}</a>
                   {{- $dates := partial "format-date.html" . -}}
                   {{- with $dates }} — {{ . }}{{ end }}
                 </li>
