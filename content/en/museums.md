@@ -1,7 +1,7 @@
 ---
 title: Museums
-subtitle: Every museum in the list, by region
-introduction: Each museum links to its own site, with a short note.
+subtitle: Every museum in the list, by city
+introduction: With what's on now and a link to each museum's own site.
 layout: museums
 translationKey: museums
 menu:

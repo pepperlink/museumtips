@@ -8,27 +8,33 @@
 {{ if not $museums }}
   <p>{{ i18n "no_museums" }}</p>
 {{ else }}
-  {{ $groups := slice }}
+  {{ $cities := slice }}
   {{ range hugo.Data.exhibitions.museums }}
-    {{ if not (in $groups .group) }}
-      {{ $groups = $groups | append .group }}
+    {{ if not (in $cities .city) }}
+      {{ $cities = $cities | append .city }}
     {{ end }}
   {{ end }}
+  {{ $cities = sort $cities }}
 
-  {{ range $groups }}
-    {{ $group := . }}
-    <section>
-      <h2>{{ $group }}</h2>
-      {{ range where $museums "group" $group }}
+  <nav>
+    <p>{{ i18n "jump_to_city" }}</p>
+    <ul>
+      {{ range $cities }}
+        <li><a href="#{{ . | urlize }}">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  {{ range $cities }}
+    {{ $city := . }}
+    <section id="{{ $city | urlize }}">
+      <h2>{{ $city }}</h2>
+      {{ range where $museums "city" $city }}
         <article>
           <h3>{{ .name }}</h3>
           <p>
-            {{ .city }}
-            · <a href="{{ .site }}">{{ i18n "website" }}</a>
+            <a href="{{ .site }}">{{ i18n "website" }}</a>
           </p>
-          {{ with .quirks }}
-          <p>{{ i18n "quirks" }}: {{ . }}</p>
-          {{ end }}
           {{ $here := where hugo.Data.exhibitions.exhibitions "museum" .name }}
           {{ if $here }}
             <h4>{{ i18n "exhibitions_here" }}</h4>

@@ -73,6 +73,9 @@ other = "Notes"
 [exhibitions_here]
 other = "On now at this museum"
 
+[jump_to_city]
+other = "Jump to city"
+
 [jump_to_month]
 other = "Jump to month"
 

@@ -73,6 +73,9 @@ other = "Bijzonderheden"
 [exhibitions_here]
 other = "Nu in dit museum"
 
+[jump_to_city]
+other = "Spring naar stad"
+
 [jump_to_month]
 other = "Spring naar maand"
 
