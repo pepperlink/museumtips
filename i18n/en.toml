@@ -274,5 +274,11 @@ other = "Opens in %d days"
 [opens_today]
 other = "Opens today"
 
+[opens_tomorrow]
+other = "Opens tomorrow"
+
+[closes_tomorrow]
+other = "Closes tomorrow"
+
 [closes_in]
 other = "Closes in %d days"

@@ -1,7 +1,7 @@
 ---
 title: Musea
 subtitle: Alle musea die meedoen, per stad
-introduction: Met per museum wat er nu te zien is en een link naar de eigen site.
+introduction: Kies een museum voor het volledige aanbod — wat er nu en straks te zien is, plus openingstijden, prijzen en vervoer.
 layout: museums
 url: /museums/
 aliases:

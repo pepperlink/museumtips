@@ -274,5 +274,11 @@ other = "Opent over %d dagen"
 [opens_today]
 other = "Opent vandaag"
 
+[opens_tomorrow]
+other = "Opent morgen"
+
+[closes_tomorrow]
+other = "Sluit morgen"
+
 [closes_in]
 other = "Sluit over %d dagen"

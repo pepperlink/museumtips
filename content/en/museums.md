@@ -1,7 +1,7 @@
 ---
 title: Museums
 subtitle: Every museum in the list, by city
-introduction: With what’s on now and a link to each museum’s own site.
+introduction: Pick a museum for the full picture — what’s on now and coming up, plus opening hours, prices and transport.
 layout: museums
 translationKey: museums
 menu:
