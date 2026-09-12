@@ -1,4 +1,6 @@
 # Independent review — Phase 3b (Museum & exhibition pages)
+> **Post-review status (2026-09-12):** all HIGH findings and the medium/low items were folded into `PLAN.md` on this branch, with the mechanics re-verified on the pinned Hugo v0.166 (see PLAN.md §3b.13). This document is preserved as the review record.
+
 
 Reviewer: independent agent pass, 2026-09-12. Scope: `PLAN.md` §"Phase 3b — Museum & exhibition pages (plan)" only (3b.0–3b.13). Verified against this worktree on pinned-adjacent **Hugo v0.165.0 extended** (local; pipeline pins v0.166.0 — see "Not verified" for the gap this leaves). All template/behaviour claims below marked "verified" were reproduced with real `hugo build`/`hugo list all` runs in a scratch experiment, then fully reverted (`git status` clean; no repo file other than this review was changed).
 
