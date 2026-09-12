@@ -1,0 +1,38 @@
+{{- /* Nested path exhibition/<slug> would otherwise publish a /exhibition/ section listing. */ -}}
+{{- $section := dict
+  "kind" "section"
+  "path" "exhibition"
+  "build" (dict "render" "never" "list" "never")
+-}}
+{{- $.AddPage $section -}}
+{{- range hugo.Data.exhibitions.exhibitions -}}
+  {{- $ex := . -}}
+  {{- with $ex.slug -}}
+    {{- $slug := . -}}
+    {{- $museumSlug := "" -}}
+    {{- range where hugo.Data.exhibitions.museums "name" $ex.museum -}}
+      {{- with .slug -}}
+        {{- $museumSlug = . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $museumSlug -}}
+      {{- $url := "" -}}
+      {{- if eq $.Site.Language.Lang "nl" -}}
+        {{- $url = printf "museums/%s/tentoonstelling/%s/" $museumSlug $slug -}}
+      {{- else -}}
+        {{- $url = printf "museums/%s/exhibition/%s/" $museumSlug $slug -}}
+      {{- end -}}
+      {{- $page := dict
+        "kind" "page"
+        "path" (printf "exhibition/%s" $slug)
+        "url" $url
+        "title" $ex.title
+        "layout" "exhibition-page"
+        "type" "exhibition-page"
+        "translationKey" (printf "exhibition-%s" $slug)
+        "params" (dict "slug" $slug)
+      -}}
+      {{- $.AddPage $page -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

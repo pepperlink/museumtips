@@ -1,0 +1,160 @@
+{{ define "main" }}
+{{- $slug := .Params.slug -}}
+{{- $ex := false -}}
+{{- range hugo.Data.exhibitions.exhibitions -}}
+  {{- if eq .slug $slug -}}
+    {{- $ex = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $info := dict -}}
+{{- with index hugo.Data.exhibitions_info $slug -}}
+  {{- $info = . -}}
+{{- end -}}
+{{- $museumSlug := "" -}}
+{{- $museumName := "" -}}
+{{- $city := "" -}}
+{{- if $ex -}}
+  {{- $museumName = $ex.museum -}}
+  {{- $city = $ex.city -}}
+  {{- range where hugo.Data.exhibitions.museums "name" $museumName -}}
+    {{- with .slug -}}
+      {{- $museumSlug = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $museumPage := false -}}
+{{- if $museumSlug -}}
+  {{- with $.Site.GetPage (printf "/museum/%s" $museumSlug) -}}
+    {{- $museumPage = . -}}
+  {{- end -}}
+{{- end -}}
+
+<h1>{{ .Title }}</h1>
+{{- $calendarPage := .Site.GetPage "calendar" -}}
+<p>
+  {{- with $calendarPage -}}
+  <a href="{{ .RelPermalink }}">{{ i18n "back_to_calendar" }}</a>
+  {{- end -}}
+  {{- if and $museumPage $museumName -}}
+    {{- if $calendarPage }} · {{ end -}}
+  <a href="{{ $museumPage.RelPermalink }}">{{ $museumName }}</a>
+  {{- end -}}
+</p>
+
+{{- if $ex -}}
+<p>
+  {{- if $museumPage -}}
+  <a href="{{ $museumPage.RelPermalink }}"><strong>{{ $museumName }}</strong></a>
+  {{- else -}}
+  <strong>{{ $museumName }}</strong>
+  {{- end -}}
+  {{- with $city -}}
+  , {{ with $.Site.GetPage "museums" -}}
+  <a href="{{ .RelPermalink }}#{{ $city | urlize }}">{{ $city }}</a>
+  {{- else -}}
+  {{ $city }}
+  {{- end -}}
+  {{- end -}}
+</p>
+{{- $dates := partial "format-date.html" $ex -}}
+{{- $count := partial "countdown-precise.html" $ex -}}
+{{- if or $dates $count -}}
+<p>
+  {{- $dates -}}
+  {{- with $count -}}
+    {{- if $dates }} · {{ end -}}<strong>{{ . }}</strong>
+  {{- end -}}
+</p>
+{{- end -}}
+{{- with $ex.description -}}
+<p>{{ . }}</p>
+{{- end -}}
+{{- with $ex.url -}}
+<p><a href="{{ . }}">{{ i18n "official_page" }}</a></p>
+{{- end -}}
+{{- end -}}
+
+{{- partial "exhibition-info.html" $info -}}
+
+<section>
+  <h2>{{ i18n "share" }}</h2>
+  <p><a href="{{ .Permalink }}">{{ .Permalink }}</a></p>
+  <p>{{ i18n "share_hint" }}</p>
+</section>
+
+{{- if $ex -}}
+{{- $today := now.Format "2006-01-02" -}}
+{{- $sameMuseum := slice -}}
+{{- $sameMuseumUpcoming := slice -}}
+{{- $sameCity := slice -}}
+{{- $sameCityUpcoming := slice -}}
+{{- range hugo.Data.exhibitions.exhibitions -}}
+  {{- $row := . -}}
+  {{- $isSelf := false -}}
+  {{- if and $slug $row.slug -}}
+    {{- if eq $row.slug $slug -}}{{- $isSelf = true -}}{{- end -}}
+  {{- end -}}
+  {{- if not $isSelf -}}
+    {{- $upcoming := false -}}
+    {{- $current := false -}}
+    {{- if and $row.start (gt $row.start $today) -}}
+      {{- $upcoming = true -}}
+    {{- else if or (not $row.end) (ge $row.end $today) -}}
+      {{- $current = true -}}
+    {{- end -}}
+    {{- if or $upcoming $current -}}
+      {{- if eq $row.museum $museumName -}}
+        {{- if $upcoming -}}
+          {{- $sameMuseumUpcoming = $sameMuseumUpcoming | append $row -}}
+        {{- else -}}
+          {{- $sameMuseum = $sameMuseum | append $row -}}
+        {{- end -}}
+      {{- else if and $city (eq $row.city $city) -}}
+        {{- if $upcoming -}}
+          {{- $sameCityUpcoming = $sameCityUpcoming | append $row -}}
+        {{- else -}}
+          {{- $sameCity = $sameCity | append $row -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $sameMuseum = sort $sameMuseum "end" -}}
+{{- $sameMuseumUpcoming = sort $sameMuseumUpcoming "start" -}}
+{{- $sameCity = sort $sameCity "end" -}}
+{{- $sameCityUpcoming = sort $sameCityUpcoming "start" -}}
+{{- $relatedMuseum := $sameMuseum -}}
+{{- range $sameMuseumUpcoming -}}
+  {{- $relatedMuseum = $relatedMuseum | append . -}}
+{{- end -}}
+{{- $relatedCity := $sameCity -}}
+{{- range $sameCityUpcoming -}}
+  {{- $relatedCity = $relatedCity | append . -}}
+{{- end -}}
+{{- $relatedMuseum = first 5 $relatedMuseum -}}
+{{- $relatedCity = first 5 $relatedCity -}}
+{{- if $relatedMuseum -}}
+<section>
+  <h2>{{ i18n "related_same_museum" }}</h2>
+  {{- range $relatedMuseum -}}
+    {{- partial "exhibition.html" . -}}
+  {{- end -}}
+</section>
+{{- end -}}
+{{- if $relatedCity -}}
+<section>
+  <h2>{{ i18n "related_same_city" }}</h2>
+  {{- range $relatedCity -}}
+    {{- partial "exhibition.html" . -}}
+  {{- end -}}
+</section>
+{{- end -}}
+{{- end -}}
+
+{{- with index $info "verified" -}}
+{{- $verified := partial "format-date.html" (dict "value" .) -}}
+{{- with $verified -}}
+<p>{{ i18n "last_verified" }} {{ . }}</p>
+{{- end -}}
+{{- end -}}
+{{ end }}
