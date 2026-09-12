@@ -1,7 +1,7 @@
 ---
 title: Museums
-subtitle: Museums in this dataset, by region
-introduction: Each museum has a source page and short tracker notes.
+subtitle: Every museum in the list, by region
+introduction: Each museum links to its own site, with a short note.
 layout: museums
 translationKey: museums
 menu:

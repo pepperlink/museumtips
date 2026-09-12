@@ -1,29 +1,27 @@
 ---
 title: About
-subtitle: Feeds, how to subscribe, and how the data refreshes
+subtitle: Feeds, how to subscribe, and how it works
 translationKey: about
 menu:
   main:
     weight: 4
 ---
 
-Museumtips publishes **temporary exhibitions at Dutch museums** as a website and as iCalendar feeds. Permanent collections are out of scope. Shows in their final month get a countdown (`Last month` → `Last 3 weeks` → `Last 2 weeks` → `Last week`) plus a `Last day` marker.
+Museumtips collects temporary exhibitions at Dutch museums. Browse them here, or put them straight into your own calendar.
 
-Feeds refresh **every Thursday**. Do not edit the `.ics` files by hand — they are overwritten automatically.
+Exhibitions that are about to close get a label: `Last month`, `Last 3 weeks`, `Last 2 weeks`, `Last week`, and on the final day `Last day`, so you can see at a glance what not to miss.
 
 ## Subscribe
 
-| Feed | URL |
+| Feed | Link |
 |---|---|
 | All exhibitions | `https://museumtips.pepperlink.nl/museumtips.ics` |
 | Closing soon (≤ 30 days) | `https://museumtips.pepperlink.nl/closing-soon.ics` |
 
-**Apple Calendar.** Use the subscribe buttons on the home page (or File → New Calendar Subscription) and enter the same URL.
+**Apple Calendar:** use the buttons on the home page, or choose File → New Calendar Subscription and paste the link.
 
-**Google Calendar.** Other calendars → **+** → *From URL* → paste the link.
+**Google Calendar:** Other calendars → **+** → *From URL* → paste the link.
 
-## How the data works
+## How it works
 
-The site is a plain Hugo build. Exhibitions are read from `data/exhibitions.json`. A separate pipeline will later overwrite that file with the full dataset (same schema) and trigger a rebuild. This repository currently ships a small fixture so pages can be built without fetching live data.
-
-The `.ics` feeds stay at the same URLs. Existing subscribers do not need to change anything.
+The exhibitions come straight from the museum websites. We refresh the list every Thursday. Subscribed? Your calendar follows along automatically; the links never change.
