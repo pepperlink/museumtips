@@ -11,3 +11,11 @@ article h3::before {
   content: none !important;
   display: none !important;
 }
+
+/* Subtitle (h6) + intro flow on one line by design (`h6 + p { display: inline }`
+ * in classless.css), but the templates emit the two elements with no whitespace
+ * between them — words collided ("...museaElke week..."). Insert the missing
+ * separating space; keep the one-line flow intact. */
+h6 + p::before {
+  content: " ";
+}
