@@ -1,0 +1,13 @@
+/* Museumtips site overrides — loaded after classless.css.
+ * Keep classless.css unmodified (it mirrors the Huguette theme copy).
+ *
+ * Huguette auto-numbers h2/h3 inside <article> for document-style content
+ * ("0.1."-style counters). Exhibition and museum cards are <article><h3>
+ * too, so every card picked up a stray number. Cards are not numbered
+ * sections — suppress the pseudo-element numbering site-wide.
+ */
+article h2::before,
+article h3::before {
+  content: none !important;
+  display: none !important;
+}
