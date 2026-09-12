@@ -1168,6 +1168,8 @@
   "description_nl": "Kunstmuseum Den Haag is een modern paleis voor de kunsten in het gebouw van architect Berlage. Het museum beheert een collectie van meer dan 160.000 kunstwerken en toont een toonaangevend overzicht van moderne en hedendaagse beeldende kunst, mode en toegepaste kunst. Het is de thuishaven van Piet Mondriaan, met maar liefst 300 van zijn werken.",
   "description_en": "Kunstmuseum Den Haag is a modern palace for the arts in a magnificent Berlage building. It houses a leading collection of modern and contemporary visual arts, fashion and applied arts, in one of Europe's largest art museums. The museum is home to Piet Mondriaan, with as many as 300 of his artworks.",
   "address": "Stadhouderslaan 41, 2517 HV Den Haag",
+  "lat": 52.089724,
+  "lon": 4.280729,
   "hours_nl": "Dinsdag t/m zondag: 10.00 - 17.00 uur\nMaandag: gesloten\nFeestdagen 2026: 1 jan gesloten; 5 & 6 apr, 27 apr, 5 mei, 14 mei, 24 & 25 mei: 10.00 - 17.00 uur; 24 dec 10.00 - 16.00; 25 dec gesloten; 26 dec 10.00 - 17.00; 31 dec 10.00 - 16.00",
   "hours_en": "Tuesday to Sunday: 10.00 - 17.00\nMonday: closed\nPublic holidays 2026: 1 Jan closed; 5 & 6 Apr, 27 Apr, 5 May, 14 May, 24 & 25 May: 10.00 - 17.00; 24 Dec 10.00 - 16.00; 25 Dec closed; 26 Dec 10.00 - 17.00; 31 Dec 10.00 - 16.00",
   "transit_nl": "Tram 17 en bus 24 (HTM) vanaf Den Haag Centraal.\nTramhalte op ca. 50 m van de hoofdingang; bushalte van bus 24 op ca. 130 m.\nTram 17 en bus 24 zijn rolstoeltoegankelijk; scootmobiels en elektrische rolstoelen kunnen niet mee in de HTM-bussen.",
@@ -1266,6 +1268,10 @@
    {
     "fact": "pricing",
     "url": "https://www.kunstmuseum.nl/nl/bezoek"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/way/615840702"
    }
   ],
   "notes": [
@@ -1280,6 +1286,8 @@
   "description_nl": "Fotomuseum Den Haag is gewijd aan fotografie als kunstvorm en wil bezoekers ruimte en rust bieden om de gelaagdheid, betekenissen en context van fotografie te ontdekken. Het museum bevindt zich naast Kunstmuseum Den Haag en deelt het gebouw met KM21. De fotografiecollectie van Kunstmuseum Den Haag groeide zo sterk dat in 2002 een apart museum werd opgericht, dat inmiddels meerdere tentoonstellingen tegelijk toont.",
   "description_en": "Fotomuseum Den Haag is dedicated to photography as an art form and offers visitors space for quiet reflection on the layers, meanings and context of photography. It sits next to Kunstmuseum Den Haag and shares its building with KM21. The Kunstmuseum's photography collection grew so substantially that a separate museum was founded in 2002, since expanded to show several exhibitions simultaneously.",
   "address": "Stadhouderslaan 43, 2517 HV Den Haag",
+  "lat": 52.090131,
+  "lon": 4.279409,
   "hours_nl": "Fotomuseum Den Haag/KM21: dinsdag t/m zondag 11.00 - 17.00 uur\nMaandag: gesloten\nFeestdagen 2026: 1 jan gesloten; 25 dec gesloten; 24 & 31 dec 11.00 - 16.00; 26 dec en overige feestdagen 11.00 - 17.00\nRestaurant Gember: dinsdag t/m zondag 10.00 - 18.00 uur",
   "hours_en": "Fotomuseum Den Haag/KM21: Tuesday to Sunday 11.00 - 17.00\nMonday: closed\nPublic holidays 2026: 1 Jan closed; 25 Dec closed; 24 & 31 Dec 11.00 - 16.00; 26 Dec and other holidays 11.00 - 17.00\nRestaurant Gember: Tuesday to Sunday 10.00 - 18.00",
   "transit_nl": "Bus 24 en tram 17 vanaf Den Haag Centraal rijden rechtstreeks naar het museum; vanaf Station Hollands Spoor ook tram 17.\nTramhalte ca. 50 m van de hoofdingang; bushalte ca. 215 m.\nTram 17 en bus 24 zijn rolstoeltoegankelijk; scootmobiels en elektrische rolstoelen kunnen niet mee in de HTM-bussen.",
@@ -1378,6 +1386,10 @@
    {
     "fact": "pricing",
     "url": "https://www.fotomuseumdenhaag.nl/nl/plan-je-bezoek"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.fotomuseumdenhaag.nl/nl/plan-je-bezoek"
    }
   ],
   "notes": [
@@ -1391,6 +1403,8 @@
   "description_nl": "Museum Voorlinden is een museum voor moderne en hedendaagse kunst op landgoed Voorlinden in Wassenaar. Het museum verbindt mensen, kunst, natuur en architectuur; het gebouw van Kraaijvanger Architects is in alle opzichten dienend aan de kunst. De collectie moderne en hedendaagse kunst wordt verzameld, gepresenteerd, bewaard, beheerd, geconserveerd, gerestaureerd en gepubliceerd, in en buiten het eigen gebouw. Voorlinden wil een oase van rust zijn waar mensen zich kunnen verwonderen en laten verrassen.",
   "description_en": "Museum Voorlinden is a museum for modern and contemporary art on the Voorlinden estate in Wassenaar. The museum connects people, art, nature and architecture; its building by Kraaijvanger Architects is in every respect subservient to the art. The museum collects, presents, keeps, manages, conserves, restores and publishes modern and contemporary art, both on its own premises and elsewhere. Voorlinden aims to be an oasis of tranquillity where people can marvel and be surprised.",
   "address": "Buurtweg 90, 2244 AG Wassenaar",
+  "lat": 52.119285,
+  "lon": 4.347218,
   "hours_nl": "Elke dag geopend, 7 dagen per week en 365 dagen per jaar: 11.00 - 17.00 uur.\nOok tijdens feestdagen is het museum open.",
   "hours_en": "Open every day, 7 days a week and 365 days a year: 11 am - 5 pm.\nThe museum is also open during public holidays.",
   "transit_nl": "Bus 43 of 44 vanaf NS-station Den Haag Centraal of Leiden Centraal naar halte Wittenburgerweg, Wassenaar.\nVanaf de bushalte is het circa 15 minuten wandelen naar Voorlinden (route aangegeven met bordjes).\nOV-fiets mogelijk; vanaf Den Haag Centraal en Den Haag Laan van NOI circa 25 minuten fietsen.",
@@ -1461,6 +1475,10 @@
    {
     "fact": "pricing",
     "url": "https://www.voorlinden.nl/bezoek/plan-je-bezoek/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/5245315292"
    }
   ],
   "notes": [
@@ -1476,6 +1494,8 @@
   "description_nl": "Singer Laren is een particulier cultureel erfgoed in Laren, bestaand uit een museum, theater, villa 'De Wilde Zwanen' en een beeldentuin. Het Amerikaanse echtpaar Anna en William Singer bouwde begin twintigste eeuw de villa in het toenmalige 'kunstenaarsdorp' Laren en verzamelde een omvangrijke kunstcollectie. Na het overlijden van William liet Anna een museum en theater aan de villa bouwen, die in 1956 voor het publiek openden. Sinds het najaar van 2017 beschikt Singer Laren over een nieuw theater; in 2021 opende de museumvleugel voor de Collectie Nardinc.",
   "description_en": "Singer Laren is a unique private piece of cultural heritage in Laren, consisting of a museum, the villa 'De Wilde Zwanen', a theatre and a sculpture garden. American couple Anna and William Singer built their villa in the artists' village of Laren in the early twentieth century and amassed an impressive art collection. After William's death, Anna had a museum and theatre built onto the villa, opened to the public in 1956. A new theatre opened in 2017, followed by a museum wing for the Nardinc Collection in 2021.",
   "address": "Oude Drift 1, 1251 BS Laren",
+  "lat": 52.257865,
+  "lon": 5.212444,
   "hours_nl": "Museum: dinsdag t/m zondag 10.00 - 17.00 uur\nBeeldentuin, horeca en Singer Shop: dinsdag t/m zondag 9.30 - 17.30 uur\nKassa: dinsdag t/m zondag 9.30 - 17.00 uur\nTheater: matinees 16.00 uur, avondvoorstellingen 20.15 uur (deuren 19.15 uur)\nFeestdagen: geopend, behalve Nieuwjaarsdag, Koningsdag en Eerste Kerstdag (Pasen en Pinksteren ook op maandag open)",
   "hours_en": "Museum: Tuesday to Sunday 10 am - 5 pm\nSculpture Garden, café and Singer Shop: Monday to Sunday 9.30 am - 5.30 pm (EN page; NL page states Tue-Sun)\nBox office: Tuesday to Sunday 9.30 am - 5 pm\nTheatre: matinees 4 pm, evening performances 8.15 pm (doors 7.15 pm)\nPublic holidays: open, except New Year's Day, King's Day and Christmas Day (Easter and Pentecost Mondays also open)",
   "transit_nl": "Met de trein naar NS-station Hilversum, Naarden-Bussum of Bussum-Zuid; daarna bus of OV-fiets.\nBus 109 vanaf station Naarden-Bussum (richting Hilversum): halte Singermuseum, direct voor de deur; rit ca. 20 min, 1x per uur, 7 dagen per week.\nBus 108 vanaf station Hilversum (richting Huizen): halte Brink, daarna ca. 5 min lopen; totale reistijd ca. 17 min.\nR-netlijn 321 vanaf station Amsterdam Zuid naar halte Laren, Singermuseum; ca. 45 min, werkdagen elke 30 min.\nOV-fiets: vanaf de NS-stations ca. 15-20 min fietsen.",
@@ -1567,6 +1587,10 @@
    {
     "fact": "pricing",
     "url": "https://www.singerlaren.nl/nl/openingstijden-en-entreeprijzen-ntvf"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.singerlaren.nl/nl/pQPNWcb/met-eigen-vervoer"
    }
   ],
   "notes": [
@@ -1581,6 +1605,8 @@
   "description_nl": "Teylers Museum in Haarlem is het oudste museum van Nederland. Het is ontstaan uit de idealen van Pieter Teyler van der Hulst (1702-1778); de Ovale Zaal opende in 1784 voor het publiek. In het historische gebouw komen kunst en wetenschap samen; de collectie omvat onder meer tekeningen, schilderijen, wetenschappelijke instrumenten, fossielen en boeken. Nieuwsgierigheid en kritisch denken staan centraal in het museum.",
   "description_en": "Teylers Museum in Haarlem is the oldest museum in the Netherlands. It originated from the ideals of Pieter Teyler van der Hulst (1702-1778); the Oval Room opened to the public in 1784. In its historic building, art and science meet; the collections include drawings, paintings, scientific instruments, fossils and books. Curiosity and critical thought are central to the museum's identity.",
   "address": "Spaarne 16, 2011 CH Haarlem",
+  "lat": 52.380351,
+  "lon": 4.640345,
   "hours_nl": "Dinsdag t/m zondag: 10.00 - 17.00 uur\nMaandag: gesloten (in 2026 extra open op bepaalde maandagen, o.a. in schoolvakanties)\nFeestdagen: 10.00 - 17.00 uur; 1 januari en 25 december gesloten\nAfwijkende tijden 2026: 5 dec, 24 dec en 31 dec 10.00 - 16.00 uur\nLet op: weekend 12 & 13 september 2026 gratis toegang (VriendenLoterij Open Monumentendagen)",
   "hours_en": "Tuesday to Sunday: 10:00 - 17:00\nMonday: closed (extra Monday openings in 2026, e.g. during school holidays)\nPublic holidays: 10:00 - 17:00; 1 January and 25 December closed\nDeviating times 2026: 5 Dec, 24 Dec and 31 Dec 10:00 - 16:00\nPlease note: free admission on the weekend of 12 & 13 September 2026 (VriendenLoterij Open Monument Days)",
   "transit_nl": "Het museum is goed bereikbaar met het openbaar vervoer en ligt op loopafstand (circa 13 minuten) van het treinstation Haarlem.\nMet de bus vanaf Haarlem Centraal: lijn 3 (richting Schalkwijk) naar halte Turfmarkt, de dichtstbijzijnde halte; daarna ongeveer 6 minuten lopen.",
@@ -1662,6 +1688,10 @@
    {
     "fact": "pricing",
     "url": "https://teylersmuseum.nl/nl/plan-je-bezoek"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://teylersmuseum.nl/nl/plan-je-bezoek"
    }
   ],
   "notes": [
@@ -1675,6 +1705,8 @@
   "description_nl": "Het Centraal Museum is het oudste stedelijke museum van Nederland. Het museum is gevestigd in een voormalig middeleeuws klooster aan de Agnietenstraat in Utrecht en toont kunst, design, mode en stadsgeschiedenis.",
   "description_en": "The Centraal Museum is the oldest municipal museum in the Netherlands. The museum is housed in a former medieval monastery at Agnietenstraat in Utrecht and shows art, design, fashion and city history.",
   "address": "Agnietenstraat 1, 3512 XA Utrecht",
+  "lat": 52.083612,
+  "lon": 5.125664,
   "hours_nl": "Dinsdag t/m zondag 11.00–17.00 uur.\nFeestdagen: Koningsdag (27 april) gesloten; Bevrijdingsdag (5 mei) open; Eerste en Tweede Paasdag open; Hemelvaartsdag open; Eerste en Tweede Pinksterdag open; Eerste Kerstdag (25 december) gesloten; Tweede Kerstdag (26 december) open; Oudejaarsdag (31 december) open; Nieuwjaarsdag (1 januari) gesloten.",
   "hours_en": "Tuesday to Sunday 11 a.m.–5 p.m.\nPublic holidays: King's Day (27 April) closed; Liberation Day (5 May) open; Easter Sunday and Easter Monday open; Ascension Day open; Whit Sunday and Whit Monday open; Christmas Day (25 December) closed; Boxing Day (26 December) open; New Year's Eve (31 December) open; New Year's Day (1 January) closed.",
   "transit_nl": "Bus 2 vanaf station Utrecht Centraal richting Museumkwartier.\nOok mogelijk: trein naar station Utrecht Vaartsche Rijn, circa 10 minuten lopen.\nActuele info: 9292.nl.",
@@ -1779,6 +1811,10 @@
    {
     "fact": "pricing",
     "url": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.centraalmuseum.nl/nl/plan-je-bezoek/adres-en-route"
    }
   ],
   "notes": [
@@ -1792,6 +1828,8 @@
   "description_nl": "Museum de Fundatie is een van de belangrijkste musea in het oosten van Nederland. Het museum brengt een rijke geschiedenis samen met het hier en nu en beheert twee collecties: de collectie van Dirk Hannema en die van de provincie Overijssel. De hoofdlocatie is in het centrum van Zwolle; de tweede locatie is Kasteel het Nijenhuis in Heino.",
   "description_en": "Museum de Fundatie is one of the leading museums in the east of the Netherlands. The museum brings a rich history together with the world of today and manages two collections: the collection of Dirk Hannema and the collection of the Province of Overijssel. Its main location is in the centre of Zwolle; the second location is Kasteel het Nijenhuis in Heino.",
   "address": "Blijmarkt 20, 8011 NE Zwolle",
+  "lat": 52.510264,
+  "lon": 6.091563,
   "hours_nl": "Maandag gesloten; dinsdag t/m zondag 11.00–17.00 uur.\nUitzondering: locatie Zwolle 21 t/m 25 september 2026 gesloten wegens ombouw; 26 en 27 september alleen de Fundatie Collectie zichtbaar, gratis toegang.\nSilent Sunday: laatste zondag van de maand 10.00–11.00 uur.\nFundatie Friday: eerste vrijdag van de maand 17.00–21.00 uur.",
   "hours_en": "Closed on Mondays; Tuesday to Sunday 11:00–17:00.\nException: Zwolle location closed from 21 to 25 September 2026 due to renovation; on 26 and 27 September only the Fundatie Collection is visible, free admission.\nSilent Sunday: last Sunday of the month, 10:00–11:00.\nFundatie Friday: first Friday of the month, 17:00–21:00.",
   "transit_nl": "Trein: station Zwolle, circa 12 minuten lopen naar het museum.",
@@ -1886,6 +1924,10 @@
    {
     "fact": "pricing",
     "url": "https://museumdefundatie.nl/en/visit-museum/zwolle"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle"
    }
   ],
   "notes": [
@@ -1899,6 +1941,8 @@
   "description_nl": "Museum Arnhem ligt op de hoge stuwwal met uitzicht over de Rijn, in een van de mooist gelegen museumgebouwen van Nederland. De collectie is breed samengesteld, met hedendaagse kunst, magisch- en neorealisme, mode en sieraden. De gratis toegankelijke beeldentuin is ook zonder museumticket te bezoeken.",
   "description_en": "Museum Arnhem is located on a high lateral moraine with a magnificent view of the Rhine, in one of the most beautifully situated museum buildings in the Netherlands. The collection is very broad, including contemporary art, magic realism and neorealism, fashion and jewellery. The freely accessible sculpture garden can be visited without a museum ticket.",
   "address": "Utrechtseweg 87, 6812 AA Arnhem",
+  "lat": 51.985492,
+  "lon": 5.8922,
   "hours_nl": "Dinsdag t/m zondag 11.00–17.00 uur; maandag gesloten.\nCafé Pierre: 10.30–17.00 uur.\nFeestdagen: Nieuwjaarsdag 1 januari gesloten; Goede vrijdag open; Eerste en Tweede Paasdag open; Koningsdag 27 april gesloten; Bevrijdingsdag 5 mei gesloten; Hemelvaartsdag open; Eerste en Tweede Pinksterdag open; Eerste Kerstdag 25 december gesloten; Tweede Kerstdag 26 december open; maandag 28 december open; Oudejaarsdag 31 december open.",
   "hours_en": "Tuesday to Sunday 11 AM–5 PM; closed on Monday.\nCafé Pierre: 10.30 AM–5 PM.\nPublic holidays: New Year's Day 1 January closed; Good Friday open; Easter Sunday and Easter Monday open; King's Day 27 April closed; Liberation Day 5 May closed; Ascension Day open; Whit Sunday and Whit Monday open; Christmas Day 25 December closed; Boxing Day 26 December open; Monday 28 December open; New Year's Eve 31 December open.",
   "transit_nl": "Trein: vanaf station Arnhem Centraal circa 10 minuten lopen.\nBus: lijnen 103 en 303 (richting Ede via Wageningen), halte Museum Arnhem (vlak voor het museum).\nOV-fiets huren op Arnhem Centraal kan ook (minder dan 5 minuten fietsen); fietsenstalling naast de ingang.",
@@ -1999,6 +2043,10 @@
    {
     "fact": "pricing",
     "url": "https://www.museumarnhem.nl/en/plan-your-visit"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/5792928794"
    }
   ],
   "notes": [
@@ -2011,6 +2059,8 @@
   "description_nl": "Het Kröller-Müller Museum ligt midden in Het Nationale Park De Hoge Veluwe, bij Otterlo. Van Goghs werk hangt sinds de opening van het museum in 1938 in het hart van het gebouw (Van Gogh-galerij) en neemt een bijzondere plaats in de verzameling van Anton en Helene Kröller-Müller, de oprichters van het museum. In de beeldentuin staan ruim tweehonderd moderne beelden van kunstenaars van over de hele wereld.",
   "description_en": "The Kröller-Müller Museum is located in the heart of De Hoge Veluwe National Park, near Otterlo. Since the museum opened in 1938, Vincent van Gogh's artworks have been on display at the heart of the building, the Van Gogh Gallery, and they hold a special place in the collection of Anton and Helene Kröller-Müller, the founders of the museum. The sculpture garden features over two hundred modern sculptures by artists from around the world.",
   "address": "Houtkampweg 6, 6731 AW Otterlo (in Het Nationale Park De Hoge Veluwe)",
+  "lat": 52.096224,
+  "lon": 5.817664,
   "hours_nl": "Museum en beeldentuin: dinsdag t/m zondag 10.00–17.00 uur; feestdagen 10.00–17.00 uur; 1 januari gesloten.\nMaandag alleen open in de zomerperiode (6 juli t/m 24 augustus 2026); dan elke dag open van 10.00 tot 17.00 uur.\nFeestdagen: Pasen, Hemelvaartsdag, Pinksteren, Kerst 25 en 26 december, Koningsdag 27 april, Bevrijdingsdag 5 mei.",
   "hours_en": "Museum and sculpture garden: Tuesday to Sunday 10.00–17.00 hrs; public holidays 10.00–17.00 hrs; closed on 1 January.\nMonday open only in the summer period (6 July to 24 August 2026); every day open from 10.00 to 17.00 hrs during that period.\nPublic holidays: Easter, Ascension Day, Pentecost, Christmas 25 and 26 December, King's Day 27 April, Liberation Day 5 May.",
   "transit_nl": "Bus vanaf station Apeldoorn, Ede-Wageningen of Arnhem naar Otterlo; daar overstappen op de bus naar het museum (stopt bij de entree van het park; toon of koop daar je parkticket).\nVanaf Ede-Wageningen: in de zomer (za en zo, 28 juni t/m 27 september) rijdt bus 106 rechtstreeks naar het museum; ma t/m vr: bus 108 (richting Apeldoorn) → halte Otterlo, rotonde, dan bus 106 (richting De Hoge Veluwe Nationaal Park) → halte Kröller-Müller Museum.\nVanaf Arnhem Centraal: bus 105 (richting Barneveld) → halte Otterlo, rotonde, dan bus 106 → halte Kröller-Müller Museum.",
@@ -2112,6 +2162,10 @@
    {
     "fact": "pricing",
     "url": "https://krollermuller.nl/en/visit/tickets-and-prices"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2768150104"
    }
   ],
   "notes": [
@@ -2125,6 +2179,8 @@
   "description_nl": "Museum Kranenburgh is een museum voor moderne en hedendaagse kunst in het groene kunstenaarsdorp Bergen. Veel kunstenaars, vanaf circa 1900 tot nu, voelen zich aangetrokken tot en geïnspireerd door het landschap van polders, duinen, bos en strand in en rond Bergen. Het museum beheert een omvangrijke collectie kunst van 1900 tot heden, met als kern de kunst van de Bergense School.",
   "description_en": "Museum Kranenburgh is a museum for modern and contemporary art in the green artist village of Bergen. Many artists, from around 1900 to the present, feel attracted and inspired by the landscape of the polder, the dunes, the forest and the beach in and around Bergen. The museum maintains an extensive collection of art from 1900 to the present, the core of which is the art of the Bergen School.",
   "address": "Hoflaan 26, 1861 CR Bergen NH",
+  "lat": 52.668233,
+  "lon": 4.695258,
   "hours_nl": "Dinsdag t/m zondag 10.30–17.00 uur.\nExtra open: Eerste en Tweede Paasdag (5 en 6 april 2026); Bevrijdingsdag (5 mei 2026); Eerste en Tweede Pinksterdag (24 en 25 mei 2026); maandag tijdens Kunst10daagse Bergen (19 oktober 2026); Tweede Kerstdag (26 december 2026).\nGesloten: Nieuwjaarsdag (1 januari 2027); Koningsdag (27 april 2026); 11 t/m 23 mei (opbouw tentoonstellingen); Hemelvaartsdag (14 mei 2026); 2 t/m 14 november (opbouw tentoonstellingen); Eerste Kerstdag (25 december 2026).\nSluit om 16 uur op Pakjesavond (5 december 2026), Kerstavond (24 december 2026) en Oudjaarsdag (31 december 2026).",
   "hours_en": "Tuesday to Sunday 10.30–17.00 hrs.\nExtra opening hours: Easter Sunday and Easter Monday (5 and 6 April 2026); Liberation Day (5 May 2026); Whit Sunday and Whit Monday (24 and 25 May 2026); Monday during the Kunst10daagse Bergen (19 October 2026); Boxing Day (26 December 2026).\nClosed: New Year's Day (1 January 2027); King's Day (27 April 2026); 11 to 23 May (exhibition setup); Ascension Day (14 May 2026); 2 to 14 November (exhibition setup); Christmas Day (25 December 2026).\nCloses at 16:00 on Sinterklaas Eve (5 December 2026), Christmas Eve (24 December 2026) and New Year's Eve (31 December 2026).",
   "transit_nl": "Vanaf station Alkmaar buslijn 166 naar Bergen, halte Plein.",
@@ -2222,6 +2278,10 @@
    {
     "fact": "pricing",
     "url": "https://kranenburgh.nl/en/visit/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://kranenburgh.nl/bezoek/"
    }
   ],
   "notes": [
