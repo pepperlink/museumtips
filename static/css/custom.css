@@ -19,3 +19,16 @@ article h3::before {
 h6 + p::before {
   content: " ";
 }
+
+/* In-content navs must stay in the document flow. Huguette's navbar rule
+ * (`body>nav, header nav` in classless.css) positions them absolutely at the
+ * top of the page (z-index 41) — which lifts the museums city jump list, the
+ * calendar month jump nav and the month prev/next nav OUT of the flow and
+ * covers the page title/intro and the start of the content. The two header
+ * menu bars keep the floating design; content navs go back in flow. */
+body>nav.contentnav,
+header nav.contentnav {
+  position: static;
+  z-index: auto;
+  box-shadow: none;
+}

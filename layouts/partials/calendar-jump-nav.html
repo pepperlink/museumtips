@@ -1,5 +1,5 @@
 {{- $keys := partial "calendar-month-keys.html" .page -}}
-<nav>
+<nav class="contentnav">
   <p>{{ i18n "jump_to_month" }}</p>
   {{- if gt (len $keys) 24 }}
     {{- $prevYear := 0 }}
