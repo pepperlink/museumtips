@@ -76,6 +76,10 @@
 
 {{- partial "exhibition-info.html" $info -}}
 
+{{- if and $ex $slug (or $ex.start $ex.end) -}}
+<p><a href="{{ printf "../%s.ics" $slug }}">{{ i18n "add_to_calendar" }}</a></p>
+{{- end -}}
+
 <section>
   <h2>{{ i18n "share" }}</h2>
   <p><a href="{{ .Permalink }}">{{ .Permalink }}</a></p>

@@ -5,6 +5,12 @@
   "build" (dict "render" "never" "list" "never")
 -}}
 {{- $.AddPage $section -}}
+{{- $icsSection := dict
+  "kind" "section"
+  "path" "exhibition-ics"
+  "build" (dict "render" "never" "list" "never")
+-}}
+{{- $.AddPage $icsSection -}}
 {{- range hugo.Data.exhibitions.exhibitions -}}
   {{- $ex := . -}}
   {{- with $ex.slug -}}
@@ -33,6 +39,26 @@
         "params" (dict "slug" $slug)
       -}}
       {{- $.AddPage $page -}}
+      {{- if or $ex.start $ex.end -}}
+        {{- $icsUrl := "" -}}
+        {{- if eq $.Site.Language.Lang "nl" -}}
+          {{- $icsUrl = printf "museums/%s/tentoonstelling/%s.ics" $museumSlug $slug -}}
+        {{- else -}}
+          {{- $icsUrl = printf "museums/%s/exhibition/%s.ics" $museumSlug $slug -}}
+        {{- end -}}
+        {{- $icsPage := dict
+          "kind" "page"
+          "path" (printf "exhibition-ics/%s" $slug)
+          "url" $icsUrl
+          "title" $ex.title
+          "layout" "exhibition-ics"
+          "type" "exhibition-ics"
+          "outputs" (slice "icsfile")
+          "sitemap" (dict "disable" true)
+          "params" (dict "slug" $slug)
+        -}}
+        {{- $.AddPage $icsPage -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

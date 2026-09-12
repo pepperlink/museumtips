@@ -19,6 +19,13 @@ enableRobotsTXT = true
       source = 'archetypes'
       target = 'archetypes'
 
+# Per-exhibition one-event ICS (ST-B6 / D11). Applied only via companion
+# pages' `outputs` — do not add a global [outputs] table (leaks WARNs).
+[outputFormats.icsfile]
+  mediaType = 'text/calendar'
+  isPlainText = true
+  baseName = 'index'
+
 # classless.css is copied into static/css (Huguette README).
 [params]
   css = true
