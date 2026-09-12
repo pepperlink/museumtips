@@ -14,7 +14,7 @@ Multilingual (NL default, English under `/en/`) Hugo static site — plus two we
 - `i18n/nl.toml`, `i18n/en.toml` — UI strings (add new strings to both).
 - `data/exhibitions.json` — **generated** by the museum tracker pipeline (schema 1: `compiled` date, `museums[]`, `exhibitions[]` with `title/museum/city/start/end/description/url`). Never hand-edit.
 - `museumtips.ics`, `closing-soon.ics` (repo root) — **generated** weekly; these URLs are a public API for calendar subscribers. Never hand-edit.
-- `static/` — classless.css, CNAME, .nojekyll, and feed copies used by the Hugo build; the pipeline writes root + `static/` feed copies together in the same commit.
+- `static/` — classless.css (mirrors the theme copy; keep in sync), `custom.css` (site-level overrides, e.g. card heading numbering), CNAME, `.nojekyll`, and feed copies used by the Hugo build; the pipeline writes root + `static/` feed copies together in the same commit.
 - `themes/huguette` — git submodule → <https://github.com/cathelijne/hugo-theme-huguette>. Clone with `--recurse-submodules`; do not vendor or edit it here.
 - `docs/site-plan.md` — the site plan / roadmap (stack decision record, data flow, hosting sketch).
 
@@ -43,6 +43,7 @@ Weekly automation (Hermes cron): tracker + digest Thu 10:05 UTC; site rebuild �
 - Branches: `diane/...` or `cursor/...`. **Never merge** — the owner merges. Never push to `main` or `gh-pages` except via the publish scripts.
 - PR body: plain-language What / Why / Verification.
 - Site copy: every content change touches **both** NL and EN; UI strings go in `i18n/*.toml`, not inline.
+- Copy punctuation: use the literal typographic apostrophe `’` (U+2019) in site copy (`content/`, `i18n/`). Hugo's Goldmark typographer (on by default in v0.166) rewrites markdown **bodies** (`'` → `&rsquo;`) but front-matter and i18n values render raw — a straight `'` there stays straight and looks inconsistent.
 - Keep it a plain Hugo static build: no Node toolchain, no external services, minimal (ideally zero) JavaScript — the theme is classless CSS.
 
 ## Constraints (do not)

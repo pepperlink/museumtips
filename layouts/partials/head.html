@@ -4,6 +4,7 @@
   {{ with .Site.Params.css }}
   <link rel="stylesheet" type="text/css" href="{{ "css/classless.css" | relURL }}">
   {{ end }}
+  <link rel="stylesheet" type="text/css" href="{{ "css/custom.css" | relURL }}">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}">

@@ -21,7 +21,7 @@ Tentoonstellingen die bijna sluiten, krijgen een label: `Laatste maand`, `Laatst
 
 **Apple Agenda:** tik op de knoppen op de homepage, of kies Archief → Nieuw agenda-abonnement en plak de link.
 
-**Google Agenda:** Andere agenda's → **+** → *Via URL* → plak de link.
+**Google Agenda:** Andere agenda’s → **+** → *Via URL* → plak de link.
 
 ## Hoe het werkt
 
