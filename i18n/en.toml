@@ -16,6 +16,15 @@ other = "Language"
 [nearest_endings]
 other = "Closing soon"
 
+[opening_soon]
+other = "Opening soon"
+
+[opens_soon]
+other = "Opens this week"
+
+[opens_later]
+other = "Opens this month"
+
 [view_calendar]
 other = "See everything"
 
