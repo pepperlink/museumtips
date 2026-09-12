@@ -40,20 +40,7 @@
 {{ if and (not $monthly) (not $open) (not $ended) }}
   <p>{{ i18n "no_exhibitions" }}</p>
 {{ else }}
-  <nav>
-    <p>{{ i18n "jump_to_month" }}</p>
-    <ul>
-      {{ range $monthKeys }}
-        {{ $key := . }}
-        {{ $monthTime := time.AsTime (printf "%s-01" $key) }}
-        {{ $month := i18n (printf "month_%d" (int ($monthTime.Format "1"))) }}
-        <li><a href="#{{ $key }}">{{ $month }} {{ $monthTime.Year }}</a></li>
-      {{ end }}
-      {{ if $open }}
-        <li><a href="#no-end-date">{{ i18n "no_end_date" }}</a></li>
-      {{ end }}
-    </ul>
-  </nav>
+  {{ partial "calendar-jump-nav.html" (dict "page" . "showOpen" $open) }}
 
   {{ range $monthKeys }}
     {{ $key := . }}

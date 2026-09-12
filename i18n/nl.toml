@@ -76,6 +76,12 @@ other = "Nu in dit museum"
 [jump_to_month]
 other = "Spring naar maand"
 
+[exhibitions_in_month]
+other = "Tentoonstellingen in {{ .Month }} {{ .Year }}"
+
+[back_to_calendar]
+other = "Terug naar de kalender"
+
 [no_exhibitions]
 other = "Geen tentoonstellingen in de huidige dataset."
 

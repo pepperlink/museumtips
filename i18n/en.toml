@@ -76,6 +76,12 @@ other = "On now at this museum"
 [jump_to_month]
 other = "Jump to month"
 
+[exhibitions_in_month]
+other = "Exhibitions in {{ .Month }} {{ .Year }}"
+
+[back_to_calendar]
+other = "Back to the calendar"
+
 [no_exhibitions]
 other = "No exhibitions in the current dataset."
 
