@@ -52,6 +52,35 @@ English at `/en/`, `/en/calendar/`, `/en/calendar/YYYY-MM/`, `/en/museums/` (gro
 city), `/en/museums/<museum-slug>/`, `/en/museums/<museum-slug>/exhibition/<slug>/` (with
 `/en/museums/<museum-slug>/exhibition/<slug>.ics`), `/en/about/`.
 
+### Museum maps (phase 3c exception)
+
+Map-ready museum **detail** pages (`/museums/<slug>/`, `/en/museums/<slug>/`) and the
+**museums index** (`/museums/`, `/en/museums/`) when at least one museum has coordinates
+may load a small Leaflet map. Every other page stays **no-JavaScript** (calendar, home,
+about, exhibition pages).
+
+The only JavaScript in the repo is exactly two files, both same-origin and deferred:
+
+| File | Role |
+|---|---|
+| `static/vendor/leaflet/1.9.4/leaflet.js` | Vendored Leaflet **1.9.4** |
+| `static/js/museum-map.js` | Site initializer (detail + index overview) |
+
+Leaflet is copied from the official release archive
+(`https://github.com/Leaflet/Leaflet/releases/download/v1.9.4/leaflet.zip`; SHA-256
+`aaec1d5c3239a613a53e996087629aca1483cb2f0438b11b8a335c6cede4c16b`) into
+`static/vendor/leaflet/1.9.4/` (runtime CSS, JS, marker images, and upstream `LICENSE` only).
+
+Basemap tiles come from **OpenStreetMap Standard**
+(`https://tile.openstreetmap.org/{z}/{x}/{y}.png`). The map shows the required
+`© OpenStreetMap contributors` attribution (linked to
+<https://www.openstreetmap.org/copyright>). This is a best-effort, no-SLA public tile
+service; the page referrer is sent to OSM on tile requests. If tiles are unavailable, the
+curated street address on the page remains the fallback.
+
+Museum coordinates live in curated `data/museums_info.json` (`lat`/`lon` per museum slug);
+the weekly pipeline does not write them.
+
 ### Build
 
 ```sh

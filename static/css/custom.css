@@ -32,3 +32,49 @@ header nav.contentnav {
   z-index: auto;
   box-shadow: none;
 }
+
+/* Museum maps (Leaflet). Height/max-width per owner Q4. Classless sets
+ * `img, svg { max-width: 100%; object-fit: cover }`, which would squash
+ * tiles and marker icons — restore Leaflet’s own sizing inside the map. */
+#map {
+  height: 22rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.leaflet-container img {
+  max-width: none;
+  object-fit: unset;
+  vertical-align: baseline;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Calendar closing urgency heat (§3c.4). Wrapper carries padding/box styling
+ * because exhibition cards are bare <article> elements with no card box. */
+.closing-heat-1,
+.closing-heat-2,
+.closing-heat-3,
+.closing-heat-4 {
+  color: #172554;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 4px;
+}
+
+.closing-heat-1 { background-color: #eff6ff; }
+.closing-heat-2 { background-color: #dbeafe; }
+.closing-heat-3 { background-color: #bfdbfe; }
+.closing-heat-4 { background-color: #60a5fa; }
+
+.closing-heat-1 a,
+.closing-heat-2 a,
+.closing-heat-3 a,
+.closing-heat-4 a {
+  color: #172554;
+  text-decoration: underline;
+}

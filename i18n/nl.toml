@@ -282,3 +282,6 @@ other = "Sluit morgen"
 
 [closes_in]
 other = "Sluit over %d dagen"
+
+[map_unavailable]
+other = "Kaart niet beschikbaar; gebruik het adres hierboven."

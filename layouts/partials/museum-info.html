@@ -1,23 +1,34 @@
+{{- $page := .page -}}
+{{- $museum := .museum -}}
+{{- $info := .info -}}
 {{- $isEN := eq site.Language.Lang "en" -}}
-{{- $address := .address -}}
-{{- $hours := .hours_nl -}}
-{{- $transit := .transit_nl -}}
-{{- $parking := .parking_nl -}}
-{{- $access := .access_nl -}}
-{{- $pricing := .pricing_nl -}}
+{{- $address := $info.address -}}
+{{- $hours := $info.hours_nl -}}
+{{- $transit := $info.transit_nl -}}
+{{- $parking := $info.parking_nl -}}
+{{- $access := $info.access_nl -}}
+{{- $pricing := $info.pricing_nl -}}
 {{- if $isEN -}}
-  {{- $hours = .hours_en -}}
-  {{- $transit = .transit_en -}}
-  {{- $parking = .parking_en -}}
-  {{- $access = .access_en -}}
-  {{- $pricing = .pricing_en -}}
+  {{- $hours = $info.hours_en -}}
+  {{- $transit = $info.transit_en -}}
+  {{- $parking = $info.parking_en -}}
+  {{- $access = $info.access_en -}}
+  {{- $pricing = $info.pricing_en -}}
 {{- end -}}
+{{- $mapReady := partial "museum-map-ready.html" (dict "page" $page "info" $info) -}}
+{{- $museumName := "" -}}
+{{- with $museum -}}{{- $museumName = .name -}}{{- end -}}
 
 {{- with $address -}}
 <section id="location">
   <h2>{{ i18n "location" }}</h2>
   <p>{{ . }}</p>
-  <div id="map" hidden></div>
+  {{- if $mapReady -}}
+  <div id="map" hidden data-lat="{{ index $info "lat" }}" data-lon="{{ index $info "lon" }}" data-name="{{ $museumName }}" data-address="{{ . }}"></div>
+  <p id="map-unavailable" hidden>{{ i18n "map_unavailable" }}</p>
+  {{- else -}}
+  <p id="map-unavailable">{{ i18n "map_unavailable" }}</p>
+  {{- end -}}
 </section>
 {{- end -}}
 
@@ -49,7 +60,7 @@
 </section>
 {{- end -}}
 
-{{- with .cards -}}
+{{- with $info.cards -}}
 <section>
   <h2>{{ i18n "entrance_cards" }}</h2>
   <ul>

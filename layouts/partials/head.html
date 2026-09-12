@@ -1,9 +1,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{- $mapReady := false -}}
+  {{- if eq .Type "museum-page" -}}
+    {{- $info := dict -}}
+    {{- with index hugo.Data.museums_info .Params.slug -}}
+      {{- $info = . -}}
+    {{- end -}}
+    {{- $mapReady = partial "museum-map-ready.html" (dict "page" . "info" $info) -}}
+  {{- else if eq .Layout "museums" -}}
+    {{- $indexPage := . -}}
+    {{- range hugo.Data.exhibitions.museums -}}
+      {{- with .slug -}}
+        {{- $info := dict -}}
+        {{- with index hugo.Data.museums_info . -}}
+          {{- $info = . -}}
+        {{- end -}}
+        {{- if partial "museum-map-ready.html" (dict "page" $indexPage "info" $info) -}}
+          {{- $mapReady = true -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
   {{ with .Site.Params.css }}
   <link rel="stylesheet" type="text/css" href="{{ "css/classless.css" | relURL }}">
   {{ end }}
+  {{- if $mapReady }}
+  <link rel="stylesheet" type="text/css" href="{{ "vendor/leaflet/1.9.4/leaflet.css" | relURL }}">
+  {{- end }}
   <link rel="stylesheet" type="text/css" href="{{ "css/custom.css" | relURL }}">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   {{ with .Site.Params.description }}
@@ -12,4 +36,8 @@
   {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
   {{ end }}
+  {{- if $mapReady }}
+  <script defer src="{{ "vendor/leaflet/1.9.4/leaflet.js" | relURL }}"></script>
+  <script defer src="{{ "js/museum-map.js" | relURL }}"></script>
+  {{- end }}
 </head>

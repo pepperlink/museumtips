@@ -50,7 +50,7 @@
       <h2>{{ $month }} {{ $monthTime.Year }}</h2>
       {{ range $monthly }}
         {{ if eq ((time.AsTime .end).Format "2006-01") $key }}
-          {{ partial "exhibition.html" . }}
+          {{ partial "calendar-exhibition.html" . }}
         {{ end }}
       {{ end }}
     </section>
@@ -60,7 +60,7 @@
     <section id="no-end-date">
       <h2>{{ i18n "no_end_date" }}</h2>
       {{ range $open }}
-        {{ partial "exhibition.html" . }}
+        {{ partial "calendar-exhibition.html" . }}
       {{ end }}
     </section>
   {{ end }}
@@ -69,7 +69,7 @@
     <details>
       <summary>{{ printf (i18n "ended_shows") (len $ended) }}</summary>
       {{ range $ended }}
-        {{ partial "exhibition.html" . }}
+        {{ partial "calendar-exhibition.html" . }}
       {{ end }}
     </details>
   {{ end }}

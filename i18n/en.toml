@@ -282,3 +282,6 @@ other = "Closes tomorrow"
 
 [closes_in]
 other = "Closes in %d days"
+
+[map_unavailable]
+other = "Map unavailable; use the address above."

@@ -4,6 +4,8 @@
   "description_nl": "Het Rijksmuseum is het nationaal museum van Nederland en staat aan het Museumplein in Amsterdam. De collectie omvat ruim 8000 werken uit 800 jaar Nederlandse kunst en geschiedenis, met topstukken als De Nachtwacht van Rembrandt en Het melkmeisje van Vermeer. Het museum is gevestigd in een historisch gebouw, omgeven door tuinen die gratis te bezoeken zijn.",
   "description_en": "The Rijksmuseum is the national museum of the Netherlands, located on Museumplein in Amsterdam. Its collection spans more than 8,000 works covering 800 years of Dutch art and history, including masterpieces such as Rembrandt's The Night Watch and Vermeer's The Milkmaid. The museum is housed in a historic building, surrounded by gardens that are free to visit.",
   "address": "Museumstraat 1, 1071 XX Amsterdam",
+  "lat": 52.359998,
+  "lon": 4.885219,
   "hours_nl": "Dagelijks 9–17 uur, ook op alle feestdagen.\nWinkel en Het Café: dagelijks 9–18 uur (na 17 uur zonder entreebewijs).\nRijksmuseumtuinen: 9–18 uur, alleen in de zomer geopend.",
   "hours_en": "Daily 9:00–17:00, including all public holidays.\nShop and The Café: daily 9:00–18:00 (no ticket needed after 17:00).\nRijksmuseum Gardens: 9:00–18:00, open in summer only.",
   "transit_nl": "Meerdere tramlijnen stoppen vlak bij het museum, vanaf Amsterdam Zuid, Centraal Station en Amsterdam Amstel.\nMet metro 52 naar halte Vijzelgracht; vandaar minder dan 10 minuten lopen.\nReis plannen via de OV-reisplanner of +31 900 9292.",
@@ -84,6 +86,10 @@
    {
     "fact": "access",
     "url": "https://www.rijksmuseum.nl/nl/bezoek/toegankelijk"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.rijksmuseum.nl/en/visit/practical-info/address-and-directions"
    }
   ],
   "notes": [
@@ -97,6 +103,8 @@
   "description_nl": "Het Van Gogh Museum in Amsterdam is het museum over Vincent van Gogh. Twee gebouwen – het Rietveld-gebouw en de Kurokawa-vleugel – vormen samen het museum. Het museum opende in 1973 zijn deuren en inspireert al meer dan 50 jaar mensen over de hele wereld met het werk van Vincent van Gogh en zijn tijdgenoten.",
   "description_en": "The Van Gogh Museum in Amsterdam is the museum about Vincent van Gogh. Two buildings – the Rietveld Building and the Kurokawa Wing – together form the Van Gogh Museum. The museum first opened its doors in 1973 and has been inspiring people around the world with the artworks of Vincent van Gogh and his contemporaries for over 50 years.",
   "address": "Museumplein 6, 1071 DJ Amsterdam",
+  "lat": 52.357925,
+  "lon": 4.881323,
   "hours_nl": "Dagelijks open vanaf 9.00 uur; sluitingstijd verschilt per periode (volledige dagkalender op de site).\nTot en met september: 9.00–18.00, vrijdag tot 21.00 (behalve 29 mei, 31 juli en 25 september; 'Vincent on Friday').\nOktober t/m december: 9.00–17.00 of 9.00–18.00 afhankelijk van de datum; vrijdagavondopenstelling vaak tot 21.00 (behalve 27 november).\nFeestdagen: 24, 25, 26 en 31 december 9.00–17.00; 19–23 en 27–30 december tot 18.00.",
   "hours_en": "Open daily from 9:00; closing time varies by period (full day-by-day schedule on the site).\nUntil end of September: 9:00–18:00, Fridays until 21:00 (except 29 May, 31 July and 25 September; 'Vincent on Friday').\nOctober–December: 9:00–17:00 or 9:00–18:00 depending on the date; Friday evenings often until 21:00 (except 27 November).\nHolidays: 24, 25, 26 and 31 December 9:00–17:00; 19–23 and 27–30 December until 18:00.",
   "transit_nl": "Dichtstbijzijnde haltes: Museumplein (tram 2, 5 of 24; bus 357 of 397) of Concertgebouw (tram 5, 12 of 24; bus 347 of 357).\nVanaf Amsterdam Centraal: tram 2, 5 of 24 (halte Museumplein); tram 12 (halte Concertgebouw).\nVanaf Leidseplein: tram 19, overstappen op tram 2, 5 of 12 en uitstappen bij halte Museumplein.\nReis plannen via 9292 (website/app of +31 900 9292).",
@@ -185,6 +193,10 @@
    {
     "fact": "cards",
     "url": "https://www.vangoghmuseum.nl/nl/bezoek/tickets-en-toegangsprijzen"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/9036429955"
    }
   ],
   "notes": [
@@ -198,6 +210,8 @@
   "description_nl": "Het Stedelijk Museum Amsterdam is de plek waar iedereen moderne en hedendaagse kunst en vormgeving kan ontdekken en beleven; het museum is 365 dagen per jaar open. In de vaste collectiepresentatie zijn circa 500 kunstwerken en designobjecten uit de periode 1870 tot nu te zien, naast wisselende tentoonstellingen. Het museum staat aan het Museumplein in Amsterdam.",
   "description_en": "The Stedelijk Museum Amsterdam is the place where everyone can discover and experience modern and contemporary visual art and design, 365 days a year. The permanent collection presentation features around 500 artworks and design objects dating from 1870 to the present day, alongside changing exhibitions. The museum is located on Museumplein in Amsterdam.",
   "address": "Museumplein 10, 1071 DJ Amsterdam",
+  "lat": 52.358011,
+  "lon": 4.879755,
   "hours_nl": "Dagelijks 10.00–18.00 uur, 365 dagen per jaar (ook op feestdagen).\nLaatste inloop 17.45 uur.",
   "hours_en": "Daily 10:00–18:00, 365 days a year (including holidays).\nLast entry 17:45.",
   "transit_nl": "Vanaf Amsterdam Centraal: tram 2 of 12, halte Museumplein; metro 52 naar station De Pijp, overstappen op tram 3 of 12.\nVanaf Amsterdam Amstel: tram 12, halte Museumplein.\nVanaf Amsterdam Zuid WTC: tram 5, halte Museumplein (soms omgeroepen als Paulus Potterstraat).\nVanaf Sloterdijk: tram 19 naar Leidseplein, overstappen; vanaf Muiderpoort: tram 3, halte Museumplein.",
@@ -289,6 +303,10 @@
    {
     "fact": "cards",
     "url": "https://www.stedelijk.nl/en/visit"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.stedelijk.nl/en/visit/address-route"
    }
   ],
   "notes": [
@@ -302,6 +320,8 @@
   "description_nl": "H'ART Museum presenteert tentoonstellingen met kunst van beroemde musea. Het museum is gevestigd in het voormalige Amstelhof uit de 17de eeuw, gelegen aan de Amstel in Amsterdam. Het gebouw heeft een unieke binnentuin en een Grand Café.",
   "description_en": "H'ART Museum presents exhibitions with art from famous museums. The museum is housed in the historic 17th-century Amstelhof building, located alongside the Amstel River in Amsterdam. The building features a unique inner courtyard and a Grand Café.",
   "address": "Amstel 51, Amsterdam (voormalig Amstelhof, aan de Amstel; auto/taxi-drop-off bij Nieuwe Keizersgracht 1)",
+  "lat": 52.365652,
+  "lon": 4.902214,
   "hours_nl": "Dagelijks 10.00–17.00 uur; laatste toegang 16.30 uur.\n25 december en 1 januari: 12.00–17.00 uur.\nGesloten op Koningsdag (27 april).",
   "hours_en": "Daily 10:00–17:00; last entry at 16:30.\n25 December and 1 January: 12:00–17:00.\nClosed on King's Day (27 April).",
   "transit_nl": "Tram 14: halte Waterlooplein.\nMetro 51, 53 en 54: halte Waterlooplein (uitgang Hortusplantsoen).\nGoed bereikbaar per (OV-)fiets; OV-fiets huren kan bij Amsterdam Centraal of Amsterdam Amstel.",
@@ -390,6 +410,10 @@
    {
     "fact": "cards",
     "url": "https://www.hartmuseum.nl/en/plan-your-visit/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2742811299"
    }
   ],
   "notes": [
@@ -403,6 +427,8 @@
   "description_nl": "Huis Marseille is sinds september 1999 het eerste fotografiemuseum van Amsterdam, gevestigd aan de Keizersgracht 401. Het museum toont een rijk en gevarieerd tentoonstellingsprogramma in twee zeventiende-eeuwse grachtenpanden, met zo'n veertien tentoonstellingsruimtes (uitbreiding met Keizersgracht 399 in 2013). De tentoonstellingen wisselen gemiddeld drie keer per jaar; naast de eigen collectie moderne fotografie zijn er een bibliotheek, een fotoboekenwinkel en een grachtentuin.",
   "description_en": "Huis Marseille has been Amsterdam's first photography museum since September 1999, located at Keizersgracht 401. The museum presents a rich and varied exhibition programme in two 17th-century canal houses, with around fourteen exhibition spaces (expanded with Keizersgracht 399 in 2013). Exhibitions change about three times a year; besides its own collection of modern photography, the museum has a library, a specialised photo book shop and a canal garden.",
   "address": "Keizersgracht 401, 1016 EK Amsterdam",
+  "lat": 52.367641,
+  "lon": 4.884837,
   "hours_nl": "Dagelijks 10.00–18.00 uur; donderdag 10.00–21.00 uur.\nGesloten: 27 april (Koningsdag), 25 december, 1 januari en tijdens de inrichting van nieuwe tentoonstellingen (in de dagen voorafgaand aan de opening).\nOp 31 december is het museum open van 10.00 tot 17.00 uur.\nOpen op alle overige feestdagen, inclusief 2e Paasdag.",
   "hours_en": "Daily 10:00–18:00; Thursdays 10:00–21:00.\nClosed: 27 April (King's Day), 25 December, 1 January, and during the construction of new exhibitions (in the week preceding the opening).\nOn 31 December the museum is open from 10:00 to 17:00.\nOpen on all other public holidays, including Easter Monday.",
   "transit_nl": "Vanaf Amsterdam Centraal Station: tram 2, 17 of 24, uitstappen bij halte Keizersgracht en 4 minuten lopen.\nVanaf Amsterdam Zuid Station: metro 52 (Noord-Zuidlijn) naar Station Noord, uitstappen bij halte Rokin en 8 minuten lopen.\nHuis Marseille is het beste te bereiken met de fiets of het openbaar vervoer.",
@@ -483,6 +509,10 @@
    {
     "fact": "cards",
     "url": "https://huismarseille.nl/bezoekersinformatie/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/1237228907"
    }
   ],
   "notes": [
@@ -496,6 +526,8 @@
   "description_nl": "Foam is een internationaal fotomuseum aan de Keizersgracht in Amsterdam, gevestigd in een monumentaal grachtenpand. Het museum toont tot vier tentoonstellingen tegelijk, van documentaire tot modefotografie en van hedendaags tot historisch werk, en geeft Foam Magazine uit. Daarnaast organiseert Foam debatten, publicaties, workshops en educatieve programma's rond fotografie.",
   "description_en": "Foam is an international and multifaceted photography museum on the Keizersgracht in Amsterdam, housed in a historic canalside building. The museum presents up to four exhibitions at a time, ranging from documentary to fashion and from contemporary to historic photography, and publishes Foam Magazine. Foam also organises debates, publications, workshops and educational programmes around photography.",
   "address": "Keizersgracht 609, 1017 DS Amsterdam",
+  "lat": 52.363988,
+  "lon": 4.893263,
   "hours_nl": "Dagelijks 10.00–18.00 uur; donderdag en vrijdag tot 21.00 uur.\nLet op: Foam is van 27 augustus t/m 17 september 2026 tijdelijk gesloten wegens verduurzaming; heropening vrijdag 18 september 2026 om 10.00 uur.",
   "hours_en": "Daily 10.00–18.00; Thursday and Friday until 21.00.\nPlease note: Foam is temporarily closed from 27 August until 17 September 2026 for sustainability works; reopening Friday 18 September 2026 at 10.00.",
   "transit_nl": "Volgens Foam is het museum het beste te voet of met het openbaar vervoer te bereiken; plan je route met de OV-reisplanner (9292) of Google Maps. Adres: Keizersgracht 609, Amsterdam.",
@@ -591,6 +623,10 @@
    {
     "fact": "pricing",
     "url": "https://tickets.foam.org/en/tickets"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/250624672"
    }
   ],
   "notes": [
@@ -605,6 +641,8 @@
   "description_nl": "Het Depot van Museum Boijmans Van Beuningen in het Rotterdamse Museumpark is 's werelds eerste publiek toegankelijke kunstdepot; het gebouw van architectenbureau MVRDV opende op 5 november 2021. In veertien klimaatgecontroleerde compartimenten wordt de volledige collectie bewaard: meer dan 155.000 kunstwerken, bijeengebracht sinds 1849. Bezoekers kijken er achter de schermen van het museumwerk, van restauratie-ateliers tot transport en opslag. Het museum zelf is tijdelijk gesloten vanwege een grootschalige renovatie; het Depot is wel geopend.",
   "description_en": "The Depot of Museum Boijmans Van Beuningen in Rotterdam's Museumpark is the world's first publicly accessible art storage facility; the MVRDV-designed building opened on 5 November 2021. Fourteen climate-controlled compartments house the museum's complete collection of more than 155,000 objects, amassed since 1849. Visitors get a behind-the-scenes look at museum work, from conservation studios to storage and transport. The museum itself is temporarily closed for a large-scale renovation; the Depot remains open.",
   "address": "Depot Boijmans Van Beuningen, Museumpark 24, 3015 CX Rotterdam",
+  "lat": 51.913835,
+  "lon": 4.471202,
   "hours_nl": "Depot: dinsdag t/m zondag 11.00–17.00 uur.\nOpen op feestdagen (2026): Goede Vrijdag 3 april, Pasen 5 en 6 april, Bevrijdingsdag 5 mei, Hemelvaartsdag 14 mei, Pinksteren 24 en 25 mei; donderdag 24 december tot 16.00 uur; Tweede Kerstdag 26 december; oudejaarsdag 31 december tot 16.00 uur; maandagen in de kerstvakantie.\nGesloten: Koningsdag (maandag 27 april), Eerste Kerstdag (vrijdag 25 december) en Nieuwjaarsdag (vrijdag 1 januari 2027).\nDak van het Depot: 11.00–17.00 uur met geldig entreeticket, als de weersomstandigheden het toelaten.",
   "hours_en": "Depot: Tuesday to Sunday 11.00–17.00.\nOpen on public holidays (2026): Good Friday 3 April, Easter 5 and 6 April, Liberation Day 5 May, Ascension Day 14 May, Whitsun 24 and 25 May; Thursday 24 December until 16.00; Boxing Day 26 December; New Year's Eve 31 December until 16.00; Mondays during the Christmas holidays.\nClosed: King's Day (Monday 27 April), Christmas Day (Friday 25 December) and New Year's Day (Friday 1 January 2027).\nDepot rooftop: 11.00–17.00 with a valid entry ticket, weather permitting.",
   "transit_nl": "Metro A, B of C, halte Eendrachtsplein (ca. 350 m lopen); tram, halte Museumpark (ca. 290 m lopen). Plan je route via 0900-9292 of de routeplanner op de site.",
@@ -717,6 +755,10 @@
    {
     "fact": "pricing",
     "url": "https://www.boijmans.nl/Praktische%20informatie"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.boijmans.nl/Praktische%20informatie"
    }
   ],
   "notes": [
@@ -731,6 +773,8 @@
   "description_nl": "Kunsthal Rotterdam is een tentoonstellingsgebouw aan de rand van het Museumpark, ontworpen door Rem Koolhaas (OMA) en officieel geopend op 1 november 1992; het gebouw geldt als een icoon van de moderne architectuur. De Kunsthal is geen museum en programmeert, dankzij het ontbreken van een eigen collectie, jaarlijks circa 25 wisselende tentoonstellingen, vaak meerdere tegelijk, op het snijvlak van kunst, cultuur en maatschappij. Het gebouw telt zeven tentoonstellingshallen, een auditorium en een Kunsthalcafé.",
   "description_en": "Kunsthal Rotterdam is an exhibition building on the edge of the Museumpark, designed by Rem Koolhaas (OMA) and officially opened on 1 November 1992; it is considered an icon of modern architecture. The Kunsthal is not a museum and, with no collection of its own, programmes around 25 changing exhibitions a year — often several at once — at the intersection of art, culture and society. The building has seven exhibition halls, an auditorium and a café.",
   "address": "Museumpark, Westzeedijk 341, 3015 AA Rotterdam",
+  "lat": 51.910673,
+  "lon": 4.473386,
   "hours_nl": "Dinsdag t/m zondag 10.00–17.00 uur (maandag gesloten, behoudens feestdagen).\nOpen (steeds 10.00–17.00 uur): Hemelvaartsdag 14 mei 2026, Eerste en Tweede Pinksterdag (24 en 25 mei), maandag 19 oktober (herfstvakantie), maandag 21 december, zaterdag 26 december en maandag 28 december 2026.\nGesloten: Koningsdag (maandag 27 april 2026), Eerste Kerstdag (vrijdag 25 december 2026), Nieuwjaarsdag (vrijdag 1 januari 2027).\nAfwijkend: vrijdag 18 september 2026 open tot 22.00 uur (Friday Night LIVE); kerstavond (24 december) en oudjaarsdag (31 december) tot 16.00 uur.",
   "hours_en": "Tuesday to Sunday 10.00–17.00 (closed Mondays, except public holidays).\nOpen (10.00–17.00): Ascension Day 14 May 2026, Whit Sunday and Whit Monday (24 and 25 May), Monday 19 October (autumn break), Monday 21 December, Saturday 26 December and Monday 28 December 2026.\nClosed: King's Day (Monday 27 April 2026), Christmas Day (Friday 25 December 2026), New Year's Day (Friday 1 January 2027).\nSpecial hours: Friday 18 September 2026 open until 22.00 (Friday Night LIVE); Christmas Eve (24 December) and New Year's Eve (31 December) until 16.00.",
   "transit_nl": "Vanaf Rotterdam Centraal: tram 8 richting Spangen, halte Kievitslaan (1 minuut lopen); tram 4 of 6 richting Heemraadsplein, halte Eendrachtsplein (7 minuten); metro Eendrachtsplein of Leuvehaven (7 minuten) of Dijkzigt (10 minuten); ca. 20 minuten lopen vanaf Rotterdam Centraal. Let op: door werkzaamheden bij de RET kunnen tramlijnen afwijken — check de RET-reisplanner.",
@@ -839,6 +883,10 @@
    {
     "fact": "pricing",
     "url": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/9221580908"
    }
   ],
   "notes": [
@@ -853,6 +901,8 @@
   "description_nl": "Het Nederlands Fotomuseum is het nationale museum voor fotografie, gevestigd in het monumentale pakhuis Santos aan de Rijnhaven in Rotterdam-Katendrecht. Het museum beheert en ontsluit het Nederlandse fotografische erfgoed — van de vroegste fotografie rond 1839 tot hedendaagse makers — en is wereldwijd toonaangevend in collectiebeheer; naar verwachting groeit de Collectie in 2028 tot circa 7,5 miljoen objecten. In het museum zijn onder meer de Eregalerij van de Nederlandse Fotografie en open depots en ateliers te zien.",
   "description_en": "The Nederlands Fotomuseum (Dutch National Museum of Photography) is housed in the monumental Santos warehouse at Rotterdam's Rijnhaven, in the Katendrecht district. The museum manages and opens up Dutch photographic heritage — from the invention of photography around 1839 to present-day makers — and is a global leader in collection management; the collection is expected to reach around 7.5 million objects by 2028. Displays include the Gallery of Honour of Dutch Photography and open depots and studios.",
   "address": "Brede Hilledijk 95, 3072 KD Rotterdam",
+  "lat": 51.902691,
+  "lon": 4.495192,
   "hours_nl": "Dinsdag t/m zondag 11.00–17.00 uur; maandag gesloten.\nOp Eerste en Tweede Paasdag, Bevrijdingsdag, Hemelvaartsdag, Eerste en Tweede Pinksterdag en Tweede Kerstdag is het museum geopend.\nReserveer online een tijdslot; houd je e-ticket en kortingskaart klaar bij de ingang.",
   "hours_en": "Tuesday to Sunday 11.00–17.00; closed Mondays.\nThe museum is open on Easter Sunday and Monday, Liberation Day, Ascension Day, Whit Sunday and Monday, and Boxing Day.\nPlease book a time slot online; have your e-ticket and discount card ready at the entrance.",
   "transit_nl": "Metrostation Rijnhaven ligt op ongeveer 2 minuten lopen van het museum — vanaf het perron is het gebouw al te zien. Het station beschikt over een lift.",
@@ -961,6 +1011,10 @@
    {
     "fact": "pricing",
     "url": "https://nederlandsfotomuseum.nl/en/plan-your-visit/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/250735558"
    }
   ],
   "notes": [
@@ -974,6 +1028,8 @@
   "description_nl": "Museum MORE is het grootste museum voor modern realisme in Europa, met locaties in Gorssel en Kasteel Ruurlo en vanaf september 2026 ook Twickel in Delden. De collectie richt zich op modern realistische kunst uit de periode 1900 tot heden van Nederlandse kunstenaars en van makers die hier actief zijn of zijn geweest. Museum MORE Gorssel is gevestigd in en achter het voormalige gemeentehuis uit 1914, uitgebreid met paviljoenachtige nieuwbouw van museumarchitect Hans van Heeswijk.",
   "description_en": "Museum MORE is the leading museum for modern realist art in the Netherlands, with locations in Gorssel and Kasteel Ruurlo, and from September 2026 also Twickel in Delden. The collection focuses on modern realist art from 1900 to the present by artists with Dutch nationality and makers who have been active in the Netherlands. The Gorssel museum is housed in and behind the former town hall from 1914, extended with a pavilion-like new wing by museum architect Hans van Heeswijk.",
   "address": "Hoofdstraat 28, 7213 CW Gorssel — hoofdlocatie Gorssel; tweede locatie Kasteel Ruurlo",
+  "lat": 52.199463,
+  "lon": 6.200584,
   "hours_nl": "MORE Gorssel: dinsdag t/m zondag 10.00–17.00 uur; maandag gesloten (op sommige maandagen in de vakanties open; zie de afwijkende openingstijden op de site).\nGesloten op Koningsdag (27 april), Eerste Kerstdag (25 december) en Nieuwjaarsdag (1 januari).\nMORE Ruurlo en MORE Twickel: dinsdag t/m zondag 11.00–17.00 uur.",
   "hours_en": "MORE Gorssel: Tuesday to Sunday 10.00–17.00; closed on Mondays (open on some holiday Mondays; see the adjusted opening hours on the website).\nClosed on King's Day (27 April), Christmas Day (25 December) and New Year's Day (1 January).\nMORE Ruurlo and MORE Twickel: Tuesday to Sunday 11.00–17.00.",
   "transit_nl": "Reis naar NS-station Zutphen of NS-station Deventer en neem Arriva buslijn 81; stap na ongeveer 15 minuten uit bij bushalte Museum MORE in Gorssel. In het weekend rijdt vanaf station Zutphen ook Arriva buslijn 450 naar Gorssel (en terug).",
@@ -1093,6 +1149,10 @@
    {
     "fact": "pricing",
     "url": "https://www.museummore.nl/contact"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2652903984"
    }
   ],
   "notes": [
@@ -1108,6 +1168,8 @@
   "description_nl": "Kunstmuseum Den Haag is een modern paleis voor de kunsten in het gebouw van architect Berlage. Het museum beheert een collectie van meer dan 160.000 kunstwerken en toont een toonaangevend overzicht van moderne en hedendaagse beeldende kunst, mode en toegepaste kunst. Het is de thuishaven van Piet Mondriaan, met maar liefst 300 van zijn werken.",
   "description_en": "Kunstmuseum Den Haag is a modern palace for the arts in a magnificent Berlage building. It houses a leading collection of modern and contemporary visual arts, fashion and applied arts, in one of Europe's largest art museums. The museum is home to Piet Mondriaan, with as many as 300 of his artworks.",
   "address": "Stadhouderslaan 41, 2517 HV Den Haag",
+  "lat": 52.089724,
+  "lon": 4.280729,
   "hours_nl": "Dinsdag t/m zondag: 10.00 - 17.00 uur\nMaandag: gesloten\nFeestdagen 2026: 1 jan gesloten; 5 & 6 apr, 27 apr, 5 mei, 14 mei, 24 & 25 mei: 10.00 - 17.00 uur; 24 dec 10.00 - 16.00; 25 dec gesloten; 26 dec 10.00 - 17.00; 31 dec 10.00 - 16.00",
   "hours_en": "Tuesday to Sunday: 10.00 - 17.00\nMonday: closed\nPublic holidays 2026: 1 Jan closed; 5 & 6 Apr, 27 Apr, 5 May, 14 May, 24 & 25 May: 10.00 - 17.00; 24 Dec 10.00 - 16.00; 25 Dec closed; 26 Dec 10.00 - 17.00; 31 Dec 10.00 - 16.00",
   "transit_nl": "Tram 17 en bus 24 (HTM) vanaf Den Haag Centraal.\nTramhalte op ca. 50 m van de hoofdingang; bushalte van bus 24 op ca. 130 m.\nTram 17 en bus 24 zijn rolstoeltoegankelijk; scootmobiels en elektrische rolstoelen kunnen niet mee in de HTM-bussen.",
@@ -1206,6 +1268,10 @@
    {
     "fact": "pricing",
     "url": "https://www.kunstmuseum.nl/nl/bezoek"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/way/615840702"
    }
   ],
   "notes": [
@@ -1220,6 +1286,8 @@
   "description_nl": "Fotomuseum Den Haag is gewijd aan fotografie als kunstvorm en wil bezoekers ruimte en rust bieden om de gelaagdheid, betekenissen en context van fotografie te ontdekken. Het museum bevindt zich naast Kunstmuseum Den Haag en deelt het gebouw met KM21. De fotografiecollectie van Kunstmuseum Den Haag groeide zo sterk dat in 2002 een apart museum werd opgericht, dat inmiddels meerdere tentoonstellingen tegelijk toont.",
   "description_en": "Fotomuseum Den Haag is dedicated to photography as an art form and offers visitors space for quiet reflection on the layers, meanings and context of photography. It sits next to Kunstmuseum Den Haag and shares its building with KM21. The Kunstmuseum's photography collection grew so substantially that a separate museum was founded in 2002, since expanded to show several exhibitions simultaneously.",
   "address": "Stadhouderslaan 43, 2517 HV Den Haag",
+  "lat": 52.090131,
+  "lon": 4.279409,
   "hours_nl": "Fotomuseum Den Haag/KM21: dinsdag t/m zondag 11.00 - 17.00 uur\nMaandag: gesloten\nFeestdagen 2026: 1 jan gesloten; 25 dec gesloten; 24 & 31 dec 11.00 - 16.00; 26 dec en overige feestdagen 11.00 - 17.00\nRestaurant Gember: dinsdag t/m zondag 10.00 - 18.00 uur",
   "hours_en": "Fotomuseum Den Haag/KM21: Tuesday to Sunday 11.00 - 17.00\nMonday: closed\nPublic holidays 2026: 1 Jan closed; 25 Dec closed; 24 & 31 Dec 11.00 - 16.00; 26 Dec and other holidays 11.00 - 17.00\nRestaurant Gember: Tuesday to Sunday 10.00 - 18.00",
   "transit_nl": "Bus 24 en tram 17 vanaf Den Haag Centraal rijden rechtstreeks naar het museum; vanaf Station Hollands Spoor ook tram 17.\nTramhalte ca. 50 m van de hoofdingang; bushalte ca. 215 m.\nTram 17 en bus 24 zijn rolstoeltoegankelijk; scootmobiels en elektrische rolstoelen kunnen niet mee in de HTM-bussen.",
@@ -1318,6 +1386,10 @@
    {
     "fact": "pricing",
     "url": "https://www.fotomuseumdenhaag.nl/nl/plan-je-bezoek"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.fotomuseumdenhaag.nl/nl/plan-je-bezoek"
    }
   ],
   "notes": [
@@ -1331,6 +1403,8 @@
   "description_nl": "Museum Voorlinden is een museum voor moderne en hedendaagse kunst op landgoed Voorlinden in Wassenaar. Het museum verbindt mensen, kunst, natuur en architectuur; het gebouw van Kraaijvanger Architects is in alle opzichten dienend aan de kunst. De collectie moderne en hedendaagse kunst wordt verzameld, gepresenteerd, bewaard, beheerd, geconserveerd, gerestaureerd en gepubliceerd, in en buiten het eigen gebouw. Voorlinden wil een oase van rust zijn waar mensen zich kunnen verwonderen en laten verrassen.",
   "description_en": "Museum Voorlinden is a museum for modern and contemporary art on the Voorlinden estate in Wassenaar. The museum connects people, art, nature and architecture; its building by Kraaijvanger Architects is in every respect subservient to the art. The museum collects, presents, keeps, manages, conserves, restores and publishes modern and contemporary art, both on its own premises and elsewhere. Voorlinden aims to be an oasis of tranquillity where people can marvel and be surprised.",
   "address": "Buurtweg 90, 2244 AG Wassenaar",
+  "lat": 52.119285,
+  "lon": 4.347218,
   "hours_nl": "Elke dag geopend, 7 dagen per week en 365 dagen per jaar: 11.00 - 17.00 uur.\nOok tijdens feestdagen is het museum open.",
   "hours_en": "Open every day, 7 days a week and 365 days a year: 11 am - 5 pm.\nThe museum is also open during public holidays.",
   "transit_nl": "Bus 43 of 44 vanaf NS-station Den Haag Centraal of Leiden Centraal naar halte Wittenburgerweg, Wassenaar.\nVanaf de bushalte is het circa 15 minuten wandelen naar Voorlinden (route aangegeven met bordjes).\nOV-fiets mogelijk; vanaf Den Haag Centraal en Den Haag Laan van NOI circa 25 minuten fietsen.",
@@ -1401,6 +1475,10 @@
    {
     "fact": "pricing",
     "url": "https://www.voorlinden.nl/bezoek/plan-je-bezoek/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/5245315292"
    }
   ],
   "notes": [
@@ -1416,6 +1494,8 @@
   "description_nl": "Singer Laren is een particulier cultureel erfgoed in Laren, bestaand uit een museum, theater, villa 'De Wilde Zwanen' en een beeldentuin. Het Amerikaanse echtpaar Anna en William Singer bouwde begin twintigste eeuw de villa in het toenmalige 'kunstenaarsdorp' Laren en verzamelde een omvangrijke kunstcollectie. Na het overlijden van William liet Anna een museum en theater aan de villa bouwen, die in 1956 voor het publiek openden. Sinds het najaar van 2017 beschikt Singer Laren over een nieuw theater; in 2021 opende de museumvleugel voor de Collectie Nardinc.",
   "description_en": "Singer Laren is a unique private piece of cultural heritage in Laren, consisting of a museum, the villa 'De Wilde Zwanen', a theatre and a sculpture garden. American couple Anna and William Singer built their villa in the artists' village of Laren in the early twentieth century and amassed an impressive art collection. After William's death, Anna had a museum and theatre built onto the villa, opened to the public in 1956. A new theatre opened in 2017, followed by a museum wing for the Nardinc Collection in 2021.",
   "address": "Oude Drift 1, 1251 BS Laren",
+  "lat": 52.2590783,
+  "lon": 5.2214518,
   "hours_nl": "Museum: dinsdag t/m zondag 10.00 - 17.00 uur\nBeeldentuin, horeca en Singer Shop: dinsdag t/m zondag 9.30 - 17.30 uur\nKassa: dinsdag t/m zondag 9.30 - 17.00 uur\nTheater: matinees 16.00 uur, avondvoorstellingen 20.15 uur (deuren 19.15 uur)\nFeestdagen: geopend, behalve Nieuwjaarsdag, Koningsdag en Eerste Kerstdag (Pasen en Pinksteren ook op maandag open)",
   "hours_en": "Museum: Tuesday to Sunday 10 am - 5 pm\nSculpture Garden, café and Singer Shop: Monday to Sunday 9.30 am - 5.30 pm (EN page; NL page states Tue-Sun)\nBox office: Tuesday to Sunday 9.30 am - 5 pm\nTheatre: matinees 4 pm, evening performances 8.15 pm (doors 7.15 pm)\nPublic holidays: open, except New Year's Day, King's Day and Christmas Day (Easter and Pentecost Mondays also open)",
   "transit_nl": "Met de trein naar NS-station Hilversum, Naarden-Bussum of Bussum-Zuid; daarna bus of OV-fiets.\nBus 109 vanaf station Naarden-Bussum (richting Hilversum): halte Singermuseum, direct voor de deur; rit ca. 20 min, 1x per uur, 7 dagen per week.\nBus 108 vanaf station Hilversum (richting Huizen): halte Brink, daarna ca. 5 min lopen; totale reistijd ca. 17 min.\nR-netlijn 321 vanaf station Amsterdam Zuid naar halte Laren, Singermuseum; ca. 45 min, werkdagen elke 30 min.\nOV-fiets: vanaf de NS-stations ca. 15-20 min fietsen.",
@@ -1507,6 +1587,10 @@
    {
     "fact": "pricing",
     "url": "https://www.singerlaren.nl/nl/openingstijden-en-entreeprijzen-ntvf"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2875461774"
    }
   ],
   "notes": [
@@ -1521,6 +1605,8 @@
   "description_nl": "Teylers Museum in Haarlem is het oudste museum van Nederland. Het is ontstaan uit de idealen van Pieter Teyler van der Hulst (1702-1778); de Ovale Zaal opende in 1784 voor het publiek. In het historische gebouw komen kunst en wetenschap samen; de collectie omvat onder meer tekeningen, schilderijen, wetenschappelijke instrumenten, fossielen en boeken. Nieuwsgierigheid en kritisch denken staan centraal in het museum.",
   "description_en": "Teylers Museum in Haarlem is the oldest museum in the Netherlands. It originated from the ideals of Pieter Teyler van der Hulst (1702-1778); the Oval Room opened to the public in 1784. In its historic building, art and science meet; the collections include drawings, paintings, scientific instruments, fossils and books. Curiosity and critical thought are central to the museum's identity.",
   "address": "Spaarne 16, 2011 CH Haarlem",
+  "lat": 52.380351,
+  "lon": 4.640345,
   "hours_nl": "Dinsdag t/m zondag: 10.00 - 17.00 uur\nMaandag: gesloten (in 2026 extra open op bepaalde maandagen, o.a. in schoolvakanties)\nFeestdagen: 10.00 - 17.00 uur; 1 januari en 25 december gesloten\nAfwijkende tijden 2026: 5 dec, 24 dec en 31 dec 10.00 - 16.00 uur\nLet op: weekend 12 & 13 september 2026 gratis toegang (VriendenLoterij Open Monumentendagen)",
   "hours_en": "Tuesday to Sunday: 10:00 - 17:00\nMonday: closed (extra Monday openings in 2026, e.g. during school holidays)\nPublic holidays: 10:00 - 17:00; 1 January and 25 December closed\nDeviating times 2026: 5 Dec, 24 Dec and 31 Dec 10:00 - 16:00\nPlease note: free admission on the weekend of 12 & 13 September 2026 (VriendenLoterij Open Monument Days)",
   "transit_nl": "Het museum is goed bereikbaar met het openbaar vervoer en ligt op loopafstand (circa 13 minuten) van het treinstation Haarlem.\nMet de bus vanaf Haarlem Centraal: lijn 3 (richting Schalkwijk) naar halte Turfmarkt, de dichtstbijzijnde halte; daarna ongeveer 6 minuten lopen.",
@@ -1602,6 +1688,10 @@
    {
     "fact": "pricing",
     "url": "https://teylersmuseum.nl/nl/plan-je-bezoek"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://teylersmuseum.nl/nl/plan-je-bezoek"
    }
   ],
   "notes": [
@@ -1615,6 +1705,8 @@
   "description_nl": "Het Centraal Museum is het oudste stedelijke museum van Nederland. Het museum is gevestigd in een voormalig middeleeuws klooster aan de Agnietenstraat in Utrecht en toont kunst, design, mode en stadsgeschiedenis.",
   "description_en": "The Centraal Museum is the oldest municipal museum in the Netherlands. The museum is housed in a former medieval monastery at Agnietenstraat in Utrecht and shows art, design, fashion and city history.",
   "address": "Agnietenstraat 1, 3512 XA Utrecht",
+  "lat": 52.083612,
+  "lon": 5.125664,
   "hours_nl": "Dinsdag t/m zondag 11.00–17.00 uur.\nFeestdagen: Koningsdag (27 april) gesloten; Bevrijdingsdag (5 mei) open; Eerste en Tweede Paasdag open; Hemelvaartsdag open; Eerste en Tweede Pinksterdag open; Eerste Kerstdag (25 december) gesloten; Tweede Kerstdag (26 december) open; Oudejaarsdag (31 december) open; Nieuwjaarsdag (1 januari) gesloten.",
   "hours_en": "Tuesday to Sunday 11 a.m.–5 p.m.\nPublic holidays: King's Day (27 April) closed; Liberation Day (5 May) open; Easter Sunday and Easter Monday open; Ascension Day open; Whit Sunday and Whit Monday open; Christmas Day (25 December) closed; Boxing Day (26 December) open; New Year's Eve (31 December) open; New Year's Day (1 January) closed.",
   "transit_nl": "Bus 2 vanaf station Utrecht Centraal richting Museumkwartier.\nOok mogelijk: trein naar station Utrecht Vaartsche Rijn, circa 10 minuten lopen.\nActuele info: 9292.nl.",
@@ -1719,6 +1811,10 @@
    {
     "fact": "pricing",
     "url": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.centraalmuseum.nl/nl/plan-je-bezoek/adres-en-route"
    }
   ],
   "notes": [
@@ -1732,6 +1828,8 @@
   "description_nl": "Museum de Fundatie is een van de belangrijkste musea in het oosten van Nederland. Het museum brengt een rijke geschiedenis samen met het hier en nu en beheert twee collecties: de collectie van Dirk Hannema en die van de provincie Overijssel. De hoofdlocatie is in het centrum van Zwolle; de tweede locatie is Kasteel het Nijenhuis in Heino.",
   "description_en": "Museum de Fundatie is one of the leading museums in the east of the Netherlands. The museum brings a rich history together with the world of today and manages two collections: the collection of Dirk Hannema and the collection of the Province of Overijssel. Its main location is in the centre of Zwolle; the second location is Kasteel het Nijenhuis in Heino.",
   "address": "Blijmarkt 20, 8011 NE Zwolle",
+  "lat": 52.510264,
+  "lon": 6.091563,
   "hours_nl": "Maandag gesloten; dinsdag t/m zondag 11.00–17.00 uur.\nUitzondering: locatie Zwolle 21 t/m 25 september 2026 gesloten wegens ombouw; 26 en 27 september alleen de Fundatie Collectie zichtbaar, gratis toegang.\nSilent Sunday: laatste zondag van de maand 10.00–11.00 uur.\nFundatie Friday: eerste vrijdag van de maand 17.00–21.00 uur.",
   "hours_en": "Closed on Mondays; Tuesday to Sunday 11:00–17:00.\nException: Zwolle location closed from 21 to 25 September 2026 due to renovation; on 26 and 27 September only the Fundatie Collection is visible, free admission.\nSilent Sunday: last Sunday of the month, 10:00–11:00.\nFundatie Friday: first Friday of the month, 17:00–21:00.",
   "transit_nl": "Trein: station Zwolle, circa 12 minuten lopen naar het museum.",
@@ -1826,6 +1924,10 @@
    {
     "fact": "pricing",
     "url": "https://museumdefundatie.nl/en/visit-museum/zwolle"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle"
    }
   ],
   "notes": [
@@ -1839,6 +1941,8 @@
   "description_nl": "Museum Arnhem ligt op de hoge stuwwal met uitzicht over de Rijn, in een van de mooist gelegen museumgebouwen van Nederland. De collectie is breed samengesteld, met hedendaagse kunst, magisch- en neorealisme, mode en sieraden. De gratis toegankelijke beeldentuin is ook zonder museumticket te bezoeken.",
   "description_en": "Museum Arnhem is located on a high lateral moraine with a magnificent view of the Rhine, in one of the most beautifully situated museum buildings in the Netherlands. The collection is very broad, including contemporary art, magic realism and neorealism, fashion and jewellery. The freely accessible sculpture garden can be visited without a museum ticket.",
   "address": "Utrechtseweg 87, 6812 AA Arnhem",
+  "lat": 51.985492,
+  "lon": 5.8922,
   "hours_nl": "Dinsdag t/m zondag 11.00–17.00 uur; maandag gesloten.\nCafé Pierre: 10.30–17.00 uur.\nFeestdagen: Nieuwjaarsdag 1 januari gesloten; Goede vrijdag open; Eerste en Tweede Paasdag open; Koningsdag 27 april gesloten; Bevrijdingsdag 5 mei gesloten; Hemelvaartsdag open; Eerste en Tweede Pinksterdag open; Eerste Kerstdag 25 december gesloten; Tweede Kerstdag 26 december open; maandag 28 december open; Oudejaarsdag 31 december open.",
   "hours_en": "Tuesday to Sunday 11 AM–5 PM; closed on Monday.\nCafé Pierre: 10.30 AM–5 PM.\nPublic holidays: New Year's Day 1 January closed; Good Friday open; Easter Sunday and Easter Monday open; King's Day 27 April closed; Liberation Day 5 May closed; Ascension Day open; Whit Sunday and Whit Monday open; Christmas Day 25 December closed; Boxing Day 26 December open; Monday 28 December open; New Year's Eve 31 December open.",
   "transit_nl": "Trein: vanaf station Arnhem Centraal circa 10 minuten lopen.\nBus: lijnen 103 en 303 (richting Ede via Wageningen), halte Museum Arnhem (vlak voor het museum).\nOV-fiets huren op Arnhem Centraal kan ook (minder dan 5 minuten fietsen); fietsenstalling naast de ingang.",
@@ -1939,6 +2043,10 @@
    {
     "fact": "pricing",
     "url": "https://www.museumarnhem.nl/en/plan-your-visit"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/5792928794"
    }
   ],
   "notes": [
@@ -1951,6 +2059,8 @@
   "description_nl": "Het Kröller-Müller Museum ligt midden in Het Nationale Park De Hoge Veluwe, bij Otterlo. Van Goghs werk hangt sinds de opening van het museum in 1938 in het hart van het gebouw (Van Gogh-galerij) en neemt een bijzondere plaats in de verzameling van Anton en Helene Kröller-Müller, de oprichters van het museum. In de beeldentuin staan ruim tweehonderd moderne beelden van kunstenaars van over de hele wereld.",
   "description_en": "The Kröller-Müller Museum is located in the heart of De Hoge Veluwe National Park, near Otterlo. Since the museum opened in 1938, Vincent van Gogh's artworks have been on display at the heart of the building, the Van Gogh Gallery, and they hold a special place in the collection of Anton and Helene Kröller-Müller, the founders of the museum. The sculpture garden features over two hundred modern sculptures by artists from around the world.",
   "address": "Houtkampweg 6, 6731 AW Otterlo (in Het Nationale Park De Hoge Veluwe)",
+  "lat": 52.096224,
+  "lon": 5.817664,
   "hours_nl": "Museum en beeldentuin: dinsdag t/m zondag 10.00–17.00 uur; feestdagen 10.00–17.00 uur; 1 januari gesloten.\nMaandag alleen open in de zomerperiode (6 juli t/m 24 augustus 2026); dan elke dag open van 10.00 tot 17.00 uur.\nFeestdagen: Pasen, Hemelvaartsdag, Pinksteren, Kerst 25 en 26 december, Koningsdag 27 april, Bevrijdingsdag 5 mei.",
   "hours_en": "Museum and sculpture garden: Tuesday to Sunday 10.00–17.00 hrs; public holidays 10.00–17.00 hrs; closed on 1 January.\nMonday open only in the summer period (6 July to 24 August 2026); every day open from 10.00 to 17.00 hrs during that period.\nPublic holidays: Easter, Ascension Day, Pentecost, Christmas 25 and 26 December, King's Day 27 April, Liberation Day 5 May.",
   "transit_nl": "Bus vanaf station Apeldoorn, Ede-Wageningen of Arnhem naar Otterlo; daar overstappen op de bus naar het museum (stopt bij de entree van het park; toon of koop daar je parkticket).\nVanaf Ede-Wageningen: in de zomer (za en zo, 28 juni t/m 27 september) rijdt bus 106 rechtstreeks naar het museum; ma t/m vr: bus 108 (richting Apeldoorn) → halte Otterlo, rotonde, dan bus 106 (richting De Hoge Veluwe Nationaal Park) → halte Kröller-Müller Museum.\nVanaf Arnhem Centraal: bus 105 (richting Barneveld) → halte Otterlo, rotonde, dan bus 106 → halte Kröller-Müller Museum.",
@@ -2052,6 +2162,10 @@
    {
     "fact": "pricing",
     "url": "https://krollermuller.nl/en/visit/tickets-and-prices"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2768150104"
    }
   ],
   "notes": [
@@ -2065,6 +2179,8 @@
   "description_nl": "Museum Kranenburgh is een museum voor moderne en hedendaagse kunst in het groene kunstenaarsdorp Bergen. Veel kunstenaars, vanaf circa 1900 tot nu, voelen zich aangetrokken tot en geïnspireerd door het landschap van polders, duinen, bos en strand in en rond Bergen. Het museum beheert een omvangrijke collectie kunst van 1900 tot heden, met als kern de kunst van de Bergense School.",
   "description_en": "Museum Kranenburgh is a museum for modern and contemporary art in the green artist village of Bergen. Many artists, from around 1900 to the present, feel attracted and inspired by the landscape of the polder, the dunes, the forest and the beach in and around Bergen. The museum maintains an extensive collection of art from 1900 to the present, the core of which is the art of the Bergen School.",
   "address": "Hoflaan 26, 1861 CR Bergen NH",
+  "lat": 52.668233,
+  "lon": 4.695258,
   "hours_nl": "Dinsdag t/m zondag 10.30–17.00 uur.\nExtra open: Eerste en Tweede Paasdag (5 en 6 april 2026); Bevrijdingsdag (5 mei 2026); Eerste en Tweede Pinksterdag (24 en 25 mei 2026); maandag tijdens Kunst10daagse Bergen (19 oktober 2026); Tweede Kerstdag (26 december 2026).\nGesloten: Nieuwjaarsdag (1 januari 2027); Koningsdag (27 april 2026); 11 t/m 23 mei (opbouw tentoonstellingen); Hemelvaartsdag (14 mei 2026); 2 t/m 14 november (opbouw tentoonstellingen); Eerste Kerstdag (25 december 2026).\nSluit om 16 uur op Pakjesavond (5 december 2026), Kerstavond (24 december 2026) en Oudjaarsdag (31 december 2026).",
   "hours_en": "Tuesday to Sunday 10.30–17.00 hrs.\nExtra opening hours: Easter Sunday and Easter Monday (5 and 6 April 2026); Liberation Day (5 May 2026); Whit Sunday and Whit Monday (24 and 25 May 2026); Monday during the Kunst10daagse Bergen (19 October 2026); Boxing Day (26 December 2026).\nClosed: New Year's Day (1 January 2027); King's Day (27 April 2026); 11 to 23 May (exhibition setup); Ascension Day (14 May 2026); 2 to 14 November (exhibition setup); Christmas Day (25 December 2026).\nCloses at 16:00 on Sinterklaas Eve (5 December 2026), Christmas Eve (24 December 2026) and New Year's Eve (31 December 2026).",
   "transit_nl": "Vanaf station Alkmaar buslijn 166 naar Bergen, halte Plein.",
@@ -2162,6 +2278,10 @@
    {
     "fact": "pricing",
     "url": "https://kranenburgh.nl/en/visit/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://kranenburgh.nl/bezoek/"
    }
   ],
   "notes": [
@@ -2175,6 +2295,8 @@
   "description_nl": "Het Drents Museum in Assen is bekend om zijn grote internationale tentoonstellingen op het gebied van archeologie, kunst en geschiedenis. In de vaste collectiepresentatie Labyrinthia zijn topstukken te zien zoals het meisje van Yde, de oudste boot van de wereld en schilderijen van Van Gogh. Het museum beheert deelcollecties als archeologie, Drentse geschiedenis, kunst rond 1900 en hedendaags realisme. Ook DM De Buitenplaats in Eelde hoort bij het Drents Museum.",
   "description_en": "The Drents Museum in Assen is known in the Netherlands and abroad for its major international exhibitions in the fields of archaeology, art and history. The permanent collection presentation Labyrinthia features highlights such as the Girl of Yde, the world's oldest boat and paintings by Van Gogh. Its subcollections include archaeology, Drenthe history, art from around 1900 and contemporary realism. DM De Buitenplaats in Eelde is part of the Drents Museum.",
   "address": "Brink 1, 9401 HS Assen",
+  "lat": 52.992896,
+  "lon": 6.564260,
   "hours_nl": "Di t/m zo 10.00–17.00 uur.\nMaandag open tijdens schoolvakanties en feestdagen.\nExtra open (2026): ma 16 en 23 feb, ma 6 apr (Pasen), ma 25 mei (Pinksteren), maandagen zomervakantie 4 jul t/m 30 aug, ma 12 en 19 okt, ma 21 en 28 dec.\nGesloten: 27 apr (Koningsdag), 25 dec (1e kerstdag), 1 jan (Nieuwjaarsdag).\nMuseumtuin: dagelijks 11.00–17.00 uur gratis; 1 nov–1 mrt tot 16.00 uur.",
   "hours_en": "Tue–Sun 10 am–5 pm.\nOpen on Mondays during Dutch school holidays and public holidays.\nExtra open (2026): Mon 16 & 23 Feb, Mon 6 Apr (Easter), Mon 25 May (Whit Monday), summer-holiday Mondays 4 Jul–30 Aug, Mon 12 & 19 Oct, Mon 21 & 28 Dec.\nClosed: 27 Apr (King's Day), 25 Dec (Christmas Day), 1 Jan (New Year's Day).\nMuseum Garden: free daily 11 am–5 pm; 1 Nov–1 Mar until 4 pm.",
   "transit_nl": "Trein/bus: ca. 8 minuten lopen van het Intercity- en busstation Assen.\nBus (Qbuzz): halte Zuidhaege of station Assen.",
@@ -2276,6 +2398,10 @@
    {
     "fact": "pricing",
     "url": "https://drentsmuseum.nl/en/plan-your-visit/tickets-and-prices"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2769506579"
    }
   ],
   "notes": [
@@ -2290,6 +2416,8 @@
   "description_nl": "Het Groninger Museum is het grootste museum voor kunst en design in het noorden van Nederland, met meer dan 60.000 voorwerpen en kunstwerken uit vijf millennia. Het museumgebouw op het Museumeiland is een postmodern ontwerp van onder anderen Alessandro Mendini, Philippe Starck, Michele De Lucchi en Coop Himmelb(l)au. De collectie, presentaties en wisselende tentoonstellingen richten zich op actuele thema's, bekeken door de lens van hedendaagse kunst en design.",
   "description_en": "Groninger Museum is the largest museum in the north of the Netherlands for art and design, home to over 60,000 objects and artworks spanning five millennia. The museum building on the Museumeiland is a postmodern design by, among others, Alessandro Mendini, Philippe Starck, Michele De Lucchi and Coop Himmelb(l)au. Its collection, displays and changing exhibitions focus on timely topics through the lens of contemporary art and design.",
   "address": "Museumeiland 1, 9711 ME Groningen",
+  "lat": 53.212282,
+  "lon": 6.566029,
   "hours_nl": "Di t/m zo 10.00–17.00 uur.\nMaandag gesloten.\nExtra gesloten: vrijdag 18 september 2026, 25 december (1e kerstdag) en 1 januari (Nieuwjaarsdag).",
   "hours_en": "Tue–Sun 10 am–5 pm.\nClosed on Mondays.\nExtra closures: Friday 18 September 2026, 25 December (Christmas Day) and 1 January (New Year's Day).",
   "transit_nl": "Trein: het museum ligt op ca. 300 meter van Hoofdstation Groningen.\nGeen businformatie op de bezoekpagina vermeld.",
@@ -2393,6 +2521,10 @@
    {
     "fact": "pricing",
     "url": "https://www.groningermuseum.nl/en-GB/plan-your-visit"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/relation/8736528"
    }
   ],
   "notes": [
@@ -2407,6 +2539,8 @@
   "description_nl": "Het Fries Museum in Leeuwarden beheert met meer dan 200.000 voorwerpen de grootste regionale collectie van Nederland. De vaste presentatie Ferhaal fan Fryslân toont Friese kunst en geschiedenis, met werk van onder anderen Sir Lawrence Alma-Tadema, Gerrit Benner en Wybrand de Geest en verhalen over Grutte Pier, Mata Hari en de Vikingen. Op de tweede verdieping is het Fries Verzetsmuseum te zien over Friesland in de Tweede Wereldoorlog. Kinderen en jongeren tot 18 jaar hebben gratis toegang.",
   "description_en": "The Fries Museum in Leeuwarden manages the largest regional collection in the Netherlands, with more than 200,000 objects. The permanent exhibition Ferhaal fan Fryslân presents Frisian art and history, including works by Sir Lawrence Alma-Tadema, Gerrit Benner and Wybrand de Geest and stories of Grutte Pier, Mata Hari and the Vikings. The Fries Verzetsmuseum on the second floor covers Friesland during the Second World War. Children and young people up to 18 enter free of charge.",
   "address": "Wilhelminaplein 92, 8911 BS Leeuwarden",
+  "lat": 53.199453,
+  "lon": 5.794348,
   "hours_nl": "Di t/m zo 11.00–17.00 uur.\nExtra geopend: Bevrijdingsdag, eerste en tweede paasdag, tweede pinksterdag en tweede kerstdag.\nGesloten: Nieuwjaarsdag, Koningsdag (27 april) en eerste kerstdag.\nCafé Thús: maandag gesloten, di t/m zo vanaf 10.30 uur.",
   "hours_en": "Tue–Sun 11 am–5 pm.\nAlso open: Easter Sunday and Monday, Pentecost and Boxing Day.\nClosed: New Year's Day, King's Day (27 April) and Christmas Day.\nCafé Thús: closed on Mondays, Tue–Sun from 10.30 am.",
   "transit_nl": "Trein/bus: op 5 minuten loopafstand van het trein- en busstation van Leeuwarden.",
@@ -2497,6 +2631,10 @@
    {
     "fact": "pricing",
     "url": "https://www.friesmuseum.nl/en/visit/students"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/4554124938"
    }
   ],
   "notes": [
@@ -2510,6 +2648,8 @@
   "description_nl": "Drents Museum De Buitenplaats in Eelde richt zich op organische architectuur, figuratieve kunst en kunst rond 1900. Het museumpaviljoen is begin jaren negentig opgericht door verzamelaars Jos en Janneke van Groeningen en in 1996 geopend door koningin Beatrix; het organische ontwerp is van architectenbureau Alberts & Van Huut. Bij het museum horen het 17de-eeuwse Nijsinghhuis met muur- en plafondschilderingen van noordelijke figuratieven en een vrij toegankelijke museumtuin. Er zijn halfjaarlijks wisselende tentoonstellingen met het accent op art nouveau.",
   "description_en": "Drents Museum De Buitenplaats in Eelde focuses on organic architecture, figurative art and art from around 1900. The museum pavilion was founded in the early 1990s by collectors Jos and Janneke van Groeningen and opened by Queen Beatrix in 1996; the organic design is by architectural firm Alberts & Van Huut. The site includes the 17th-century Nijsinghhuis with wall and ceiling paintings by northern figurative artists and a freely accessible museum garden. Exhibitions change twice a year with a focus on art nouveau.",
   "address": "Hoofdweg 76, 9761 EK Eelde",
+  "lat": 53.133807,
+  "lon": 6.563225,
   "hours_nl": "Di t/m zo 11.00–17.00 uur (museumgebouw en Nijsinghhuis).\nMuseumtuin en Brasserie Röling: di t/m zo 10.00–17.00 uur, gratis toegankelijk.\nIn de schoolvakanties ook op maandagen open.\nExtra open: maandagen zomervakantie 4 jul t/m 30 aug, ma 12 en 19 okt, ma 21 en 28 dec.\nGesloten: 25 december (1e kerstdag) en 1 januari (Nieuwjaarsdag).",
   "hours_en": "Tue–Sun 11 am–5 pm (museum building and Nijsinghhuis).\nMuseum garden and Brasserie Röling: Tue–Sun 10 am–5 pm, free entry.\nAlso open on Mondays during school holidays.\nExtra open: summer-holiday Mondays 4 Jul–30 Aug, Mon 12 & 19 Oct, Mon 21 & 28 Dec.\nClosed: 25 December (Christmas Day) and 1 January (New Year's Day).",
   "transit_nl": "Bus 9 vanaf Groningen CS richting Eelde (2x per uur); halte Kerkhoflaan of Kosterijweg.\nBus 50 richting Assen via De Punt met overstap naar Eelde (halte Kosterijweg of Kerkhoflaan).\nVanaf station Assen: bus 50 richting De Punt, overstappen op de bus naar Eelde.",
@@ -2614,6 +2754,10 @@
    {
     "fact": "pricing",
     "url": "https://dmdebuitenplaats.nl/en/plan-je-bezoek/entreeprijzen"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/way/953574587"
    }
   ],
   "notes": [
@@ -2628,6 +2772,8 @@
   "description_nl": "Museum Volkenkunde heet tegenwoordig Wereldmuseum Leiden en is onderdeel van het Wereldmuseum. Met zijn wetenschappelijke oriëntatie en verzamelgeschiedenis richt het museum zich op wereldwijde culturele geschiedenissen, met thema's als iconen van de wereld en de schoonheid van inheemse leefwerelden en hun strijd voor onafhankelijkheid en herstel van historisch onrecht. De tentoonstellingen moedigen bezoekers aan na te denken over wat het betekent om mens te zijn.",
   "description_en": "Museum Volkenkunde is now called Wereldmuseum Leiden and is part of the Wereldmuseum. With its scientific orientation and collecting history, it focuses on global cultural histories, with themes including icons of the world and the beauty of indigenous worlds and their struggle for independence and the restoration of historical injustice. The exhibitions invite visitors to reflect on what it means to be human.",
   "address": "Steenstraat 1, 2312 BS Leiden (goedereningang: 1e Binnenvestgracht)",
+  "lat": 52.163314,
+  "lon": 4.482444,
   "hours_nl": "Di t/m zo 10.00–17.00 uur.\nTijdens schoolvakanties en op verschillende feestdagen ook op maandag open.\nExtra open op maandagen (2026): 16 en 23 feb, 6 apr (Pasen), 20 apr, 25 mei (Pinksteren), 6/13/20/27 jul en 3/10/17/24 aug, 12 en 19 okt, 21 en 28 dec.\nGesloten: 1 jan (Nieuwjaarsdag), 27 apr (Koningsdag), 3 okt (Leidens Ontzet), 25 dec (1e kerstdag).",
   "hours_en": "Tue–Sun 10 am–5 pm.\nAlso open on Mondays during school holidays and on various public holidays.\nExtra open on Mondays (2026): 16 & 23 Feb, 6 Apr (Easter), 20 Apr, 25 May (Pentecost), 6/13/20/27 Jul and 3/10/17/24 Aug, 12 & 19 Oct, 21 & 28 Dec.\nClosed: 1 Jan (New Year's Day), 27 Apr (King's Day), 3 Oct (Leidens Ontzet), 25 Dec (Christmas Day).",
   "transit_nl": "Trein: vijf minuten lopen van NS-station Leiden Centraal.",
@@ -2725,6 +2871,10 @@
    {
     "fact": "pricing",
     "url": "https://leiden.wereldmuseum.nl/en/tickets"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/12120355366"
    }
   ],
   "notes": [
@@ -2738,6 +2888,8 @@
   "description_nl": "Het Rijksmuseum van Oudheden is het nationale archeologiemuseum van Nederland, in Leiden. De collectie telt circa 180.000 objecten, verdeeld over vier verzamelgebieden: Egypte en Nubië, de Klassieke Oudheid, het oude Midden-Oosten en Nederland (prehistorie, Romeinse tijd en middeleeuwen). Het museum werd in 1818 opgericht als archeologisch kabinet van de Universiteit Leiden en vierde in 2018 zijn tweehonderdjarig bestaan. Sinds 1995 is het een zelfstandige non-profitorganisatie die het archeologische deel van de Nederlandse rijkscollectie beheert; in de entreehal staat de 2.000 jaar oude Egyptische tempel van Taffeh.",
   "description_en": "The Dutch National Museum of Antiquities (RMO) in Leiden houses a collection of some 180,000 objects across four areas: Egypt and Nubia, Classical Antiquity, the Ancient Near East, and the Netherlands (prehistory, Roman period, and the Middle Ages). The museum was founded in 1818 as Leiden University's archaeological cabinet and celebrated its 200th anniversary in 2018. Since 1995 it has been an independent non-profit organisation managing the archaeological part of the Dutch national collection. A highlight is the 2,000-year-old Egyptian temple from Taffeh, on view in the entrance hall.",
   "address": "Rapenburg 28, 2311 EW Leiden",
+  "lat": 52.158467,
+  "lon": 4.485898,
   "hours_nl": "Maandag t/m zondag: 10.00 - 17.00 uur\nDonderdagavond: 19.00 - 22.00 uur\nGesloten op 1 januari, 27 april, 3 oktober en 25 december",
   "hours_en": "Monday to Sunday: 10:00 - 17:00\nThursday evening: 19:00 - 22:00\nClosed on 1 January, 27 April, 3 October and 25 December",
   "transit_nl": "Het museum ligt in het centrum van Leiden, op circa tien minuten loopafstand van NS-station Leiden Centraal.",
@@ -2838,6 +2990,10 @@
    {
     "fact": "address",
     "url": "https://www.rmo.nl/en/visit/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.rmo.nl/en/visit/"
    }
   ],
   "notes": [
@@ -2851,6 +3007,8 @@
   "description_nl": "Het Frans Hals Museum is het kunstmuseum van Haarlem. Het museum bezit de grootste collectie schilderijen van Frans Hals ter wereld, naast werk van andere beroemde Haarlemse kunstenaars zoals Judith Leyster, Cornelis van Haarlem en Jacob van Ruisdael. Ook is er een rijke verzameling kunst van 1880 tot nu (onder anderen Charley Toorop en Dana Lixenberg). In de oude binnenstad van Haarlem is 16de- en 17de-eeuwse, moderne en hedendaagse kunst te zien.",
   "description_en": "The Frans Hals Museum is Haarlem's museum of fine arts. It holds the largest collection of Frans Hals paintings in the world, alongside works by other famous Haarlem artists such as Judith Leyster, Cornelis van Haarlem and Jacob van Ruisdael. The collection also includes a rich range of art from 1880 to the present (including Charley Toorop and Dana Lixenberg). The museum shows 16th- and 17th-century, modern and contemporary art in Haarlem's historic city centre.",
   "address": "Groot Heiligland 62, 2011 ES Haarlem",
+  "lat": 52.376589,
+  "lon": 4.633628,
   "hours_nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nTijdens de Hals-Rembrandt tentoonstelling opent het museum al om 10.00 uur.\nExtra open op: Tweede Paasdag, Tweede Pinksterdag en 28 december.\n24 en 31 december sluit het museum om 16.00 uur.\nGesloten op: Nieuwjaarsdag (1 januari), Koningsdag (27 april) en Eerste Kerstdag (25 december).",
   "hours_en": "Tuesday to Sunday: 11 am - 5 pm\nDuring the Hals-Rembrandt exhibition the museum opens as early as 10.00 am.\nExtra open on: Easter Monday, Whit Monday and 28 December.\nThe museum closes at 4 pm on 24 and 31 December.\nClosed on: New Year's Day (1 January), King's Day (27 April) and Christmas Day (25 December).",
   "transit_nl": "Vanaf Haarlem Centraal Station is het circa 20 minuten lopen (via de Grote Markt en de Grote Houtstraat; de tweede straat rechts is het Groot Heiligland). Bus: het busstation ligt aan de zuidkant van het NS-station; haltes in de buurt zijn halte Frans Hals Museum (lijn 3, 1 minuut lopen), halte Centrum Houtplein (diverse lijnen, 6 minuten), halte Turfmarkt (diverse lijnen, 6 minuten) en halte Centrum/Verwulft (8 minuten). Reisplanner: 9292 (0900 9292).",
@@ -2941,6 +3099,10 @@
    {
     "fact": "address",
     "url": "https://franshalsmuseum.nl/nl/tickets-openingstijden"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://franshalsmuseum.nl/nl/bezoek/bereikbaarheid"
    }
   ],
   "notes": [
@@ -2955,6 +3117,8 @@
   "description_nl": "De Pont Museum is een internationaal museum voor hedendaagse kunst, gevestigd in een voormalige wolspinnerij in Tilburg. Het industriële gebouw met karakteristiek zaagtanddak werd door Benthem Crouwel Architecten getransformeerd tot een open, lichte ruimte. Sinds de opening in 1992 wisselt het museum meerdere keren per jaar van tentoonstellingen en collectiepresentaties; schilder- en beeldhouwkunst, installaties, film, performance en fotografie vormen het hart van het programma. In 2016 kreeg het museum een vleugel voor fotografie, video en multimedia-installaties, met daarin ook het museumcafé. De collectie telt meer dan duizend werken van ruim honderd kunstenaars; het museum is vernoemd naar Jan de Pont (1915-1987).",
   "description_en": "De Pont Museum is an international museum for contemporary art, housed in a former wool mill in Tilburg. Benthem Crouwel Architects transformed the industrial building with its distinctive sawtooth roof into an open, light-filled space. Since opening in 1992, the museum has changed its exhibitions and collection displays several times a year; painting and sculpture, along with installations, film, performance and photography, form the heart of the programme. In 2016 the museum opened a new wing for photography, video and multimedia installations, which also houses the museum café. The collection holds over a thousand works by more than a hundred artists; the museum is named after Jan de Pont (1915-1987).",
   "address": "Wilhelminapark 1, 5041 EA Tilburg",
+  "lat": 51.567339,
+  "lon": 5.074158,
   "hours_nl": "Let op: van 31 augustus t/m 19 september 2026 is het museum gesloten in verband met de tentoonstellingswissel; ook het café, de winkel, de bibliotheek en de tuin zijn gesloten. Heropening op 20 september 2026.\nMaandag: gesloten\nDi en wo: 11.00 - 17.00 uur\nDonderdag: 11.00 - 20.00 uur\nVr t/m zo: 11.00 - 17.00 uur\nFeestdagen: Koningsdag gesloten; Eerste en Tweede Paasdag 11.00-17.00; Hemelvaartsdag 11.00-20.00; Eerste en Tweede Pinksterdag 11.00-17.00; Eerste Kerstdag gesloten; Tweede Kerstdag 11.00-17.00; Oudjaarsdag 11.00-17.00; Nieuwjaarsdag gesloten.",
   "hours_en": "Please note: the museum is closed from 31 August to 19 September 2026 while the exhibition is being changed; the café, shop, library and garden are closed too. Reopening on 20 September 2026.\nMonday: closed\nTue and Wed: 11:00 - 17:00\nThursday: 11:00 - 20:00\nFri to Sun: 11:00 - 17:00\nPublic holidays: King's Day closed; Easter Sunday and Monday 11:00-17:00; Ascension Day 11:00-20:00; Pentecost Sunday and Monday 11:00-17:00; Christmas Day closed; Boxing Day 11:00-17:00; 31 December 11:00-17:00; New Year's Day closed.",
   "transit_nl": "Vanaf station Tilburg Centraal is het circa 15 minuten lopen naar De Pont Museum (verlaat het station aan de noordkant, linksaf Burgemeester Brokxlaan, rechtsaf bij de Gasthuisring, net voorbij het Wilhelminapark linksaf). Bus vanaf Tilburg station: bus 5 richting Noord-Stokhasselt, halte Textielmuseum; bus 7 richting West ETZ Tweesteden, halte Kwaadeindstraat. Actuele trein- en bustijden: 9292.nl.",
@@ -3055,6 +3219,10 @@
    {
     "fact": "vriendenloterij (not valid)",
     "url": "https://www.depont.nl/bezoek-tickets"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie"
    }
   ],
   "notes": [
@@ -3068,6 +3236,8 @@
   "description_nl": "Het Van Abbemuseum in Eindhoven is een van de meest toonaangevende musea voor hedendaagse kunst in Europa. De internationale collectie telt ruim 3.600 kunstwerken, met sleutelwerken van onder anderen Joseph Beuys, Marc Chagall, René Daniëls, Marlene Dumas, El Lissitzky, Pablo Picasso en Lidwien van de Ven; een selectie daarvan wordt getoond. Het museum stelt vragen op het gebied van kunst en samenleving op een experimentele manier aan de orde; openheid, gastvrijheid en kennisuitwisseling zijn voor het museum van belang.",
   "description_en": "The Van Abbemuseum in Eindhoven is one of the first public museums for contemporary art to be established in Europe. Its collection of over 3,600 works of art includes key works by artists such as Joseph Beuys, Marc Chagall, René Daniëls, Marlene Dumas, El Lissitzky, Pablo Picasso and Lidwien van de Ven. The museum has an experimental approach towards art's role in society; openness, hospitality and knowledge exchange are important to it.",
   "address": "Stratumsedijk 2, 5611 ND Eindhoven",
+  "lat": 51.434464,
+  "lon": 5.481831,
   "hours_nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nExtra geopend op: 6 april 2026 (tweede paasdag), 14 mei 2026 (hemelvaartsdag), 25 mei 2026 (tweede pinksterdag), 19 oktober 2026 (Dutch Design Week) en 26 december 2026 (tweede kerstdag)\nGesloten op: 1 januari 2026 (nieuwjaarsdag), 14 februari 2026 (zaterdag tijdens carnaval), 27 april 2026 (Koningsdag), 11 oktober 2026 (Marathon Eindhoven) en 25 december 2026 (eerste kerstdag)",
   "hours_en": "Tuesday to Sunday: 11 AM - 5 PM\nThe museum is also open on: 6 April 2026 (Easter Monday), 14 May 2026 (Ascension Day), 25 May 2026 (Whit Monday), 19 October 2026 (Dutch Design Week) and 26 December 2026 (second day of Christmas)\nThe museum is closed on: 1 January 2026 (New Year's Day), 14 February 2026 (Saturday during carnival), 27 April 2026 (King's Day), 11 October 2026 (Marathon Eindhoven) and 25 December 2026 (first day of Christmas)",
   "transit_nl": "Vanaf station Eindhoven Centraal loop je in 15 minuten door het autovrije stadscentrum naar het museum. Treinen uit Amsterdam, Utrecht, Den Haag, Rotterdam, Venlo, Heerlen en Maastricht komen elk half uur aan in Eindhoven (ns.nl). Bus: het busstation ligt aan de noordkant van het NS-station; haltes bij het museum zijn onder meer Bilderdijklaan (1 minuut lopen), Smalle Haven (3 minuten), Stadhuisplein (4 minuten), PC Hooftlaan (4 minuten) en Keizersgracht (9 minuten). Actuele reisinformatie: 9292.nl.",
@@ -3164,6 +3334,10 @@
    {
     "fact": "access_nl",
     "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2759556931"
    }
   ],
   "notes": [
@@ -3176,6 +3350,8 @@
   "description_nl": "Het Bonnefanten is hét kunstmuseum van Limburg, in Maastricht. Het museum presenteert vaste collecties en wisselende tentoonstellingen van niet-mainstream kunst en kunstenaars. Het museum wijdt een permanent eerbetoon aan architect Aldo Rossi, de architect van het Bonnefanten.",
   "description_en": "The Bonnefanten is the art museum of Limburg, in Maastricht. It presents permanent collections and changing exhibitions with non-mainstream art and artists. The museum dedicates a permanent tribute to architect Aldo Rossi, the architect of the Bonnefanten.",
   "address": "Avenue Céramique 250, 6221 KX Maastricht",
+  "lat": 50.842539,
+  "lon": 5.701899,
   "hours_nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nOpeningstijden 2026 - open op: carnaval (14 en 17 februari; op carnavalszondag 15 februari gesloten), Eerste en Tweede Paasdag (5 en 6 april), Hemelvaartsdag (14 mei), Eerste en Tweede Pinksterdag (24 en 25 mei), Tweede Kerstdag (26 december) en Oudjaarsdag (31 december)\nGesloten op: carnavalszondag (15 februari), Koningsdag (27 april), Eerste Kerstdag (25 december) en Nieuwjaarsdag (1 januari)",
   "hours_en": "Tuesday to Sunday: 11:00 - 17:00\nOpening hours 2026 - open on: Carnival (14 and 17 February; the museum is closed on Sunday 15 February), Easter Sunday and Easter Monday (5 and 6 April), Ascension Day (14 May), Pentecost and Whit Monday (24 and 25 May), Boxing Day (26 December) and New Year's Eve (31 December)\nClosed on: Carnival Sunday (15 February), King's Day (27 April), Christmas Day (25 December) and New Year's Day (1 January)",
   "transit_nl": "Vanaf Maastricht Centraal Station: bus 1 richting De Heeg, bus 5 richting Eijsden, bus 57 richting Gulpen (via Mheer), bus 78 richting Luik en bus 350 richting Aachen. Uitstappen bij halte 'Bonnefantenmuseum'.",
@@ -3276,6 +3452,10 @@
    {
     "fact": "address",
     "url": "https://www.bonnefanten.nl/en/see-and-do/practical-information/prices-address-and-route"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid"
    }
   ],
   "notes": [
