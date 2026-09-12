@@ -1494,8 +1494,8 @@
   "description_nl": "Singer Laren is een particulier cultureel erfgoed in Laren, bestaand uit een museum, theater, villa 'De Wilde Zwanen' en een beeldentuin. Het Amerikaanse echtpaar Anna en William Singer bouwde begin twintigste eeuw de villa in het toenmalige 'kunstenaarsdorp' Laren en verzamelde een omvangrijke kunstcollectie. Na het overlijden van William liet Anna een museum en theater aan de villa bouwen, die in 1956 voor het publiek openden. Sinds het najaar van 2017 beschikt Singer Laren over een nieuw theater; in 2021 opende de museumvleugel voor de Collectie Nardinc.",
   "description_en": "Singer Laren is a unique private piece of cultural heritage in Laren, consisting of a museum, the villa 'De Wilde Zwanen', a theatre and a sculpture garden. American couple Anna and William Singer built their villa in the artists' village of Laren in the early twentieth century and amassed an impressive art collection. After William's death, Anna had a museum and theatre built onto the villa, opened to the public in 1956. A new theatre opened in 2017, followed by a museum wing for the Nardinc Collection in 2021.",
   "address": "Oude Drift 1, 1251 BS Laren",
-  "lat": 52.257865,
-  "lon": 5.212444,
+  "lat": 52.2590783,
+  "lon": 5.2214518,
   "hours_nl": "Museum: dinsdag t/m zondag 10.00 - 17.00 uur\nBeeldentuin, horeca en Singer Shop: dinsdag t/m zondag 9.30 - 17.30 uur\nKassa: dinsdag t/m zondag 9.30 - 17.00 uur\nTheater: matinees 16.00 uur, avondvoorstellingen 20.15 uur (deuren 19.15 uur)\nFeestdagen: geopend, behalve Nieuwjaarsdag, Koningsdag en Eerste Kerstdag (Pasen en Pinksteren ook op maandag open)",
   "hours_en": "Museum: Tuesday to Sunday 10 am - 5 pm\nSculpture Garden, café and Singer Shop: Monday to Sunday 9.30 am - 5.30 pm (EN page; NL page states Tue-Sun)\nBox office: Tuesday to Sunday 9.30 am - 5 pm\nTheatre: matinees 4 pm, evening performances 8.15 pm (doors 7.15 pm)\nPublic holidays: open, except New Year's Day, King's Day and Christmas Day (Easter and Pentecost Mondays also open)",
   "transit_nl": "Met de trein naar NS-station Hilversum, Naarden-Bussum of Bussum-Zuid; daarna bus of OV-fiets.\nBus 109 vanaf station Naarden-Bussum (richting Hilversum): halte Singermuseum, direct voor de deur; rit ca. 20 min, 1x per uur, 7 dagen per week.\nBus 108 vanaf station Hilversum (richting Huizen): halte Brink, daarna ca. 5 min lopen; totale reistijd ca. 17 min.\nR-netlijn 321 vanaf station Amsterdam Zuid naar halte Laren, Singermuseum; ca. 45 min, werkdagen elke 30 min.\nOV-fiets: vanaf de NS-stations ca. 15-20 min fietsen.",
@@ -1590,7 +1590,7 @@
    },
    {
     "fact": "coordinates",
-    "url": "https://www.singerlaren.nl/nl/pQPNWcb/met-eigen-vervoer"
+    "url": "https://www.openstreetmap.org/node/2875461774"
    }
   ],
   "notes": [
