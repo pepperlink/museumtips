@@ -193,4 +193,6 @@ Nothing irreversible. Revert the implementation PR/branch (`git revert` or close
 
 ## 11. Log
 
-*(Empty on purpose. Append dated notes during the build, one bullet per run: what landed, verify command + result, leftover decisions.)*
+*(Append during the build, one bullet per run.)*
+
+- 2026-09-12 · ST1 (grok-4.6) — commit `9e1d59b`. Null/zero-date guard: the five open-ended shows moved to their own “Geen einddatum” section (no “Afgelopen”, no countdown, no `#0001-01`); jump-nav + sections sorted on normalized `YYYY-MM`; meta line shortened (`t/m 13 sep 2026`, `9 mei – 13 sep 2026`; unknown start hidden); shared helper on `/musea/` and home. Operator-verified on pinned Hugo v0.166 (pod build): year-1 / `0001-01` / `Startdatum onbekend` greps all 0; nav ascending; five shows in the no-end section. Leftover: jump-nav keeps a “Geen einddatum” entry; `until`/`open_ended` keys now unused (left for ST5).
