@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-09-10",
+ "compiled": "2026-09-12",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -1212,6 +1212,690 @@
    "end": "2027-01-31",
    "description": "Photographer, feminist, phenomenon: Eva Besnyö (1910–2003) changed photography forever.",
    "url": "https://www.fotomuseumdenhaag.nl/en/exhibitions/liberated-camera"
+  },
+  {
+   "title": "Kunst op het plein: Ricardo van Eyk",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": "2026-09-10",
+   "end": "2027-09-01",
+   "description": "Voor de sculptuur APEX liet Ricardo van Eyk zich inspireren door stedelijke planning.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/kunst-op-het-plein-ricardo-van-eyk"
+  },
+  {
+   "title": "Yayoi Kusama",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2026-09-11",
+   "end": "2027-01-17",
+   "description": "Starting from September 11, a landmark retrospective of Yayoi Kusama, one of the most influential and pioneering artists of the 20th and 21st centuries, is on view.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/yayoi-kusama-en"
+  },
+  {
+   "title": "Minami-no-tori",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": "2026-09-11",
+   "end": "2026-09-27",
+   "description": "Een audiovisuele installatie van Daniel Cross in Utrecht Lokaal.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/minami-no-tori"
+  },
+  {
+   "title": "Celebrating the Icons of Art",
+   "museum": "Voorlinden",
+   "city": "Wassenaar",
+   "start": "2026-09-12",
+   "end": "2027-03-07",
+   "description": "Celebrating the Icons of Art is een ontmoeting tussen hedendaagse iconen uit de museumcollectie en hun 20ste-eeuwse voorgangers.",
+   "url": "https://www.voorlinden.nl/tentoonstelling/icons/"
+  },
+  {
+   "title": "Into the Woods",
+   "museum": "Museum MORE",
+   "city": "Gorssel",
+   "start": "2026-09-12",
+   "end": "2027-03-21",
+   "description": "Imposante bomen, lieflijke bosvijvers, vervreemdend struikgewas en mysterieuze paden die nergens naartoe leiden. Te zien in Museum MORE Twickel, Delden.",
+   "url": "https://www.moretwickel.nl/tentoonstellingen/into-the-woods"
+  },
+  {
+   "title": "Van Gogh, al onze schilderijen",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": "2026-09-15",
+   "end": "2027-01-03",
+   "description": "Voor het eerst sinds 1984 zie je alle 88 schilderijen van Vincent van Gogh (1853-1890) uit de Kröller-Müllercollectie.",
+   "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/van-gogh-al-onze-schilderijen"
+  },
+  {
+   "title": "Romeins leer",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "start": "2026-09-17",
+   "end": null,
+   "description": "Over de belangrijkste objecten en overblijfselen van Romeins leer uit de museumcollectie, waaronder tientallen schoenen, een zadel en zelfs een Romeinse legertent.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/romeins-leer/"
+  },
+  {
+   "title": "Nadav Kander: The edge of things",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "start": "2026-09-18",
+   "end": "2027-01-31",
+   "description": "Foam presents The edge of things, a major solo exhibition of the internationally renowned artist Nadav Kander.",
+   "url": "https://www.foam.org/events/nadav-kander"
+  },
+  {
+   "title": "Hailun Ma: Hometown",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "start": "2026-09-18",
+   "end": "2027-01-20",
+   "description": "In September 2026, Hailun Ma presents her first major solo exhibition outside China, inviting visitors into a world where fashion becomes a lens for social observation.",
+   "url": "https://www.foam.org/events/hailun-ma"
+  },
+  {
+   "title": "Keerthana Kunnath: Not What You Saw",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "start": "2026-09-18",
+   "end": "2026-11-27",
+   "description": "Foam 3h presents the first museum exhibition of photographer Keerthana Kunnath.",
+   "url": "https://www.foam.org/events/keerthana-kunnath"
+  },
+  {
+   "title": "Ex Hibited",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": "2026-09-19",
+   "end": "2027-05-23",
+   "description": "How does one exhibit a portrait of someone who was once exhibited themselves under colonial rule?",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/ex-hibited-0"
+  },
+  {
+   "title": "Henk Mual – Kunstenaar in drie werelden",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-09-19",
+   "end": "2027-02-21",
+   "description": "In Henk Mual - Kunstenaar in drie werelden maak je kennis met het werk van Henk Mual (1932-2015), een kunstenaar met wortels in de Molukken, Java en Nederland.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/henk-mual"
+  },
+  {
+   "title": "The Architect & the Housewife",
+   "museum": "Groninger Museum",
+   "city": "Groningen",
+   "start": "2026-09-19",
+   "end": "2027-05-09",
+   "description": "Deze internationale groepstentoonstelling brengt hedendaagse kunstenaars samen die werk maken over het onderhouden van een artistieke praktijk terwijl ook de alledaagse taken voortdurend om aandacht vragen.",
+   "url": "https://www.groningermuseum.nl/the-architect-and-the-housewife"
+  },
+  {
+   "title": "Playing House",
+   "museum": "Groninger Museum",
+   "city": "Groningen",
+   "start": "2026-09-19",
+   "end": "2027-01-10",
+   "description": "'Playing House' gaat over de regels waarmee kinderen opgroeien en over de regels die het waard zijn om te breken.",
+   "url": "https://www.groningermuseum.nl/playing-house"
+  },
+  {
+   "title": "The Convent of Pleasure",
+   "museum": "Groninger Museum",
+   "city": "Groningen",
+   "start": "2026-09-19",
+   "end": "2027-05-09",
+   "description": "Ani Schulze presenteert haar doorlopende soapopera, 'The Convent of Pleasure' (Nieuw licht 1), in de reeks waarin Groninger Museum kunstenaars uitnodigt nieuw licht te werpen op de collectie van De Ploeg.",
+   "url": "https://www.groningermuseum.nl/ani-schulze-the-convent-of-pleasure"
+  },
+  {
+   "title": "Keramikos Carrier Bag",
+   "museum": "Groninger Museum",
+   "city": "Groningen",
+   "start": "2026-09-19",
+   "end": "2027-01-10",
+   "description": "Deze tentoonstelling viert de aankoop van 'Keramikos 2' door Groninger Museum, een gezamenlijk project van Matthew Lutz-Kinoy en Natsuko Uchino, bestaande uit meer dan 300 keramische serviesstukken en bijbehorende tafelkleden.",
+   "url": "https://www.groningermuseum.nl/keramikos-carrier-bag"
+  },
+  {
+   "title": "Sigmar Polke – Het weten van de kleuren",
+   "museum": "De Pont Museum",
+   "city": "Tilburg",
+   "start": "2026-09-20",
+   "end": "2027-02-28",
+   "description": "Vertrekkend vanuit Sigmar Polkes radicale kleurexperimenten uit de jaren tachtig verkent de tentoonstelling Sigmar Polke – Het weten van de kleuren de verbluffende intensiteit en schoonheid van zijn schilderijen.",
+   "url": "https://www.depont.nl/tentoonstellingen/sigmar-polke-3"
+  },
+  {
+   "title": "Matthew Monahan – Left Hand Path",
+   "museum": "De Pont Museum",
+   "city": "Tilburg",
+   "start": "2026-09-20",
+   "end": "2027-02-28",
+   "description": "Naar aanleiding van twee nieuwe aankopen en een genereuze schenking van de kunstenaar richt De Pont Museum in het najaar van 2026 een aantal zalen in met sculpturen, reliëfs en werken op papier van Matthew Monahan (1972, Eureka, USA).",
+   "url": "https://www.depont.nl/tentoonstellingen/matthew-monahan"
+  },
+  {
+   "title": "Bárbara Wagner & Benjamin de Burca – Future of Yesterday",
+   "museum": "De Pont Museum",
+   "city": "Tilburg",
+   "start": "2026-09-20",
+   "end": "2027-02-28",
+   "description": "In dit nieuwe werk richten Bárbara Wagner & Benjamin de Burca zich op de Duitse hardcore-scene, met bijzondere aandacht voor Straight Edge (kortweg sXe).",
+   "url": "https://www.depont.nl/tentoonstellingen/barbara-wagner-benjamin-de-burca"
+  },
+  {
+   "title": "Herman Kruyder. Expressionist van de ziel",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": "2026-09-23",
+   "end": "2027-02-14",
+   "description": "Singer Laren zet vanaf 23 september 2026 Herman Kruyder (1881–1935), een van de meest markante en uitzonderlijke expressionisten van Nederland in nieuw licht.",
+   "url": "https://www.singerlaren.nl/nl/agenda/herman-kruyder-expressionist-van-de-ziel-5t3s"
+  },
+  {
+   "title": "A Chair and You",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": "2026-09-26",
+   "end": "2027-01-31",
+   "description": "Chairs as you’ve never seen them before: in A Chair and You, these everyday objects become the stars of an immersive performance.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/a-chair-and-you/"
+  },
+  {
+   "title": "Bart van der Leck / Charley Toorop",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "start": "2026-09-26",
+   "end": "2027-09-01",
+   "description": "In deze tentoonstelling staan twee bevriende kunstenaars centraal die begin twintigste eeuw een compleet eigen én compleet verschillende stijl ontwikkelen: Bart van der Leck (1876-1958) en Charley Toorop (1891-1955).",
+   "url": "https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-der-leck-charley-toorop"
+  },
+  {
+   "title": "Al Nisa / النساء",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "start": "2026-10-01",
+   "end": "2026-12-20",
+   "description": "At MAQAM, the group exhibition Al Nisa / النساء brings together the work of multiple artists.",
+   "url": "https://www.foam.org/events/middle-east-archive"
+  },
+  {
+   "title": "In Her Own Way / شوية وراجعة",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "start": "2026-10-01",
+   "end": "2026-10-29",
+   "description": "At Mercatorplein there is a solo exhibition, showcasing the work of Yomna El Beyaly titled In Her Own Way / شوية وراجعة.",
+   "url": "https://www.foam.org/events/middle-east-archive"
+  },
+  {
+   "title": "Yoshitoshi. Master of the Moon",
+   "museum": "Van Gogh Museum",
+   "city": "Amsterdam",
+   "start": "2026-10-01",
+   "end": "2027-01-04",
+   "description": "One hundred prints, one hundred stories, and always the moon.",
+   "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/yoshitoshi-master-of-the-moon"
+  },
+  {
+   "title": "Zeker weten?",
+   "museum": "Teylers Museum",
+   "city": "Haarlem",
+   "start": "2026-10-02",
+   "end": "2027-08-29",
+   "description": "Aan de hand van verrassende historische en actuele voorbeelden komen vijf basisprincipes van de wetenschap tot leven.",
+   "url": "https://teylersmuseum.nl/nl/zien-en-doen/zeker-weten"
+  },
+  {
+   "title": "Chez Matisse - Masterpieces from Centre Pompidou",
+   "museum": "H'ART Museum (ex-Hermitage Amsterdam)",
+   "city": "Amsterdam",
+   "start": "2026-10-03",
+   "end": "2027-02-14",
+   "description": "Coming this fall to H’ART Museum: Henri Matisse (1869-1954), one of the great pioneers of modern art.",
+   "url": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/"
+  },
+  {
+   "title": "Plastic Sea, Perfect Storm",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": "2026-10-03",
+   "end": "2027-03-07",
+   "description": "This autumn at Kunsthal Rotterdam, the photographer Rob Hornstra and the author Arnold van Bruggen will show the lives of countless migrants.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/plastic-sea-perfect-storm/"
+  },
+  {
+   "title": "Sarah Maple – Dubbelleven",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-10-03",
+   "end": "2027-04-11",
+   "description": "In haar werk onderzoekt Maple wat het betekent om moslima, kunstenaar, moeder en vrouw met een Zuid-Aziatische achtergrond te zijn in een westerse wereld.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/sarah-maple"
+  },
+  {
+   "title": "Digital by Nature – de kunst van Miguel Chevalier",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-10-03",
+   "end": "2027-04-04",
+   "description": "In Digital by Nature neemt pionier van de digitale kunst Miguel Chevalier je mee in een wereld waar technologie en natuur elkaar ontmoeten en (verrassend genoeg) versterken.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/digital-nature"
+  },
+  {
+   "title": "DEEP DIVE – Natalia Domínguez Rangel",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-10-03",
+   "end": "2027-04-04",
+   "description": "In deze nieuwe tentoonstelling van Fundatie Forward verkent Natalia Domínguez Rangel de thema’s die verborgen liggen in de diepzee.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/deep-dive"
+  },
+  {
+   "title": "Symbio – Diana Scherer",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-10-03",
+   "end": "2027-10-03",
+   "description": "Speciaal voor Kunst in de Vide creëert Diana Scherer een nieuw textielwerk.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/symbio"
+  },
+  {
+   "title": "Willem de Kooning at work",
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "start": "2026-10-09",
+   "end": "2027-01-17",
+   "description": "One hundred years ago, Willem de Kooning left the Netherlands for a new life in New York, where he became one of the most influential artists of the 20th century.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/willem-de-kooning-at-work"
+  },
+  {
+   "title": "Document Netherlands: New Energy",
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "start": "2026-10-09",
+   "end": "2027-01-17",
+   "description": "Kadir van Lohuizen photographs the energy transition on and around the North Sea.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/document-netherlands-new-energy"
+  },
+  {
+   "title": "Marisol",
+   "museum": "Museum Boijmans Van Beuningen (Depot)",
+   "city": "Rotterdam",
+   "start": "2026-10-09",
+   "end": "2027-03-29",
+   "description": "Museum Boijmans Van Beuningen will present a major retrospective of Marisol, the Venezuelan American artist who became an icon of Pop Art in the 1960s.",
+   "url": "https://www.boijmans.nl/en/exhibitions/marisol"
+  },
+  {
+   "title": "Adam Pendleton — Some Wild Kind of Language",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2026-10-10",
+   "end": "2027-01-17",
+   "description": "Starting in October 2026, Some Wild Kind of Language, Adam Pendleton’s first museum exhibition in the Netherlands, will be on view.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/adam-pendleton-en"
+  },
+  {
+   "title": "Graffiti",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": "2026-10-10",
+   "end": "2027-03-29",
+   "description": "Deze tentoonstelling laat zien hoe graffiti, ontstaan onder New Yorkse jongeren, uitgroeide tot een invloedrijke kracht op de ontwikkeling van hedendaagse kunst.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/graffiti"
+  },
+  {
+   "title": "De wereld uitvergroot – Installatiekunst van Museum Arnhem",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-10-10",
+   "end": "2027-04-11",
+   "description": "In de tentoonstelling De wereld uitvergroot zijn installatiekunstwerken en andere grote, indrukwekkende kunstwerken uit de collectie van het museum te beleven.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/de-wereld-uitvergroot"
+  },
+  {
+   "title": "Myriam Boulos",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "start": "2026-10-16",
+   "end": "2027-02-17",
+   "description": "Foam presents the exhibition of Myriam Boulos (1992, Lebanon), the 19th winner of the Foam Paul Huf Award.",
+   "url": "https://www.foam.org/events/myriam-boulos"
+  },
+  {
+   "title": "Whistler. Dandy and Disruptor",
+   "museum": "Van Gogh Museum",
+   "city": "Amsterdam",
+   "start": "2026-10-16",
+   "end": "2027-01-10",
+   "description": "The first retrospective in the Netherlands devoted to the remarkable artist James McNeill Whistler.",
+   "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/whistler"
+  },
+  {
+   "title": "Art Award Arnhem 2026",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-10-16",
+   "end": "2026-11-09",
+   "description": "Ontdek de drie genomineerden van de Art Award Arnhem 2026: Milou Laroussiyen, Jeongmin Park en Enrico Manzella.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/art-award-arnhem-2026"
+  },
+  {
+   "title": "Drawn: Rotterdam! Night Work",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": "2026-10-17",
+   "end": "2027-02-07",
+   "description": "The drawings brought together in Drawn: Rotterdam! Night Work offer fragmented glimpses into the many different aspects of Rotterdam by night.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/drawn-rotterdam-night-work/"
+  },
+  {
+   "title": "Museum als Zonnewijzer",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "start": "2026-10-17",
+   "end": "2027-02-21",
+   "description": "Wat als een museum zou werken als een zonnewijzer? Niet alleen door de tijd aan te geven, maar ook door ons te helpen begrijpen wat onze plek is in de wereld.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-zonnewijzer"
+  },
+  {
+   "title": "Hoe hoort het eigenlijk (niet)?",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "start": "2026-10-17",
+   "end": "2027-10-03",
+   "description": "In Hoe hoort het eigenlijk (niet)? ontdek je in het Erfgoedcentrum bij Rozet hoe Arnhemse mannen en vrouwen vanaf de negentiende eeuw te maken kregen met regels en verwachtingen over gedrag, uiterlijk en hun plek in de samenleving.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/hoe-hoort-het-eigenlijk-niet"
+  },
+  {
+   "title": "Angkor – Het mysterie van Cambodja",
+   "museum": "Drents Museum",
+   "city": "Assen",
+   "start": "2026-10-17",
+   "end": "2027-05-09",
+   "description": "Het grootste religieuze monument ter wereld is voor het eerst in Europa te zien.",
+   "url": "https://drentsmuseum.nl/tentoonstellingen/angkor-het-mysterie-van-cambodja"
+  },
+  {
+   "title": "Maya Inès Touam: Belongings",
+   "museum": "Huis Marseille",
+   "city": "Amsterdam",
+   "start": "2026-10-24",
+   "end": "2027-02-07",
+   "description": "Huis Marseille will be showing Belongings (Ce qui nous appartient), the first solo exhibition in the Netherlands by the French-Algerian artist Maya Inès Touam.",
+   "url": "https://huismarseille.nl/en/exhibitions/maya-ines-touam/"
+  },
+  {
+   "title": "Andrzej Steinbach: Hier",
+   "museum": "Huis Marseille",
+   "city": "Amsterdam",
+   "start": "2026-10-24",
+   "end": "2027-02-07",
+   "description": "In October 2026 Huis Marseille will be introducing the Netherlands to the work of Andrzej Steinbach.",
+   "url": "https://huismarseille.nl/en/exhibitions/andrzej-steinbach/"
+  },
+  {
+   "title": "Adolphe de Meyer: The Substance of a Venetian Dream",
+   "museum": "Huis Marseille",
+   "city": "Amsterdam",
+   "start": "2026-10-24",
+   "end": "2027-02-07",
+   "description": "Huis Marseille presents a premiere of Adolphe de Meyer’s rediscovered collection of photographs of Venice.",
+   "url": "https://huismarseille.nl/en/exhibitions/venetian-dream/"
+  },
+  {
+   "title": "Signac - Symphony of Colours",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "start": "2026-10-24",
+   "end": "2027-02-28",
+   "description": "From 24 October, experience an impressive overview of Paul Signac (1863–1935), the master of Neo-Impressionism, at Kunsthal Rotterdam.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/signac-symphony-of-colours-en/"
+  },
+  {
+   "title": "Humus Blues",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": "2026-10-27",
+   "end": "2027-02-28",
+   "description": "De Sikkens Prize 2026 gaat naar Otobong Nkanga (1974, Kano, Nigeria), die wordt geëerd met de solotentoonstelling Humus Blues in Singer Laren.",
+   "url": "https://www.singerlaren.nl/nl/agenda/humus-blues-yz1h"
+  },
+  {
+   "title": "Hals-Rembrandt",
+   "museum": "Frans Hals Museum",
+   "city": "Haarlem",
+   "start": "2026-11-06",
+   "end": "2027-02-28",
+   "description": "Frans Hals en Rembrandt van Rijn zijn de twee grootmeesters van de 17de-eeuwse Hollandse portretkunst.",
+   "url": "https://franshalsmuseum.nl/nl/zien-en-doen/hals-rembrandt"
+  },
+  {
+   "title": "Junk Space",
+   "museum": "Museum MORE",
+   "city": "Gorssel",
+   "start": "2026-11-07",
+   "end": "2027-02-28",
+   "description": "Je rijdt er elke dag langs. De bedrijvenstrook langs de snelweg. Het tankstation om twee uur ’s nachts. De Vinex-wijk die overal en nergens lijkt te zijn. In Junk Space richten meer dan dertig kunstenaars hun blik op de hedendaagse openbare ruimte (Museum MORE Gorssel).",
+   "url": "https://www.moregorssel.nl/tentoonstellingen/junk-space"
+  },
+  {
+   "title": "Cooking from the Fridge",
+   "museum": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "start": "2026-11-11",
+   "end": "2027-09-05",
+   "description": "Deze tentoonstelling maakt bijna een jaar lang (inter)nationale topstukken zichtbaar. Cooking from the Fridge benadrukt zo het belang van Zuid-Limburg als schatkamer van internationale hedendaagse kunst.",
+   "url": "https://www.bonnefanten.nl/nl/tentoonstellingen/cooking-from-the-fridge"
+  },
+  {
+   "title": "Geen weg terug – Bé Thoden van Velzen",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2026-11-21",
+   "end": "2027-03-07",
+   "description": "Bé Thoden van Velzen was een Zwolse kunstenaar die met veel aandacht keek naar mensen, dieren en vormen. Te zien in Kasteel het Nijenhuis, Heino.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/geen-weg-terug"
+  },
+  {
+   "title": "Merlijn Hooijsma in West-Australië",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": "2026-11-24",
+   "end": "2027-01-10",
+   "description": "Fotograaf Merlijn Hooijsma (1999) is de winnaar van de John & Marine van Vlissingen Art Foundation Prijs 2026; over de reis en het werk wordt een boek en een tentoonstelling gemaakt (Van den Brink Galerij).",
+   "url": "https://www.singerlaren.nl/nl/agenda/merlijn-hooijsma-in-west-australie-f1mv"
+  },
+  {
+   "title": "Collaborative Artistic Practices - Proposals for the Museum Collection",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2026-11-28",
+   "end": "2027-04-04",
+   "description": "Every two years, the Stedelijk organizes a major group exhibition from a discipline or current theme, serving as a platform for new collection acquisitions.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/collaborative-artistic-practices-proposals-museum-collection"
+  },
+  {
+   "title": "Jan van der Kooi – Morgen maak ik mijn beste werk",
+   "museum": "Drents Museum",
+   "city": "Assen",
+   "start": "2026-11-28",
+   "end": "2027-04-04",
+   "description": "Jan van der Kooi (1957) behoort tot de belangrijkste hedendaagse figuratieve kunstenaars van Nederland.",
+   "url": "https://drentsmuseum.nl/tentoonstellingen/tentoonstelling-jan-van-der-kooi"
+  },
+  {
+   "title": "Shivangi Kalra – Met mijn ogen dicht",
+   "museum": "Drents Museum",
+   "city": "Assen",
+   "start": "2026-11-28",
+   "end": "2027-04-04",
+   "description": "Met Shivangi Kalra - Met mijn ogen dicht presenteert het Drents Museum de allereerste museale solotentoonstelling van de Indiaas-Nederlandse kunstenaar Shivangi Kalra (1998).",
+   "url": "https://drentsmuseum.nl/tentoonstellingen/shivangi-kalra"
+  },
+  {
+   "title": "Echo’s van oud Egypte",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "start": "2026-12-11",
+   "end": "2027-06-27",
+   "description": "Ontdek in deze eigentijdse tentoonstelling hoe echo’s uit het oude Egypte doorklinken in mode, films, muziek, kunst en games van de afgelopen tweehonderd jaar.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/echos-van-oud-egypte/"
+  },
+  {
+   "title": "Tess van Zalinge - keurslijf",
+   "museum": "Centraal Museum",
+   "city": "Utrecht",
+   "start": "2026-12-12",
+   "end": "2027-05-17",
+   "description": "Dit najaar opent de eerste solotentoonstelling van modeontwerper Tess van Zalinge.",
+   "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/tess-van-zalinge-keurslijf"
+  },
+  {
+   "title": "Future Fashion",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": "2027-01-30",
+   "end": "2027-08-15",
+   "description": "Fashion is one of the industries with the largest footprint, its relentless pace generating mountains of waste.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/future-fashion"
+  },
+  {
+   "title": "Drawing!",
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "start": "2027-02-12",
+   "end": "2027-05-23",
+   "description": "Around 1600, the art of drawing experienced a true revolution in the Northern Netherlands.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/draw"
+  },
+  {
+   "title": "Eva Gonzalès. A New Perspective",
+   "museum": "Van Gogh Museum",
+   "city": "Amsterdam",
+   "start": "2027-02-12",
+   "end": "2027-06-20",
+   "description": "Discover the art of French artist Eva Gonzalès (1847–1883) in the first ever retrospective of her delicate paintings and pastels, featuring loans from international museums and private collections.",
+   "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/eva-gonzales"
+  },
+  {
+   "title": "Modernités! Matisse tot Bacon",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": "2027-02-24",
+   "end": "2027-06-06",
+   "description": "In samenwerking met het Musée des Beaux-Arts de Lyon presenteert Singer Laren Modernités! Matisse tot Bacon.",
+   "url": "https://www.singerlaren.nl/nl/agenda/modernites-matisse-tot-bacon-5tv8"
+  },
+  {
+   "title": "Luc Tuymans — Silent Music",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2027-03-06",
+   "end": "2027-07-11",
+   "description": "The exhibition Silent Music departs from the hidden forces in the work of Luc Tuymans.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/luc-tuymans-2"
+  },
+  {
+   "title": "ABN AMRO Art Award 2026 — Hend Samir",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2027-03-19",
+   "end": "2027-06-20",
+   "description": "Hend Samir is the winner of the fourteenth edition of the ABN AMRO Art Award.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/abn-amro-kunstprijs-2026-en"
+  },
+  {
+   "title": "Ibrahim Mahama — ZILIJAFA",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2027-03-21",
+   "end": "2027-08-01",
+   "description": "Last year, ArtReview named Ibrahim Mahama the most influential person in the art world.",
+   "url": "https://www.stedelijk.nl/en/exhibitions/ibrahim-mahama-en"
+  },
+  {
+   "title": "Sophie Calle – Something Missing?",
+   "museum": "De Pont Museum",
+   "city": "Tilburg",
+   "start": "2027-03-21",
+   "end": "2027-09-05",
+   "description": "In het voorjaar van 2027 presenteert De Pont Museum een omvangrijke tentoonstelling van de Franse kunstenaar Sophie Calle (Parijs, 1953).",
+   "url": "https://www.depont.nl/tentoonstellingen/sophie-calle-2"
+  },
+  {
+   "title": "Silvia Martes – ... has other plans for us",
+   "museum": "De Pont Museum",
+   "city": "Tilburg",
+   "start": "2027-03-21",
+   "end": "2027-09-05",
+   "description": "In het voorjaar van 2027 gaan in De Pont Museum vier nieuwe werken van kunstenaar en filmmaker Silvia Martes (Eindhoven, 1985) in première.",
+   "url": "https://www.depont.nl/tentoonstellingen/silvia-martes-2"
+  },
+  {
+   "title": "Oesters & citroenen",
+   "museum": "Frans Hals Museum",
+   "city": "Haarlem",
+   "start": "2027-03-25",
+   "end": "2027-08-29",
+   "description": "Het Frans Hals Museum nodigt je uit om mee te gaan op culinaire wandeling door de collectie van het museum, onder leiding van gastconservator en culinaire kenner Janny van der Heijden.",
+   "url": "https://franshalsmuseum.nl/nl/zien-en-doen/oesters-en-citroenen"
+  },
+  {
+   "title": "No Future – Linder",
+   "museum": "Museum de Fundatie",
+   "city": "Zwolle",
+   "start": "2027-04-17",
+   "end": "2027-09-26",
+   "description": "De radicale fotomontages van de Britse kunstenaar Linder staan in No Future centraal.",
+   "url": "https://museumdefundatie.nl/nl/te-zien/no-future"
+  },
+  {
+   "title": "Marc Chagall",
+   "museum": "Stedelijk Museum",
+   "city": "Amsterdam",
+   "start": "2027-05-15",
+   "end": "2027-08-22",
+   "description": "Starting in May 2027, the Stedelijk Museum organizes a monographic exhibition of the work of Marc Chagall (1887-1985).",
+   "url": "https://www.stedelijk.nl/en/exhibitions/marc-chagall-en"
+  },
+  {
+   "title": "Jan Hendrik Weissenbruch. Hollands licht",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "start": "2027-06-16",
+   "end": "2027-09-26",
+   "description": "Meer dan 25 jaar na de laatste grote overzichtstentoonstelling brengt Singer Laren het oeuvre van Jan Hendrik Weissenbruch (1824–1903) opnieuw samen.",
+   "url": "https://www.singerlaren.nl/nl/agenda/jan-hendrik-weissenbruch-hollands-licht-ncm8"
+  },
+  {
+   "title": "Mondrian's final masterpieces to be reunited",
+   "museum": "Kunstmuseum Den Haag",
+   "city": "Den Haag",
+   "start": "2027-09-10",
+   "end": "2028-01-30",
+   "description": "For the first time in over 80 years, Piet Mondrian’s two final paintings will be reunited in the Netherlands: the iconic Victory Boogie Woogie and Broadway Boogie Woogie.",
+   "url": "https://www.kunstmuseum.nl/en/exhibitions/mondrians-final-masterpieces-be-reunited"
+  },
+  {
+   "title": "Een gevoel van ongeveer",
+   "museum": "Frans Hals Museum",
+   "city": "Haarlem",
+   "start": "2027-09-24",
+   "end": "2028-02-06",
+   "description": "De tentoonstelling Een gevoel van ongeveer staat voor een nieuwsgierige, onderzoekende houding als startpunt voor verbinding - met jezelf, je voorouders en de wereld om je heen.",
+   "url": "https://franshalsmuseum.nl/nl/zien-en-doen/een-gevoel-van-ongeveer"
+  },
+  {
+   "title": "Else Berg",
+   "museum": "Frans Hals Museum",
+   "city": "Haarlem",
+   "start": "2028-10-06",
+   "end": "2029-02-25",
+   "description": "Het Frans Hals Museum zet kunstenaar Else Berg (1877-1942) in de schijnwerpers.",
+   "url": "https://franshalsmuseum.nl/nl/zien-en-doen/else-berg"
   }
  ]
 }
