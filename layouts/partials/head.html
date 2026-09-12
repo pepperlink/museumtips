@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ with .Site.Params.css }}
+  <link rel="stylesheet" type="text/css" href="{{ "css/classless.css" | relURL }}">
+  {{ end }}
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+  {{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+  {{ end }}
+</head>

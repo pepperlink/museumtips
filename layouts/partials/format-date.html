@@ -1,0 +1,3 @@
+{{- $t := time.AsTime . -}}
+{{- $month := i18n (printf "month_%d" (int ($t.Format "1"))) -}}
+{{- printf "%s %s %d" ($t.Format "2") $month $t.Year -}}

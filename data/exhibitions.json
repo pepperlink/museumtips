@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "compiled": "2026-09-11",
+  "museums": [
+    {
+      "name": "Rijksmuseum",
+      "city": "Amsterdam",
+      "group": "West",
+      "site": "https://www.rijksmuseum.nl/en/whats-on/exhibitions",
+      "quirks": "English titles on the EN site; some last-day listings arrive without a start date."
+    },
+    {
+      "name": "Museum Boijmans Van Beuningen",
+      "city": "Rotterdam",
+      "group": "West",
+      "site": "https://www.boijmans.nl/en/exhibitions",
+      "quirks": "Depot vs museum building; English path /en/exhibitions."
+    },
+    {
+      "name": "Kunstmuseum Den Haag",
+      "city": "Den Haag",
+      "group": "West",
+      "site": "https://www.kunstmuseum.nl/en/exhibitions",
+      "quirks": "Bilingual site; exhibition slugs are shared across NL and EN."
+    },
+    {
+      "name": "Stedelijk Museum",
+      "city": "Amsterdam",
+      "group": "West",
+      "site": "https://www.stedelijk.nl/en/exhibitions",
+      "quirks": "English exhibition pages; long-running design shows mixed with collection hangs."
+    },
+    {
+      "name": "Van Gogh Museum",
+      "city": "Amsterdam",
+      "group": "West",
+      "site": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions",
+      "quirks": "EN what's-on paths; guest exhibitions sometimes listed separately from the collection."
+    },
+    {
+      "name": "Centraal Museum",
+      "city": "Utrecht",
+      "group": "Midden",
+      "site": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen",
+      "quirks": "Dutch URLs by default; annex shows share the main exhibition calendar."
+    },
+    {
+      "name": "Bonnefantenmuseum",
+      "city": "Maastricht",
+      "group": "Noord/Oost/Zuid",
+      "site": "https://www.bonnefanten.nl/en/exhibitions",
+      "quirks": "DD.MM.YYYY date format; pop-up shows at festivals excluded."
+    },
+    {
+      "name": "Fries Museum",
+      "city": "Leeuwarden",
+      "group": "Noord/Oost/Zuid",
+      "site": "https://www.friesmuseum.nl/tentoonstellingen",
+      "quirks": "Dutch-only titles and URLs; collection presentations can run for years."
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "Ed van der Elsken. Up Close",
+      "museum": "Rijksmuseum",
+      "city": "Amsterdam",
+      "start": null,
+      "end": "2026-09-13",
+      "description": "Photographer Ed van der Elsken up close.",
+      "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/ed-van-der-elsken"
+    },
+    {
+      "title": "Pixel Pioneers",
+      "museum": "Museum Boijmans Van Beuningen",
+      "city": "Rotterdam",
+      "start": null,
+      "end": "2026-09-13",
+      "description": "First major Boijmans exhibition devoted to digital art.",
+      "url": "https://www.boijmans.nl/en/exhibitions/pixel-pioneers"
+    },
+    {
+      "title": "Marlow Moss: A Suitcase Full of Sketches",
+      "museum": "Kunstmuseum Den Haag",
+      "city": "Den Haag",
+      "start": null,
+      "end": "2026-09-13",
+      "description": "Newly acquired suitcase of 100+ preliminary studies by Marlow Moss.",
+      "url": "https://www.kunstmuseum.nl/en/exhibitions/marlow-moss"
+    },
+    {
+      "title": "Gerard van Honthorst",
+      "museum": "Centraal Museum",
+      "city": "Utrecht",
+      "start": "2026-04-25",
+      "end": "2026-09-13",
+      "description": "Eerste grote overzicht van de Utrechtse meester Gerard van Honthorst (1592–1656), 'in alles anders dan Rembrandt'.",
+      "url": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-anders-dan-rembrandt"
+    },
+    {
+      "title": "Experimental Jetset Circuits",
+      "museum": "Stedelijk Museum",
+      "city": "Amsterdam",
+      "start": "2025-07-12",
+      "end": "2026-09-17",
+      "description": "The Amsterdam design studio Experimental Jetset presents Circuits, on graphic design and the city.",
+      "url": "https://www.stedelijk.nl/en/exhibitions/EN-experimental-jetset"
+    },
+    {
+      "title": "The ReFramers present: In Search of an Anchor",
+      "museum": "Van Gogh Museum",
+      "city": "Amsterdam",
+      "start": null,
+      "end": "2026-09-20",
+      "description": "Contemporary perspectives on Vincent's art — religion, relationships, daily rituals.",
+      "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/in-search-of-an-anchor"
+    },
+    {
+      "title": "De levens van Mata Hari",
+      "museum": "Fries Museum",
+      "city": "Leeuwarden",
+      "start": "2023-12-09",
+      "end": "2026-12-09",
+      "description": "Intieme presentatie over de vele kanten van Mata Hari, met hoogtepunten uit de collectie Mata Hari-memorabilia.",
+      "url": "https://www.friesmuseum.nl/tentoonstellingen/delevensvanmatahari"
+    },
+    {
+      "title": "Born to play: do & dare like an artist",
+      "museum": "Bonnefantenmuseum",
+      "city": "Maastricht",
+      "start": "2026-04-17",
+      "end": "2027-03-14",
+      "description": "Discover how artists use play to create art. An exhibition for children aged 6 to 12.",
+      "url": "https://www.bonnefanten.nl/en/exhibitions/born-to-play-dare-and-create-like-an-artist"
+    }
+  ]
+}

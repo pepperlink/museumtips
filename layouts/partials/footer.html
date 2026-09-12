@@ -1,0 +1,8 @@
+<footer>
+  {{ with .Site.Copyright }}
+  <p>{{ replace . ":CURRENTYEAR:" (string now.Year) }}</p>
+  {{ end }}
+  {{ with hugo.Data.exhibitions.compiled }}
+  <p>{{ i18n "compiled" }} {{ . }}</p>
+  {{ end }}
+</footer>

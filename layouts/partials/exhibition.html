@@ -1,0 +1,18 @@
+<article>
+  <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+  <p>
+    <strong>{{ .museum }}</strong>, {{ .city }}<br>
+    {{ if .start }}
+      {{ i18n "from" }} {{ partial "format-date.html" .start }}
+    {{ else }}
+      {{ i18n "open_ended" }}
+    {{ end }}
+    · {{ i18n "until" }} {{ partial "format-date.html" .end }}
+    {{ with (partial "countdown.html" .) }}
+      · <strong>{{ . }}</strong>
+    {{ end }}
+  </p>
+  {{ with .description }}
+  <p>{{ . }}</p>
+  {{ end }}
+</article>
