@@ -43,6 +43,9 @@ other = "No end date"
 [ended]
 other = "Ended"
 
+[ended_shows]
+other = "Ended (%d)"
+
 [last_day]
 other = "Last day"
 

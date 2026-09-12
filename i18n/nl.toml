@@ -43,6 +43,9 @@ other = "Geen einddatum"
 [ended]
 other = "Afgelopen"
 
+[ended_shows]
+other = "Afgelopen (%d)"
+
 [last_day]
 other = "Laatste dag"
 
