@@ -31,8 +31,14 @@ other = "from"
 [until]
 other = "until"
 
+[until_short]
+other = "until"
+
 [open_ended]
 other = "Start date unknown"
+
+[no_end_date]
+other = "No end date"
 
 [ended]
 other = "Ended"
@@ -108,3 +114,39 @@ other = "November"
 
 [month_12]
 other = "December"
+
+[month_short_1]
+other = "Jan"
+
+[month_short_2]
+other = "Feb"
+
+[month_short_3]
+other = "Mar"
+
+[month_short_4]
+other = "Apr"
+
+[month_short_5]
+other = "May"
+
+[month_short_6]
+other = "Jun"
+
+[month_short_7]
+other = "Jul"
+
+[month_short_8]
+other = "Aug"
+
+[month_short_9]
+other = "Sep"
+
+[month_short_10]
+other = "Oct"
+
+[month_short_11]
+other = "Nov"
+
+[month_short_12]
+other = "Dec"

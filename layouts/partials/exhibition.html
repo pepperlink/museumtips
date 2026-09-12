@@ -1,16 +1,15 @@
 <article>
   <h3><a href="{{ .url }}">{{ .title }}</a></h3>
   <p>
-    <strong>{{ .museum }}</strong>, {{ .city }}<br>
-    {{ if .start }}
-      {{ i18n "from" }} {{ partial "format-date.html" .start }}
-    {{ else }}
-      {{ i18n "open_ended" }}
-    {{ end }}
-    · {{ i18n "until" }} {{ partial "format-date.html" .end }}
-    {{ with (partial "countdown.html" .) }}
-      · <strong>{{ . }}</strong>
-    {{ end }}
+    <strong>{{ .museum }}</strong>, {{ .city -}}
+    {{- $dates := partial "format-date.html" . -}}
+    {{- $count := partial "countdown.html" . -}}
+    {{- if or $dates $count }}
+    <br>{{ $dates -}}
+    {{- with $count -}}
+      {{- if $dates }} · {{ end -}}<strong>{{ . }}</strong>
+    {{- end -}}
+    {{- end }}
   </p>
   {{ with .description }}
   <p>{{ . }}</p>

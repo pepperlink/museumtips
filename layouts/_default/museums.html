@@ -33,10 +33,27 @@
           {{ if $here }}
             <h4>{{ i18n "exhibitions_here" }}</h4>
             <ul>
-              {{ range sort $here "end" }}
+              {{ $datedHere := slice }}
+              {{ $openHere := slice }}
+              {{ range $here }}
+                {{ if .end }}
+                  {{ $datedHere = $datedHere | append . }}
+                {{ else }}
+                  {{ $openHere = $openHere | append . }}
+                {{ end }}
+              {{ end }}
+              {{ range sort $datedHere "end" }}
                 <li>
                   <a href="{{ .url }}">{{ .title }}</a>
-                  — {{ i18n "until" }} {{ partial "format-date.html" .end }}
+                  {{- $dates := partial "format-date.html" . -}}
+                  {{- with $dates }} — {{ . }}{{ end }}
+                </li>
+              {{ end }}
+              {{ range $openHere }}
+                <li>
+                  <a href="{{ .url }}">{{ .title }}</a>
+                  {{- $dates := partial "format-date.html" . -}}
+                  {{- with $dates }} — {{ . }}{{ end }}
                 </li>
               {{ end }}
             </ul>

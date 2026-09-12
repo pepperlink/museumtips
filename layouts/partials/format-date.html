@@ -1,3 +1,25 @@
-{{- $t := time.AsTime . -}}
-{{- $month := i18n (printf "month_%d" (int ($t.Format "1"))) -}}
-{{- printf "%s %s %d" ($t.Format "2") $month $t.Year -}}
+{{- if isset . "value" -}}
+  {{- with .value -}}
+    {{- $t := time.AsTime . -}}
+    {{- if gt $t.Year 1 -}}
+      {{- $month := i18n (printf "month_short_%d" (int ($t.Format "1"))) -}}
+      {{- if $.hideYear -}}
+        {{- printf "%s %s" ($t.Format "2") $month -}}
+      {{- else -}}
+        {{- printf "%s %s %d" ($t.Format "2") $month $t.Year -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- else if and .start .end -}}
+  {{- $startTime := time.AsTime .start -}}
+  {{- $endTime := time.AsTime .end -}}
+  {{- if eq $startTime.Year $endTime.Year -}}
+    {{- partial "format-date.html" (dict "value" .start "hideYear" true) }} – {{ partial "format-date.html" (dict "value" .end) -}}
+  {{- else -}}
+    {{- partial "format-date.html" (dict "value" .start) }} – {{ partial "format-date.html" (dict "value" .end) -}}
+  {{- end -}}
+{{- else if .end -}}
+  {{- i18n "until_short" }} {{ partial "format-date.html" (dict "value" .end) -}}
+{{- else if .start -}}
+  {{- i18n "from" }} {{ partial "format-date.html" (dict "value" .start) -}}
+{{- end -}}

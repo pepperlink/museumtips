@@ -31,8 +31,14 @@ other = "vanaf"
 [until]
 other = "tot en met"
 
+[until_short]
+other = "t/m"
+
 [open_ended]
 other = "Startdatum onbekend"
+
+[no_end_date]
+other = "Geen einddatum"
 
 [ended]
 other = "Afgelopen"
@@ -108,3 +114,39 @@ other = "november"
 
 [month_12]
 other = "december"
+
+[month_short_1]
+other = "jan"
+
+[month_short_2]
+other = "feb"
+
+[month_short_3]
+other = "mrt"
+
+[month_short_4]
+other = "apr"
+
+[month_short_5]
+other = "mei"
+
+[month_short_6]
+other = "jun"
+
+[month_short_7]
+other = "jul"
+
+[month_short_8]
+other = "aug"
+
+[month_short_9]
+other = "sep"
+
+[month_short_10]
+other = "okt"
+
+[month_short_11]
+other = "nov"
+
+[month_short_12]
+other = "dec"
