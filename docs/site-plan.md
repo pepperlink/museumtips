@@ -1,5 +1,7 @@
 # Museumtips website — site plan
 
+> Phase 2 (calendar UX + polish) implementation is specified in [PLAN.md](PLAN.md) at the repo root.
+
 This document outlines options for evolving the [museumtips](https://museumtips.pepperlink.nl/) project from a pair of iCalendar feeds into a browsable, multilingual website with calendar views. It is a planning artifact only — no stack is chosen here, and no site is built yet.
 
 ## Current state

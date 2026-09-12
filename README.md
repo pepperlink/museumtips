@@ -44,8 +44,10 @@ hugo server
 ```
 
 Open the printed local URL (usually `http://localhost:1313/`). Switch language with the
-Nederlands / English links in the header. Dutch pages live at `/`, `/kalender/`, `/musea/`,
-`/over/`; English at `/en/`, `/en/calendar/`, `/en/museums/`, `/en/about/`.
+Nederlands / English links in the header. Dutch pages live at `/`, `/kalender/`,
+`/kalender/YYYY-MM/` (month views), `/musea/` (grouped by city), `/over/`; English at
+`/en/`, `/en/calendar/`, `/en/calendar/YYYY-MM/`, `/en/museums/` (grouped by city),
+`/en/about/`.
 
 ### Build
 
@@ -54,10 +56,9 @@ hugo --minify
 ```
 
 Output is `public/`. That directory is the entire site: HTML plus the `.ics` feeds copied
-into `static/` (Hugo does not follow symlinks). Host `public/` as static files — no
-external services. The pipeline still writes the feeds at the repo root today; keep
-`static/*.ics` in sync until that step writes both (or only `static/`, once k8s serves
-`public/`).
+from `static/` (Hugo does not follow symlinks). Host `public/` as static files — no
+external services. The weekly pipeline writes the feed files at the repo root and the
+`static/*.ics` copies in the same commit, then rebuilds and publishes the site.
 
 ### Data refresh
 
@@ -74,10 +75,11 @@ Exhibition copy for the website comes from `data/exhibitions.json`:
 
 `start` may be `null` when the tracker only saw a closing date.
 
-This repo ships a **fixture** (~8 exhibitions) so the site can be built without fetching
-live data. A separate pipeline step will later overwrite `data/exhibitions.json` with the
-full weekly dataset and rebuild (`hugo --minify`). The `.ics` files stay at the repo root
-and keep the same public URLs.
+The site runs on the **live weekly dataset** (currently ~111 exhibitions across ~30
+museums). Every Thursday the pipeline regenerates `data/exhibitions.json`, the root
+`.ics` feeds, and the `static/*.ics` copies, commits to `main`, and publishes the rebuilt
+site to GitHub Pages. The `.ics` files stay at the repo root and keep the same public
+URLs.
 
 ## Theme notes
 
