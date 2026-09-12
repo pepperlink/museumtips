@@ -1,5 +1,7 @@
 # PLAN — Phase 2: Calendar UX + polish
 
+Status: **in review** — D1–D6 resolved by the owner (2026-09-12); **awaiting final approval** (recorded here + PR #4) before any implementation.
+
 Owner review of this document comes **before** any implementation. Do not start coding from this file until the owner signs off (especially the decisions in §4).
 
 ## 0. Agent ground rules
@@ -40,7 +42,7 @@ Verified 2026-09-12 against this worktree + `https://museumtips.pepperlink.nl`.
 
 **Already decided (constraints):** Hugo-only; no Node; feeds unchanged; no generated-file or theme edits; NL+EN together; deploy stays on the pod pipeline.
 
-**Recommend — calendar view (owner: pick D1)**
+**D1 — calendar view — DECIDED: static month pages, 0 JS**
 
 | | Static month pages (0 JS) | Vanilla-JS widget | Hybrid (static + small JS) |
 |---|---|---|---|
@@ -48,18 +50,18 @@ Verified 2026-09-12 against this worktree + `https://museumtips.pepperlink.nl`.
 | Fit | Matches date-**range** shows; SEO; no-JS; Hugo-native. | First JS on the site; no-JS users need a duplicate list anyway. | Extra moving parts for little gain over static links. |
 | Cost | More URLs; overlap logic in templates. | New testing + a11y; contradicts no-JS lean. | Highest complexity. |
 
-A day-cell grid is a poor fit (shows last weeks–years; cells empty or packed). **Recommendation: static month pages + fixed list (column 1). No JS this phase.** Fallback if the owner wants less surface: list-only (fix §3 bugs, no new routes).
+A day-cell grid is a poor fit (shows last weeks–years; cells empty or packed). **Decision (owner, 2026-09-12): static month pages + fixed list (column 1). No JS this phase.** If scope ever needs shrinking: list-only (fix §3 bugs, no new routes).
 
-**Recommend — city / museum filter (owner: pick D2)**
+**D2 — city / museum grouping — DECIDED: static**
 
 | | Static | Client-side |
 |---|---|---|
 | City (19) | New city sections or `/kalender/stad/…` pages, or regroup `/musea/` by `city`. | Filter chips; needs JS. |
 | Museum (30) | Already on `/musea/`. Polish that page; link from calendar meta. Do not duplicate. | Same chips on `/kalender/`. |
 
-**Recommendation: static. Regroup `/musea/` by city; optional city jump-nav or city pages only if D1 month pages are not enough. No filter JS.**
+**Decision (owner, 2026-09-12): static. Regroup `/musea/` by city; optional city jump-nav or city pages only if the month pages are not enough. No filter JS.**
 
-**Recommend — ended shows (owner: pick D3)**
+**D3 — ended shows — DECIDED: hide >7 days, collapse the rest**
 
 | Policy | Trade-off |
 |---|---|
@@ -67,21 +69,21 @@ A day-cell grid is a poor fit (shows last weeks–years; cells empty or packed).
 | Collapse | `<details>` “Afgelopen (N)” at the bottom. Scan stays clean; still findable. |
 | Hide after N days | Matches weekly refresh. **N = 7** (one pipeline cycle). Older ended drop; just-ended remain briefly. |
 
-**Recommendation: hide `end < today − 7 days`; collapse the rest of ended in `<details>`. Null `end` is never ended — own “Geen einddatum” bucket.**
+**Decision (owner, 2026-09-12): hide `end < today − 7 days`; collapse the rest of ended in `<details>`. Null `end` is never ended — its own “Geen einddatum” bucket.**
 
-**Recommend — housekeeping (owner: pick D4, D5)**
+**D4 / D5 — housekeeping — DECIDED**
 
-- **D4 root `index.html`:** **Remove.** Pipeline is live; file is unused by Hugo; leftover risk if someone treats it as the site.
-- **D5 `static/*.ics`:** **Pipeline writes root + `static/` in the same commit** (README already assumed this). Alternative: stop shipping `static/*.ics` if publish always overlays root → `public/` (confirm on the pipeline host first). Do not hand-copy feeds in this repo. Do not touch feed URLs.
-- **D6 (found in recon):** Show tracker `quirks` on public `/musea/`? **Recommend hide** (operator notes, mixed EN, not visitor copy). Owner can keep.
+- **D4 root `index.html` — decided: remove.** Pipeline is live; file is unused by Hugo; leftover risk if someone treats it as the site.
+- **D5 `static/*.ics` — decided: the pipeline writes root + `static/` in the same commit.** (Pipeline-host change; do not hand-copy feeds in this repo. Do not touch feed URLs.)
+- **D6 — museum `quirks` on `/musea/` — decided: hide** (operator notes, mixed EN, not visitor copy).
 
-**Copy refresh:** not designed here. Operator drafts; owner approves; then one landing run. Files: `content/{nl,en}/*.md` (incl. front matter) + `i18n/{nl,en}.toml`.
+**Copy refresh:** operator draft v2 (informal tone) is ready; owner signs off at landing. Fast-track (owner-agreed 2026-09-12): content-file changes land right after ST1; i18n strings with ST5. Files: `content/{nl,en}/*.md` (incl. front matter) + `i18n/{nl,en}.toml`.
 
 ## 5. Approach & subtasks
 
-Each item is **one Cursor run**. Stop if a §4 decision is still open.
+Each item is **one Cursor run**. All §4 decisions are resolved (2026-09-12); if a run finds a conflict with them, stop and report.
 
-### 2.1 Date correctness + meta line
+### ST1 — Date correctness + meta line
 
 - **Scope:** `layouts/_default/calendar.html`, `layouts/_default/museums.html`, `layouts/partials/{exhibition,format-date,countdown}.html`, `i18n/{nl,en}.toml`.
 - **Steps:** Guard null `end`/`start`. Sort jump-nav + sections by real `YYYY-MM`. Open-ended section (not `#0001-01`, not “Afgelopen”). Hide missing start. Shorter dates (abbrev month; range `9 mei – 13 sep 2026` when both known; `t/m 13 sep 2026` when only end). Keep countdown labels. Same date helper on `/musea/` and home (shared partial).
@@ -90,54 +92,54 @@ Each item is **one Cursor run**. Stop if a §4 decision is still open.
 - **Verify:** `hugo --minify`; grep `public/kalender/index.html` for `1 januari 1` / `#0001-01` (expect 0); spot three meta lines.
 - **Model:** `grok-4.6`. **Depends:** none (D3 only affects whether ended still list).
 
-### 2.2 Ended-exhibition policy
+### ST2 — Ended-exhibition policy
 
 - **Scope:** `layouts/_default/calendar.html`, `layouts/index.html` (only if policy should change home), `i18n/{nl,en}.toml`.
-- **Steps:** Implement the chosen D3 rule. Home “Bijna afgelopen” stays `end >= today`.
-- **Tests:** A show with `end` last week vs eight weeks ago matches D3. Null-end unchanged from 2.1.
+- **Steps:** Implement D3 (hide older than 7 days; collapse the rest). Home “Bijna afgelopen” stays `end >= today`.
+- **Tests:** A show with `end` last week vs eight weeks ago matches D3. Null-end unchanged from ST1.
 - **Docs:** one line in README if the rule is visitor-visible.
 - **Verify:** `hugo --minify`; count “Afgelopen”/“Ended” on NL+EN calendar.
-- **Model:** `composer-2.5`. **Depends:** D3, 2.1.
+- **Model:** `composer-2.5`. **Depends:** D3, ST1.
 
-### 2.3 Calendar month view
+### ST3 — Calendar month view
 
 - **Scope:** `layouts/_default/calendar.html`, new month layout + content/archetype as needed, `content/{nl,en}/calendar.md` front matter, `i18n/{nl,en}.toml`. No theme edits; no `data/exhibitions.json` edits.
 - **Steps:** Implement D1. Overlap: open in month M if `end` is null or `end >= M-start`, and `start` is null or `start <= M-end`. Both languages, same slugs. List page keeps end-month grouping.
 - **Tests:** A Sep-2026 page includes a May–Oct show and the five open-ended; excludes a show that ended Aug 2026. `/en/calendar/2026-09/` exists. `hugo --minify` exits 0.
 - **Docs:** README route list.
 - **Verify:** `hugo --minify`; `ls public/kalender/ public/en/calendar/`; open one month page.
-- **Model:** `grok-4.6`. **Depends:** D1, 2.1.
+- **Model:** `grok-4.6`. **Depends:** D1, ST1.
 
-### 2.4 City / museum grouping
+### ST4 — City / museum grouping
 
 - **Scope:** `layouts/_default/museums.html`, optionally calendar layouts + `content/{nl,en}/museums.md` / calendar content, `i18n/{nl,en}.toml`.
-- **Steps:** Implement D2 + D6. Default path: regroup `/musea/` by `city` (sorted); fix per-museum date lines (2.1 helper). Add city pages or calendar city nav only if D2 says so.
+- **Steps:** Implement D2 + D6. Default path: regroup `/musea/` by `city` (sorted); fix per-museum date lines (ST1 helper). Add city pages or calendar city nav only if D2 says so.
 - **Tests:** 19 cities appear; no year-1 dates; quirks hidden or shown per D6; EN `/en/museums/` matches.
 - **Docs:** README if new routes.
 - **Verify:** `hugo --minify`; spot `public/musea/index.html` + EN.
-- **Model:** `grok-4.6`. **Depends:** D2, D6, 2.1.
+- **Model:** `grok-4.6`. **Depends:** D2, D6, ST1.
 
-### 2.5 Copy refresh (NL + EN)
+### ST5 — Copy refresh (NL + EN)
 
 - **Scope:** `content/nl/{_index,about,calendar,museums}.md`, `content/en/{_index,about,calendar,museums}.md`, `i18n/{nl,en}.toml`.
-- **Steps:** Land **owner-approved** operator draft only. Keep translationKeys/urls/layouts. Drop fixture wording. Technical i18n from 2.1–2.4 may be rewritten here — do both languages in one run.
+- **Steps:** Land **owner-approved** operator draft only. Keep translationKeys/urls/layouts. Drop fixture wording. Technical i18n from ST1–ST4 may be rewritten here — do both languages in one run. **Fast-track (owner-agreed):** the content-file part lands right after ST1; this run covers the i18n strings + any remainder.
 - **Tests:** Every NL string has EN; no leftover “fixture”; subscribe URLs unchanged.
 - **Docs:** n/a (this *is* the docs/copy).
 - **Verify:** `hugo --minify`; read home + about in both langs.
-- **Model:** `composer-2.5`. **Depends:** operator draft + owner approval; preferably after 2.1–2.4 so new keys are in the draft.
+- **Model:** `composer-2.5`. **Depends:** operator draft + owner approval; content files right after ST1 (fast-track); i18n strings after ST1–ST4.
 
-### 2.6 Housekeeping
+### ST6 — Housekeeping
 
 - **Scope:** `README.md`, `AGENTS.md` if routes/ICS policy change, `docs/site-plan.md` (pointer only), root `index.html` if D4 = remove. **Not** `data/exhibitions.json`, root `*.ics`, theme, CNAME, gh-pages.
 - **Steps:** README: live dataset (not fixture); Hugo routes; ICS rule from D5. AGENTS: drop stale “fixture” implications if any; keep feed-URL warning. D4 delete root `index.html`. D5 is a **pipeline-host** change plus README — do not copy `.ics` by hand.
 - **Tests:** README commands still match `AGENTS.md`. Site build unchanged if only docs + unused `index.html`.
 - **Docs:** this subtask.
-- **Verify:** `hugo --minify`; `test ! -f public/index.html` is wrong (Hugo still emits home) — instead: root `index.html` absent from git if D4; `public/index.html` is the Hugo home.
-- **Model:** `composer-2.5`. **Depends:** D4, D5; can run after 2.3–2.4 so README lists real routes.
+- **Verify:** `hugo --minify`; if D4 ran: `git ls-files index.html` is empty (root file gone), while `public/index.html` (the Hugo home) still builds.
+- **Model:** `composer-2.5`. **Depends:** D4, D5; runs after ST3–ST4 so the README lists real routes.
 
 ## 6. Definition of done
 
-- [ ] Owner signed §4 (D1–D6) on this plan.
+- [ ] Owner approves the plan (D1–D6 already resolved 2026-09-12).
 - [ ] No year-1 dates; no `#0001-01`; the five open-ended shows are not “Afgelopen”/“Ended”.
 - [ ] Calendar jump-nav is chronological (`YYYY-MM`).
 - [ ] Meta line: no “Startdatum onbekend”; shorter dates; countdown labels kept.
@@ -161,6 +163,8 @@ test -f public/index.html -a -f public/en/index.html -a -f public/kalender/index
 ! grep -F '0001-01' public/kalender/index.html public/en/calendar/index.html
 ```
 
+Build authority: run the pinned Hugo **v0.166.0 extended** (pipeline host). Setup at build start: the same pinned darwin/arm64 build is installed on the Mac lane for agent self-checks; if a run cannot build locally it must say so explicitly, and the operator runs the pinned build pod-side before anything is marked done.
+
 Spot-render: Ayoung Kim / Deshima Experience (open-ended); one “Laatste dag”/“Last day” row; one city on `/musea/`; home five closings.
 
 **Owner checklist (live or `hugo server`):** both langs; jump-nav order; no junk month; meta lines readable; ended policy matches D3; subscribe links still `webcal://…/museumtips.ics` and `closing-soon.ics`; no JS required for the chosen D1/D2; feeds `curl -I` 200 + recent `last-modified`.
@@ -179,13 +183,13 @@ Nothing irreversible. Revert the implementation PR/branch (`git revert` or close
 ## 10. Risks & unknowns
 
 - Hugo `sort` on mixed null/date fields — do not rely on it; sort normalized keys.
-- Local Hugo here is **0.165**; pipeline is **0.166**. Prefer the pin for final check; note if only 0.165 was used.
+- Build versions: the pin is Hugo **v0.166.0 extended** (pipeline host). The Mac lane currently has **no Hugo** — install the same pinned darwin/arm64 build at build start; runs that cannot build locally must say so (operator runs the pod-side pinned check).
 - Month-page URL scheme must not collide with `/kalender/` or `/en/calendar/` indexes; keep feed paths free.
-- Overlap vs end-month on the same site can confuse; copy (2.5) must say which page is which.
+- Overlap vs end-month on the same site can confuse; copy (ST5) must say which page is which.
 - `static/*.ics` vs root: live sizes match root — confirm overlay in `publish_site.py` before deleting static copies.
-- `.nojekyll` is cited in `AGENTS.md` under `static/` but is **not** in this worktree (likely gh-pages only). Do not add it here.
+- `.nojekyll` (repo root and `static/.nojekyll`) and `static/CNAME` are tracked files — leave untouched; hosting plumbing is out of scope.
 - Countdown uses integer day math (`Unix/86400`); timezone edge on “last day” already exists — don’t widen it.
-- Copy run vs 2.1–2.4 both touch `i18n/*.toml` — serialize or rebase.
+- Copy run vs ST1–ST4 both touch `i18n/*.toml` — serialize or rebase.
 
 ## 11. Log
 
