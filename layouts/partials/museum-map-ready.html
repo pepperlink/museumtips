@@ -1,0 +1,32 @@
+{{- $ready := false -}}
+{{- $page := index . "page" -}}
+{{- $info := index . "info" -}}
+{{- $isDetail := false -}}
+{{- $isIndex := false -}}
+{{- with $page -}}
+  {{- if eq .Type "museum-page" -}}{{- $isDetail = true -}}{{- end -}}
+  {{- if eq .Layout "museums" -}}{{- $isIndex = true -}}{{- end -}}
+{{- end -}}
+{{- if or $isDetail $isIndex -}}
+  {{- if $isDetail -}}
+    {{- with $page.Params.slug -}}
+      {{- with index hugo.Data.museums_info . -}}
+        {{- $info = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $lat := false -}}
+  {{- $lon := false -}}
+  {{- with $info -}}
+    {{- $lat = index . "lat" -}}
+    {{- $lon = index . "lon" -}}
+  {{- end -}}
+  {{- if and (ne $lat nil) (ne $lon nil) -}}
+    {{- if and (eq (printf "%T" $lat) "float64") (eq (printf "%T" $lon) "float64") -}}
+      {{- if and (ge $lat 50.7) (le $lat 53.65) (ge $lon 3.2) (le $lon 7.25) -}}
+        {{- $ready = true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $ready -}}

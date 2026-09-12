@@ -32,3 +32,24 @@ header nav.contentnav {
   z-index: auto;
   box-shadow: none;
 }
+
+/* Museum maps (Leaflet). Height/max-width per owner Q4. Classless sets
+ * `img, svg { max-width: 100%; object-fit: cover }`, which would squash
+ * tiles and marker icons — restore Leaflet’s own sizing inside the map. */
+#map {
+  height: 22rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.leaflet-container img {
+  max-width: none;
+  object-fit: unset;
+  vertical-align: baseline;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}

@@ -40,7 +40,7 @@
 
 {{- with $info -}}
   {{- if gt (len .) 0 -}}
-    {{- partial "museum-info.html" . -}}
+    {{- partial "museum-info.html" (dict "page" $ "museum" $museum "info" $info) -}}
   {{- end -}}
 {{- end -}}
 

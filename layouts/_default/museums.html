@@ -4,6 +4,34 @@
 {{- partial "introduction.html" . -}}
 {{ .Content }}
 
+{{- $readyMuseums := slice -}}
+{{- $indexPage := . -}}
+{{- range hugo.Data.exhibitions.museums -}}
+  {{- $museum := . -}}
+  {{- with $museum.slug -}}
+    {{- $info := dict -}}
+    {{- with index hugo.Data.museums_info . -}}
+      {{- $info = . -}}
+    {{- end -}}
+    {{- if partial "museum-map-ready.html" (dict "page" $indexPage "info" $info) -}}
+      {{- $readyMuseums = $readyMuseums | append (dict "museum" $museum "info" $info) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $readyMuseums -}}
+<section id="location">
+  <div id="map" hidden data-mode="overview"></div>
+  <ul id="map-markers" hidden>
+    {{- range $readyMuseums -}}
+    {{- $m := .museum -}}
+    {{- $info := .info -}}
+    <li data-lat="{{ index $info "lat" }}" data-lon="{{ index $info "lon" }}" data-name="{{ $m.name }}" data-href="{{ relLangURL (printf "museums/%s/" $m.slug) }}"></li>
+    {{- end -}}
+  </ul>
+  <p id="map-unavailable" hidden>{{ i18n "map_unavailable" }}</p>
+</section>
+{{- end -}}
+
 {{ $museums := sort hugo.Data.exhibitions.museums "name" }}
 {{ if not $museums }}
   <p>{{ i18n "no_museums" }}</p>
