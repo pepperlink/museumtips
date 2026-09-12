@@ -45,7 +45,7 @@ hugo server
 
 Open the printed local URL (usually `http://localhost:1313/`). Switch language with the
 Nederlands / English links in the header. Dutch pages live at `/`, `/kalender/`,
-`/kalender/YYYY-MM/` (month views), `/musea/` (grouped by city), `/over/`; English at
+`/kalender/YYYY-MM/` (month views), `/museums/` (grouped by city), `/over/`; English at
 `/en/`, `/en/calendar/`, `/en/calendar/YYYY-MM/`, `/en/museums/` (grouped by city),
 `/en/about/`.
 
