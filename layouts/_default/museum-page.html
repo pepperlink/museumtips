@@ -1,0 +1,113 @@
+{{ define "main" }}
+{{- $slug := .Params.slug -}}
+{{- $museum := false -}}
+{{- range hugo.Data.exhibitions.museums -}}
+  {{- if eq .slug $slug -}}
+    {{- $museum = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $info := dict -}}
+{{- with index hugo.Data.museums_info $slug -}}
+  {{- $info = . -}}
+{{- end -}}
+{{- $isEN := eq .Site.Language.Lang "en" -}}
+
+<h1>{{ .Title }}</h1>
+{{ with .Site.GetPage "museums" }}
+<p><a href="{{ .RelPermalink }}">{{ i18n "back_to_museums" }}</a></p>
+{{ end }}
+
+{{- if $museum -}}
+{{- $city := $museum.city -}}
+{{- with $.Site.GetPage "museums" -}}
+<p><a href="{{ .RelPermalink }}#{{ $city | urlize }}">{{ $city }}</a></p>
+{{- else -}}
+<p>{{ $city }}</p>
+{{- end -}}
+{{- end -}}
+
+{{- $desc := index $info "description_nl" -}}
+{{- if $isEN -}}{{- $desc = index $info "description_en" -}}{{- end -}}
+{{- with $desc -}}
+<p>{{ . }}</p>
+{{- end -}}
+
+{{- if $museum -}}
+{{- with $museum.site -}}
+<p><a href="{{ . }}">{{ i18n "museum_website" }}</a></p>
+{{- end -}}
+{{- end -}}
+
+{{- with $info -}}
+  {{- if gt (len .) 0 -}}
+    {{- partial "museum-info.html" . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $today := now.Format "2006-01-02" -}}
+{{- $running := slice -}}
+{{- $upcoming := slice -}}
+{{- $museumName := "" -}}
+{{- if $museum -}}{{- $museumName = $museum.name -}}{{- end -}}
+{{- range hugo.Data.exhibitions.exhibitions -}}
+  {{- if eq .museum $museumName -}}
+    {{- if and .start (gt .start $today) -}}
+      {{- $upcoming = $upcoming | append . -}}
+    {{- else if or (not .end) (ge .end $today) -}}
+      {{- $running = $running | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $running = sort $running "end" -}}
+{{- $upcoming = sort $upcoming "start" -}}
+
+<h2>{{ i18n "current_exhibitions" }}</h2>
+{{- if $running -}}
+  {{- range $running -}}
+    {{- partial "exhibition.html" . -}}
+  {{- end -}}
+{{- else -}}
+<p>{{ i18n "no_current_exhibitions" }}</p>
+{{- end -}}
+
+{{- if $upcoming -}}
+<h2>{{ i18n "upcoming_exhibitions" }}</h2>
+{{- range $upcoming -}}
+{{- partial "exhibition.html" . -}}
+{{- end -}}
+{{- end -}}
+
+{{- $city := "" -}}
+{{- if $museum -}}{{- $city = $museum.city -}}{{- end -}}
+{{- $others := slice -}}
+{{- range hugo.Data.exhibitions.museums -}}
+  {{- if and .slug $city (eq .city $city) (ne .slug $slug) -}}
+    {{- $others = $others | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $others = sort $others "name" -}}
+{{- if $others -}}
+<section>
+  <h2>{{ printf (i18n "more_in_city") $city }}</h2>
+  <ul>
+    {{- range $others -}}
+    {{- $other := . -}}
+    <li>
+      {{- with $.Site.GetPage (printf "/museum/%s" $other.slug) -}}
+      <a href="{{ .RelPermalink }}">{{ $other.name }}</a>
+      {{- else -}}
+      {{ $other.name }}
+      {{- end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</section>
+{{- end -}}
+
+{{- with index $info "verified" -}}
+{{- $verified := partial "format-date.html" (dict "value" .) -}}
+{{- with $verified -}}
+<p>{{ i18n "last_verified" }} {{ . }}</p>
+{{- end -}}
+{{- end -}}
+{{ end }}
