@@ -267,19 +267,23 @@ Verified 2026-09-12 in this worktree.
 
 Owner signs these off before build runs. Defaults below are the proposal.
 
+**Owner status (2026-09-12):** D7 approved **with one change** — exhibition pages **nest under their museum**: `/musea/<museum-slug>/tentoonstelling/<slug>/` (EN `/en/museums/<museum-slug>/exhibition/<slug>/`), one-event ICS as a sibling file `<slug>.ics` at the same level (shape owner-confirmed after review; mechanics verified on the pin, see D11). D8–D14 approved as recommended (D8: "stability, of course"). D15–D16: implementation detail, proceed.
+
 ### D7 — URL scheme — RECOMMEND: locale-specific section + frozen slug
 
 | Page | NL | EN | `AddPage.path` (both langs) | `translationKey` |
 |---|---|---|---|---|
 | Museum | `/musea/<slug>/` | `/en/museums/<slug>/` | `museum/<slug>` | `museum-<slug>` |
-| Exhibition | `/tentoonstelling/<slug>/` | `/en/exhibition/<slug>/` | `exhibition/<slug>` | `exhibition-<slug>` |
-| One-event ICS | `/tentoonstelling/<slug>/event.ics` | `/en/exhibition/<slug>/event.ics` | same exhibition page, extra output (D11) | n/a |
+| Exhibition | `/musea/<museum-slug>/tentoonstelling/<slug>/` | `/en/museums/<museum-slug>/exhibition/<slug>/` | `exhibition/<slug>` | `exhibition-<slug>` |
+| One-event ICS | `/musea/<museum-slug>/tentoonstelling/<slug>.ics` | `/en/museums/<museum-slug>/exhibition/<slug>.ics` | companion ICS page (D11) | n/a |
 
-**Why this and not `/musea/` + `/en/musea/`, or a shared `/museum/` stem:** matches existing index URLs (`/musea/` vs `/en/museums/`) and the month-page pattern (NL word, EN word, shared key). `tentoonstelling` is the visitor-facing NL noun; `exhibition` matches the EN section vocabulary already in i18n (`nav` stays Musea/Museums — these URLs are not new menu items).
+**Why this shape (owner-confirmed 2026-09-12):** museums keep the existing index pattern (`/musea/` vs `/en/museums/`); each exhibition **nests under its own museum** — `/musea/<museum-slug>/tentoonstelling/<slug>/` (EN `/en/museums/<museum-slug>/exhibition/<slug>/`) — so the URL itself expresses the parent relationship (breadcrumb clarity, nothing new at the top level). `tentoonstelling` is the visitor-facing NL noun; `exhibition` matches the EN section vocabulary already in i18n (`nav` stays Musea/Museums — these URLs are not new menu items).
 
 **Do not** put pages at `/<slug>/` (collides with `over`, `kalender`, future sections) or reuse month `path = YYYY-MM` (un-namespaced). Keep `/museumtips.ics` and `/closing-soon.ics` free.
 
-**Locale-relative `url` values (implementation-critical):** the `url` passed to `AddPage` must NOT include the language subdir — Hugo prepends `/en/` for the English site itself. Pass `"musea/<slug>/"` / `"museums/<slug>/"` and `"tentoonstelling/<slug>/"` / `"exhibition/<slug>/"`, exactly like `calendar-month-keys.html` does (`"kalender/%s/"` vs `"calendar/%s/"`). A literal `/en/…` value silently double-nests to `/en/en/…` with the build still exiting 0 (verified on the pin) — check `hugo list all` permalinks, not just `test -f`.
+**Locale-relative `url` values (implementation-critical):** the `url` passed to `AddPage` must NOT include the language subdir — Hugo prepends `/en/` for the English site itself. Pass `"musea/<slug>/"` / `"museums/<slug>/"` and `"musea/<museum-slug>/tentoonstelling/<slug>/"` / `"museums/<museum-slug>/exhibition/<slug>/"` (Hugo adds the locale prefix), exactly like `calendar-month-keys.html` does (`"kalender/%s/"` vs `"calendar/%s/"`). A literal `/en/…` value silently double-nests to `/en/en/…` with the build still exiting 0 (verified on the pin) — check `hugo list all` permalinks, not just `test -f`.
+
+**Nesting input:** an exhibition page needs its **museum's frozen slug as well as its own** — skip the page when either is missing (this extends the no-pages-without-slug gate until both slug shipments land).
 
 Index pages stay. Museum **name headings** on `/musea/` become links to `/musea/<slug>/`; keep `id="{{ urlize name }}"` so old card hash links still work until ST-B5 retargets them.
 
@@ -315,7 +319,7 @@ Optional but useful (not required for 3b pages): opaque tracker `id` for the ope
 2. Collision check against **all exhibition slugs ever issued** (not only the current weekly JSON). If taken, `base-2`, `base-3`, …
 3. **Freeze on first write.** Title edits, description edits, and JSON array reorder must not change `slug`.
 4. Identity for “first write”: the tracker’s internal exhibition key (the same identity used to update dates/URLs today). If a show drops out of the weekly export and returns, reuse the stored slug.
-5. Dedup is **global**, not per-museum — keeps URLs unique as `/tentoonstelling/<slug>/`.
+5. Dedup is **global**, not per-museum — keeps slugs unique (the nested URL inherits its museum's slug for the parent segment).
 
 **Site behaviour until slugs exist:** do not generate museum/exhibition pages from `urlize(title)` in Hugo. Missing `slug` → skip that page (and skip internal card links for that row). After the pipeline ships slugs, a later ST can `fail the build` if any row lacks one.
 
@@ -387,7 +391,7 @@ No press / unknown admission → skip those blocks (do not invent). Tracker `des
 
 | Element | Today | 3b |
 |---|---|---|
-| Card title | `.url` (museum site) | our `/tentoonstelling/<slug>/` (if slug present; else keep `.url` so we never ship a dead title link) |
+| Card title | `.url` (museum site) | our nested exhibition page (`/musea/<museum-slug>/tentoonstelling/<slug>/`; if slug present; else keep `.url` so we never ship a dead title link) |
 | Museum name | `/musea/#urlize` | `/musea/<museum.slug>/` when slug exists; hash fallback otherwise |
 | City name | `/musea/#urlize(city)` | unchanged (index anchors) |
 | New line / link | — | `museum_show_page` → `.url` (“Bekijk op de museumsite”) when `.url` is set |
@@ -395,11 +399,11 @@ No press / unknown admission → skip those blocks (do not invent). Tracker `des
 
 Do **not** put Museumkaart badges on cards in the first pass (keeps lists scannable). Flag lives on the exhibition page.
 
-### D11 — One-event `.ics` — RECOMMEND: Hugo `outputFormats` on the exhibition page — **per-page `outputs` only, never global**
+### D11 — One-event `.ics` — **owner spec: sibling `<slug>.ics`** — mechanics verified on pinned Hugo v0.166
 
-Zero JS: a static `event.ics` sibling of the HTML page (`baseName = "event"`, `mediaType = text/calendar`, `isPlainText`). “Zet in je agenda” is an `<a href="…/event.ics">`.
+Zero JS. Owner spec (2026-09-12): the ICS is a **sibling file** of the exhibition page — `/musea/<museum-slug>/tentoonstelling/<slug>.ics` (EN `/en/museums/<museum-slug>/exhibition/<slug>.ics`). “Zet in je agenda” links it (relative `../<slug>.ics` from the page — verify the href in ST-B6).
 
-**Mechanics (verified on pinned Hugo v0.166):** set `"outputs" (slice "html" "calendar")` **inside the exhibition `AddPage` dict only**, and add the template file `layouts/_default/exhibition-page.calendar.ics`. With both in place the build emits `public/tentoonstelling/<slug>/event.ics` + `public/en/exhibition/<slug>/event.ics` and nothing else. **Do NOT touch the global `[outputs]` table in `hugo.toml`** — it is keyed by page *kind*, and every museum/calendar-month/about page shares `kind = "page"`; a global bump leaks one WARN per affected template (~90 month pages) with the build still exiting 0 (verified).
+**Mechanics (verified on pinned Hugo v0.166, scratch site):** add a **companion `AddPage`** per exhibition per language with `url` ending `.ics` (`"musea/<museum-slug>/tentoonstelling/<slug>.ics"` / `"museums/<museum-slug>/exhibition/<slug>.ics"`), `outputs` = the ICS format only, using a custom output format `icsfile` (`mediaType = "text/calendar"`, `isPlainText`, `baseName = "index"`) and template `layouts/_default/exhibition-ics.icsfile.ics`. Verified output (mechanism re-confirmed with the nested shape on the pin): exactly `public/musea/<museum-slug>/tentoonstelling/<slug>.ics` + the EN twin. **Do NOT touch the global `[outputs]` table in `hugo.toml`** (kind-keyed; museum/calendar-month/about pages share `kind = "page"` and a global bump leaks WARNs, verified).
 
 - UID: `museumtips-<slug>@museumtips.pepperlink.nl` — distinct local-part scheme from the weekly feeds' `museum-<hash>[-ld]@hermes.museumtracker` (verified, no collision).
 - All-day `DTSTART`/`DTEND` from `start`/`end`; **the weekly feeds' convention, verified from `museumtips.ics`: `DTEND;VALUE=DATE` = last day + 1** (a show ending 2026-09-13 emits `DTEND;VALUE=DATE:20260914`). Match it — do not invent a second all-day rule.
@@ -577,7 +581,7 @@ Each item is **one Cursor run**. If a run conflicts with D7–D16, stop and repo
 ### ST-B4 — Exhibition adapters + layout (HTML)
 
 - **Scope:** `add-exhibition-pages.html`; `layouts/_default/exhibition-page.html`; `countdown-precise.html` called from this layout only (cards keep the bucket partial untouched); admission/press/related/share **without** ICS yet if that keeps the diff reviewable (ICS = ST-B6). Skip rows without `slug`.
-- **Verify:** build 0; spot 3 NL + 3 EN pages; **card bucket labels unchanged** after the new partial exists (diff one known card render before/after); open-ended show has no fake “Afgelopen”; related lists exclude self; extras missing → admission unknown, no press heading; no `<script>`.
+- **Verify:** build 0; spot 3 NL + 3 EN pages (shape `public/musea/<museum-slug>/tentoonstelling/<slug>/index.html`); **card bucket labels unchanged** after the new partial exists (diff one known card render before/after); open-ended show has no fake “Afgelopen”; related lists exclude self; extras missing → admission unknown, no press heading; no `<script>`.
 - **Model:** capable mid-tier. **Size:** L. **Depends:** ST-B3, D8.
 
 ### ST-B5 — Card + index link retarget (D10)
@@ -588,8 +592,8 @@ Each item is **one Cursor run**. If a run conflicts with D7–D16, stop and repo
 
 ### ST-B6 — One-event ICS output (D11)
 
-- **Scope:** `[outputFormats.calendar]` in `hugo.toml` (`mediaType` `text/calendar`, `baseName` `event`, `isPlainText`) + `layouts/_default/exhibition-page.calendar.ics` + per-page `"outputs"` on the exhibition adapter dict **only** (never global `[outputs]` — verified leak); link on exhibition page. Do not touch root/`static` weekly ICS.
-- **Verify:** build 0; `public/tentoonstelling/<slug>/event.ics` + `public/en/exhibition/<slug>/event.ics` exist; **zero new WARN lines** in build output; file starts `BEGIN:VCALENDAR`; UID pattern; DTEND = end+1; no museum/other page gains an `.ics`; `public/museumtips.ics` still the weekly file from static; no new JS.
+- **Scope:** `[outputFormats.icsfile]` (`mediaType` `text/calendar`, `baseName` `index`, `isPlainText`) + companion `.ics` `AddPage`s (NL `musea/<museum-slug>/tentoonstelling/<slug>.ics`, EN mirrored) + `layouts/_default/exhibition-ics.icsfile.ics` (per D11; never global `[outputs]` — verified leak); agenda link on exhibition page; exclude companion pages from sitemaps if they render there. Do not touch root/`static` weekly ICS.
+- **Verify:** build 0; `public/musea/<museum-slug>/tentoonstelling/<slug>.ics` + `public/en/museums/<museum-slug>/exhibition/<slug>.ics` exist as **sibling files** (not inside the page directory); **zero new WARN lines**; each starts `BEGIN:VCALENDAR`; UID pattern; DTEND = end+1; the agenda href on the page resolves to the sibling; no museum/other page gains an `.ics`; `public/museumtips.ics` still the weekly file from static; no new JS.
 - **Model:** capable mid-tier. **Size:** M. **Depends:** ST-B4.
 
 ### ST-B7 — `/musea/` + calendar copy touch-up
@@ -628,15 +632,16 @@ C1/C2 can interleave after ST-B1 + museum slugs; landing extras before ST-B3 onl
 
 ## 3b.9 Open questions for the owner
 
-1. Approve D7 URLs (`/musea/<slug>/`, `/en/museums/<slug>/`, `/tentoonstelling/<slug>/`, `/en/exhibition/<slug>/`)?
-   → **Owner 2026-09-12: yes — approved.**
+1. Approve D7 URLs (`/musea/<slug>/`, `/en/museums/<slug>/`, `/musea/<museum-slug>/tentoonstelling/<slug>/`, `/en/museums/<museum-slug>/exhibition/<slug>/`; ICS sibling `<slug>.ics`)? 
+   → **Owner 2026-09-12: yes — approved** (with one modification — exhibitions nest under their museum: `/musea/<museum>/tentoonstelling/<slug>/`; owner-confirmed; see 3b.4 owner status).
 2. Approve D8 (pipeline-frozen slugs; operator-seeded 30 museum slugs) and the “no pages without slug” gate?
    → **Owner 2026-09-12: yes — approved (answered together with Q1).**
 3. Any preferred slugs for awkward names (H’ART, Boijmans Depot, De Buitenplaats vs Drents)? Default: operator table, pasted in the PR for a skim.
 4. Museum MORE: confirm one page (D13) vs split Gorssel / Ruurlo / Twickel now?
+   → **Owner 2026-09-12: covered by D13 approval (one page).**
 5. Exhibition pages for shows already ended but still in JSON (D12) — OK that they vanish next drop?
 6. Card titles: confirm D10 (internal page first, museum site secondary). Any need for a Museumkaart badge on cards in 3b?
-7. ICS: confirm sibling `event.ics` and UID `museumtips-<slug>@museumtips.pepperlink.nl`. (DTEND convention = the weekly feeds' last-day+1, already verified — we'll match it; no paste needed.)
+7. ICS: **superseded by owner spec (D7/D11, 2026-09-12) — sibling `<slug>.ics`**; UID `museumtips-<slug>@museumtips.pepperlink.nl`; DTEND = weekly feeds' last-day+1 (verified).
 8. Press: is the outlet list in D9 enough, or add/ban specific names? Max links per show (recommend 3)?
 9. May C1 fill `lat`/`lon` now (unused) to save a 3c pass, or leave null until 3c?
 10. English museum descriptions: human translation of the official NL visit blurb vs short original EN from the museum’s EN site when it exists (recommend: prefer the museum’s own EN page when present)?
@@ -654,7 +659,7 @@ C1/C2 can interleave after ST-B1 + museum slugs; landing extras before ST-B3 onl
 - [ ] Museum pages NL+EN for all 30; exhibition pages NL+EN for every slugged show.
 - [ ] Language switcher lands on the counterpart page.
 - [ ] Cards + `/musea/` titles link internally; museum `.url` still reachable.
-- [ ] Per-show `event.ics` downloads (exhibition pages only, zero build WARNs); weekly feed URLs unchanged.
+- [ ] Per-show sibling `.ics` downloads (`/musea/<museum-slug>/tentoonstelling/<slug>.ics`, companion pages only, zero build WARNs); weekly feed URLs unchanged.
 - [ ] Extras files exist, cited, pipeline-untouched; missing extras do not break the build.
 - [ ] Location section reserved; **no** map JS; **no** 3d CTA.
 - [ ] i18n key parity; copy uses `’`.
@@ -670,9 +675,9 @@ test -d public/kalender/2026-09 -a -d public/en/calendar/2026-09
 # museum + exhibition (replace slugs after ST-P):
 test -f public/musea/<museum-slug>/index.html
 test -f public/en/museums/<museum-slug>/index.html
-test -f public/tentoonstelling/<show-slug>/index.html
-test -f public/en/exhibition/<show-slug>/index.html
-test -f public/tentoonstelling/<show-slug>/event.ics
+test -f public/musea/<museum-slug>/tentoonstelling/<show-slug>/index.html
+test -f public/en/museums/<museum-slug>/exhibition/<show-slug>/index.html
+test -f public/musea/<museum-slug>/tentoonstelling/<show-slug>.ics
 test -f public/museumtips.ics -a -f public/closing-soon.ics
 ! grep -F '1 januari 1' public/kalender/index.html public/musea/index.html
 ! grep -F '0001-01' public/kalender/index.html
@@ -682,7 +687,7 @@ test -f public/museumtips.ics -a -f public/closing-soon.ics
 [ "$(hugo --minify 2>&1 | grep -ci '^WARN')" = "0" ]
 ```
 
-Content-adapter check: `hugo list all` (verified available on the pin) includes `museum/<slug>` and `exhibition/<slug>` for both languages with **correct permalinks** (`/musea/…` + `/en/museums/…` — catches the silent `/en/en/` doubling); `translationKey` pairs visible via language switcher on `hugo server`.
+Content-adapter check: `hugo list all` (verified available on the pin) includes `museum/<slug>` and `exhibition/<slug>` for both languages with **correct permalinks** (`/musea/…` + `/en/museums/…`; nested exhibition permalinks `/musea/<museum>/tentoonstelling/…` + `/en/museums/<museum>/exhibition/…` — catches the silent `/en/en/` doubling); `translationKey` pairs visible via language switcher on `hugo server`.
 
 Link check (local preview, real browser — not screenshot-only):
 
@@ -703,6 +708,7 @@ Revert the implementation PR/branch. Curated JSON reverts with git. Tracker slug
 
 - 2026-09-12 · plan cycle: draft `a01d087`; independent review `29671cd`; operator review + fix pass (28 items folded, verified on pinned Hugo v0.166).
 - 2026-09-12 · owner answers: Q1/Q2 approved · Q14 = full coverage (refresh cadence → phase-4 item) · Q13 confirmed: ship-when-ready; extras land incrementally.
+- 2026-09-12 · owner decisions D7–D14 (D7 amended — final shape: exhibitions **nest under their museum**, `/musea/<museum-slug>/tentoonstelling/<slug>/` + ICS sibling `<slug>.ics`; the intermediate top-level `/museum/` stem idea was retired on owner review; mechanics verified on the pin; D8 "stability, of course"; D9–D14 agreed). Phase-4 backlog: extras-data refresh cadence; upcoming-section sort key → **start date** (owner observation).
 
 *(Append during the build, one bullet per run.)*
 
