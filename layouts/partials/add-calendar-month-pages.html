@@ -1,0 +1,24 @@
+{{- $keys := partial "calendar-month-keys.html" . -}}
+{{- range $keys -}}
+  {{- $key := . -}}
+  {{- $t := time.AsTime (printf "%s-01" $key) -}}
+  {{- $monthName := i18n (printf "month_%d" (int ($t.Format "1"))) -}}
+  {{- $title := i18n "exhibitions_in_month" (dict "Month" $monthName "Year" $t.Year) -}}
+  {{- $url := "" -}}
+  {{- if eq $.Site.Language.Lang "nl" -}}
+    {{- $url = printf "kalender/%s/" $key -}}
+  {{- else -}}
+    {{- $url = printf "calendar/%s/" $key -}}
+  {{- end -}}
+  {{- $page := dict
+    "kind" "page"
+    "path" $key
+    "url" $url
+    "title" $title
+    "layout" "calendar-month"
+    "type" "calendar-month"
+    "translationKey" (printf "calendar-month-%s" $key)
+    "params" (dict "month" $key)
+  -}}
+  {{- $.AddPage $page -}}
+{{- end -}}

@@ -1,0 +1,22 @@
+{{- $currentKey := now.Format "2006-01" -}}
+{{- $maxKey := $currentKey -}}
+{{- range hugo.Data.exhibitions.exhibitions -}}
+  {{- with .end -}}
+    {{- $end := time.AsTime . -}}
+    {{- if gt $end.Year 1 -}}
+      {{- $key := $end.Format "2006-01" -}}
+      {{- if gt $key $maxKey -}}
+        {{- $maxKey = $key -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $startMonth := time.AsTime (printf "%s-01" $currentKey) -}}
+{{- $endMonth := time.AsTime (printf "%s-01" $maxKey) -}}
+{{- $n := add (mul (sub $endMonth.Year $startMonth.Year) 12) (sub (int ($endMonth.Format "1")) (int ($startMonth.Format "1"))) -}}
+{{- $keys := slice -}}
+{{- range seq 0 $n -}}
+  {{- $m := $startMonth.AddDate 0 . 0 -}}
+  {{- $keys = $keys | append ($m.Format "2006-01") -}}
+{{- end -}}
+{{- return $keys -}}

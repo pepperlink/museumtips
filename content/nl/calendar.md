@@ -1,7 +1,7 @@
 ---
 title: Kalender
-subtitle: Alle tijdelijke tentoonstellingen, gesorteerd op einddatum
-introduction: Groepen per maand. Spring via de lijst naar een maand.
+subtitle: Alles wat er te zien is, op einddatum
+introduction: Alles per maand bij elkaar, met bovenin een lijstje om snel naar een maand te springen.
 layout: calendar
 url: /kalender/
 translationKey: calendar

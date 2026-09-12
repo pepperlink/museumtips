@@ -14,10 +14,9 @@ Multilingual (NL default, English under `/en/`) Hugo static site — plus two we
 - `i18n/nl.toml`, `i18n/en.toml` — UI strings (add new strings to both).
 - `data/exhibitions.json` — **generated** by the museum tracker pipeline (schema 1: `compiled` date, `museums[]`, `exhibitions[]` with `title/museum/city/start/end/description/url`). Never hand-edit.
 - `museumtips.ics`, `closing-soon.ics` (repo root) — **generated** weekly; these URLs are a public API for calendar subscribers. Never hand-edit.
-- `static/` — classless.css, CNAME, .nojekyll, and feed copies used by the Hugo build (may lag the root files; root files are canonical for publishing).
+- `static/` — classless.css, CNAME, .nojekyll, and feed copies used by the Hugo build; the pipeline writes root + `static/` feed copies together in the same commit.
 - `themes/huguette` — git submodule → <https://github.com/cathelijne/hugo-theme-huguette>. Clone with `--recurse-submodules`; do not vendor or edit it here.
 - `docs/site-plan.md` — the site plan / roadmap (stack decision record, data flow, hosting sketch).
-- `index.html` (repo root) — legacy feeds landing page from before the Pages build; the live site is the built `gh-pages` output. Don't treat it as the site source.
 
 ## Commands (verified)
 

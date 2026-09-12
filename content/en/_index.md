@@ -1,7 +1,7 @@
 ---
 title: Museumtips
 subtitle: Temporary exhibitions at Dutch museums
-introduction: Refreshed weekly. Subscribe in your calendar, or browse what is closing soon.
+introduction: Updated every week. Put it in your calendar, or browse what's about to close.
 translationKey: home
 menu:
   main:
@@ -9,10 +9,10 @@ menu:
     weight: 1
 ---
 
-Museumtips is a small directory of **temporary exhibitions** — not permanent collections.
-A weekly pipeline reads museum websites. This page is backed by a fixture;
-later that pipeline will overwrite `data/exhibitions.json` and the site will be rebuilt.
+Museumtips keeps track of what's on at Dutch museums. Temporary exhibitions only, no permanent collections.
 
-For Google Calendar: Other calendars → **+** → *From URL* → paste
+Updated every week, so you'll see what's new and what's about to close.
+
+**Put it in your calendar.** Add this link as a calendar subscription (Google Calendar: *Other calendars* → **+** → *From URL*):
 `https://museumtips.pepperlink.nl/museumtips.ics`
-(or `…/closing-soon.ics`).
+(or `…/closing-soon.ics` if you only want the heads-up on what's about to close).

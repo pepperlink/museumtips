@@ -1,6 +1,6 @@
 ---
 title: Over
-subtitle: Feeds, abonnementen en hoe de data ververst
+subtitle: Feeds, abonneren en hoe het werkt
 translationKey: about
 url: /over/
 menu:
@@ -8,23 +8,21 @@ menu:
     weight: 4
 ---
 
-Museumtips publiceert **tijdelijke tentoonstellingen in Nederlandse musea** als website én als iCalendar-feeds. Vaste collecties staan er niet in. Shows in hun laatste maand krijgen een countdown (`Laatste maand` → `Laatste 3 weken` → `Laatste 2 weken` → `Laatste week`) en een marker op de `Laatste dag`.
+Museumtips verzamelt tijdelijke tentoonstellingen in Nederlandse musea. Je kunt gewoon op de site kijken, of alles direct in je eigen agenda zetten.
 
-De feeds worden **elke donderdag** ververst. Bewerk de `.ics`-bestanden niet met de hand — ze worden automatisch overschreven.
+Tentoonstellingen die bijna sluiten, krijgen een label: `Laatste maand`, `Laatste 3 weken`, `Laatste 2 weken`, `Laatste week` en op de slotdag `Laatste dag`. Zo zie je in één oogopslag wat je niet wilt missen.
 
 ## Abonneren
 
-| Feed | URL |
+| Feed | Link |
 |---|---|
 | Alle tentoonstellingen | `https://museumtips.pepperlink.nl/museumtips.ics` |
 | Binnenkort afgelopen (≤ 30 dagen) | `https://museumtips.pepperlink.nl/closing-soon.ics` |
 
-**Apple Agenda.** Gebruik de abonneer-knoppen op de homepage (of Archief → Nieuw agenda-abonnement) en plak dezelfde URL.
+**Apple Agenda:** tik op de knoppen op de homepage, of kies Archief → Nieuw agenda-abonnement en plak de link.
 
-**Google Agenda.** Andere agenda's → **+** → *Via URL* → plak de link.
+**Google Agenda:** Andere agenda's → **+** → *Via URL* → plak de link.
 
-## Hoe de data werkt
+## Hoe het werkt
 
-De site is een gewone Hugo-build. Tentoonstellingen komen uit `data/exhibitions.json`. Een aparte pipeline schrijft later het volledige bestand weg (zelfde schema) en start een rebuild. Deze repository bevat nu een kleine fixture zodat de pagina's gebouwd kunnen worden zonder live data op te halen.
-
-De `.ics`-feeds blijven op hetzelfde adres staan. Abonnees hoeven niets te wijzigen.
+De tentoonstellingen komen rechtstreeks van de museumwebsites. We werken de lijst elke donderdag bij. Geabonneerd? Dan gaat je agenda vanzelf mee; aan de links verandert nooit iets.

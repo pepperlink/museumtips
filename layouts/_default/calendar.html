@@ -4,43 +4,74 @@
 {{- partial "introduction.html" . -}}
 {{ .Content }}
 
-{{ $sorted := sort hugo.Data.exhibitions.exhibitions "end" }}
-{{ if not $sorted }}
+{{ $today := div now.Unix 86400 }}
+{{ $cutoff := sub $today 7 }}
+{{ $monthly := slice }}
+{{ $open := slice }}
+{{ $ended := slice }}
+{{ range hugo.Data.exhibitions.exhibitions }}
+  {{ if .end }}
+    {{ $end := time.AsTime .end }}
+    {{ if gt $end.Year 1 }}
+      {{ $endDay := div $end.Unix 86400 }}
+      {{ if lt $endDay $cutoff }}
+      {{ else if lt $endDay $today }}
+        {{ $ended = $ended | append . }}
+      {{ else }}
+        {{ $monthly = $monthly | append . }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ $open = $open | append . }}
+  {{ end }}
+{{ end }}
+
+{{ $monthKeys := slice }}
+{{ range $monthly }}
+  {{ $key := (time.AsTime .end).Format "2006-01" }}
+  {{ if not (in $monthKeys $key) }}
+    {{ $monthKeys = $monthKeys | append $key }}
+  {{ end }}
+{{ end }}
+{{ $monthKeys = sort $monthKeys }}
+{{ $monthly = sort $monthly "end" }}
+{{ $ended = sort $ended "end" }}
+
+{{ if and (not $monthly) (not $open) (not $ended) }}
   <p>{{ i18n "no_exhibitions" }}</p>
 {{ else }}
-  <nav>
-    <p>{{ i18n "jump_to_month" }}</p>
-    <ul>
-      {{ $seen := dict }}
-      {{ range $sorted }}
-        {{ $end := time.AsTime .end }}
-        {{ $key := $end.Format "2006-01" }}
-        {{ if not (index $seen $key) }}
-          {{ $seen = merge $seen (dict $key true) }}
-          {{ $month := i18n (printf "month_%d" (int ($end.Format "1"))) }}
-          <li><a href="#{{ $key }}">{{ $month }} {{ $end.Year }}</a></li>
+  {{ partial "calendar-jump-nav.html" (dict "page" . "showOpen" $open) }}
+
+  {{ range $monthKeys }}
+    {{ $key := . }}
+    {{ $monthTime := time.AsTime (printf "%s-01" $key) }}
+    {{ $month := i18n (printf "month_%d" (int ($monthTime.Format "1"))) }}
+    <section id="{{ $key }}">
+      <h2>{{ $month }} {{ $monthTime.Year }}</h2>
+      {{ range $monthly }}
+        {{ if eq ((time.AsTime .end).Format "2006-01") $key }}
+          {{ partial "exhibition.html" . }}
         {{ end }}
       {{ end }}
-    </ul>
-  </nav>
-
-  {{ $current := "" }}
-  {{ range $sorted }}
-    {{ $end := time.AsTime .end }}
-    {{ $key := $end.Format "2006-01" }}
-    {{ if ne $key $current }}
-      {{ if $current }}
-        </section>
-      {{ end }}
-      {{ $current = $key }}
-      {{ $month := i18n (printf "month_%d" (int ($end.Format "1"))) }}
-      <section id="{{ $key }}">
-        <h2>{{ $month }} {{ $end.Year }}</h2>
-    {{ end }}
-    {{ partial "exhibition.html" . }}
-  {{ end }}
-  {{ if $current }}
     </section>
+  {{ end }}
+
+  {{ if $open }}
+    <section id="no-end-date">
+      <h2>{{ i18n "no_end_date" }}</h2>
+      {{ range $open }}
+        {{ partial "exhibition.html" . }}
+      {{ end }}
+    </section>
+  {{ end }}
+
+  {{ if $ended }}
+    <details>
+      <summary>{{ printf (i18n "ended_shows") (len $ended) }}</summary>
+      {{ range $ended }}
+        {{ partial "exhibition.html" . }}
+      {{ end }}
+    </details>
   {{ end }}
 {{ end }}
 {{ end }}

@@ -17,13 +17,13 @@ other = "Language"
 other = "Closing soon"
 
 [view_calendar]
-other = "Full calendar"
+other = "See everything"
 
 [subscribe_all]
-other = "Subscribe — all exhibitions"
+other = "Subscribe: all exhibitions"
 
 [subscribe_soon]
-other = "Subscribe — closing soon (≤ 30 days)"
+other = "Subscribe: closing soon (≤ 30 days)"
 
 [from]
 other = "from"
@@ -31,11 +31,20 @@ other = "from"
 [until]
 other = "until"
 
+[until_short]
+other = "until"
+
 [open_ended]
 other = "Start date unknown"
 
+[no_end_date]
+other = "No end date"
+
 [ended]
 other = "Ended"
+
+[ended_shows]
+other = "Ended (%d)"
 
 [last_day]
 other = "Last day"
@@ -53,10 +62,10 @@ other = "Last 3 weeks"
 other = "Last month"
 
 [compiled]
-other = "Data compiled on"
+other = "Last updated:"
 
 [website]
-other = "Exhibitions page"
+other = "More from this museum"
 
 [quirks]
 other = "Notes"
@@ -64,14 +73,23 @@ other = "Notes"
 [exhibitions_here]
 other = "On now at this museum"
 
+[jump_to_city]
+other = "Jump to a city"
+
 [jump_to_month]
-other = "Jump to month"
+other = "Jump to a month"
+
+[exhibitions_in_month]
+other = "Exhibitions in {{ .Month }} {{ .Year }}"
+
+[back_to_calendar]
+other = "Back to the calendar"
 
 [no_exhibitions]
-other = "No exhibitions in the current dataset."
+other = "No exhibitions found."
 
 [no_museums]
-other = "No museums in the current dataset."
+other = "No museums found."
 
 [month_1]
 other = "January"
@@ -108,3 +126,39 @@ other = "November"
 
 [month_12]
 other = "December"
+
+[month_short_1]
+other = "Jan"
+
+[month_short_2]
+other = "Feb"
+
+[month_short_3]
+other = "Mar"
+
+[month_short_4]
+other = "Apr"
+
+[month_short_5]
+other = "May"
+
+[month_short_6]
+other = "Jun"
+
+[month_short_7]
+other = "Jul"
+
+[month_short_8]
+other = "Aug"
+
+[month_short_9]
+other = "Sep"
+
+[month_short_10]
+other = "Oct"
+
+[month_short_11]
+other = "Nov"
+
+[month_short_12]
+other = "Dec"

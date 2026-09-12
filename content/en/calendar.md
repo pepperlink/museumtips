@@ -1,7 +1,7 @@
 ---
 title: Calendar
-subtitle: All temporary exhibitions, sorted by end date
-introduction: Grouped by month. Use the list to jump to a month.
+subtitle: Everything that's on, sorted by closing date
+introduction: Grouped by month, with a jump list at the top.
 layout: calendar
 translationKey: calendar
 menu:

@@ -1,7 +1,7 @@
 ---
 title: Musea
-subtitle: Musea in deze dataset, per regio
-introduction: Elk museum heeft een bronpagina en korte bijzonderheden uit de tracker.
+subtitle: Alle musea die meedoen, per stad
+introduction: Met per museum wat er nu te zien is en een link naar de eigen site.
 layout: museums
 url: /musea/
 translationKey: museums

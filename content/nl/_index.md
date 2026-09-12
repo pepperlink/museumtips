@@ -1,7 +1,7 @@
 ---
 title: Museumtips
 subtitle: Tijdelijke tentoonstellingen in Nederlandse musea
-introduction: Wekelijks ververst. Abonneer je agenda, of blader hier naar wat bijna afloopt.
+introduction: Elke week bijgewerkt. Zet 'm in je agenda, of blader naar wat bijna afloopt.
 translationKey: home
 menu:
   main:
@@ -9,10 +9,10 @@ menu:
     weight: 1
 ---
 
-Museumtips is een klein overzicht van **tijdelijke tentoonstellingen** — geen vaste collecties.
-De bron is een wekelijkse pipeline die museumsites uitleest. Deze pagina toont een fixture;
-later overschrijft die pipeline `data/exhibitions.json` en wordt de site opnieuw gebouwd.
+Museumtips houdt voor je bij wat er nu te zien is in Nederlandse musea. Alleen tijdelijke tentoonstellingen, geen vaste collecties.
 
-Voor Google Agenda: Andere agenda's → **+** → *Via URL* → plak
+Elke week bijgewerkt, dus je ziet meteen wat er nieuw is en wat bijna sluit.
+
+**Zet 'm in je agenda.** Voeg deze link toe als agenda-abonnement (Google Agenda: *Andere agenda's* → **+** → *Via URL*):
 `https://museumtips.pepperlink.nl/museumtips.ics`
-(of `…/closing-soon.ics`).
+(of `…/closing-soon.ics` als je alleen wilt weten wat bijna afloopt).

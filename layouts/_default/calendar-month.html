@@ -1,0 +1,93 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ with .Site.GetPage "/calendar" }}
+<p><a href="{{ .RelPermalink }}">{{ i18n "back_to_calendar" }}</a></p>
+{{ end }}
+
+{{ $key := .Params.month }}
+{{ $t := time.AsTime (printf "%s-01" $key) }}
+{{ $prevTime := $t.AddDate 0 -1 0 }}
+{{ $nextTime := $t.AddDate 0 1 0 }}
+{{ $prev := .Site.GetPage (printf "/%s" ($prevTime.Format "2006-01")) }}
+{{ $next := .Site.GetPage (printf "/%s" ($nextTime.Format "2006-01")) }}
+{{ if or $prev $next }}
+<nav>
+  <p>
+    {{- with $prev -}}
+      {{- $pt := time.AsTime (printf "%s-01" .Params.month) -}}
+      <a href="{{ .RelPermalink }}">← {{ i18n (printf "month_%d" (int ($pt.Format "1"))) }} {{ $pt.Year }}</a>
+    {{- end -}}
+    {{- if and $prev $next }} · {{ end -}}
+    {{- with $next -}}
+      {{- $nt := time.AsTime (printf "%s-01" .Params.month) -}}
+      <a href="{{ .RelPermalink }}">{{ i18n (printf "month_%d" (int ($nt.Format "1"))) }} {{ $nt.Year }} →</a>
+    {{- end -}}
+  </p>
+</nav>
+{{ end }}
+
+{{ $monthStartDay := div $t.Unix 86400 }}
+{{ $monthEndDay := div ($t.AddDate 0 1 -1).Unix 86400 }}
+{{ $today := div now.Unix 86400 }}
+{{ $cutoff := sub $today 7 }}
+
+{{ $dated := slice }}
+{{ $undated := slice }}
+{{ $ended := slice }}
+
+{{ range hugo.Data.exhibitions.exhibitions }}
+  {{ $include := true }}
+  {{ if .end }}
+    {{ $end := time.AsTime .end }}
+    {{ if le $end.Year 1 }}
+      {{ $include = false }}
+    {{ else if lt (div $end.Unix 86400) $monthStartDay }}
+      {{ $include = false }}
+    {{ end }}
+  {{ end }}
+  {{ if and $include .start }}
+    {{ $start := time.AsTime .start }}
+    {{ if and (gt $start.Year 1) (gt (div $start.Unix 86400) $monthEndDay) }}
+      {{ $include = false }}
+    {{ end }}
+  {{ end }}
+  {{ if $include }}
+    {{ if .end }}
+      {{ $end := time.AsTime .end }}
+      {{ if gt $end.Year 1 }}
+        {{ $endDay := div $end.Unix 86400 }}
+        {{ if lt $endDay $cutoff }}
+        {{ else if lt $endDay $today }}
+          {{ $ended = $ended | append . }}
+        {{ else }}
+          {{ $dated = $dated | append . }}
+        {{ end }}
+      {{ end }}
+    {{ else }}
+      {{ $undated = $undated | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $dated = sort $dated "end" }}
+{{ $ended = sort $ended "end" }}
+
+{{ if and (not $dated) (not $undated) (not $ended) }}
+  <p>{{ i18n "no_exhibitions" }}</p>
+{{ else }}
+  {{ range $dated }}
+    {{ partial "exhibition.html" . }}
+  {{ end }}
+  {{ range $undated }}
+    {{ partial "exhibition.html" . }}
+  {{ end }}
+  {{ if $ended }}
+    <details>
+      <summary>{{ printf (i18n "ended_shows") (len $ended) }}</summary>
+      {{ range $ended }}
+        {{ partial "exhibition.html" . }}
+      {{ end }}
+    </details>
+  {{ end }}
+{{ end }}
+{{ end }}

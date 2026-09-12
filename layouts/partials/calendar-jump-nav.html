@@ -1,0 +1,46 @@
+{{- $keys := partial "calendar-month-keys.html" .page -}}
+<nav>
+  <p>{{ i18n "jump_to_month" }}</p>
+  {{- if gt (len $keys) 24 }}
+    {{- $prevYear := 0 }}
+    {{- range $keys }}
+      {{- $key := . }}
+      {{- $monthTime := time.AsTime (printf "%s-01" $key) }}
+      {{- $year := $monthTime.Year }}
+      {{- $month := i18n (printf "month_%d" (int ($monthTime.Format "1"))) }}
+      {{- if ne $year $prevYear }}
+        {{- if $prevYear }}</ul>{{ end }}
+        <p>{{ $year }}</p>
+        <ul>
+        {{- $prevYear = $year }}
+      {{- end }}
+      {{- $href := "" }}
+      {{- with $.page.Site.GetPage (printf "/%s" $key) }}
+        {{- $href = .RelPermalink }}
+      {{- end }}
+      <li><a href="{{ $href }}">{{ $month }}</a></li>
+    {{- end }}
+    {{- if $prevYear }}</ul>{{ end }}
+    {{- if .showOpen }}
+      <ul>
+        <li><a href="#no-end-date">{{ i18n "no_end_date" }}</a></li>
+      </ul>
+    {{- end }}
+  {{- else }}
+    <ul>
+      {{- range $keys }}
+        {{- $key := . }}
+        {{- $monthTime := time.AsTime (printf "%s-01" $key) }}
+        {{- $month := i18n (printf "month_%d" (int ($monthTime.Format "1"))) }}
+        {{- $href := "" }}
+        {{- with $.page.Site.GetPage (printf "/%s" $key) }}
+          {{- $href = .RelPermalink }}
+        {{- end }}
+        <li><a href="{{ $href }}">{{ $month }} {{ $monthTime.Year }}</a></li>
+      {{- end }}
+      {{- if .showOpen }}
+        <li><a href="#no-end-date">{{ i18n "no_end_date" }}</a></li>
+      {{- end }}
+    </ul>
+  {{- end }}
+</nav>
