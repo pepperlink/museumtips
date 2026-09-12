@@ -783,13 +783,18 @@ Use `layouts/partials/museum-map-ready.html` as the one shared Hugo predicate. I
 
 - page type is exactly `museum-page`;
 - head lookup is `index hugo.Data.museums_info .Params.slug` (frozen slug; no `urlize`); `museum-page.html` passes page + generated museum + curated info into `museum-info.html`, so the same predicate has the same inputs there;
-- `lat` and `lon` both exist, are finite non-null numbers (not booleans/strings), form a complete pair, and are within the approved NL bounds.
+- `lat` and `lon` both exist and are genuine non-null numbers (explicit JSON `null` rejected, strings rejected, booleans rejected), form a complete pair, and are within the approved NL bounds. **Verified idiom (scratch fixture, pin v0.166.0, 2026-09-13):** `isset` returns true for an explicit JSON `null` and must NOT be used — use the nested guard below. Fixture verdicts on v0.166.0: a float pair is ready; `"lon": null`, a missing key, and string values are all not-ready, with the build staying green:
+
+~~~go-html-template
+{{ $ready := false }}
+{{ if and (ne $lat nil) (ne $lon nil) }}{{ if and (eq (printf "%T" $lat) "float64") (eq (printf "%T" $lon) "float64") }}{{ if and (ge $lat 50.7) (le $lat 53.65) (ge $lon 3.2) (le $lon 7.25) }}{{ $ready = true }}{{ end }}{{ end }}{{ end }}
+~~~
 
 When true:
 
 - `head.html` emits CSS in the order classless → Leaflet → custom, then deferred same-origin Leaflet JS followed by deferred `museum-map.js`;
 - `museum-info.html` emits escaped `data-lat`, `data-lon`, generated museum name, and curated address on a hidden `#map`, plus a hidden failure fallback;
-- `museum-map.js` initializes exactly one map, one tile layer, one marker, and one popup. Build popup DOM with `textContent`, not untrusted `innerHTML`.
+- `museum-map.js` initializes exactly one map, one tile layer, one marker, and one popup. Build popup DOM with `textContent`, not untrusted `innerHTML`; set `referrerPolicy: 'strict-origin-when-cross-origin'` in the `L.tileLayer` options so the OSMF referrer requirement holds even if site headers are ever hardened.
 
 When false: no Leaflet CSS, no script tags, no tile request; the address remains visible and the localized empty-state text replaces the hidden map. For a ready map, JS must unhide the container immediately before `L.map` so Leaflet receives real dimensions; wrap initialization in `try`/`catch`, and on failure re-hide the map and reveal the same empty-state text. Without JS, the address still remains.
 
@@ -812,7 +817,7 @@ static/vendor/leaflet/1.9.4/
     └── marker-shadow.png
 ```
 
-Keep the two layer-control images because unmodified upstream `leaflet.css` references them, even though phase 3c adds no layer control. Do not vendor `leaflet-src*.js`, source maps, npm metadata, or the full source tree. `LICENSE` is the BSD-2-Clause text from the `v1.9.4` tag. Add `static/js/museum-map.js` separately; it is project code, not vendor code.
+Keep the two layer-control images because unmodified upstream `leaflet.css` references them, even though phase 3c adds no layer control. Do not vendor `leaflet-src*.js`, source maps, npm metadata, or the full source tree. `LICENSE` is the BSD-2-Clause text from the `v1.9.4` tag — it is **not part of `leaflet.zip`**; fetch it separately: `curl -fsSL https://raw.githubusercontent.com/Leaflet/Leaflet/v1.9.4/LICENSE -o static/vendor/leaflet/1.9.4/LICENSE` (verified 2026-09-13: HTTP 200, BSD-2-Clause, 1,395 bytes). The distributed `leaflet.js` keeps a `//# sourceMappingURL=leaflet.js.map` comment; since `.map` files are deliberately not vendored, devtools may log a benign same-origin 404 — expected, not a defect. Add `static/js/museum-map.js` separately; it is project code, not vendor code.
 
 ### Coordinate collection and validation
 
@@ -829,7 +834,7 @@ Missing/invalid one-sided pairs are treated as missing, never coerced to `0`, an
 
 ### Calendar heat rendering
 
-Add `layouts/partials/calendar-exhibition.html` as the calendar-only wrapper that computes an urgency class and delegates unchanged content to `exhibition.html`. Call it only from `calendar.html` and `calendar-month.html`. This avoids changing cards on home/museum/exhibition pages.
+Add `layouts/partials/calendar-exhibition.html` as the calendar-only wrapper that computes an urgency class and wraps the unchanged output of `exhibition.html` in a `<div class="closing-heat-N">` (its `<article>` has no class hook; the wrapper therefore carries its own padding/box styling — `<article>` has no card box to inherit). Call it only from `calendar.html` and `calendar-month.html`. This avoids changing cards on home/museum/exhibition pages.
 
 Eligible: show has started, has a valid end date, and is not ended. Open-ended, upcoming, ended, and >30-day shows remain neutral. Proposed classes and exact backgrounds:
 
@@ -841,7 +846,7 @@ Eligible: show has started, has a valid end date, and is not ended. Open-ended, 
 | 1–6 | Last week | `closing-heat-4` | `#93c5fd` |
 | 0 | Last day | `closing-heat-5` | `#60a5fa` |
 
-Use foreground/link color `#172554` within all five classes (links remain underlined). Measured contrast against the five backgrounds ranges from 13.50:1 to 5.78:1, above WCAG AA normal-text contrast. Add a non-color cue by retaining the existing bold countdown label; no new legend/i18n is required.
+Use foreground/link color `#172554` within all five classes (links remain underlined). Measured contrast against the five backgrounds ranges from 13.50:1 to 5.78:1, above WCAG AA normal-text contrast. The site-default body text color `#433` on the darkest band measures 4.67:1 — an AA pass with a thin margin; re-check if the palette or text color ever changes. Add a non-color cue by retaining the existing bold countdown label; no new legend/i18n is required.
 
 Do not shade month jump-nav: a month can contain mixed urgencies, so one shade would be false precision. Do not shade “Binnenkort te zien / Opening soon”: pre-opening shows are ineligible for closing urgency.
 
@@ -885,10 +890,11 @@ If the owner selects an alternative that changes a surface or expected count (es
 
 ## 3c.6 Ordered one-run subtasks
 
-All runs are serialized because ST-3c-1 through ST-3c-3 edit the same curated file. Stop on conflict with §3c.5. Never use a generated-data edit as a fixture.
+All runs are serialized because ST-3c-1 through ST-3c-3 edit the same curated file. Stop on conflict with §3c.5. Never use a generated-data edit as a fixture. ST-3c-6 is file-disjoint from ST-3c-4/5 and may run before or in parallel with them if useful; keep the numeric order otherwise.
 
 ### ST-3c-1 — Coordinates batch A (10)
 
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** —
 - **Scope:** only `data/museums_info.json`: `rijksmuseum`, `van-gogh-museum`, `stedelijk-museum`, `h-art-museum`, `huis-marseille`, `foam`, `museum-boijmans-van-beuningen`, `kunsthal`, `nederlands-fotomuseum`, `museum-more`.
 - **Work:** collect/verify per §3c.4; add pairs + coordinate source; Q8 governs MORE.
 - **Verify:**
@@ -917,6 +923,7 @@ git diff --name-only
 
 ### ST-3c-2 — Coordinates batch B (10)
 
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-3c-1
 - **Scope:** only `data/museums_info.json`: `kunstmuseum-den-haag`, `fotomuseum-den-haag`, `voorlinden`, `singer-laren`, `teylers-museum`, `centraal-museum`, `museum-de-fundatie`, `museum-arnhem`, `kroller-muller-museum`, `museum-kranenburgh`.
 - **Work:** same protocol; do not touch batch A except a documented correction.
 - **Verify:**
@@ -944,6 +951,7 @@ git diff --name-only
 
 ### ST-3c-3 — Coordinates batch C + complete audit (10)
 
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-3c-2
 - **Scope:** only `data/museums_info.json`: `drents-museum`, `groninger-museum`, `fries-museum`, `de-buitenplaats`, `museum-volkenkunde`, `rijksmuseum-van-oudheden`, `frans-hals-museum`, `de-pont-museum`, `van-abbemuseum`, `bonnefantenmuseum`.
 - **Work:** fill batch C, then audit all 30 pairs/sources and six geographically distributed records.
 - **Verify:**
@@ -974,8 +982,9 @@ git diff --name-only
 
 ### ST-3c-4 — Vendor Leaflet 1.9.4
 
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** —
 - **Scope:** the exact `static/vendor/leaflet/1.9.4/` files listed in §3c.4 only. No template references yet; no theme edit.
-- **Work:** fetch official release zip; verify archive hash; copy unmodified runtime distribution + tagged license; record version/source in the commit body.
+- **Work:** fetch official release zip; verify archive hash; copy unmodified runtime distribution + tagged license (`curl -fsSL https://raw.githubusercontent.com/Leaflet/Leaflet/v1.9.4/LICENSE -o static/vendor/leaflet/1.9.4/LICENSE` — the zip contains no LICENSE; verified 2026-09-13); record version/source in the commit body.
 - **Verify:**
 
 ```sh
@@ -997,6 +1006,7 @@ hugo --minify
 
 ### ST-3c-5 — Conditional museum maps
 
+- **Model:** capable mid-tier (`cursor-grok-4.6-medium`-class) · **Size:** M · **Depends:** ST-3c-4
 - **Scope:** `layouts/_default/museum-page.html`, `layouts/partials/head.html`, `layouts/partials/museum-info.html`, new `layouts/partials/museum-map-ready.html`, `static/js/museum-map.js`, `static/css/custom.css`, `i18n/nl.toml`, `i18n/en.toml`. Never `baseof` unless the proven deferred-head approach fails on the pin.
 - **Work:** implement Q3–Q8 and §3c.4. Change the current `museum-info.html` call to pass page + generated museum + curated info explicitly; popup = generated museum name + curated address. Keep address server-rendered; no external HTML injection.
 - **Verify:**
@@ -1005,7 +1015,7 @@ hugo --minify
 set -o pipefail
 hugo --minify 2>&1 | tee /tmp/phase3c-map-build.log
 test "$(grep -ci '^WARN' /tmp/phase3c-map-build.log)" = 0
-EXPECTED_MAP_PAGES=60 # Q8 recommendation; use 58 only if owner selects “no map for MORE”
+EXPECTED_MAP_PAGES=$(( $(python3 -c "import json;d=json.load(open('data/museums_info.json'));print(sum(1 for v in d.values() if v.get('lat') is not None and v.get('lon') is not None))") * 2 )) # derived from curated data; survives Q8 changes
 EXPECTED_SCRIPT_TAGS=$((EXPECTED_MAP_PAGES * 2))
 museum_pages="$(
   find public/museums -mindepth 2 -maxdepth 2 -type f -name index.html
@@ -1018,7 +1028,7 @@ test "$(wc -l < /tmp/phase3c-script-pages | tr -d ' ')" = "$EXPECTED_MAP_PAGES"
 test "$(grep -Ec '^public/(en/)?museums/[^/]+/index\.html$' /tmp/phase3c-script-pages)" = \
   "$EXPECTED_MAP_PAGES"
 test "$(grep -Roh '<script' public --include='*.html' | wc -l | tr -d ' ')" = "$EXPECTED_SCRIPT_TAGS"
-! grep -RE '<script[^>]*src=.https?://' public --include='*.html'
+! grep -RE "<script[^>]*src=[\"']?https?://" public --include='*.html'
 ! grep -R 'javascript:\| on[a-zA-Z][a-zA-Z]*=' public --include='*.html'
 test "$(git ls-files '*.js' | sort | tr '\n' ' ')" = \
   "static/js/museum-map.js static/vendor/leaflet/1.9.4/leaflet.js "
@@ -1038,6 +1048,7 @@ test -f public/museumtips.ics -a -f public/closing-soon.ics
 
 ### ST-3c-6 — Calendar closing heat
 
+- **Model:** `composer-2.5` · **Size:** M · **Depends:** —
 - **Scope:** new `layouts/partials/calendar-exhibition.html`, `layouts/_default/calendar.html`, `layouts/_default/calendar-month.html`, `static/css/custom.css`. `layouts/index.html` only if Q2 explicitly includes a homepage surface; copy/i18n should remain untouched.
 - **Work:** implement Q1/Q2. Keep `exhibition.html` output unchanged and preserve D3 ended collapse/month overlap.
 - **Verify:**
@@ -1071,6 +1082,7 @@ Day-0 also remains a browser gate using `hugo server --clock 2026-09-13T00:00:00
 
 ### ST-3c-7 — Docs + final audit
 
+- **Model:** `composer-2.5` · **Size:** S · **Depends:** ST-3c-1…6
 - **Scope:** `README.md`, `AGENTS.md`, `docs/site-plan.md`; update both-language route descriptions only if necessary. Do not change visitor display copy.
 - **Work:** document the exception, vendor pin/provenance, external tile/attribution dependency, conditional page scope, coordinate ownership, and phase pointer. Run full QA.
 - **Verify:** §3c.8 mechanical battery + real-browser checklist; set `PHASE_START=$(git merge-base HEAD origin/main)`, then `git diff --name-only "$PHASE_START"...HEAD` must match approved 3c files; generated data/feeds/theme absent.
@@ -1108,14 +1120,14 @@ test -f public/museumtips.ics -a -f public/closing-soon.ics
 # Complete coordinate/schema audit: run the Python block from ST-3c-3.
 
 # Auditable JS allowlist.
-EXPECTED_MAP_PAGES=60 # Q8 recommendation; update per recorded owner answer
+EXPECTED_MAP_PAGES=$(( $(python3 -c "import json;d=json.load(open('data/museums_info.json'));print(sum(1 for v in d.values() if v.get('lat') is not None and v.get('lon') is not None))") * 2 )) # derived from curated data
 EXPECTED_SCRIPT_TAGS=$((EXPECTED_MAP_PAGES * 2))
 grep -Rl '<script' public --include='*.html' | sort > /tmp/phase3c-script-pages
 test "$(wc -l < /tmp/phase3c-script-pages | tr -d ' ')" = "$EXPECTED_MAP_PAGES"
 test "$(grep -Ec '^public/(en/)?museums/[^/]+/index\.html$' /tmp/phase3c-script-pages)" = \
   "$EXPECTED_MAP_PAGES"
 test "$(grep -Roh '<script' public --include='*.html' | wc -l | tr -d ' ')" = "$EXPECTED_SCRIPT_TAGS"
-! grep -RE '<script[^>]*src=.https?://' public --include='*.html'
+! grep -RE "<script[^>]*src=[\"']?https?://" public --include='*.html'
 ! grep -R 'javascript:\| on[a-zA-Z][a-zA-Z]*=' public --include='*.html'
 test "$(git ls-files '*.js' | sort | tr '\n' ' ')" = \
   "static/js/museum-map.js static/vendor/leaflet/1.9.4/leaflet.js "
@@ -1154,7 +1166,7 @@ git diff --exit-code "$PHASE_START" -- data/exhibitions.json data/exhibitions_in
   themes/huguette CNAME static/CNAME
 ```
 
-For a deliberate missing-coordinate proof, build a disposable copy with one pair removed. Assert that page contains the Q7 text, contains no `leaflet.css`, `leaflet.js`, or `museum-map.js`, and still prints its address. Never leave that fixture in this worktree.
+For a deliberate missing-coordinate proof, build a disposable copy with BOTH cases: (a) one pair removed; (b) one record with an explicit `"lon": null` — the exact case a natural `isset` implementation gets wrong (see the verified idiom in §3c.4). For each: assert the page contains the Q7 text, no `leaflet.css`, `leaflet.js`, or `museum-map.js`, and still prints its address. Never leave the fixture in this worktree; keep the recipe as a named script documented in `AGENTS.md` so future edits to the readiness predicate re-run it.
 
 ### VISUAL — real browser on a locally served pinned build
 
@@ -1169,7 +1181,7 @@ The operator records pass/fail in the implementation log after checking actual r
 - NL `/museums/rijksmuseum/` and EN counterpart: map becomes visible at 22rem; standard tiles render; marker sits on Museumstraat 1/Rijksmuseum, not Amsterdam centroid; attribution remains visible.
 - Click marker and activate it by keyboard: popup opens and contains the museum name + address; close/reopen works; language switch keeps the same venue.
 - Scroll over the page: page scroll is not trapped; zoom buttons, drag, and keyboard work; responsive widths at narrow mobile and desktop do not overflow.
-- Network panel: Leaflet CSS/JS and `museum-map.js` are same-origin; tile requests use only the approved host; home, calendar, museum index, exhibition, and about pages request no JS or map tiles.
+- Network panel: Leaflet CSS/JS and `museum-map.js` are same-origin; tile requests use only the approved host; home, calendar, museum index, exhibition, and about pages request no JS or map tiles. Click a `tile.openstreetmap.org` request → Headers → confirm a `Referer` value is present (OSMF tile policy; Finding 5 of the independent review).
 - One museum in each coordinate spot-check region: pin plausibly overlays the official venue. Check Museum MORE according to Q8.
 - Disposable missing-coordinate page: address + Q7 empty state render, map remains absent, and network shows no Leaflet/tile request.
 - `/kalender/`, `/en/calendar/`, and one NL+EN month page: 21–30 is lightest and 0 is darkest; 14–20, 7–13, and 1–6 deepen monotonically; countdown text remains legible and card links work.
@@ -1193,7 +1205,7 @@ Nothing is irreversible. Before merge, close the branch. After merge, revert pha
 2. Revert heat wrapper/classes to restore unchanged calendar cards.
 3. Revert map template/initializer/CSS/i18n; this restores the inert hidden `#map`, removes every script tag, and stops all tile requests.
 4. Remove the vendored Leaflet directory in the same revert that removes its references.
-5. Coordinate fields may remain harmless curated data, or revert the three coordinate commits if the owner wants the exact pre-3c schema instance.
+5. Coordinate fields may remain harmless curated data, or revert the three coordinate commits if the owner wants the exact pre-3c schema instance. Any cross-batch correction must land in its own labeled commit (`fix(data): correct <slug> coordinates`) so the three batch-add commits stay independently revertible.
 
 No rollback touches `gh-pages` directly, generated feeds/data, frozen slugs, or pipeline scripts. Republish through the normal site pipeline after owner merge/revert.
 
@@ -1201,7 +1213,7 @@ No rollback touches `gh-pages` directly, generated feeds/data, frozen slugs, or 
 
 | Risk / unknown | Mitigation / gate |
 |---|---|
-| JS leaks beyond museum pages | Shared readiness predicate; no inline JS; exact source/output allowlist and 60-page/120-tag gates |
+| JS leaks beyond museum pages | Shared readiness predicate; no inline JS; exact source/output allowlist and derived page/tag gates (computed from the curated data, not hardcoded) |
 | Tile provider availability, policy, or privacy | Q3 owner choice; visible attribution; no prefetch; one replaceable URL; address survives outage |
 | Wrong venue / swapped coordinates | Numeric/bounds audit + source per record + all-venue plausibility review + six independent spot-checks |
 | Museum MORE has multiple venues | Q8; default remains phase-3b primary Gorssel model |
@@ -1217,6 +1229,8 @@ No rollback touches `gh-pages` directly, generated feeds/data, frozen slugs, or 
 | “Binnenkort” premise differs from checkout | Current evidence is start-sort; retain regression gate and obey touched-file-only constraint |
 
 ## 3c.12 Log
+
+- 2026-09-13 · Independent review folded (0 blockers / 5 major / 7 minor; doc `docs/plan-review-phase3c.md`). Pin-verified on v0.166.0: nested `ne X nil` + type/bounds guard → float pair ready; explicit `null`, missing key, and string values all not-ready with a green build (scratch fixture); quote-tolerant CDN regex catches all three `src=` forms; `v1.9.4` LICENSE fetch OK (BSD-2-Clause, 1,395 B). Status: awaiting owner Q1–Q8 answers.
 
 *(Append during the build, one bullet per run.)*
 

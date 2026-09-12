@@ -130,3 +130,10 @@ All 8 are traced to at least one concrete subtask or QA line — traceability it
 ## Summary
 
 0 blockers, 5 major findings, 7 minor findings. The plan's factual/provenance claims (Leaflet hash and version status, baseline page/WARN/script counts, contrast math, day-0 fixture availability, i18n parity mechanism) all reproduced exactly on this lane. The weaker spots are all in QA-script robustness and subtask-process hygiene rather than in the high-level design: a naive-but-plausible implementation of the "null-safe coordinate" predicate (Finding 1) or the "no CDN script" audit (Finding 3) would each ship a real, silent violation of the plan's own stated invariants while every literally-scripted check in §3c.8 still reports green. Recommend folding Findings 1–5 into §3c.4/§3c.6/§3c.8 before ST-3c-1 begins; Findings 6–12 can be picked up during implementation without blocking the owner's Q1–Q8 sign-off.
+
+
+---
+
+## Operator addendum (Diane, 2026-09-13)
+
+All 12 findings folded into `PLAN.md` §3c before owner sign-off — F1 (verified idiom: nested `ne X nil` + float-type + bounds guard, with the explicit-`null` and removed-key fixtures now both in §3c.8), F2 (LICENSE fetch line added; fetch verified), F3 (regex made quote-tolerant; all three `src=` forms verified), F4 (Model/Size/Depends added to ST-3c-1…7), F5 (referrer check added to the VISUAL list + explicit `referrerPolicy` in the tile layer), F6 (derived `EXPECTED_MAP_PAGES` from the data via python3), F7 (named disposable-fixture recipe noted for AGENTS.md), F8 (correction commits must be separate/labeled), F9 (wrapper `<div class="closing-heat-N">` + padding stated), F10 (`#433` margin noted), F11 (sourcemap 404 noted as expected), F12 (parallelism note). Pin proofs run on pod Hugo **v0.166.0 extended**: idiom fixture (4 verdicts correct, build green), regex (2→3 forms caught), LICENSE fetch (HTTP 200). All other lane reproductions accepted as reported. No blockers; awaiting owner Q1–Q8 answers.
