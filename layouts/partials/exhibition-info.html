@@ -1,0 +1,46 @@
+{{- $isEN := eq site.Language.Lang "en" -}}
+{{- $mk := "unknown" -}}
+{{- with index . "admission" -}}
+  {{- with index . "museumkaart" -}}
+    {{- $mk = . -}}
+  {{- end -}}
+{{- end -}}
+<section>
+  <h2>{{ i18n "admission" }}</h2>
+  <p>
+    {{- if eq $mk "included" -}}
+      {{- i18n "museumkaart_included" -}}
+    {{- else if eq $mk "supplement" -}}
+      {{- i18n "museumkaart_supplement" -}}
+    {{- else if eq $mk "not_covered" -}}
+      {{- i18n "museumkaart_not_covered" -}}
+    {{- else -}}
+      {{- i18n "museumkaart_unknown" -}}
+    {{- end -}}
+  </p>
+  {{- with index . "admission" -}}
+    {{- $note := index . "note_nl" -}}
+    {{- if $isEN -}}{{- $note = index . "note_en" -}}{{- end -}}
+    {{- with $note -}}
+    <p>{{ . }}</p>
+    {{- end -}}
+  {{- end -}}
+</section>
+{{- $press := index . "press" -}}
+{{- if and $press (gt (len $press) 0) -}}
+<section>
+  <h2>{{ i18n "press" }}</h2>
+  <ul>
+    {{- range first 3 $press -}}
+    <li>
+      {{- if .url -}}
+      <a href="{{ .url }}">{{ .title }}</a>
+      {{- else -}}
+      {{ .title }}
+      {{- end -}}
+      {{- with .outlet }} — {{ . }}{{ end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</section>
+{{- end -}}

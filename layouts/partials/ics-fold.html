@@ -1,0 +1,7 @@
+{{- $s := . -}}
+{{- if le (len $s) 75 -}}
+{{ $s }}
+{{- else -}}
+{{ slicestr $s 0 75 }}
+{{ partial "ics-fold.html" (printf " %s" (slicestr $s 75)) }}
+{{- end -}}

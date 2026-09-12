@@ -1,0 +1,79 @@
+{{- $isEN := eq site.Language.Lang "en" -}}
+{{- $address := .address -}}
+{{- $hours := .hours_nl -}}
+{{- $transit := .transit_nl -}}
+{{- $parking := .parking_nl -}}
+{{- $access := .access_nl -}}
+{{- $pricing := .pricing_nl -}}
+{{- if $isEN -}}
+  {{- $hours = .hours_en -}}
+  {{- $transit = .transit_en -}}
+  {{- $parking = .parking_en -}}
+  {{- $access = .access_en -}}
+  {{- $pricing = .pricing_en -}}
+{{- end -}}
+
+{{- with $address -}}
+<section id="location">
+  <h2>{{ i18n "location" }}</h2>
+  <p>{{ . }}</p>
+  <div id="map" hidden></div>
+</section>
+{{- end -}}
+
+{{- with $hours -}}
+<section>
+  <h2>{{ i18n "opening_hours" }}</h2>
+  <p>{{ . }}</p>
+</section>
+{{- end -}}
+
+{{- if or $transit $parking -}}
+<section>
+  <h2>{{ i18n "getting_there" }}</h2>
+  {{- with $transit -}}
+  <h3>{{ i18n "public_transport" }}</h3>
+  <p>{{ . }}</p>
+  {{- end -}}
+  {{- with $parking -}}
+  <h3>{{ i18n "parking" }}</h3>
+  <p>{{ . }}</p>
+  {{- end -}}
+</section>
+{{- end -}}
+
+{{- with $access -}}
+<section>
+  <h2>{{ i18n "accessibility" }}</h2>
+  <p>{{ . }}</p>
+</section>
+{{- end -}}
+
+{{- with .cards -}}
+<section>
+  <h2>{{ i18n "entrance_cards" }}</h2>
+  <ul>
+    {{- range . -}}
+    <li>
+      {{- $label := .label -}}
+      {{- if not $label -}}{{- $label = .id -}}{{- end -}}
+      <strong>{{ $label }}</strong>
+      {{- if eq .accepted false }} — {{ i18n "card_not_accepted" -}}
+      {{- else if .accepted }} — {{ i18n "card_accepted" -}}
+      {{- else }} — {{ i18n "card_status_unknown" -}}
+      {{- end -}}
+      {{- $note := .note_nl -}}
+      {{- if $isEN -}}{{- $note = .note_en -}}{{- end -}}
+      {{- with $note }} ({{ . }}){{ end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</section>
+{{- end -}}
+
+{{- with $pricing -}}
+<section>
+  <h2>{{ i18n "pricing" }}</h2>
+  <p>{{ . }}</p>
+</section>
+{{- end -}}

@@ -1,0 +1,86 @@
+{{- $slug := .Params.slug -}}
+{{- $ex := false -}}
+{{- range hugo.Data.exhibitions.exhibitions -}}
+  {{- if eq .slug $slug -}}
+    {{- $ex = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $stamp := now.UTC.Format "20060102T150405Z" -}}
+{{- with hugo.Data.exhibitions.compiled -}}
+  {{- $stamp = printf "%sT000000Z" (replace . "-" "") -}}
+{{- end -}}
+{{- $startFmt := "" -}}
+{{- $endFmt := "" -}}
+{{- if $ex -}}
+  {{- $startTime := false -}}
+  {{- $endTime := false -}}
+  {{- with $ex.start -}}
+    {{- $t := time.AsTime . -}}
+    {{- if gt $t.Year 1 -}}
+      {{- $startTime = $t -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $ex.end -}}
+    {{- $t := time.AsTime . -}}
+    {{- if gt $t.Year 1 -}}
+      {{- $endTime = $t -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $startTime -}}
+    {{- $startFmt = $startTime.Format "20060102" -}}
+  {{- else if $endTime -}}
+    {{- with hugo.Data.exhibitions.compiled -}}
+      {{- $c := time.AsTime . -}}
+      {{- if and (gt $c.Year 1) (le $c $endTime) -}}
+        {{- $startFmt = $c.Format "20060102" -}}
+      {{- else -}}
+        {{- $startFmt = $endTime.Format "20060102" -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $startFmt = $endTime.Format "20060102" -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $endTime -}}
+    {{- $endFmt = ($endTime.AddDate 0 0 1).Format "20060102" -}}
+  {{- end -}}
+{{- end -}}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//{{ .Site.Language.Lang | upper }}
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-{{ $slug }}@museumtips.pepperlink.nl
+DTSTAMP:{{ $stamp }}
+{{- if $startFmt }}
+DTSTART;VALUE=DATE:{{ $startFmt }}
+{{- end }}
+{{- if $endFmt }}
+DTEND;VALUE=DATE:{{ $endFmt }}
+{{- end }}
+{{- if $ex }}
+{{ partial "ics-text.html" (dict "name" "SUMMARY" "value" (printf "%s - %s" $ex.title $ex.museum)) }}
+{{- $loc := $ex.museum -}}
+{{- with $ex.city -}}
+  {{- $loc = printf "%s, %s" $loc . -}}
+{{- end }}
+{{ partial "ics-text.html" (dict "name" "LOCATION" "value" $loc) }}
+{{- $desc := "" -}}
+{{- with $ex.description -}}
+  {{- $desc = . -}}
+{{- end -}}
+{{- with $ex.url -}}
+  {{- if $desc -}}
+    {{- $desc = printf "%s\n%s" $desc . -}}
+  {{- else -}}
+    {{- $desc = . -}}
+  {{- end -}}
+{{- end }}
+{{- if $desc }}
+{{ partial "ics-text.html" (dict "name" "DESCRIPTION" "value" $desc) }}
+{{- end }}
+{{- with $ex.url }}
+{{ partial "ics-fold.html" (printf "URL:%s" .) }}
+{{- end }}
+{{- end }}
+END:VEVENT
+END:VCALENDAR

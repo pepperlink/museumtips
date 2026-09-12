@@ -174,3 +174,111 @@ other = "Nov"
 
 [month_short_12]
 other = "Dec"
+
+[back_to_museums]
+other = "Back to all museums"
+
+[museum_website]
+other = "Museum website"
+
+[last_verified]
+other = "Checked on"
+
+[location]
+other = "Location"
+
+[opening_hours]
+other = "Opening hours"
+
+[getting_there]
+other = "Getting there"
+
+[public_transport]
+other = "Public transport"
+
+[parking]
+other = "Parking"
+
+[accessibility]
+other = "Accessibility"
+
+[entrance_cards]
+other = "Entrance cards"
+
+[card_accepted]
+other = "Accepted"
+
+[card_not_accepted]
+other = "Not accepted"
+
+[card_status_unknown]
+other = "Status unknown"
+
+[pricing]
+other = "Prices"
+
+[current_exhibitions]
+other = "On now"
+
+[upcoming_exhibitions]
+other = "Coming up"
+
+[no_current_exhibitions]
+other = "No exhibitions on now."
+
+[more_in_city]
+other = "More museums in %s"
+
+[museum_show_page]
+other = "View on the museum site"
+
+[official_page]
+other = "Museum’s own page"
+
+[admission]
+other = "Admission"
+
+[museumkaart_included]
+other = "Covered by Museumkaart"
+
+[museumkaart_supplement]
+other = "Museumkaart valid; supplement applies"
+
+[museumkaart_not_covered]
+other = "Museumkaart does not cover this exhibition"
+
+[museumkaart_unknown]
+other = "Museumkaart: see the museum site"
+
+[press]
+other = "Press"
+
+[add_to_calendar]
+other = "Add to calendar"
+
+[share]
+other = "Share"
+
+[share_hint]
+other = "Copy this page’s link"
+
+[related_same_museum]
+other = "More at this museum"
+
+[related_same_city]
+other = "More in this city"
+
+[opens_in]
+other = "Opens in %d days"
+
+[opens_today]
+other = "Opens today"
+
+[opens_tomorrow]
+other = "Opens tomorrow"
+
+[closes_tomorrow]
+other = "Closes tomorrow"
+
+[closes_in]
+other = "Closes in %d days"

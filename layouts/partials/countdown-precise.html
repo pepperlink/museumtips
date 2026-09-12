@@ -1,0 +1,27 @@
+{{- $today := now.Format "2006-01-02" -}}
+{{- if and .start (ge .start $today) -}}
+  {{- if eq .start $today -}}
+    {{- i18n "opens_today" -}}
+  {{- else -}}
+    {{- $days := div (sub (time.AsTime .start).Unix (time.AsTime $today).Unix) 86400 -}}
+    {{- if eq $days 1 -}}
+      {{- i18n "opens_tomorrow" -}}
+    {{- else -}}
+      {{- printf (i18n "opens_in") $days -}}
+    {{- end -}}
+  {{- end -}}
+{{- else if .end -}}
+  {{- $end := time.AsTime .end -}}
+  {{- if gt $end.Year 1 -}}
+    {{- $days := div (sub $end.Unix (time.AsTime $today).Unix) 86400 -}}
+    {{- if lt $days 0 -}}
+      {{- i18n "ended" -}}
+    {{- else if eq $days 0 -}}
+      {{- i18n "last_day" -}}
+    {{- else if eq $days 1 -}}
+      {{- i18n "closes_tomorrow" -}}
+    {{- else -}}
+      {{- printf (i18n "closes_in") $days -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

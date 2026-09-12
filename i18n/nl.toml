@@ -174,3 +174,111 @@ other = "nov"
 
 [month_short_12]
 other = "dec"
+
+[back_to_museums]
+other = "Terug naar alle musea"
+
+[museum_website]
+other = "Museumwebsite"
+
+[last_verified]
+other = "Gecontroleerd op"
+
+[location]
+other = "Locatie"
+
+[opening_hours]
+other = "Openingstijden"
+
+[getting_there]
+other = "Bereikbaarheid"
+
+[public_transport]
+other = "Openbaar vervoer"
+
+[parking]
+other = "Parkeren"
+
+[accessibility]
+other = "Toegankelijkheid"
+
+[entrance_cards]
+other = "Toegangskaarten"
+
+[card_accepted]
+other = "Geldt"
+
+[card_not_accepted]
+other = "Geldt niet"
+
+[card_status_unknown]
+other = "Status onbekend"
+
+[pricing]
+other = "Prijzen"
+
+[current_exhibitions]
+other = "Nu te zien"
+
+[upcoming_exhibitions]
+other = "Binnenkort"
+
+[no_current_exhibitions]
+other = "Geen lopende tentoonstellingen."
+
+[more_in_city]
+other = "Meer musea in %s"
+
+[museum_show_page]
+other = "Bekijk op de museumsite"
+
+[official_page]
+other = "Pagina van het museum"
+
+[admission]
+other = "Toegang"
+
+[museumkaart_included]
+other = "Museumkaart geldt"
+
+[museumkaart_supplement]
+other = "Museumkaart geldt, met toeslag"
+
+[museumkaart_not_covered]
+other = "Museumkaart geldt niet voor deze tentoonstelling"
+
+[museumkaart_unknown]
+other = "Museumkaart: zie de museumsite"
+
+[press]
+other = "Pers"
+
+[add_to_calendar]
+other = "Zet in je agenda"
+
+[share]
+other = "Delen"
+
+[share_hint]
+other = "Kopieer de link van deze pagina"
+
+[related_same_museum]
+other = "Meer in dit museum"
+
+[related_same_city]
+other = "Meer in deze stad"
+
+[opens_in]
+other = "Opent over %d dagen"
+
+[opens_today]
+other = "Opent vandaag"
+
+[opens_tomorrow]
+other = "Opent morgen"
+
+[closes_tomorrow]
+other = "Sluit morgen"
+
+[closes_in]
+other = "Sluit over %d dagen"

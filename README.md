@@ -45,9 +45,12 @@ hugo server
 
 Open the printed local URL (usually `http://localhost:1313/`). Switch language with the
 Nederlands / English links in the header. Dutch pages live at `/`, `/kalender/`,
-`/kalender/YYYY-MM/` (month views), `/museums/` (grouped by city), `/over/`; English at
-`/en/`, `/en/calendar/`, `/en/calendar/YYYY-MM/`, `/en/museums/` (grouped by city),
-`/en/about/`.
+`/kalender/YYYY-MM/` (month views), `/museums/` (grouped by city),
+`/museums/<museum-slug>/`, `/museums/<museum-slug>/tentoonstelling/<slug>/` (with a
+per-show `.ics` sibling at `/museums/<museum-slug>/tentoonstelling/<slug>.ics`), `/over/`;
+English at `/en/`, `/en/calendar/`, `/en/calendar/YYYY-MM/`, `/en/museums/` (grouped by
+city), `/en/museums/<museum-slug>/`, `/en/museums/<museum-slug>/exhibition/<slug>/` (with
+`/en/museums/<museum-slug>/exhibition/<slug>.ics`), `/en/about/`.
 
 ### Build
 
@@ -62,14 +65,20 @@ external services. The weekly pipeline writes the feed files at the repo root an
 
 ### Data refresh
 
+`data/exhibitions.json` is **generated** by the weekly pipeline — never hand-edit it.
+
+`data/museums_info.json` and `data/exhibitions_info.json` are **curated by hand** (collection
+process) for visitor extras (hours, prices, cards, press, …). The weekly pipeline must not
+touch or overwrite them.
+
 Exhibition copy for the website comes from `data/exhibitions.json`:
 
 ```json
 {
   "schema": 1,
   "compiled": "YYYY-MM-DD",
-  "museums": [{ "name", "city", "group", "site", "quirks" }],
-  "exhibitions": [{ "title", "museum", "city", "start", "end", "description", "url" }]
+  "museums": [{ "name", "city", "group", "site", "quirks", "slug" }],
+  "exhibitions": [{ "title", "museum", "city", "start", "end", "description", "url", "slug" }]
 }
 ```
 

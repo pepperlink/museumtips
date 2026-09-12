@@ -1,0 +1,8 @@
+{{- $value := .value | string -}}
+{{- $value = replace $value "\\" "\\\\" -}}
+{{- $value = replace $value ";" "\\;" -}}
+{{- $value = replace $value "," "\\," -}}
+{{- $value = replace $value "\r\n" "\\n" -}}
+{{- $value = replace $value "\n" "\\n" -}}
+{{- $value = replace $value "\r" "\\n" -}}
+{{- partial "ics-fold.html" (printf "%s:%s" .name $value) -}}

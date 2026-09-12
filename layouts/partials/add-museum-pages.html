@@ -1,0 +1,24 @@
+{{- /* Nested path museum/<slug> would otherwise publish a /museum/ section listing. */ -}}
+{{- $section := dict
+  "kind" "section"
+  "path" "museum"
+  "build" (dict "render" "never" "list" "never")
+-}}
+{{- $.AddPage $section -}}
+{{- range hugo.Data.exhibitions.museums -}}
+  {{- $museum := . -}}
+  {{- with $museum.slug -}}
+    {{- $slug := . -}}
+    {{- $page := dict
+      "kind" "page"
+      "path" (printf "museum/%s" $slug)
+      "url" (printf "museums/%s/" $slug)
+      "title" $museum.name
+      "layout" "museum-page"
+      "type" "museum-page"
+      "translationKey" (printf "museum-%s" $slug)
+      "params" (dict "slug" $slug)
+    -}}
+    {{- $.AddPage $page -}}
+  {{- end -}}
+{{- end -}}
