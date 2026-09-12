@@ -1192,7 +1192,7 @@ The operator records pass/fail in the implementation log after checking actual r
 - Disposable missing-coordinate page: address + Q7 empty state render, map remains absent, and network shows no Leaflet/tile request.
 - `/kalender/`, `/en/calendar/`, and one NL+EN month page: 50+ is lightest; 26–50, 11–25, and 0–10 deepen monotonically; countdown text remains legible and card links work.
 - Restart with `--clock 2026-09-13T00:00:00+02:00` to inspect a real day-0 card (`end: 2026-09-13`) in the darkest band (`closing-heat-4`). Use a disposable synthetic copy only if refreshed data no longer contains examples for every band.
-- Confirm >30-day, upcoming, open-ended, and recently-ended/collapsed cards are unshaded; jump-nav is unshaded; homepage upcoming order is earliest start first.
+- Confirm 50+ shows carry only the lightest band; upcoming, open-ended, and recently-ended/collapsed cards are unshaded; jump-nav is unshaded; homepage upcoming order is earliest start first.
 - Recheck the prior `contentnav` regression: calendar title/nav are not overlaid; no `0.1.` card numbering returns.
 
 ## 3c.9 Documentation
