@@ -1,6 +1,6 @@
 # PLAN — Phase 2: Calendar UX + polish
 
-Status: **in review** — D1–D6 resolved by the owner (2026-09-12); **awaiting final approval** (recorded here + PR #4) before any implementation.
+Status: **approved** (owner, 2026-09-12) — implementation in progress; runs append to §11 below.
 
 Owner review of this document comes **before** any implementation. Do not start coding from this file until the owner signs off (especially the decisions in §4).
 
@@ -139,7 +139,7 @@ Each item is **one Cursor run**. All §4 decisions are resolved (2026-09-12); if
 
 ## 6. Definition of done
 
-- [ ] Owner approves the plan (D1–D6 already resolved 2026-09-12).
+- [x] Owner approved the plan (2026-09-12).
 - [ ] No year-1 dates; no `#0001-01`; the five open-ended shows are not “Afgelopen”/“Ended”.
 - [ ] Calendar jump-nav is chronological (`YYYY-MM`).
 - [ ] Meta line: no “Startdatum onbekend”; shorter dates; countdown labels kept.
