@@ -491,7 +491,7 @@ Month layouts: **untouched** except they inherit card-link changes from `exhibit
 
 ## 3b.5 Page specs
 
-### Museum page (`layout: museum`)
+### Museum page (`layout: museum-page`)
 
 Order:
 
@@ -508,13 +508,13 @@ Order:
 
 NL + EN: one `AddPage` per language per museum; titles = museum name (proper name, not translated).
 
-### Exhibition page (`layout: exhibition`)
+### Exhibition page (`layout: exhibition-page`)
 
 Order:
 
 1. H1 = `title`. Back links: calendar index + parent museum page (link text = museum name).
 2. Museum + city (links as D10).
-3. Dates via `format-date.html`; status via `countdown.html` **precise** (`opens_in` / `closes_in` / existing `ended`). Null end: no closing countdown (same as cards).
+3. Dates via `format-date.html`; status via `countdown-precise.html` (`opens_in` / `closes_in` / existing `ended`). Null end: no closing countdown (same as cards).
 4. Description from generated JSON.
 5. `official_page` → `.url`.
 6. Admission block from extras; always show `museumkaart_*` variant (unknown if extras missing).
@@ -525,7 +525,7 @@ Order:
 
 ### 3c / 3d interface notes (only)
 
-- **3c:** `section#location` + `#map` + `lat`/`lon` in `museums-info.json`. No Leaflet CSS/JS in 3b. Do not pre-vend a map library.
+- **3c:** `section#location` + `#map` + `lat`/`lon` in `museums_info.json`. No Leaflet CSS/JS in 3b. Do not pre-vend a map library.
 - **3d:** no button, no `params.cta`, no third-party booking URL field in extras yet.
 
 ## 3b.6 Data-collection subtasks
@@ -534,14 +534,14 @@ These are content runs, not template runs. They may proceed in parallel with ada
 
 ### C1 — Museum info × 30
 
-- **Scope:** fill `data/museums-info.json` for every `museums[].slug`.
+- **Scope:** fill `data/museums_info.json` for every `museums[].slug`.
 - **Sources:** official site of that museum (hours/visit/plan-your-visit/accessibility pages). Cite `sources[]`.
 - **Verify:** 30 keys match 30 slugs; every non-empty fact has a URL; NL/EN pairs both present or both absent; `lat`/`lon` may stay null; no text in `exhibitions.json`.
 - **Size:** L (batch 5–6 museums / subagent). **Model:** capable mid-tier for extraction; operator spot-check.
 
 ### C2 — Exhibition extras (admission + press)
 
-- **Scope:** `data/exhibitions-info.json` keyed by exhibition slug. Admission from the **show** page or ticketing FAQ on the official site. Press: 0–3 links, quality outlets, no stuffing.
+- **Scope:** `data/exhibitions_info.json` keyed by exhibition slug. Admission from the **show** page or ticketing FAQ on the official site. Press: 0–3 links, quality outlets, no stuffing.
 - **Priority:** running + upcoming first; do not block templates on 100% coverage (`unknown` / omit is valid).
 - **Verify:** no key without a live slug; every admission `source` is official; press URLs 200; no duplicate outlet+URL; language parity of `note_*`.
 - **Size:** L. **Model:** capable mid-tier in museum-grouped batches.
@@ -553,7 +553,7 @@ Each item is **one Cursor run**. If a run conflicts with D7–D16, stop and repo
 ### ST-P — Tracker: emit `slug` (operator host)
 
 - **Scope:** museum tracker store + the weekly **compile step** that regenerates `data/exhibitions.json` (the scripts the Thursday refresh runs — `publish_feeds.py` only copies the file into the repo). Seed 30 museum slugs; persist exhibition slugs freeze-once; emit `slug` fields into the JSON. Still never edited by site agents.
-- **Verify:** every museum and exhibition row in the next published JSON has a unique `slug`; a title-edit fixture keeps the same slug; weekly job does not rewrite `museums-info.json` / `exhibitions-info.json`.
+- **Verify:** every museum and exhibition row in the next published JSON has a unique `slug`; a title-edit fixture keeps the same slug; weekly job does not rewrite `museums_info.json` / `exhibitions_info.json`.
 - **Model:** operator / pipeline. **Size:** M. **Depends:** D8 sign-off. **Blocks:** production permalinks (ST-B3+ still mockable locally only if owner allows fixtures — default: wait).
 
 ### ST-B1 — Curated file scaffolds + docs note
@@ -643,7 +643,7 @@ C1/C2 can interleave after ST-B1 + museum slugs; landing extras before ST-B3 onl
 11. Should `/musea/` shrink to city + name + one-liner (detail lives on museum pages) or keep today’s in-list exhibition titles?
 12. Build gate: fail `hugo` when a row lacks `slug` once ST-P has shipped, or keep skip-and-warn?
 13. Publish museum/exhibition pages (and retarget cards to them) **before** C1/C2 extras are collected — most pages show only generated-JSON fields for a while — or gate ST-B5 (card retarget) on a minimum extras threshold (e.g. all 30 museums)?
-   → *Owner (2026-09-12) asked how this differs from Q14 — clarification: Q14 = data scope, Q13 = launch timing while collecting. Operator recommendation: ship pages + card retarget as soon as the code is ready; extras land incrementally (missing sections stay hidden by design). **Awaiting confirm.***
+   → **Owner 2026-09-12: confirmed** — ship pages + card retarget as soon as the code is ready; extras land incrementally (missing sections stay hidden by design). (Q14 governs data scope; this one governs launch timing.)
 14. C1/C2 are the largest-effort subtasks (30 museums × ~7 cited facts; up to 187 exhibitions × admission + press). First cut with partial coverage (museum hours+pricing + admission flags; press backfilled later), or hold the phase for full coverage?
    → **Owner 2026-09-12: full coverage.** Refresh cadence for this data becomes a phase-4 design item (owner: “we need to think about how often to refresh this in phase 4”).
 
@@ -702,7 +702,7 @@ Revert the implementation PR/branch. Curated JSON reverts with git. Tracker slug
 ## 3b.13 Log
 
 - 2026-09-12 · plan cycle: draft `a01d087`; independent review `29671cd`; operator review + fix pass (28 items folded, verified on pinned Hugo v0.166).
-- 2026-09-12 · owner answers (partial): Q1/Q2 approved · Q14 = full coverage (refresh cadence → phase-4 item) · Q13 clarification pending.
+- 2026-09-12 · owner answers: Q1/Q2 approved · Q14 = full coverage (refresh cadence → phase-4 item) · Q13 confirmed: ship-when-ready; extras land incrementally.
 
 *(Append during the build, one bullet per run.)*
 
