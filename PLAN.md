@@ -752,7 +752,7 @@ Planning-cycle boundary: this branch commits and pushes **only `PLAN.md`**. No p
 
 ## 3c.2 Non-goals
 
-- No map on the museums index, exhibition pages, calendar, home, or about page unless the owner changes Q4.
+- Maps appear on museum detail pages and the museums index only (owner Q5, 2026-09-13). No maps on exhibition pages, calendar, home, or about page.
 - No geolocation, directions API, route planning, clustering, multi-layer control, search, tracking code, analytics, service worker, map iframe, or JavaScript framework.
 - No CDN-loaded library. The Leaflet runtime is same-origin and vendored; only map tiles are requested from the owner-approved tile provider.
 - No Node/npm, bundling, transpiling, minifying, package lock, Hugo Pipes JS build, or theme-submodule edit.
@@ -769,7 +769,7 @@ Verified 2026-09-12 in this checkout:
 - `data/museums_info.json` has exactly 30 frozen-slug keys and 30 addresses, but currently has **zero** `lat` keys, zero `lon` keys, and zero complete coordinate pairs. The phase-3b schema reserved the fields; they were not populated.
 - `layouts/partials/head.html` is the one site-owned head partial. It currently emits CSS only. `layouts/_default/baseof.html` has no script block or page-specific asset hook.
 - Calendars are `layouts/_default/calendar.html` and `calendar-month.html`; both render cards through `layouts/partials/exhibition.html`. The card partial is also shared by home, museum, and exhibition pages, so heat scope must not be implemented as an unconditional card style.
-- Existing countdown boundaries are day 0, days 1–6, 7–13, 14–20, and 21–30. Reuse the same integer-day calculation as `countdown.html` so color and label cannot disagree in this phase.
+- Existing countdown boundaries are day 0, days 1–6, 7–13, 14–20, and 21–30. The owner approved a **four-band heat step (2026-09-13): 0–10 / 11–25 / 26–50 / 50+ days to close**, applied on top of the same integer-day calculation as `countdown.html` so color and label cannot disagree in this phase.
 - The current homepage already does `sort $upcoming "start"` in `layouts/index.html`; the museum-page upcoming list also sorts by `start`. The reported end-date bug is not present at this branch tip. Phase 3c therefore adds a regression assertion, not a drive-by edit. If the implementation baseline regresses **and** Q2 makes `layouts/index.html` a touched file, correct it in that run; otherwise do not touch the file.
 - After initializing the pinned Huguette submodule, local Hugo **v0.165.0 extended** built successfully: 496 NL pages, 494 EN pages, 0 WARN lines, and 0 HTML `<script>` tags. This machine is one minor version behind the authoritative **v0.166.0 extended** pin; the operator re-runs every build/visual gate on the pin.
 - Scratch Hugo proof on local v0.165.0: a `.Type == "museum-page"` head condition emitted local Leaflet CSS + two deferred local scripts on the museum page (2 script tags), while an about page emitted 0; `data-lat` / `data-lon` rendered as numeric attributes. This proves the proposed plain-Hugo conditional mechanism, not the final implementation.
@@ -795,6 +795,7 @@ When true:
 - `head.html` emits CSS in the order classless → Leaflet → custom, then deferred same-origin Leaflet JS followed by deferred `museum-map.js`;
 - `museum-info.html` emits escaped `data-lat`, `data-lon`, generated museum name, and curated address on a hidden `#map`, plus a hidden failure fallback;
 - `museum-map.js` initializes exactly one map, one tile layer, one marker, and one popup. Build popup DOM with `textContent`, not untrusted `innerHTML`; set `referrerPolicy: 'strict-origin-when-cross-origin'` in the `L.tileLayer` options so the OSMF referrer requirement holds even if site headers are ever hardened.
+- **Museums index overview map (owner Q5, 2026-09-13):** one map on `/museums/` and `/en/museums/` when at least one museum is map-ready — every ready museum as a marker, popups built from DOM nodes (`textContent`) with the museum name + an internal link to its detail page in the current language, `fitBounds` over the ready set, no clustering at this scale. When zero museums are ready, the index renders no map and no scripts. `museum-map.js` handles both modes — the vendored-file allowlist stays at exactly two JS files.
 
 When false: no Leaflet CSS, no script tags, no tile request; the address remains visible and the localized empty-state text replaces the hidden map. For a ready map, JS must unhide the container immediately before `L.map` so Leaflet receives real dimensions; wrap initialization in `try`/`catch`, and on failure re-hide the map and reveal the same empty-state text. Without JS, the address still remains.
 
@@ -840,13 +841,12 @@ Eligible: show has started, has a valid end date, and is not ended. Open-ended, 
 
 | Days until close | Existing label | Class | Background |
 |---:|---|---|---|
-| 21–30 | Last month | `closing-heat-1` | `#eff6ff` |
-| 14–20 | Last 3 weeks | `closing-heat-2` | `#dbeafe` |
-| 7–13 | Last 2 weeks | `closing-heat-3` | `#bfdbfe` |
-| 1–6 | Last week | `closing-heat-4` | `#93c5fd` |
-| 0 | Last day | `closing-heat-5` | `#60a5fa` |
+| 50+ | months away | `closing-heat-1` | `#eff6ff` |
+| 26–50 | 4–7 weeks | `closing-heat-2` | `#dbeafe` |
+| 11–25 | 2–4 weeks | `closing-heat-3` | `#bfdbfe` |
+| 0–10 | last 10 days (day 0 included) | `closing-heat-4` | `#60a5fa` |
 
-Use foreground/link color `#172554` within all five classes (links remain underlined). Measured contrast against the five backgrounds ranges from 13.50:1 to 5.78:1, above WCAG AA normal-text contrast. The site-default body text color `#433` on the darkest band measures 4.67:1 — an AA pass with a thin margin; re-check if the palette or text color ever changes. Add a non-color cue by retaining the existing bold countdown label; no new legend/i18n is required.
+Use foreground/link color `#172554` within all five classes (links remain underlined). Owner-approved four bands; measured `#172554` contrast across the four backgrounds ranges 13.50:1 to 5.78:1 (all above WCAG AA normal text). The site-default body text color `#433` on the darkest band measures 4.67:1 — an AA pass with a thin margin; re-check if the palette or text color ever changes. Add a non-color cue by retaining the existing bold countdown label; no new legend/i18n is required.
 
 Do not shade month jump-nav: a month can contain mixed urgencies, so one shade would be false precision. Do not shade “Binnenkort te zien / Opening soon”: pre-opening shows are ineligible for closing urgency.
 
@@ -855,24 +855,21 @@ Do not shade month jump-nav: a month can contain mixed urgencies, so one shade w
 Answer every numbered question in chat before ST-3c-1 begins.
 
 1. **Closing scale boundaries?**
-   **Recommendation:** approve 21–30 / 14–20 / 7–13 / 1–6 / 0 days and the five hex values in §3c.4; they exactly mirror the existing countdown buckets and preserve a text cue.
-   **Alternatives:** three bands (21–30 / 7–20 / 0–6); four bands with day 0 folded into 1–6; different owner-supplied blue palette.
+   **Owner answer (2026-09-13): four custom bands — 0–10 / 11–25 / 26–50 / 50+ days to close** (closer = darker; day 0 inside the darkest band). Palette updated in §3c.4 with recomputed contrast.
+   *(Original recommendation: 21–30 / 14–20 / 7–13 / 1–6 / 0 mirroring the countdown buckets — superseded.)*
 
 2. **Heat scope?**
-   **Recommendation:** calendar index plus every static month page, NL + EN; no jump-nav and no homepage upcoming cards. This is consistent and keeps pre-opening cards neutral.
-   **Alternatives:** month pages only; also shade homepage “Bijna afgelopen” (cheap but broadens the visual surface); shade upcoming/jump-nav (not recommended because closing urgency is misleading/ambiguous there).
+   **Owner answer (2026-09-13): calendar index + all month pages, NL + EN** (= recommendation). No jump-nav, no homepage cards.
 
-3. **Tile source and attribution?**
+3. **Tile source and attribution?** *(Owner answer 2026-09-13: OSM Standard — recommendation accepted; alternatives not chosen.)*
    **Recommendation:** OpenStreetMap Standard raster tiles at `https://tile.openstreetmap.org/{z}/{x}/{y}.png`, `maxZoom: 19`, with always-visible `© OpenStreetMap contributors` linked to `https://www.openstreetmap.org/copyright`. It needs no account and is proportionate to one small map per museum page, but is best-effort/no-SLA and sends the page referrer to OSM. Follow OSMF’s tile policy: browser-driven views only, normal caching, no prefetch/offline/bulk download, no referrer suppression. Keep the URL in one JS constant so it is replaceable.
    **Alternatives:** owner-supplied commercial OSM tile provider/API key and terms; self-hosted tiles (largest operational burden); no basemap, marker/address only.
 
 4. **Map interaction and dimensions?**
-   **Recommendation:** one responsive map, `height: 22rem` (`max-width: 100%`), initial zoom 16, `minZoom: 5`, `maxZoom: 19`, zoom buttons/drag/keyboard on, scroll-wheel zoom off, no auto-open popup. Marker click/keyboard opens it. This avoids scroll trapping while keeping normal map interaction.
-   **Alternatives:** 18rem or 28rem height; scroll-wheel on; static/non-draggable map; popup open on load; owner-supplied zoom limits.
+   **Owner answer (2026-09-13): as proposed, with `scrollWheelZoom` ON** (overrode the recommendation). Overview: height `22rem` (`max-width: 100%`), initial zoom 16, `minZoom: 5`, `maxZoom: 19`, buttons/drag/keyboard + wheel zoom on; no auto-open popup; wheel over the map zooms it (accepted), page scroll unaffected elsewhere.
 
 5. **Maps on other pages?**
-   **Recommendation:** no — museum detail pages only. It is the smallest auditable exception and matches the reserved 3b interface.
-   **Alternatives:** museums-index map; exhibition-page map; both. Either alternative needs separate UX/performance/privacy planning and expands the JS allowlist.
+   **Owner answer (2026-09-13): museum detail pages + a museums-index overview map** (NL + EN; see the new bullet in §3c.4). Exhibition pages, calendar, home, about: no maps. The JS allowlist and expected counts below are updated accordingly.
 
 6. **Leaflet version?**
    **Recommendation:** stable 1.9.4 with the exact runtime asset list in §3c.4; 2.0 remains prerelease and changes module/global behavior.
@@ -886,7 +883,7 @@ Answer every numbered question in chat before ST-3c-1 begins.
    **Recommendation:** one marker at the primary Gorssel venue, matching phase-3b D13’s one museum page and current address; mention the primary venue in the popup only if already present in curated data.
    **Alternatives:** multiple pins (requires a coordinate-array schema and popup labels); split venue pages (reopens frozen routing/data design); no map for MORE.
 
-If the owner selects an alternative that changes a surface or expected count (especially Q2 or Q8), update the affected scope and exact QA expectations in this plan before implementation; do not improvise around a stale acceptance command.
+If the owner selects an alternative that changes a surface or expected count (especially Q2 or Q8), update the affected scope and exact QA expectations in this plan before implementation; do not improvise around a stale acceptance command. *(Executed for Q1/Q4/Q5 — owner answers folded 2026-09-13; scope + counts updated.)*
 
 ## 3c.6 Ordered one-run subtasks
 
@@ -1007,7 +1004,7 @@ hugo --minify
 ### ST-3c-5 — Conditional museum maps
 
 - **Model:** capable mid-tier (`cursor-grok-4.6-medium`-class) · **Size:** M · **Depends:** ST-3c-4
-- **Scope:** `layouts/_default/museum-page.html`, `layouts/partials/head.html`, `layouts/partials/museum-info.html`, new `layouts/partials/museum-map-ready.html`, `static/js/museum-map.js`, `static/css/custom.css`, `i18n/nl.toml`, `i18n/en.toml`. Never `baseof` unless the proven deferred-head approach fails on the pin.
+- **Scope:** `layouts/_default/museum-page.html`, `layouts/partials/head.html`, `layouts/partials/museum-info.html`, the museums-index template (overview map; exact path identified during implementation), new `layouts/partials/museum-map-ready.html`, `static/js/museum-map.js`, `static/css/custom.css`, `i18n/nl.toml`, `i18n/en.toml`. Never `baseof` unless the proven deferred-head approach fails on the pin.
 - **Work:** implement Q3–Q8 and §3c.4. Change the current `museum-info.html` call to pass page + generated museum + curated info explicitly; popup = generated museum name + curated address. Keep address server-rendered; no external HTML injection.
 - **Verify:**
 
@@ -1015,7 +1012,9 @@ hugo --minify
 set -o pipefail
 hugo --minify 2>&1 | tee /tmp/phase3c-map-build.log
 test "$(grep -ci '^WARN' /tmp/phase3c-map-build.log)" = 0
-EXPECTED_MAP_PAGES=$(( $(python3 -c "import json;d=json.load(open('data/museums_info.json'));print(sum(1 for v in d.values() if v.get('lat') is not None and v.get('lon') is not None))") * 2 )) # derived from curated data; survives Q8 changes
+M=$(python3 -c "import json;d=json.load(open('data/museums_info.json'));print(sum(1 for v in d.values() if v.get('lat') is not None and v.get('lon') is not None))")
+if [ "$M" -ge 1 ]; then EXPECTED_MAP_PAGES=$(( M*2 + 2 )); INDEX_MAP_PAGES=2; else EXPECTED_MAP_PAGES=0; INDEX_MAP_PAGES=0; fi
+# Owner Q5: M ready museums x 2 languages + 2 museums-index pages when M >= 1.
 EXPECTED_SCRIPT_TAGS=$((EXPECTED_MAP_PAGES * 2))
 museum_pages="$(
   find public/museums -mindepth 2 -maxdepth 2 -type f -name index.html
@@ -1026,7 +1025,9 @@ test "$(printf '%s\n' "$museum_pages" | grep -c .)" = 60
 grep -Rl '<script' public --include='*.html' | sort > /tmp/phase3c-script-pages
 test "$(wc -l < /tmp/phase3c-script-pages | tr -d ' ')" = "$EXPECTED_MAP_PAGES"
 test "$(grep -Ec '^public/(en/)?museums/[^/]+/index\.html$' /tmp/phase3c-script-pages)" = \
-  "$EXPECTED_MAP_PAGES"
+  "$(( M*2 ))"
+test "$(grep -Ec '^public/(en/)?museums/index\.html$' /tmp/phase3c-script-pages)" = \
+  "$INDEX_MAP_PAGES"
 test "$(grep -Roh '<script' public --include='*.html' | wc -l | tr -d ' ')" = "$EXPECTED_SCRIPT_TAGS"
 ! grep -RE "<script[^>]*src=[\"']?https?://" public --include='*.html'
 ! grep -R 'javascript:\| on[a-zA-Z][a-zA-Z]*=' public --include='*.html'
@@ -1072,7 +1073,7 @@ grep -F '{{ $upcoming = sort $upcoming "start" }}' layouts/index.html
 test -f public/museumtips.ics -a -f public/closing-soon.ics
 hugo --clock 2026-09-13T00:00:00+02:00 --minify \
   --destination /tmp/phase3c-day0
-grep -R 'closing-heat-5' /tmp/phase3c-day0/kalender \
+grep -R 'closing-heat-4' /tmp/phase3c-day0/kalender \
   /tmp/phase3c-day0/en/calendar --include='*.html' >/dev/null
 ```
 
@@ -1096,7 +1097,8 @@ Day-0 also remains a browser gate using `hugo server --clock 2026-09-13T00:00:00
 - [ ] Missing or invalid coordinates produce localized text + address, no map assets, and no tile request.
 - [ ] Leaflet 1.9.4 runtime is vendored exactly; no CDN library, Node tooling, source maps, or theme edit.
 - [ ] Only map-ready museum detail HTML contains scripts: exactly Leaflet + `museum-map.js`, both same-origin/deferred; no inline JS/event handlers/`javascript:` URLs.
-- [ ] Calendar index + month pages show approved blue bands for eligible running shows; day 0 is darkest; >30 days/upcoming/open-ended/ended are neutral; text still communicates status without color.
+- [ ] Calendar index + month pages show the four owner-approved bands for eligible running shows (0–10 darkest, 50+ lightest; day 0 inside the darkest band); upcoming/open-ended/ended are neutral; text still communicates status without color.
+- [ ] Museums index (NL+EN) shows the overview map with every ready museum as a marker; popups carry name + internal link; the zero-ready state renders no map and no scripts.
 - [ ] “Binnenkort te zien” / “Opening soon” remains sorted ascending by `start`; display copy stays “Musea”.
 - [ ] NL + EN calendar behavior matches; month navigation, D3 ended policy, phase-3b detail links/ICS, and frozen slugs regress cleanly.
 - [ ] `hugo --minify` on pinned v0.166.0 exits 0 with 0 WARN; weekly feed files/URLs and deployment plumbing are unchanged.
@@ -1120,12 +1122,15 @@ test -f public/museumtips.ics -a -f public/closing-soon.ics
 # Complete coordinate/schema audit: run the Python block from ST-3c-3.
 
 # Auditable JS allowlist.
-EXPECTED_MAP_PAGES=$(( $(python3 -c "import json;d=json.load(open('data/museums_info.json'));print(sum(1 for v in d.values() if v.get('lat') is not None and v.get('lon') is not None))") * 2 )) # derived from curated data
+M=$(python3 -c "import json;d=json.load(open('data/museums_info.json'));print(sum(1 for v in d.values() if v.get('lat') is not None and v.get('lon') is not None))")
+if [ "$M" -ge 1 ]; then EXPECTED_MAP_PAGES=$(( M*2 + 2 )); INDEX_MAP_PAGES=2; else EXPECTED_MAP_PAGES=0; INDEX_MAP_PAGES=0; fi
 EXPECTED_SCRIPT_TAGS=$((EXPECTED_MAP_PAGES * 2))
 grep -Rl '<script' public --include='*.html' | sort > /tmp/phase3c-script-pages
 test "$(wc -l < /tmp/phase3c-script-pages | tr -d ' ')" = "$EXPECTED_MAP_PAGES"
 test "$(grep -Ec '^public/(en/)?museums/[^/]+/index\.html$' /tmp/phase3c-script-pages)" = \
-  "$EXPECTED_MAP_PAGES"
+  "$(( M*2 ))"
+test "$(grep -Ec '^public/(en/)?museums/index\.html$' /tmp/phase3c-script-pages)" = \
+  "$INDEX_MAP_PAGES"
 test "$(grep -Roh '<script' public --include='*.html' | wc -l | tr -d ' ')" = "$EXPECTED_SCRIPT_TAGS"
 ! grep -RE "<script[^>]*src=[\"']?https?://" public --include='*.html'
 ! grep -R 'javascript:\| on[a-zA-Z][a-zA-Z]*=' public --include='*.html'
@@ -1146,7 +1151,7 @@ grep -F '{{ $upcoming = sort $upcoming "start" }}' layouts/index.html
 ! grep -F '0001-01' public/kalender/index.html public/en/calendar/index.html
 hugo --clock 2026-09-13T00:00:00+02:00 --minify \
   --destination /tmp/phase3c-day0
-grep -R 'closing-heat-5' /tmp/phase3c-day0/kalender \
+grep -R 'closing-heat-4' /tmp/phase3c-day0/kalender \
   /tmp/phase3c-day0/en/calendar --include='*.html' >/dev/null
 
 # NL/EN i18n key parity.
@@ -1180,12 +1185,13 @@ The operator records pass/fail in the implementation log after checking actual r
 
 - NL `/museums/rijksmuseum/` and EN counterpart: map becomes visible at 22rem; standard tiles render; marker sits on Museumstraat 1/Rijksmuseum, not Amsterdam centroid; attribution remains visible.
 - Click marker and activate it by keyboard: popup opens and contains the museum name + address; close/reopen works; language switch keeps the same venue.
-- Scroll over the page: page scroll is not trapped; zoom buttons, drag, and keyboard work; responsive widths at narrow mobile and desktop do not overflow.
-- Network panel: Leaflet CSS/JS and `museum-map.js` are same-origin; tile requests use only the approved host; home, calendar, museum index, exhibition, and about pages request no JS or map tiles. Click a `tile.openstreetmap.org` request → Headers → confirm a `Referer` value is present (OSMF tile policy; Finding 5 of the independent review).
+- Wheel over the map zooms the map (owner-approved Q4); page scrolling works normally everywhere outside the map; zoom buttons, drag, and keyboard work; responsive widths at narrow mobile and desktop do not overflow.
+- Network panel: Leaflet CSS/JS and `museum-map.js` are same-origin; tile requests use only the approved host; home, calendar, exhibition, and about pages request no JS or map tiles (the museums index requests them only in its map-ready state). Click a `tile.openstreetmap.org` request → Headers → confirm a `Referer` value is present (OSMF tile policy; Finding 5 of the independent review).
 - One museum in each coordinate spot-check region: pin plausibly overlays the official venue. Check Museum MORE according to Q8.
+- Museums index NL + EN: overview map shows exactly the ready museums as markers; popup opens with name + working internal link; zero-ready disposable copy shows no map/scripts.
 - Disposable missing-coordinate page: address + Q7 empty state render, map remains absent, and network shows no Leaflet/tile request.
-- `/kalender/`, `/en/calendar/`, and one NL+EN month page: 21–30 is lightest and 0 is darkest; 14–20, 7–13, and 1–6 deepen monotonically; countdown text remains legible and card links work.
-- Restart with `--clock 2026-09-13T00:00:00+02:00` to inspect a real day-0 card (`end: 2026-09-13`) as `closing-heat-5`. Use a disposable synthetic copy only if refreshed data no longer contains examples for every band.
+- `/kalender/`, `/en/calendar/`, and one NL+EN month page: 50+ is lightest; 26–50, 11–25, and 0–10 deepen monotonically; countdown text remains legible and card links work.
+- Restart with `--clock 2026-09-13T00:00:00+02:00` to inspect a real day-0 card (`end: 2026-09-13`) in the darkest band (`closing-heat-4`). Use a disposable synthetic copy only if refreshed data no longer contains examples for every band.
 - Confirm >30-day, upcoming, open-ended, and recently-ended/collapsed cards are unshaded; jump-nav is unshaded; homepage upcoming order is earliest start first.
 - Recheck the prior `contentnav` regression: calendar title/nav are not overlaid; no `0.1.` card numbering returns.
 
@@ -1217,6 +1223,7 @@ No rollback touches `gh-pages` directly, generated feeds/data, frozen slugs, or 
 | Tile provider availability, policy, or privacy | Q3 owner choice; visible attribution; no prefetch; one replaceable URL; address survives outage |
 | Wrong venue / swapped coordinates | Numeric/bounds audit + source per record + all-venue plausibility review + six independent spot-checks |
 | Museum MORE has multiple venues | Q8; default remains phase-3b primary Gorssel model |
+| Museums-index overview map weight (Q5) | One map, ≤30 markers, no clustering at this scale; loads only when ≥1 museum is ready; same two vendored files; visual QA covers popups + link targets |
 | Marker images break after minification/base URL | Keep upstream CSS/image relative layout; test NL root + `/en/` nested paths in browser |
 | Hidden map initialized at zero dimensions or init throws | Unhide immediately before `L.map`; on exception re-hide + reveal empty state; browser-resize/mobile gate; call `invalidateSize` only if evidence requires it |
 | Popup injects curated text as HTML | Build DOM nodes and assign `textContent`; no `innerHTML` |
@@ -1229,6 +1236,8 @@ No rollback touches `gh-pages` directly, generated feeds/data, frozen slugs, or 
 | “Binnenkort” premise differs from checkout | Current evidence is start-sort; retain regression gate and obey touched-file-only constraint |
 
 ## 3c.12 Log
+
+- 2026-09-13 · Owner answers folded: **Q1 four custom bands (0–10/11–25/26–50/50+)**, Q2 calendar index + months, Q3 OSM Standard, **Q4 scroll-wheel zoom ON**, **Q5 + museums-index overview map**. Palette table + contrast recomputed for four bands; index-map spec added (§3c.4 + ST-3c-5); expected script-page counts now `M×2 + 2 index`; heat/day-0 checks updated. Q6–Q8 stand at their recommendations unless the owner flags otherwise.
 
 - 2026-09-13 · Independent review folded (0 blockers / 5 major / 7 minor; doc `docs/plan-review-phase3c.md`). Pin-verified on v0.166.0: nested `ne X nil` + type/bounds guard → float pair ready; explicit `null`, missing key, and string values all not-ready with a green build (scratch fixture); quote-tolerant CDN regex catches all three `src=` forms; `v1.9.4` LICENSE fetch OK (BSD-2-Clause, 1,395 B). Status: awaiting owner Q1–Q8 answers.
 
