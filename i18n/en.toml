@@ -19,6 +19,9 @@ other = "Closing soon"
 [view_calendar]
 other = "See everything"
 
+[view_museums]
+other = "See all museums by city"
+
 [subscribe_all]
 other = "Subscribe: all exhibitions"
 
