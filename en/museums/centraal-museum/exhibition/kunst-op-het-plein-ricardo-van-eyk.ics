@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-kunst-op-het-plein-ricardo-van-eyk@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20270902
+SUMMARY:Kunst op het plein: Ricardo van Eyk - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Voor de sculptuur APEX liet Ricardo van Eyk zich inspireren doo
+ r stedelijke planning.\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/tentoo
+ nstellingen/kunst-op-het-plein-ricardo-van-eyk
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/kunst-op-
+ het-plein-ricardo-van-eyk
+END:VEVENT
+END:VCALENDAR

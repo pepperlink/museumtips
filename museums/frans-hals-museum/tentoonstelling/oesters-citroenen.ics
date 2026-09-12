@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-oesters-citroenen@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270830
+SUMMARY:Oesters &amp; citroenen - Frans Hals Museum
+LOCATION:Frans Hals Museum\, Haarlem
+DESCRIPTION:Het Frans Hals Museum nodigt je uit om mee te gaan op culinaire
+  wandeling door de collectie van het museum\, onder leiding van gastconser
+ vator en culinaire kenner Janny van der Heijden.\nhttps://franshalsmuseum.
+ nl/nl/zien-en-doen/oesters-en-citroenen
+URL:https://franshalsmuseum.nl/nl/zien-en-doen/oesters-en-citroenen
+END:VEVENT
+END:VCALENDAR

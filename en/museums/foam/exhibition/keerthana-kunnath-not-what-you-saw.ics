@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-keerthana-kunnath-not-what-you-saw@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20261128
+SUMMARY:Keerthana Kunnath: Not What You Saw - Foam
+LOCATION:Foam\, Amsterdam
+DESCRIPTION:Foam 3h presents the first museum exhibition of photographer Ke
+ erthana Kunnath.\nhttps://www.foam.org/events/keerthana-kunnath
+URL:https://www.foam.org/events/keerthana-kunnath
+END:VEVENT
+END:VCALENDAR

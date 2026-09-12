@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-mix-match-antonis-pittas@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270308
+SUMMARY:Mix &amp; Match - Antonis Pittas - Kunstmuseum Den Haag
+LOCATION:Kunstmuseum Den Haag\, Den Haag
+DESCRIPTION:How art\, politics and ideology interweave\, with blue as centr
+ al colour.\nhttps://www.kunstmuseum.nl/en/exhibitions/mix-match-antonis-pi
+ ttas
+URL:https://www.kunstmuseum.nl/en/exhibitions/mix-match-antonis-pittas
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-hoe-hoort-het-eigenlijk-niet@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20271004
+SUMMARY:Hoe hoort het eigenlijk (niet)? - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:In Hoe hoort het eigenlijk (niet)? ontdek je in het Erfgoedcent
+ rum bij Rozet hoe Arnhemse mannen en vrouwen vanaf de negentiende eeuw te 
+ maken kregen met regels en verwachtingen over gedrag\, uiterlijk en hun pl
+ ek in de samenleving.\nhttps://www.museumarnhem.nl/nl/tentoonstellingen/ho
+ e-hoort-het-eigenlijk-niet
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/hoe-hoort-het-eigenlij
+ k-niet
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-echos-van-oud-egypte@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20270628
+SUMMARY:Echo’s van oud Egypte - Rijksmuseum van Oudheden
+LOCATION:Rijksmuseum van Oudheden\, Leiden
+DESCRIPTION:Ontdek in deze eigentijdse tentoonstelling hoe echo’s uit het o
+ ude Egypte doorklinken in mode\, films\, muziek\, kunst en games van de af
+ gelopen tweehonderd jaar.\nhttps://www.rmo.nl/tentoonstellingen/tijdelijke
+ -tentoonstellingen/echos-van-oud-egypte/
+URL:https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/echos
+ -van-oud-egypte/
+END:VEVENT
+END:VCALENDAR

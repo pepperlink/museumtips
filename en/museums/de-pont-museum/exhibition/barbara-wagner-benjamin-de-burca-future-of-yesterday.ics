@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-barbara-wagner-benjamin-de-burca-future-of-yesterday@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20270301
+SUMMARY:Bárbara Wagner &amp; Benjamin de Burca – Future of Yesterday - De Pont 
+ Museum
+LOCATION:De Pont Museum\, Tilburg
+DESCRIPTION:In dit nieuwe werk richten Bárbara Wagner &amp; Benjamin de Burca z
+ ich op de Duitse hardcore-scene\, met bijzondere aandacht voor Straight Ed
+ ge (kortweg sXe).\nhttps://www.depont.nl/tentoonstellingen/barbara-wagner-
+ benjamin-de-burca
+URL:https://www.depont.nl/tentoonstellingen/barbara-wagner-benjamin-de-burc
+ a
+END:VEVENT
+END:VCALENDAR

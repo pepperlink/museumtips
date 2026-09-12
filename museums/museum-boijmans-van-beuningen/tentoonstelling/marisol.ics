@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-marisol@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20270330
+SUMMARY:Marisol - Museum Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Museum Boijmans Van Beuningen will present a major retrospectiv
+ e of Marisol\, the Venezuelan American artist who became an icon of Pop Ar
+ t in the 1960s.\nhttps://www.boijmans.nl/en/exhibitions/marisol
+URL:https://www.boijmans.nl/en/exhibitions/marisol
+END:VEVENT
+END:VCALENDAR

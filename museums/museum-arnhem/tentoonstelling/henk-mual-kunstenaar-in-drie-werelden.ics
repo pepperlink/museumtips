@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-henk-mual-kunstenaar-in-drie-werelden@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20270222
+SUMMARY:Henk Mual – Kunstenaar in drie werelden - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:In Henk Mual - Kunstenaar in drie werelden maak je kennis met h
+ et werk van Henk Mual (1932-2015)\, een kunstenaar met wortels in de Moluk
+ ken\, Java en Nederland.\nhttps://www.museumarnhem.nl/nl/tentoonstellingen
+ /henk-mual
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/henk-mual
+END:VEVENT
+END:VCALENDAR

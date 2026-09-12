@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-the-studio-11-malina-suliman@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260907
+SUMMARY:The Studio #11: Malina Suliman - Bonnefantenmuseum
+LOCATION:Bonnefantenmuseum\, Maastricht
+DESCRIPTION:Bonnefanten presents Malina Suliman\, a visual artist in exile 
+ who sees her work as an instrument of social and political criticism.\nhtt
+ ps://www.bonnefanten.nl/en/exhibitions/the-studio-11-malina-suliman
+URL:https://www.bonnefanten.nl/en/exhibitions/the-studio-11-malina-suliman
+END:VEVENT
+END:VCALENDAR

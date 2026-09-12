@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-adolphe-de-meyer-the-substance-of-a-venetian-dream@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20270208
+SUMMARY:Adolphe de Meyer: The Substance of a Venetian Dream - Huis Marseill
+ e
+LOCATION:Huis Marseille\, Amsterdam
+DESCRIPTION:Huis Marseille presents a premiere of Adolphe de Meyer’s redisc
+ overed collection of photographs of Venice.\nhttps://huismarseille.nl/en/e
+ xhibitions/venetian-dream/
+URL:https://huismarseille.nl/en/exhibitions/venetian-dream/
+END:VEVENT
+END:VCALENDAR

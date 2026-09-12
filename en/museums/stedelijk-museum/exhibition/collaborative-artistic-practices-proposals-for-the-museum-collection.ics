@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-collaborative-artistic-practices-proposals-for-the-museum-collection@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20270405
+SUMMARY:Collaborative Artistic Practices - Proposals for the Museum Collect
+ ion - Stedelijk Museum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:Every two years\, the Stedelijk organizes a major group exhibit
+ ion from a discipline or current theme\, serving as a platform for new col
+ lection acquisitions.\nhttps://www.stedelijk.nl/en/exhibitions/collaborati
+ ve-artistic-practices-proposals-museum-collection
+URL:https://www.stedelijk.nl/en/exhibitions/collaborative-artistic-practice
+ s-proposals-museum-collection
+END:VEVENT
+END:VCALENDAR

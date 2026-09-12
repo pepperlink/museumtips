@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-into-the-woods@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270322
+SUMMARY:Into the Woods - Museum MORE
+LOCATION:Museum MORE\, Gorssel
+DESCRIPTION:Imposante bomen\, lieflijke bosvijvers\, vervreemdend struikgew
+ as en mysterieuze paden die nergens naartoe leiden. Te zien in Museum MORE
+  Twickel\, Delden.\nhttps://www.moretwickel.nl/tentoonstellingen/into-the-
+ woods
+URL:https://www.moretwickel.nl/tentoonstellingen/into-the-woods
+END:VEVENT
+END:VCALENDAR

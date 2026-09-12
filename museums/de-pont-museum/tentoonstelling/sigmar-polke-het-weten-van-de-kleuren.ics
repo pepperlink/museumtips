@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-sigmar-polke-het-weten-van-de-kleuren@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20270301
+SUMMARY:Sigmar Polke – Het weten van de kleuren - De Pont Museum
+LOCATION:De Pont Museum\, Tilburg
+DESCRIPTION:Vertrekkend vanuit Sigmar Polkes radicale kleurexperimenten uit
+  de jaren tachtig verkent de tentoonstelling Sigmar Polke – Het weten van 
+ de kleuren de verbluffende intensiteit en schoonheid van zijn schilderijen
+ .\nhttps://www.depont.nl/tentoonstellingen/sigmar-polke-3
+URL:https://www.depont.nl/tentoonstellingen/sigmar-polke-3
+END:VEVENT
+END:VCALENDAR

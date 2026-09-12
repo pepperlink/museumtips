@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-modernites-matisse-tot-bacon@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270607
+SUMMARY:Modernités! Matisse tot Bacon - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:In samenwerking met het Musée des Beaux-Arts de Lyon presenteer
+ t Singer Laren Modernités! Matisse tot Bacon.\nhttps://www.singerlaren.nl/
+ nl/agenda/modernites-matisse-tot-bacon-5tv8
+URL:https://www.singerlaren.nl/nl/agenda/modernites-matisse-tot-bacon-5tv8
+END:VEVENT
+END:VCALENDAR

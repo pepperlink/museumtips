@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-depot-solo-mandy-el-sayegh@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260922
+SUMMARY:Depot Solo - Mandy El-Sayegh - Museum Boijmans Van Beuningen (Depot
+ )
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:First edition of the new Depot Solo series\, made possible by A
+ mmodo Art.\nhttps://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-say
+ egh
+URL:https://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sayegh
+END:VEVENT
+END:VCALENDAR

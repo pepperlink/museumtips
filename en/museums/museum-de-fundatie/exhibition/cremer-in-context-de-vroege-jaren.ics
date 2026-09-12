@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-cremer-in-context-de-vroege-jaren@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260921
+SUMMARY:Cremer in context - de vroege jaren - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:First overview after Jan Cremer&#39;s death\; his position as visua
+ l artist in the 1950s-60s.\nhttps://museumdefundatie.nl/nl/te-zien/cremer-
+ context
+URL:https://museumdefundatie.nl/nl/te-zien/cremer-context
+END:VEVENT
+END:VCALENDAR

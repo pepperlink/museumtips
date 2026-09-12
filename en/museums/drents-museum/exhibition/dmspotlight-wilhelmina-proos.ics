@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-dmspotlight-wilhelmina-proos@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261116
+SUMMARY:DMspotlight: Wilhelmina Proos - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:DMspotlight-presentatie over de Haagse kunstenaar Wilhelmina Pr
+ oos in de brinkzalen.\nhttps://drentsmuseum.nl/tentoonstellingen/dmspotlig
+ ht-wilhelmina-proos
+URL:https://drentsmuseum.nl/tentoonstellingen/dmspotlight-wilhelmina-proos
+END:VEVENT
+END:VCALENDAR

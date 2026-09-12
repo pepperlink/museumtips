@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-jan-van-der-kooi-morgen-maak-ik-mijn-beste-werk@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20270405
+SUMMARY:Jan van der Kooi – Morgen maak ik mijn beste werk - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:Jan van der Kooi (1957) behoort tot de belangrijkste hedendaags
+ e figuratieve kunstenaars van Nederland.\nhttps://drentsmuseum.nl/tentoons
+ tellingen/tentoonstelling-jan-van-der-kooi
+URL:https://drentsmuseum.nl/tentoonstellingen/tentoonstelling-jan-van-der-k
+ ooi
+END:VEVENT
+END:VCALENDAR

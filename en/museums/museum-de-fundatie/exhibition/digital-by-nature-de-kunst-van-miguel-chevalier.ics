@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-digital-by-nature-de-kunst-van-miguel-chevalier@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20270405
+SUMMARY:Digital by Nature – de kunst van Miguel Chevalier - Museum de Funda
+ tie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:In Digital by Nature neemt pionier van de digitale kunst Miguel
+  Chevalier je mee in een wereld waar technologie en natuur elkaar ontmoete
+ n en (verrassend genoeg) versterken.\nhttps://museumdefundatie.nl/nl/te-zi
+ en/digital-nature
+URL:https://museumdefundatie.nl/nl/te-zien/digital-nature
+END:VEVENT
+END:VCALENDAR

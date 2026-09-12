@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-annex-mathias-poledna@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260914
+SUMMARY:Annex: Mathias Poledna - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Artist Mathias Poledna combines fashion\, music and history in 
+ &#39;My Favorite Shop&#39;.\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/tentoonst
+ ellingen/annex-mathias-poledna
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/annex-mat
+ hias-poledna
+END:VEVENT
+END:VCALENDAR

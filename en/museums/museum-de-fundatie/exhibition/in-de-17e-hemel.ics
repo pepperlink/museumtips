@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-in-de-17e-hemel@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260921
+SUMMARY:In de 17e Hemel - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Art installation by Chourouk Hriech.\nhttps://museumdefundatie.
+ nl/nl/te-zien/de-17e-hemel
+URL:https://museumdefundatie.nl/nl/te-zien/de-17e-hemel
+END:VEVENT
+END:VCALENDAR

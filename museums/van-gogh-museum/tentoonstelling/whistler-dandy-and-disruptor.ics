@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-whistler-dandy-and-disruptor@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270111
+SUMMARY:Whistler. Dandy and Disruptor - Van Gogh Museum
+LOCATION:Van Gogh Museum\, Amsterdam
+DESCRIPTION:The first retrospective in the Netherlands devoted to the remar
+ kable artist James McNeill Whistler.\nhttps://www.vangoghmuseum.nl/en/visi
+ t/whats-on/exhibitions/whistler
+URL:https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/whistler
+END:VEVENT
+END:VCALENDAR

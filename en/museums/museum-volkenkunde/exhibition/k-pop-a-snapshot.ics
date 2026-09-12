@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-k-pop-a-snapshot@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20251018
+DTEND;VALUE=DATE:20270101
+SUMMARY:K-pop: A Snapshot - Museum Volkenkunde
+LOCATION:Museum Volkenkunde\, Leiden
+DESCRIPTION:De esthetiek\, storytelling en culturele impact van K-pop\, aan
+  de hand van albums\, fotokaarten en merchandise (verlengd).\nhttps://leid
+ en.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/k-pop-snapshot-tentoo
+ nstelling
+URL:https://leiden.wereldmuseum.nl/nl/zien-en-doen/tentoonstellingen/k-pop-
+ snapshot-tentoonstelling
+END:VEVENT
+END:VCALENDAR

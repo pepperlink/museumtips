@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-the-reframers-present-in-search-of-an-anchor@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260921
+SUMMARY:The ReFramers present: In Search of an Anchor - Van Gogh Museum
+LOCATION:Van Gogh Museum\, Amsterdam
+DESCRIPTION:Contemporary perspectives on Vincent&#39;s art - religion\, relatio
+ nships\, daily rituals.\nhttps://www.vangoghmuseum.nl/en/visit/whats-on/ex
+ hibitions/in-search-of-an-anchor
+URL:https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/in-search-of
+ -an-anchor
+END:VEVENT
+END:VCALENDAR

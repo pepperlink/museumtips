@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-ibrahim-mahama-zilijafa@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270802
+SUMMARY:Ibrahim Mahama — ZILIJAFA - Stedelijk Museum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:Last year\, ArtReview named Ibrahim Mahama the most influential
+  person in the art world.\nhttps://www.stedelijk.nl/en/exhibitions/ibrahim
+ -mahama-en
+URL:https://www.stedelijk.nl/en/exhibitions/ibrahim-mahama-en
+END:VEVENT
+END:VCALENDAR

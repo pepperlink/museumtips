@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-fiep-westendorp@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260914
+SUMMARY:Fiep Westendorp - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Celebrated Dutch illustrator of Jip and Janneke.\nhttps://www.r
+ ijksmuseum.nl/en/whats-on/exhibitions/fiep-westendorp
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/fiep-westendorp
+END:VEVENT
+END:VCALENDAR

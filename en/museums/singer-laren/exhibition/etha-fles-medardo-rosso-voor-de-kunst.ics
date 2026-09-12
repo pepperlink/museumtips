@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-etha-fles-medardo-rosso-voor-de-kunst@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261012
+SUMMARY:Etha Fles &amp; Medardo Rosso. Voor de kunst - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Centres on &#39;Rieuse&#39;\, a rare Rosso sculpture from the estate of
+  Etha Fles.\nhttps://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-
+ voor-de-kunst-6544
+URL:https://www.singerlaren.nl/nl/agenda/etha-fles-medardo-rosso-voor-de-ku
+ nst-6544
+END:VEVENT
+END:VCALENDAR

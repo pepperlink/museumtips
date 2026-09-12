@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-into-nature-haunted-by-waters@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261026
+SUMMARY:Into Nature: Haunted by Waters - De Buitenplaats
+LOCATION:De Buitenplaats\, Eelde
+DESCRIPTION:Kunstroute in de buitenplaats-tuinen rond het thema water.\nhtt
+ ps://dmdebuitenplaats.nl/tentoonstellingen/into-nature-haunted-by-waters
+URL:https://dmdebuitenplaats.nl/tentoonstellingen/into-nature-haunted-by-wa
+ ters
+END:VEVENT
+END:VCALENDAR

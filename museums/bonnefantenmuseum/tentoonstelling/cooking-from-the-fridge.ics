@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-cooking-from-the-fridge@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20270906
+SUMMARY:Cooking from the Fridge - Bonnefantenmuseum
+LOCATION:Bonnefantenmuseum\, Maastricht
+DESCRIPTION:Deze tentoonstelling maakt bijna een jaar lang (inter)nationale
+  topstukken zichtbaar. Cooking from the Fridge benadrukt zo het belang van
+  Zuid-Limburg als schatkamer van internationale hedendaagse kunst.\nhttps:
+ //www.bonnefanten.nl/nl/tentoonstellingen/cooking-from-the-fridge
+URL:https://www.bonnefanten.nl/nl/tentoonstellingen/cooking-from-the-fridge
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-salty-tears-a-bare-wall-and-a-playful-emergency-button@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260922
+SUMMARY:Salty Tears\, a Bare Wall\, and a Playful Emergency Button - Museum
+  Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Temporary exhibition at the Depot.\nhttps://www.boijmans.nl/en/
+ exhibitions/salty-tears-a-bare-wall-playful-emergency
+URL:https://www.boijmans.nl/en/exhibitions/salty-tears-a-bare-wall-playful-
+ emergency
+END:VEVENT
+END:VCALENDAR

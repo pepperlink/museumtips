@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-minami-no-tori@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260928
+SUMMARY:Minami-no-tori - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Een audiovisuele installatie van Daniel Cross in Utrecht Lokaal
+ .\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/minami-no
+ -tori
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/minami-no
+ -tori
+END:VEVENT
+END:VCALENDAR

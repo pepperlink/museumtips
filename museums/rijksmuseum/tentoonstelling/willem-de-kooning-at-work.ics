@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-willem-de-kooning-at-work@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20270118
+SUMMARY:Willem de Kooning at work - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:One hundred years ago\, Willem de Kooning left the Netherlands 
+ for a new life in New York\, where he became one of the most influential a
+ rtists of the 20th century.\nhttps://www.rijksmuseum.nl/en/whats-on/exhibi
+ tions/willem-de-kooning-at-work
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/willem-de-kooning-at
+ -work
+END:VEVENT
+END:VCALENDAR

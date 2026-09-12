@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-meesterwerken-uit-le-havre-renoir-monet-dufy-matisse@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260914
+SUMMARY:Meesterwerken uit Le Havre (Renoir\, Monet\, Dufy\, Matisse) - Sing
+ er Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:80 years of artistic renewal from Le Havre\, Impressionism to F
+ auvism.\nhttps://www.singerlaren.nl/nl/agenda/meesterwerken-uit-le-havre-4
+ k1t
+URL:https://www.singerlaren.nl/nl/agenda/meesterwerken-uit-le-havre-4k1t
+END:VEVENT
+END:VCALENDAR

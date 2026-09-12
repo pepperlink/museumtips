@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-wessel-couzijn-rendez-vous-van-tafel-en-stoel@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261123
+SUMMARY:Wessel Couzijn. Rendez-vous van tafel en stoel - Kröller-Müller Mus
+ eum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Wessel Couzijn: Rendez-vous van tafel en stoel.\nhttps://krolle
+ rmuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-
+ tafel-en-stoel
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn
+ -rendez-vous-van-tafel-en-stoel
+END:VEVENT
+END:VCALENDAR

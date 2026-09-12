@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-herman-kruyder-expressionist-van-de-ziel@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20270215
+SUMMARY:Herman Kruyder. Expressionist van de ziel - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Singer Laren zet vanaf 23 september 2026 Herman Kruyder (1881–1
+ 935)\, een van de meest markante en uitzonderlijke expressionisten van Ned
+ erland in nieuw licht.\nhttps://www.singerlaren.nl/nl/agenda/herman-kruyde
+ r-expressionist-van-de-ziel-5t3s
+URL:https://www.singerlaren.nl/nl/agenda/herman-kruyder-expressionist-van-d
+ e-ziel-5t3s
+END:VEVENT
+END:VCALENDAR

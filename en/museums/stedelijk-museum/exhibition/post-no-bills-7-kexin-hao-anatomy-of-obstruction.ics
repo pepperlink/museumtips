@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-post-no-bills-7-kexin-hao-anatomy-of-obstruction@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20270501
+SUMMARY:Post/No/Bills #7: Kexin Hao - Anatomy of Obstruction - Stedelijk Mu
+ seum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:In Post/No/Bills #7 presenteert Kexin Hao de installatie Anatom
+ y of Obstruction in het trappenhuis van het Stedelijk.\nhttps://www.stedel
+ ijk.nl/en/exhibitions/post-no-bills-7-en
+URL:https://www.stedelijk.nl/en/exhibitions/post-no-bills-7-en
+END:VEVENT
+END:VCALENDAR

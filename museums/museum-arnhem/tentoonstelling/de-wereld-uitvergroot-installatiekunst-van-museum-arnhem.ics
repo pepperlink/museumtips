@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-de-wereld-uitvergroot-installatiekunst-van-museum-arnhem@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20270412
+SUMMARY:De wereld uitvergroot – Installatiekunst van Museum Arnhem - Museum
+  Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:In de tentoonstelling De wereld uitvergroot zijn installatiekun
+ stwerken en andere grote\, indrukwekkende kunstwerken uit de collectie van
+  het museum te beleven.\nhttps://www.museumarnhem.nl/nl/tentoonstellingen/
+ de-wereld-uitvergroot
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/de-wereld-uitvergroot
+END:VEVENT
+END:VCALENDAR

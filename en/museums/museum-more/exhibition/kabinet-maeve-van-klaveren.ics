@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-kabinet-maeve-van-klaveren@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20261116
+SUMMARY:Kabinet: Maeve van Klaveren - Museum MORE
+LOCATION:Museum MORE\, Gorssel
+DESCRIPTION:Kabinetpresentatie met werk van Maeve van Klaveren in MORE Gors
+ sel.\nhttps://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klave
+ ren
+URL:https://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klaveren
+END:VEVENT
+END:VCALENDAR

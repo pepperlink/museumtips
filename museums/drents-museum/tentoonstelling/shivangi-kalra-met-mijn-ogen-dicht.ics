@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-shivangi-kalra-met-mijn-ogen-dicht@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20270405
+SUMMARY:Shivangi Kalra – Met mijn ogen dicht - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:Met Shivangi Kalra - Met mijn ogen dicht presenteert het Drents
+  Museum de allereerste museale solotentoonstelling van de Indiaas-Nederlan
+ dse kunstenaar Shivangi Kalra (1998).\nhttps://drentsmuseum.nl/tentoonstel
+ lingen/shivangi-kalra
+URL:https://drentsmuseum.nl/tentoonstellingen/shivangi-kalra
+END:VEVENT
+END:VCALENDAR

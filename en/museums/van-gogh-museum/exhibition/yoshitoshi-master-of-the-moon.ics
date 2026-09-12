@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-yoshitoshi-master-of-the-moon@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270105
+SUMMARY:Yoshitoshi. Master of the Moon - Van Gogh Museum
+LOCATION:Van Gogh Museum\, Amsterdam
+DESCRIPTION:One hundred prints\, one hundred stories\, and always the moon.
+ \nhttps://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/yoshitoshi-ma
+ ster-of-the-moon
+URL:https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/yoshitoshi-m
+ aster-of-the-moon
+END:VEVENT
+END:VCALENDAR

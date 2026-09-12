@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-gerard-van-honthorst@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260914
+SUMMARY:Gerard van Honthorst - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:First major retrospective of the Utrecht master Gerard van Hont
+ horst (1592-1656)\, &#39;in alles anders dan Rembrandt&#39;.\nhttps://www.centraal
+ museum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-an
+ ders-dan-rembrandt
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-va
+ n-honthorst-in-alles-anders-dan-rembrandt
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-reflections-on-fashion-75-years@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270104
+SUMMARY:Reflections on Fashion: 75 Years - Kunstmuseum Den Haag
+LOCATION:Kunstmuseum Den Haag\, Den Haag
+DESCRIPTION:Large fashion exhibition marking 75 years of the fashion collec
+ tion.\nhttps://www.kunstmuseum.nl/en/exhibitions/reflections-fashion
+URL:https://www.kunstmuseum.nl/en/exhibitions/reflections-fashion
+END:VEVENT
+END:VCALENDAR

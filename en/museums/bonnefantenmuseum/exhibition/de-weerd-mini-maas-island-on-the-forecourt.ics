@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-de-weerd-mini-maas-island-on-the-forecourt@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20250509
+DTEND;VALUE=DATE:20270405
+SUMMARY:De Weerd: mini Maas island on the forecourt - Bonnefantenmuseum
+LOCATION:Bonnefantenmuseum\, Maastricht
+DESCRIPTION:A temporary garden on the forecourt of the Bonnefanten\, based 
+ on the floodplain along the River Maas.\nhttps://www.bonnefanten.nl/en/exh
+ ibitions/de-weerd-mini-maas-island-on-the-forecourt
+URL:https://www.bonnefanten.nl/en/exhibitions/de-weerd-mini-maas-island-on-
+ the-forecourt
+END:VEVENT
+END:VCALENDAR

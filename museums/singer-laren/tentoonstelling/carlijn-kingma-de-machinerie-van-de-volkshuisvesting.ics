@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-carlijn-kingma-de-machinerie-van-de-volkshuisvesting@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270111
+SUMMARY:Carlijn Kingma. De machinerie van de volkshuisvesting - Singer Lare
+ n
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Kingma&#39;s monumental drawing on the Dutch housing market.\nhttps
+ ://www.singerlaren.nl/nl/agenda/carlijn-kingma-de-machinerie-van-de-volksh
+ uisvesting-mdyw
+URL:https://www.singerlaren.nl/nl/agenda/carlijn-kingma-de-machinerie-van-d
+ e-volkshuisvesting-mdyw
+END:VEVENT
+END:VCALENDAR

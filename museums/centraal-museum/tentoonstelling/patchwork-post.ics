@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-patchwork-post@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20261004
+SUMMARY:Patchwork Post - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Colourful landing spot designed by Simone Post.\nhttps://www.ce
+ ntraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork-post
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork
+ -post
+END:VEVENT
+END:VCALENDAR

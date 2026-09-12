@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-hals-rembrandt@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20270301
+SUMMARY:Hals-Rembrandt - Frans Hals Museum
+LOCATION:Frans Hals Museum\, Haarlem
+DESCRIPTION:Frans Hals en Rembrandt van Rijn zijn de twee grootmeesters van
+  de 17de-eeuwse Hollandse portretkunst.\nhttps://franshalsmuseum.nl/nl/zie
+ n-en-doen/hals-rembrandt
+URL:https://franshalsmuseum.nl/nl/zien-en-doen/hals-rembrandt
+END:VEVENT
+END:VCALENDAR

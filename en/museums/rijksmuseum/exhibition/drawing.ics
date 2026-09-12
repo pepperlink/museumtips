@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-drawing@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270524
+SUMMARY:Drawing! - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Around 1600\, the art of drawing experienced a true revolution 
+ in the Northern Netherlands.\nhttps://www.rijksmuseum.nl/en/whats-on/exhib
+ itions/draw
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/draw
+END:VEVENT
+END:VCALENDAR

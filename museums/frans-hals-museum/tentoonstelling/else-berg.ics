@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-else-berg@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20281006
+DTEND;VALUE=DATE:20290226
+SUMMARY:Else Berg - Frans Hals Museum
+LOCATION:Frans Hals Museum\, Haarlem
+DESCRIPTION:Het Frans Hals Museum zet kunstenaar Else Berg (1877-1942) in d
+ e schijnwerpers.\nhttps://franshalsmuseum.nl/nl/zien-en-doen/else-berg
+URL:https://franshalsmuseum.nl/nl/zien-en-doen/else-berg
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-beeldentuin@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20290101
+SUMMARY:Beeldentuin - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Beeldentuin van Museum Arnhem.\nhttps://www.museumarnhem.nl/nl/
+ tentoonstellingen/beeldentuin
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/beeldentuin
+END:VEVENT
+END:VCALENDAR

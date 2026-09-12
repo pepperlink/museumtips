@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-jan-van-der-vaart-for-jan-and-all@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261026
+SUMMARY:Jan van der Vaart: for Jan and all - Kunstmuseum Den Haag
+LOCATION:Kunstmuseum Den Haag\, Den Haag
+DESCRIPTION:Retrospective of &#39;master potter&#39; Jan van der Vaart (1931-2000)\
+ , 150&#43; objects.\nhttps://www.kunstmuseum.nl/en/exhibitions/jan-van-der-vaa
+ rt-jan-and-all
+URL:https://www.kunstmuseum.nl/en/exhibitions/jan-van-der-vaart-jan-and-all
+END:VEVENT
+END:VCALENDAR

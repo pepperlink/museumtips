@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-lost-charley-toorop-painting-comes-home-after-100-years@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Lost Charley Toorop painting comes home after 100 years - Museum Bo
+ ijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Gezicht op de Maas on public display for the first time in the 
+ Depot.\nhttps://www.boijmans.nl/en/exhibitions/lost-charley-toorop-paintin
+ g-comes-home-after-100-years
+URL:https://www.boijmans.nl/en/exhibitions/lost-charley-toorop-painting-com
+ es-home-after-100-years
+END:VEVENT
+END:VCALENDAR

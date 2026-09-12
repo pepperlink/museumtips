@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-silvia-martes-has-other-plans-for-us@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270906
+SUMMARY:Silvia Martes – ... has other plans for us - De Pont Museum
+LOCATION:De Pont Museum\, Tilburg
+DESCRIPTION:In het voorjaar van 2027 gaan in De Pont Museum vier nieuwe wer
+ ken van kunstenaar en filmmaker Silvia Martes (Eindhoven\, 1985) in premiè
+ re.\nhttps://www.depont.nl/tentoonstellingen/silvia-martes-2
+URL:https://www.depont.nl/tentoonstellingen/silvia-martes-2
+END:VEVENT
+END:VCALENDAR

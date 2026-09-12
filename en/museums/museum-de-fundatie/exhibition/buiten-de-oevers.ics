@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-buiten-de-oevers@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261109
+SUMMARY:Buiten de oevers - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Wilma Wilbrink&#39;s works from 2\,000-year-old bog-oaks on water a
+ nd landscape change.\nhttps://museumdefundatie.nl/nl/te-zien/buiten-de-oev
+ ers
+URL:https://museumdefundatie.nl/nl/te-zien/buiten-de-oevers
+END:VEVENT
+END:VCALENDAR

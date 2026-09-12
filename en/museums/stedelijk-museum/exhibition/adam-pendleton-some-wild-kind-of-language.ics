@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-adam-pendleton-some-wild-kind-of-language@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20270118
+SUMMARY:Adam Pendleton — Some Wild Kind of Language - Stedelijk Museum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:Starting in October 2026\, Some Wild Kind of Language\, Adam Pe
+ ndleton’s first museum exhibition in the Netherlands\, will be on view.\nh
+ ttps://www.stedelijk.nl/en/exhibitions/adam-pendleton-en
+URL:https://www.stedelijk.nl/en/exhibitions/adam-pendleton-en
+END:VEVENT
+END:VCALENDAR

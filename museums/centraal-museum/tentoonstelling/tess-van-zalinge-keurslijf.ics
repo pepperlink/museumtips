@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-tess-van-zalinge-keurslijf@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20270518
+SUMMARY:Tess van Zalinge - keurslijf - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Dit najaar opent de eerste solotentoonstelling van modeontwerpe
+ r Tess van Zalinge.\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/tentoonst
+ ellingen/tess-van-zalinge-keurslijf
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/tess-van-
+ zalinge-keurslijf
+END:VEVENT
+END:VCALENDAR

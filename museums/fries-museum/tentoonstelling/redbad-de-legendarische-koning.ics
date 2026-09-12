@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-redbad-de-legendarische-koning@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20270208
+SUMMARY:REDBAD: de legendarische koning - Fries Museum
+LOCATION:Fries Museum\, Leeuwarden
+DESCRIPTION:Over koning Redbad en het machtige rijk Frisia langs de Noordze
+ ekust\, meer dan 1300 jaar geleden.\nhttps://www.friesmuseum.nl/te-zien-en
+ -te-doen/tentoonstellingen/redbad
+URL:https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/redbad
+END:VEVENT
+END:VCALENDAR

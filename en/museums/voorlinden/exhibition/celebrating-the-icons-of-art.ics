@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-celebrating-the-icons-of-art@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270308
+SUMMARY:Celebrating the Icons of Art - Voorlinden
+LOCATION:Voorlinden\, Wassenaar
+DESCRIPTION:Celebrating the Icons of Art is een ontmoeting tussen hedendaag
+ se iconen uit de museumcollectie en hun 20ste-eeuwse voorgangers.\nhttps:/
+ /www.voorlinden.nl/tentoonstelling/icons/
+URL:https://www.voorlinden.nl/tentoonstelling/icons/
+END:VEVENT
+END:VCALENDAR

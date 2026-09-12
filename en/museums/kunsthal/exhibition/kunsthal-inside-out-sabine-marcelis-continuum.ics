@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-kunsthal-inside-out-sabine-marcelis-continuum@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20261102
+SUMMARY:Kunsthal Inside/Out: Sabine Marcelis - Continuum - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Architectural intervention by Rotterdam designer Sabine Marceli
+ s.\nhttps://www.kunsthal.nl/en/plan-your-visit/exhibitions/kunsthal-inside
+ out-sabine-marcelis/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/kunsthal-insideo
+ ut-sabine-marcelis/
+END:VEVENT
+END:VCALENDAR

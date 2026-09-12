@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-matthew-monahan-left-hand-path@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20270301
+SUMMARY:Matthew Monahan – Left Hand Path - De Pont Museum
+LOCATION:De Pont Museum\, Tilburg
+DESCRIPTION:Naar aanleiding van twee nieuwe aankopen en een genereuze schen
+ king van de kunstenaar richt De Pont Museum in het najaar van 2026 een aan
+ tal zalen in met sculpturen\, reliëfs en werken op papier van Matthew Mona
+ han (1972\, Eureka\, USA).\nhttps://www.depont.nl/tentoonstellingen/matthe
+ w-monahan
+URL:https://www.depont.nl/tentoonstellingen/matthew-monahan
+END:VEVENT
+END:VCALENDAR

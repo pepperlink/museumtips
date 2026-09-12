@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-christoph-ruckhaberle-the-fourth-wall@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261116
+SUMMARY:Christoph Ruckhaberle: The Fourth Wall - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:Tentoonstelling van Christoph Ruckhäberle in de abdijzaal en kl
+ oosterzaal van het Drents Museum.\nhttps://drentsmuseum.nl/tentoonstelling
+ en/christoph-ruckhaberle
+URL:https://drentsmuseum.nl/tentoonstellingen/christoph-ruckhaberle
+END:VEVENT
+END:VCALENDAR

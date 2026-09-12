@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-andrzej-steinbach-hier@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20270208
+SUMMARY:Andrzej Steinbach: Hier - Huis Marseille
+LOCATION:Huis Marseille\, Amsterdam
+DESCRIPTION:In October 2026 Huis Marseille will be introducing the Netherla
+ nds to the work of Andrzej Steinbach.\nhttps://huismarseille.nl/en/exhibit
+ ions/andrzej-steinbach/
+URL:https://huismarseille.nl/en/exhibitions/andrzej-steinbach/
+END:VEVENT
+END:VCALENDAR

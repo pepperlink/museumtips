@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-in-her-own-way@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261030
+SUMMARY:In Her Own Way / شوية وراجعة - Foam
+LOCATION:Foam\, Amsterdam
+DESCRIPTION:At Mercatorplein there is a solo exhibition\, showcasing the wo
+ rk of Yomna El Beyaly titled In Her Own Way / شوية وراجعة.\nhttps://www.fo
+ am.org/events/middle-east-archive
+URL:https://www.foam.org/events/middle-east-archive
+END:VEVENT
+END:VCALENDAR

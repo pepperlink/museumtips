@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-a-diary-of-things@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260924
+SUMMARY:A Diary of Things - Museum Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Reveals the eventful histories of artworks (donated\, sold\, cu
+ t up\, stolen).\nhttps://www.boijmans.nl/en/exhibitions/diary-of-things
+URL:https://www.boijmans.nl/en/exhibitions/diary-of-things
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-ruud-kuijer@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20261005
+SUMMARY:Ruud Kuijer - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Beelden van Ruud Kuijer in de beeldentuin.\nhttps://krollermull
+ er.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer
+END:VEVENT
+END:VCALENDAR

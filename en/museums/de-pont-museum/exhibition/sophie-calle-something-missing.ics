@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-sophie-calle-something-missing@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270906
+SUMMARY:Sophie Calle – Something Missing? - De Pont Museum
+LOCATION:De Pont Museum\, Tilburg
+DESCRIPTION:In het voorjaar van 2027 presenteert De Pont Museum een omvangr
+ ijke tentoonstelling van de Franse kunstenaar Sophie Calle (Parijs\, 1953)
+ .\nhttps://www.depont.nl/tentoonstellingen/sophie-calle-2
+URL:https://www.depont.nl/tentoonstellingen/sophie-calle-2
+END:VEVENT
+END:VCALENDAR

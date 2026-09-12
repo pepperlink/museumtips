@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-dichter-bij-de-denker@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261116
+SUMMARY:Dichter bij De denker - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Rodin&#39;s &#39;De Denker&#39; takes centre stage\; the sculpture leaves i
+ ts usual spot.\nhttps://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker
+ -zw16
+URL:https://www.singerlaren.nl/nl/agenda/dichter-bij-de-denker-zw16
+END:VEVENT
+END:VCALENDAR

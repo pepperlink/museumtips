@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-luc-tuymans-silent-music@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270712
+SUMMARY:Luc Tuymans — Silent Music - Stedelijk Museum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:The exhibition Silent Music departs from the hidden forces in t
+ he work of Luc Tuymans.\nhttps://www.stedelijk.nl/en/exhibitions/luc-tuyma
+ ns-2
+URL:https://www.stedelijk.nl/en/exhibitions/luc-tuymans-2
+END:VEVENT
+END:VCALENDAR

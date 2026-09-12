@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-no-future-linder@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270927
+SUMMARY:No Future – Linder - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:De radicale fotomontages van de Britse kunstenaar Linder staan 
+ in No Future centraal.\nhttps://museumdefundatie.nl/nl/te-zien/no-future
+URL:https://museumdefundatie.nl/nl/te-zien/no-future
+END:VEVENT
+END:VCALENDAR

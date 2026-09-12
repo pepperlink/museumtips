@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-de-poptaschat-fries-zilver-op-wereldschaal@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20270531
+SUMMARY:De Poptaschat: Fries zilver op wereldschaal - Fries Museum
+LOCATION:Fries Museum\, Leeuwarden
+DESCRIPTION:Fries zilver op wereldschaal: topstukken uit de zilvercollectie
+  van het Fries Museum.\nhttps://www.friesmuseum.nl/te-zien-en-te-doen/tent
+ oonstellingen/de-poptaschat
+URL:https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/de-popt
+ aschat
+END:VEVENT
+END:VCALENDAR

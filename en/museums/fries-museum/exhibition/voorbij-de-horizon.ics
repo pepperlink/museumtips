@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-voorbij-de-horizon@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270322
+SUMMARY:Voorbij de horizon - Fries Museum
+LOCATION:Fries Museum\, Leeuwarden
+DESCRIPTION:Tentoonstelling over landschap en horizon.\nhttps://www.friesmu
+ seum.nl/te-zien-en-te-doen/tentoonstellingen/voorbij-de-horizon
+URL:https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/voorbij
+ -de-horizon
+END:VEVENT
+END:VCALENDAR

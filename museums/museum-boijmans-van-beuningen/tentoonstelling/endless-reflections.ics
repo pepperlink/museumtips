@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-endless-reflections@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261026
+SUMMARY:Endless Reflections - Museum Boijmans Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Selection from the oeuvre of Willem van Veldhuizen (1954-2025).
+ \nhttps://www.boijmans.nl/en/exhibitions/endless-reflections
+URL:https://www.boijmans.nl/en/exhibitions/endless-reflections
+END:VEVENT
+END:VCALENDAR

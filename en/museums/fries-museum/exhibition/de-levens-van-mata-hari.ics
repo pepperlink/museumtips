@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-de-levens-van-mata-hari@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20231209
+DTEND;VALUE=DATE:20261210
+SUMMARY:De levens van Mata Hari - Fries Museum
+LOCATION:Fries Museum\, Leeuwarden
+DESCRIPTION:Intieme presentatie over de vele kanten van Mata Hari\, met hoo
+ gtepunten uit de collectie Mata Hari-memorabilia.\nhttps://www.friesmuseum
+ .nl/tentoonstellingen/delevensvanmatahari
+URL:https://www.friesmuseum.nl/tentoonstellingen/delevensvanmatahari
+END:VEVENT
+END:VCALENDAR

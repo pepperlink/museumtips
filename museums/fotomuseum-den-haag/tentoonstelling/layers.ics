@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-layers@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20261130
+SUMMARY:Layers - Fotomuseum Den Haag
+LOCATION:Fotomuseum Den Haag\, Den Haag
+DESCRIPTION:Student exhibition inspired by Farren van Wyk&#39;s Mixedness is my
+  Mythology\; pupils of The Hague secondary schools explore colour\, backgr
+ ound and identity. Free to visit.\nhttps://www.fotomuseumdenhaag.nl/nl/ten
+ toonstellingen/layers
+URL:https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers
+END:VEVENT
+END:VCALENDAR

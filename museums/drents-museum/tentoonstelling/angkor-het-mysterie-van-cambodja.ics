@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-angkor-het-mysterie-van-cambodja@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20270510
+SUMMARY:Angkor – Het mysterie van Cambodja - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:Het grootste religieuze monument ter wereld is voor het eerst i
+ n Europa te zien.\nhttps://drentsmuseum.nl/tentoonstellingen/angkor-het-my
+ sterie-van-cambodja
+URL:https://drentsmuseum.nl/tentoonstellingen/angkor-het-mysterie-van-cambo
+ dja
+END:VEVENT
+END:VCALENDAR

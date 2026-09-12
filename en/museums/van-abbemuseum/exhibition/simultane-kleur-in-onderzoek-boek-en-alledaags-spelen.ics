@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-simultane-kleur-in-onderzoek-boek-en-alledaags-spelen@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260911
+SUMMARY:Simultane - Kleur in onderzoek\, boek en alledaags spelen - Van Abb
+ emuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Bibliotheektentoonstelling over kleur in onderzoek\, boek en al
+ ledaags spelen.\nhttps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellinge
+ n/simultane
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/simultane
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-signac-symphony-of-colours@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20270301
+SUMMARY:Signac - Symphony of Colours - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:From 24 October\, experience an impressive overview of Paul Sig
+ nac (1863–1935)\, the master of Neo-Impressionism\, at Kunsthal Rotterdam.
+ \nhttps://www.kunsthal.nl/en/plan-your-visit/exhibitions/signac-symphony-o
+ f-colours-en/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/signac-symphony-
+ of-colours-en/
+END:VEVENT
+END:VCALENDAR

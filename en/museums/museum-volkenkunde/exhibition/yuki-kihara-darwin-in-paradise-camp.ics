@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-yuki-kihara-darwin-in-paradise-camp@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270104
+SUMMARY:Yuki Kihara: Darwin in Paradise Camp - Museum Volkenkunde
+LOCATION:Museum Volkenkunde\, Leiden
+DESCRIPTION:Nederlands solodebuut van de internationaal gevierde kunstenaar
+  Yuki Kihara.\nhttps://leiden.wereldmuseum.nl/en/whats-on/exhibitions/yuki
+ -kihara-darwin-paradise-camp
+URL:https://leiden.wereldmuseum.nl/en/whats-on/exhibitions/yuki-kihara-darw
+ in-paradise-camp
+END:VEVENT
+END:VCALENDAR

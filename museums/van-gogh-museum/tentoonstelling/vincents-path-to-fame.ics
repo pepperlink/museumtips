@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-vincents-path-to-fame@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Vincent&#39;s Path to Fame - Van Gogh Museum
+LOCATION:Van Gogh Museum\, Amsterdam
+DESCRIPTION:How did Van Gogh become world-famous\, and what role did his fa
+ mily play?\nhttps://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/vin
+ cents-path-to-fame
+URL:https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/vincents-pat
+ h-to-fame
+END:VEVENT
+END:VCALENDAR

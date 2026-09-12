@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-keramikos-carrier-bag@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20270111
+SUMMARY:Keramikos Carrier Bag - Groninger Museum
+LOCATION:Groninger Museum\, Groningen
+DESCRIPTION:Deze tentoonstelling viert de aankoop van &#39;Keramikos 2&#39; door Gr
+ oninger Museum\, een gezamenlijk project van Matthew Lutz-Kinoy en Natsuko
+  Uchino\, bestaande uit meer dan 300 keramische serviesstukken en bijbehor
+ ende tafelkleden.\nhttps://www.groningermuseum.nl/keramikos-carrier-bag
+URL:https://www.groningermuseum.nl/keramikos-carrier-bag
+END:VEVENT
+END:VCALENDAR

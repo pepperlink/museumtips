@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-art-award-arnhem-2026@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261110
+SUMMARY:Art Award Arnhem 2026 - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Ontdek de drie genomineerden van de Art Award Arnhem 2026: Milo
+ u Laroussiyen\, Jeongmin Park en Enrico Manzella.\nhttps://www.museumarnhe
+ m.nl/nl/tentoonstellingen/art-award-arnhem-2026
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/art-award-arnhem-2026
+END:VEVENT
+END:VCALENDAR

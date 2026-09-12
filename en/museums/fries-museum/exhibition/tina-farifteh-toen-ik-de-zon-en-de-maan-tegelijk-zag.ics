@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-tina-farifteh-toen-ik-de-zon-en-de-maan-tegelijk-zag@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270322
+SUMMARY:Tina Farifteh: Toen ik de zon en de maan tegelijk zag - Fries Museu
+ m
+LOCATION:Fries Museum\, Leeuwarden
+DESCRIPTION:Solotentoonstelling van Tina Farifteh.\nhttps://www.friesmuseum
+ .nl/te-zien-en-te-doen/tentoonstellingen/tina-farifteh
+URL:https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/tina-fa
+ rifteh
+END:VEVENT
+END:VCALENDAR

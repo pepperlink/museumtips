@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-maya-ines-touam-belongings@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20270208
+SUMMARY:Maya Inès Touam: Belongings - Huis Marseille
+LOCATION:Huis Marseille\, Amsterdam
+DESCRIPTION:Huis Marseille will be showing Belongings (Ce qui nous appartie
+ nt)\, the first solo exhibition in the Netherlands by the French-Algerian 
+ artist Maya Inès Touam.\nhttps://huismarseille.nl/en/exhibitions/maya-ines
+ -touam/
+URL:https://huismarseille.nl/en/exhibitions/maya-ines-touam/
+END:VEVENT
+END:VCALENDAR

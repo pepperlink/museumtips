@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-future-fashion@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270816
+SUMMARY:Future Fashion - Kunstmuseum Den Haag
+LOCATION:Kunstmuseum Den Haag\, Den Haag
+DESCRIPTION:Fashion is one of the industries with the largest footprint\, i
+ ts relentless pace generating mountains of waste.\nhttps://www.kunstmuseum
+ .nl/en/exhibitions/future-fashion
+URL:https://www.kunstmuseum.nl/en/exhibitions/future-fashion
+END:VEVENT
+END:VCALENDAR

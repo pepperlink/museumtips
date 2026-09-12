@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-eva-besnyo-the-liberated-camera@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20270201
+SUMMARY:Eva Besnyö: The Liberated Camera - Fotomuseum Den Haag
+LOCATION:Fotomuseum Den Haag\, Den Haag
+DESCRIPTION:Photographer\, feminist\, phenomenon: Eva Besnyö (1910–2003) ch
+ anged photography forever.\nhttps://www.fotomuseumdenhaag.nl/en/exhibition
+ s/liberated-camera
+URL:https://www.fotomuseumdenhaag.nl/en/exhibitions/liberated-camera
+END:VEVENT
+END:VCALENDAR

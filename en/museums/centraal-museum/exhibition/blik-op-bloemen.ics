@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-blik-op-bloemen@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20270101
+SUMMARY:Blik op Bloemen - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Stadscolumn marking 70 years of the Van Baaren Stichting.\nhttp
+ s://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/blik-op-bloemen
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/blik-op-b
+ loemen
+END:VEVENT
+END:VCALENDAR

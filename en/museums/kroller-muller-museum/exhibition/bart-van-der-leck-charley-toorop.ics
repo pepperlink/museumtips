@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-bart-van-der-leck-charley-toorop@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20270902
+SUMMARY:Bart van der Leck / Charley Toorop - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:In deze tentoonstelling staan twee bevriende kunstenaars centra
+ al die begin twintigste eeuw een compleet eigen én compleet verschillende 
+ stijl ontwikkelen: Bart van der Leck (1876-1958) en Charley Toorop (1891-1
+ 955).\nhttps://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-v
+ an-der-leck-charley-toorop
+URL:https://www.krollermuller.nl/nl/nu-te-doen/tentoonstellingen/bart-van-d
+ er-leck-charley-toorop
+END:VEVENT
+END:VCALENDAR

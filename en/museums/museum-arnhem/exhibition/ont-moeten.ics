@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-ont-moeten@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20250125
+DTEND;VALUE=DATE:20280101
+SUMMARY:Ont-moeten - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Collection presentation on identity\, decolonisation and climat
+ e.\nhttps://www.museumarnhem.nl/nl/tentoonstellingen/ontmoeten
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/ontmoeten
+END:VEVENT
+END:VCALENDAR

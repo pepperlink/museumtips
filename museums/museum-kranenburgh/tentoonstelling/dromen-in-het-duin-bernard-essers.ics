@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-dromen-in-het-duin-bernard-essers@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261102
+SUMMARY:Dromen in het duin (Bernard Essers) - Museum Kranenburgh
+LOCATION:Museum Kranenburgh\, Bergen NH
+DESCRIPTION:Graphic work from the early 20th century\, incl. book illustrat
+ ions.\nhttps://kranenburgh.nl/tentoonstelling/bernard-essers/
+URL:https://kranenburgh.nl/tentoonstelling/bernard-essers/
+END:VEVENT
+END:VCALENDAR

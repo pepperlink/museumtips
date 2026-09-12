@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-junk-space@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20270301
+SUMMARY:Junk Space - Museum MORE
+LOCATION:Museum MORE\, Gorssel
+DESCRIPTION:Je rijdt er elke dag langs. De bedrijvenstrook langs de snelweg
+ . Het tankstation om twee uur ’s nachts. De Vinex-wijk die overal en nerge
+ ns lijkt te zijn. In Junk Space richten meer dan dertig kunstenaars hun bl
+ ik op de hedendaagse openbare ruimte (Museum MORE Gorssel).\nhttps://www.m
+ oregorssel.nl/tentoonstellingen/junk-space
+URL:https://www.moregorssel.nl/tentoonstellingen/junk-space
+END:VEVENT
+END:VCALENDAR

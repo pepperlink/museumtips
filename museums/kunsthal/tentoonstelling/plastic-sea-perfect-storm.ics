@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-plastic-sea-perfect-storm@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20270308
+SUMMARY:Plastic Sea\, Perfect Storm - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:This autumn at Kunsthal Rotterdam\, the photographer Rob Hornst
+ ra and the author Arnold van Bruggen will show the lives of countless migr
+ ants.\nhttps://www.kunsthal.nl/en/plan-your-visit/exhibitions/plastic-sea-
+ perfect-storm/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/plastic-sea-perf
+ ect-storm/
+END:VEVENT
+END:VCALENDAR

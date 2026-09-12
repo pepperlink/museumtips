@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-robert-zandvliet-aan-de-oevers-van-de-tijd@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20270322
+SUMMARY:Robert Zandvliet: Aan de oevers van de tijd - Fries Museum
+LOCATION:Fries Museum\, Leeuwarden
+DESCRIPTION:Solotentoonstelling van de Friese schilder Robert Zandvliet\, &#39;
+ Aan de oevers van de tijd&#39;.\nhttps://www.friesmuseum.nl/te-zien-en-te-doen
+ /tentoonstellingen/robert-zandvliet
+URL:https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/robert-
+ zandvliet
+END:VEVENT
+END:VCALENDAR

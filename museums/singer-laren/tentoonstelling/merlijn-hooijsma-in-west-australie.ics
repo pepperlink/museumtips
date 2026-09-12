@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-merlijn-hooijsma-in-west-australie@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20270111
+SUMMARY:Merlijn Hooijsma in West-Australië - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Fotograaf Merlijn Hooijsma (1999) is de winnaar van de John &amp; M
+ arine van Vlissingen Art Foundation Prijs 2026\; over de reis en het werk 
+ wordt een boek en een tentoonstelling gemaakt (Van den Brink Galerij).\nht
+ tps://www.singerlaren.nl/nl/agenda/merlijn-hooijsma-in-west-australie-f1mv
+URL:https://www.singerlaren.nl/nl/agenda/merlijn-hooijsma-in-west-australie
+ -f1mv
+END:VEVENT
+END:VCALENDAR

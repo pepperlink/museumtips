@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-can-love-be-a-photograph-40-years-of-inez-vinoodh@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Can Love Be a Photograph: 40 Years of Inez &amp; Vinoodh - Kunstmuseum 
+ Den Haag
+LOCATION:Kunstmuseum Den Haag\, Den Haag
+DESCRIPTION:Retrospective of photographers Inez van Lamsweerde &amp; Vinoodh Ma
+ tadin.\nhttps://www.kunstmuseum.nl/en/exhibitions/can-love-be-photograph
+URL:https://www.kunstmuseum.nl/en/exhibitions/can-love-be-photograph
+END:VEVENT
+END:VCALENDAR

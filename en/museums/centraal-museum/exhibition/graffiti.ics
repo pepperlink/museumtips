@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-graffiti@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20270330
+SUMMARY:Graffiti - Centraal Museum
+LOCATION:Centraal Museum\, Utrecht
+DESCRIPTION:Deze tentoonstelling laat zien hoe graffiti\, ontstaan onder Ne
+ w Yorkse jongeren\, uitgroeide tot een invloedrijke kracht op de ontwikkel
+ ing van hedendaagse kunst.\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/te
+ ntoonstellingen/graffiti
+URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/graffiti
+END:VEVENT
+END:VCALENDAR

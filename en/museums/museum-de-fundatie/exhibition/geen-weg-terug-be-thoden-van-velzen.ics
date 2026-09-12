@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-geen-weg-terug-be-thoden-van-velzen@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20270308
+SUMMARY:Geen weg terug – Bé Thoden van Velzen - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:Bé Thoden van Velzen was een Zwolse kunstenaar die met veel aan
+ dacht keek naar mensen\, dieren en vormen. Te zien in Kasteel het Nijenhui
+ s\, Heino.\nhttps://museumdefundatie.nl/nl/te-zien/geen-weg-terug
+URL:https://museumdefundatie.nl/nl/te-zien/geen-weg-terug
+END:VEVENT
+END:VCALENDAR

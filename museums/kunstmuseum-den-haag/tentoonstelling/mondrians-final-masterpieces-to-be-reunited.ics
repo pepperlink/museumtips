@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-mondrians-final-masterpieces-to-be-reunited@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20280131
+SUMMARY:Mondrian&#39;s final masterpieces to be reunited - Kunstmuseum Den Haag
+LOCATION:Kunstmuseum Den Haag\, Den Haag
+DESCRIPTION:For the first time in over 80 years\, Piet Mondrian’s two final
+  paintings will be reunited in the Netherlands: the iconic Victory Boogie 
+ Woogie and Broadway Boogie Woogie.\nhttps://www.kunstmuseum.nl/en/exhibiti
+ ons/mondrians-final-masterpieces-be-reunited
+URL:https://www.kunstmuseum.nl/en/exhibitions/mondrians-final-masterpieces-
+ be-reunited
+END:VEVENT
+END:VCALENDAR

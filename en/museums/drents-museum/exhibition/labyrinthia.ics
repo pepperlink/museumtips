@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-labyrinthia@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20241221
+DTEND;VALUE=DATE:20340106
+SUMMARY:Labyrinthia - Drents Museum
+LOCATION:Drents Museum\, Assen
+DESCRIPTION:Een magische reis door de prehistorie\, voor jong en oud.\nhttp
+ s://drentsmuseum.nl/tentoonstellingen/labyrinthia
+URL:https://drentsmuseum.nl/tentoonstellingen/labyrinthia
+END:VEVENT
+END:VCALENDAR

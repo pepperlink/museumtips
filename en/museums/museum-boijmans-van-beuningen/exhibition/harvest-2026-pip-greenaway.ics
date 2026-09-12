@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-harvest-2026-pip-greenaway@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261031
+SUMMARY:Harvest 2026 - Pip Greenaway - Museum Boijmans Van Beuningen (Depot
+ )
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:New Depot presentation by Pip Greenaway.\nhttps://www.boijmans.
+ nl/en/exhibitions/Harvest-2026-Pip-Greenaway
+URL:https://www.boijmans.nl/en/exhibitions/Harvest-2026-Pip-Greenaway
+END:VEVENT
+END:VCALENDAR

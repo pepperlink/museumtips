@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-ruimtereis@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ruimtereis - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Ruimtereis door de collectie.\nhttps://krollermuller.nl/nl/nu-t
+ e-doen/tentoonstellingen/ruimtereis
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruimtereis
+END:VEVENT
+END:VCALENDAR

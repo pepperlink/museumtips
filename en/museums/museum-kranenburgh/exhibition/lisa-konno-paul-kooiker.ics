@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-lisa-konno-paul-kooiker@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261102
+SUMMARY:Lisa Konno Paul Kooiker - Museum Kranenburgh
+LOCATION:Museum Kranenburgh\, Bergen NH
+DESCRIPTION:Fashion designer Lisa Konno and photographer Paul Kooiker on fa
+ shion and identity.\nhttps://kranenburgh.nl/tentoonstelling/lisa-konno-pau
+ l-kooiker/
+URL:https://kranenburgh.nl/tentoonstelling/lisa-konno-paul-kooiker/
+END:VEVENT
+END:VCALENDAR

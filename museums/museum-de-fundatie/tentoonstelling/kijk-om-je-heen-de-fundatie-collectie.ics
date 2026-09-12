@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-kijk-om-je-heen-de-fundatie-collectie@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20270405
+SUMMARY:kijk om je heen! (de Fundatie Collectie) - Museum de Fundatie
+LOCATION:Museum de Fundatie\, Zwolle
+DESCRIPTION:How art can change the way you look at your surroundings.\nhttp
+ s://museumdefundatie.nl/nl/te-zien/kijk-om-je-heen
+URL:https://museumdefundatie.nl/nl/te-zien/kijk-om-je-heen
+END:VEVENT
+END:VCALENDAR

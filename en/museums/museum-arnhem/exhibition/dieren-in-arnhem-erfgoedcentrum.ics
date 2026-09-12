@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-dieren-in-arnhem-erfgoedcentrum@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20251018
+DTEND;VALUE=DATE:20260928
+SUMMARY:Dieren in Arnhem (Erfgoedcentrum) - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Animals in Arnhem - heritage centre show.\nhttps://www.museumar
+ nhem.nl/nl/tentoonstellingen/dieren-in-arnhem
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/dieren-in-arnhem
+END:VEVENT
+END:VCALENDAR

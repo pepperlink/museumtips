@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-gilbert-george-drifters@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20270402
+SUMMARY:Gilbert &amp; George. Drifters - Kröller-Müller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:Gilbert &amp; George: Drifters in de beeldentuin en het museum.\nht
+ tps://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-george-
+ drifters
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/gilbert-and-ge
+ orge-drifters
+END:VEVENT
+END:VCALENDAR

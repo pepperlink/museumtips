@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-alles-verandert-niets-vergaat-iris-le-rutte@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20261102
+SUMMARY:Alles verandert\, niets vergaat (Iris Le Rutte) - Museum Kranenburg
+ h
+LOCATION:Museum Kranenburgh\, Bergen NH
+DESCRIPTION:Ovid&#39;s Metamorphoses: people\, animals\, plants change into hyb
+ rids.\nhttps://kranenburgh.nl/tentoonstelling/alles-verandert-niets-vergaa
+ t/
+URL:https://kranenburgh.nl/tentoonstelling/alles-verandert-niets-vergaat/
+END:VEVENT
+END:VCALENDAR

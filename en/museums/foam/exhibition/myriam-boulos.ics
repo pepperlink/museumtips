@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-myriam-boulos@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270218
+SUMMARY:Myriam Boulos - Foam
+LOCATION:Foam\, Amsterdam
+DESCRIPTION:Foam presents the exhibition of Myriam Boulos (1992\, Lebanon)\
+ , the 19th winner of the Foam Paul Huf Award.\nhttps://www.foam.org/events
+ /myriam-boulos
+URL:https://www.foam.org/events/myriam-boulos
+END:VEVENT
+END:VCALENDAR

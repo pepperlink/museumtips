@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-museum-als-zonnewijzer@museumtips.pepperlink.nl
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20270222
+SUMMARY:Museum als Zonnewijzer - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Wat als een museum zou werken als een zonnewijzer? Niet alleen 
+ door de tijd aan te geven\, maar ook door ons te helpen begrijpen wat onze
+  plek is in de wereld.\nhttps://vanabbemuseum.nl/nl/zien-en-doen/tentoonst
+ ellingen/museum-als-zonnewijzer
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/museum-als-z
+ onnewijzer
+END:VEVENT
+END:VCALENDAR
