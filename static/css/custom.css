@@ -53,3 +53,28 @@ header nav.contentnav {
   visibility: visible;
   opacity: 1;
 }
+
+/* Calendar closing urgency heat (§3c.4). Wrapper carries padding/box styling
+ * because exhibition cards are bare <article> elements with no card box. */
+.closing-heat-1,
+.closing-heat-2,
+.closing-heat-3,
+.closing-heat-4 {
+  color: #172554;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-radius: 4px;
+}
+
+.closing-heat-1 { background-color: #eff6ff; }
+.closing-heat-2 { background-color: #dbeafe; }
+.closing-heat-3 { background-color: #bfdbfe; }
+.closing-heat-4 { background-color: #60a5fa; }
+
+.closing-heat-1 a,
+.closing-heat-2 a,
+.closing-heat-3 a,
+.closing-heat-4 a {
+  color: #172554;
+  text-decoration: underline;
+}

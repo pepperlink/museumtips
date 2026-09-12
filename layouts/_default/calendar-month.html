@@ -76,16 +76,16 @@
   <p>{{ i18n "no_exhibitions" }}</p>
 {{ else }}
   {{ range $dated }}
-    {{ partial "exhibition.html" . }}
+    {{ partial "calendar-exhibition.html" . }}
   {{ end }}
   {{ range $undated }}
-    {{ partial "exhibition.html" . }}
+    {{ partial "calendar-exhibition.html" . }}
   {{ end }}
   {{ if $ended }}
     <details>
       <summary>{{ printf (i18n "ended_shows") (len $ended) }}</summary>
       {{ range $ended }}
-        {{ partial "exhibition.html" . }}
+        {{ partial "calendar-exhibition.html" . }}
       {{ end }}
     </details>
   {{ end }}

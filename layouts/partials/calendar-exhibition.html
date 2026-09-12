@@ -1,0 +1,31 @@
+{{- $heat := "" -}}
+{{- if .end -}}
+{{- $end := time.AsTime .end -}}
+{{- if gt $end.Year 1 -}}
+{{- $started := true -}}
+{{- if .start -}}
+  {{- if gt (time.AsTime .start).Unix now.Unix -}}{{- $started = false -}}{{- end -}}
+{{- end -}}
+{{- if $started -}}
+  {{- $days := div (sub $end.Unix now.Unix) 86400 -}}
+  {{- if ge $days 0 -}}
+    {{- if le $days 10 -}}
+      {{- $heat = "closing-heat-4" -}}
+    {{- else if le $days 25 -}}
+      {{- $heat = "closing-heat-3" -}}
+    {{- else if le $days 50 -}}
+      {{- $heat = "closing-heat-2" -}}
+    {{- else -}}
+      {{- $heat = "closing-heat-1" -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- if $heat -}}
+<div class="{{ $heat }}">
+{{- partial "exhibition.html" . -}}
+</div>
+{{- else -}}
+{{- partial "exhibition.html" . -}}
+{{- end -}}
