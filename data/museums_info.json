@@ -2295,6 +2295,8 @@
   "description_nl": "Het Drents Museum in Assen is bekend om zijn grote internationale tentoonstellingen op het gebied van archeologie, kunst en geschiedenis. In de vaste collectiepresentatie Labyrinthia zijn topstukken te zien zoals het meisje van Yde, de oudste boot van de wereld en schilderijen van Van Gogh. Het museum beheert deelcollecties als archeologie, Drentse geschiedenis, kunst rond 1900 en hedendaags realisme. Ook DM De Buitenplaats in Eelde hoort bij het Drents Museum.",
   "description_en": "The Drents Museum in Assen is known in the Netherlands and abroad for its major international exhibitions in the fields of archaeology, art and history. The permanent collection presentation Labyrinthia features highlights such as the Girl of Yde, the world's oldest boat and paintings by Van Gogh. Its subcollections include archaeology, Drenthe history, art from around 1900 and contemporary realism. DM De Buitenplaats in Eelde is part of the Drents Museum.",
   "address": "Brink 1, 9401 HS Assen",
+  "lat": 52.992896,
+  "lon": 6.564260,
   "hours_nl": "Di t/m zo 10.00–17.00 uur.\nMaandag open tijdens schoolvakanties en feestdagen.\nExtra open (2026): ma 16 en 23 feb, ma 6 apr (Pasen), ma 25 mei (Pinksteren), maandagen zomervakantie 4 jul t/m 30 aug, ma 12 en 19 okt, ma 21 en 28 dec.\nGesloten: 27 apr (Koningsdag), 25 dec (1e kerstdag), 1 jan (Nieuwjaarsdag).\nMuseumtuin: dagelijks 11.00–17.00 uur gratis; 1 nov–1 mrt tot 16.00 uur.",
   "hours_en": "Tue–Sun 10 am–5 pm.\nOpen on Mondays during Dutch school holidays and public holidays.\nExtra open (2026): Mon 16 & 23 Feb, Mon 6 Apr (Easter), Mon 25 May (Whit Monday), summer-holiday Mondays 4 Jul–30 Aug, Mon 12 & 19 Oct, Mon 21 & 28 Dec.\nClosed: 27 Apr (King's Day), 25 Dec (Christmas Day), 1 Jan (New Year's Day).\nMuseum Garden: free daily 11 am–5 pm; 1 Nov–1 Mar until 4 pm.",
   "transit_nl": "Trein/bus: ca. 8 minuten lopen van het Intercity- en busstation Assen.\nBus (Qbuzz): halte Zuidhaege of station Assen.",
@@ -2396,6 +2398,10 @@
    {
     "fact": "pricing",
     "url": "https://drentsmuseum.nl/en/plan-your-visit/tickets-and-prices"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2769506579"
    }
   ],
   "notes": [
@@ -2410,6 +2416,8 @@
   "description_nl": "Het Groninger Museum is het grootste museum voor kunst en design in het noorden van Nederland, met meer dan 60.000 voorwerpen en kunstwerken uit vijf millennia. Het museumgebouw op het Museumeiland is een postmodern ontwerp van onder anderen Alessandro Mendini, Philippe Starck, Michele De Lucchi en Coop Himmelb(l)au. De collectie, presentaties en wisselende tentoonstellingen richten zich op actuele thema's, bekeken door de lens van hedendaagse kunst en design.",
   "description_en": "Groninger Museum is the largest museum in the north of the Netherlands for art and design, home to over 60,000 objects and artworks spanning five millennia. The museum building on the Museumeiland is a postmodern design by, among others, Alessandro Mendini, Philippe Starck, Michele De Lucchi and Coop Himmelb(l)au. Its collection, displays and changing exhibitions focus on timely topics through the lens of contemporary art and design.",
   "address": "Museumeiland 1, 9711 ME Groningen",
+  "lat": 53.212282,
+  "lon": 6.566029,
   "hours_nl": "Di t/m zo 10.00–17.00 uur.\nMaandag gesloten.\nExtra gesloten: vrijdag 18 september 2026, 25 december (1e kerstdag) en 1 januari (Nieuwjaarsdag).",
   "hours_en": "Tue–Sun 10 am–5 pm.\nClosed on Mondays.\nExtra closures: Friday 18 September 2026, 25 December (Christmas Day) and 1 January (New Year's Day).",
   "transit_nl": "Trein: het museum ligt op ca. 300 meter van Hoofdstation Groningen.\nGeen businformatie op de bezoekpagina vermeld.",
@@ -2513,6 +2521,10 @@
    {
     "fact": "pricing",
     "url": "https://www.groningermuseum.nl/en-GB/plan-your-visit"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/relation/8736528"
    }
   ],
   "notes": [
@@ -2527,6 +2539,8 @@
   "description_nl": "Het Fries Museum in Leeuwarden beheert met meer dan 200.000 voorwerpen de grootste regionale collectie van Nederland. De vaste presentatie Ferhaal fan Fryslân toont Friese kunst en geschiedenis, met werk van onder anderen Sir Lawrence Alma-Tadema, Gerrit Benner en Wybrand de Geest en verhalen over Grutte Pier, Mata Hari en de Vikingen. Op de tweede verdieping is het Fries Verzetsmuseum te zien over Friesland in de Tweede Wereldoorlog. Kinderen en jongeren tot 18 jaar hebben gratis toegang.",
   "description_en": "The Fries Museum in Leeuwarden manages the largest regional collection in the Netherlands, with more than 200,000 objects. The permanent exhibition Ferhaal fan Fryslân presents Frisian art and history, including works by Sir Lawrence Alma-Tadema, Gerrit Benner and Wybrand de Geest and stories of Grutte Pier, Mata Hari and the Vikings. The Fries Verzetsmuseum on the second floor covers Friesland during the Second World War. Children and young people up to 18 enter free of charge.",
   "address": "Wilhelminaplein 92, 8911 BS Leeuwarden",
+  "lat": 53.199453,
+  "lon": 5.794348,
   "hours_nl": "Di t/m zo 11.00–17.00 uur.\nExtra geopend: Bevrijdingsdag, eerste en tweede paasdag, tweede pinksterdag en tweede kerstdag.\nGesloten: Nieuwjaarsdag, Koningsdag (27 april) en eerste kerstdag.\nCafé Thús: maandag gesloten, di t/m zo vanaf 10.30 uur.",
   "hours_en": "Tue–Sun 11 am–5 pm.\nAlso open: Easter Sunday and Monday, Pentecost and Boxing Day.\nClosed: New Year's Day, King's Day (27 April) and Christmas Day.\nCafé Thús: closed on Mondays, Tue–Sun from 10.30 am.",
   "transit_nl": "Trein/bus: op 5 minuten loopafstand van het trein- en busstation van Leeuwarden.",
@@ -2617,6 +2631,10 @@
    {
     "fact": "pricing",
     "url": "https://www.friesmuseum.nl/en/visit/students"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/4554124938"
    }
   ],
   "notes": [
@@ -2630,6 +2648,8 @@
   "description_nl": "Drents Museum De Buitenplaats in Eelde richt zich op organische architectuur, figuratieve kunst en kunst rond 1900. Het museumpaviljoen is begin jaren negentig opgericht door verzamelaars Jos en Janneke van Groeningen en in 1996 geopend door koningin Beatrix; het organische ontwerp is van architectenbureau Alberts & Van Huut. Bij het museum horen het 17de-eeuwse Nijsinghhuis met muur- en plafondschilderingen van noordelijke figuratieven en een vrij toegankelijke museumtuin. Er zijn halfjaarlijks wisselende tentoonstellingen met het accent op art nouveau.",
   "description_en": "Drents Museum De Buitenplaats in Eelde focuses on organic architecture, figurative art and art from around 1900. The museum pavilion was founded in the early 1990s by collectors Jos and Janneke van Groeningen and opened by Queen Beatrix in 1996; the organic design is by architectural firm Alberts & Van Huut. The site includes the 17th-century Nijsinghhuis with wall and ceiling paintings by northern figurative artists and a freely accessible museum garden. Exhibitions change twice a year with a focus on art nouveau.",
   "address": "Hoofdweg 76, 9761 EK Eelde",
+  "lat": 53.133807,
+  "lon": 6.563225,
   "hours_nl": "Di t/m zo 11.00–17.00 uur (museumgebouw en Nijsinghhuis).\nMuseumtuin en Brasserie Röling: di t/m zo 10.00–17.00 uur, gratis toegankelijk.\nIn de schoolvakanties ook op maandagen open.\nExtra open: maandagen zomervakantie 4 jul t/m 30 aug, ma 12 en 19 okt, ma 21 en 28 dec.\nGesloten: 25 december (1e kerstdag) en 1 januari (Nieuwjaarsdag).",
   "hours_en": "Tue–Sun 11 am–5 pm (museum building and Nijsinghhuis).\nMuseum garden and Brasserie Röling: Tue–Sun 10 am–5 pm, free entry.\nAlso open on Mondays during school holidays.\nExtra open: summer-holiday Mondays 4 Jul–30 Aug, Mon 12 & 19 Oct, Mon 21 & 28 Dec.\nClosed: 25 December (Christmas Day) and 1 January (New Year's Day).",
   "transit_nl": "Bus 9 vanaf Groningen CS richting Eelde (2x per uur); halte Kerkhoflaan of Kosterijweg.\nBus 50 richting Assen via De Punt met overstap naar Eelde (halte Kosterijweg of Kerkhoflaan).\nVanaf station Assen: bus 50 richting De Punt, overstappen op de bus naar Eelde.",
@@ -2734,6 +2754,10 @@
    {
     "fact": "pricing",
     "url": "https://dmdebuitenplaats.nl/en/plan-je-bezoek/entreeprijzen"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/way/953574587"
    }
   ],
   "notes": [
@@ -2748,6 +2772,8 @@
   "description_nl": "Museum Volkenkunde heet tegenwoordig Wereldmuseum Leiden en is onderdeel van het Wereldmuseum. Met zijn wetenschappelijke oriëntatie en verzamelgeschiedenis richt het museum zich op wereldwijde culturele geschiedenissen, met thema's als iconen van de wereld en de schoonheid van inheemse leefwerelden en hun strijd voor onafhankelijkheid en herstel van historisch onrecht. De tentoonstellingen moedigen bezoekers aan na te denken over wat het betekent om mens te zijn.",
   "description_en": "Museum Volkenkunde is now called Wereldmuseum Leiden and is part of the Wereldmuseum. With its scientific orientation and collecting history, it focuses on global cultural histories, with themes including icons of the world and the beauty of indigenous worlds and their struggle for independence and the restoration of historical injustice. The exhibitions invite visitors to reflect on what it means to be human.",
   "address": "Steenstraat 1, 2312 BS Leiden (goedereningang: 1e Binnenvestgracht)",
+  "lat": 52.163314,
+  "lon": 4.482444,
   "hours_nl": "Di t/m zo 10.00–17.00 uur.\nTijdens schoolvakanties en op verschillende feestdagen ook op maandag open.\nExtra open op maandagen (2026): 16 en 23 feb, 6 apr (Pasen), 20 apr, 25 mei (Pinksteren), 6/13/20/27 jul en 3/10/17/24 aug, 12 en 19 okt, 21 en 28 dec.\nGesloten: 1 jan (Nieuwjaarsdag), 27 apr (Koningsdag), 3 okt (Leidens Ontzet), 25 dec (1e kerstdag).",
   "hours_en": "Tue–Sun 10 am–5 pm.\nAlso open on Mondays during school holidays and on various public holidays.\nExtra open on Mondays (2026): 16 & 23 Feb, 6 Apr (Easter), 20 Apr, 25 May (Pentecost), 6/13/20/27 Jul and 3/10/17/24 Aug, 12 & 19 Oct, 21 & 28 Dec.\nClosed: 1 Jan (New Year's Day), 27 Apr (King's Day), 3 Oct (Leidens Ontzet), 25 Dec (Christmas Day).",
   "transit_nl": "Trein: vijf minuten lopen van NS-station Leiden Centraal.",
@@ -2845,6 +2871,10 @@
    {
     "fact": "pricing",
     "url": "https://leiden.wereldmuseum.nl/en/tickets"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/12120355366"
    }
   ],
   "notes": [
@@ -2858,6 +2888,8 @@
   "description_nl": "Het Rijksmuseum van Oudheden is het nationale archeologiemuseum van Nederland, in Leiden. De collectie telt circa 180.000 objecten, verdeeld over vier verzamelgebieden: Egypte en Nubië, de Klassieke Oudheid, het oude Midden-Oosten en Nederland (prehistorie, Romeinse tijd en middeleeuwen). Het museum werd in 1818 opgericht als archeologisch kabinet van de Universiteit Leiden en vierde in 2018 zijn tweehonderdjarig bestaan. Sinds 1995 is het een zelfstandige non-profitorganisatie die het archeologische deel van de Nederlandse rijkscollectie beheert; in de entreehal staat de 2.000 jaar oude Egyptische tempel van Taffeh.",
   "description_en": "The Dutch National Museum of Antiquities (RMO) in Leiden houses a collection of some 180,000 objects across four areas: Egypt and Nubia, Classical Antiquity, the Ancient Near East, and the Netherlands (prehistory, Roman period, and the Middle Ages). The museum was founded in 1818 as Leiden University's archaeological cabinet and celebrated its 200th anniversary in 2018. Since 1995 it has been an independent non-profit organisation managing the archaeological part of the Dutch national collection. A highlight is the 2,000-year-old Egyptian temple from Taffeh, on view in the entrance hall.",
   "address": "Rapenburg 28, 2311 EW Leiden",
+  "lat": 52.158467,
+  "lon": 4.485898,
   "hours_nl": "Maandag t/m zondag: 10.00 - 17.00 uur\nDonderdagavond: 19.00 - 22.00 uur\nGesloten op 1 januari, 27 april, 3 oktober en 25 december",
   "hours_en": "Monday to Sunday: 10:00 - 17:00\nThursday evening: 19:00 - 22:00\nClosed on 1 January, 27 April, 3 October and 25 December",
   "transit_nl": "Het museum ligt in het centrum van Leiden, op circa tien minuten loopafstand van NS-station Leiden Centraal.",
@@ -2958,6 +2990,10 @@
    {
     "fact": "address",
     "url": "https://www.rmo.nl/en/visit/"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.rmo.nl/en/visit/"
    }
   ],
   "notes": [
@@ -2971,6 +3007,8 @@
   "description_nl": "Het Frans Hals Museum is het kunstmuseum van Haarlem. Het museum bezit de grootste collectie schilderijen van Frans Hals ter wereld, naast werk van andere beroemde Haarlemse kunstenaars zoals Judith Leyster, Cornelis van Haarlem en Jacob van Ruisdael. Ook is er een rijke verzameling kunst van 1880 tot nu (onder anderen Charley Toorop en Dana Lixenberg). In de oude binnenstad van Haarlem is 16de- en 17de-eeuwse, moderne en hedendaagse kunst te zien.",
   "description_en": "The Frans Hals Museum is Haarlem's museum of fine arts. It holds the largest collection of Frans Hals paintings in the world, alongside works by other famous Haarlem artists such as Judith Leyster, Cornelis van Haarlem and Jacob van Ruisdael. The collection also includes a rich range of art from 1880 to the present (including Charley Toorop and Dana Lixenberg). The museum shows 16th- and 17th-century, modern and contemporary art in Haarlem's historic city centre.",
   "address": "Groot Heiligland 62, 2011 ES Haarlem",
+  "lat": 52.376589,
+  "lon": 4.633628,
   "hours_nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nTijdens de Hals-Rembrandt tentoonstelling opent het museum al om 10.00 uur.\nExtra open op: Tweede Paasdag, Tweede Pinksterdag en 28 december.\n24 en 31 december sluit het museum om 16.00 uur.\nGesloten op: Nieuwjaarsdag (1 januari), Koningsdag (27 april) en Eerste Kerstdag (25 december).",
   "hours_en": "Tuesday to Sunday: 11 am - 5 pm\nDuring the Hals-Rembrandt exhibition the museum opens as early as 10.00 am.\nExtra open on: Easter Monday, Whit Monday and 28 December.\nThe museum closes at 4 pm on 24 and 31 December.\nClosed on: New Year's Day (1 January), King's Day (27 April) and Christmas Day (25 December).",
   "transit_nl": "Vanaf Haarlem Centraal Station is het circa 20 minuten lopen (via de Grote Markt en de Grote Houtstraat; de tweede straat rechts is het Groot Heiligland). Bus: het busstation ligt aan de zuidkant van het NS-station; haltes in de buurt zijn halte Frans Hals Museum (lijn 3, 1 minuut lopen), halte Centrum Houtplein (diverse lijnen, 6 minuten), halte Turfmarkt (diverse lijnen, 6 minuten) en halte Centrum/Verwulft (8 minuten). Reisplanner: 9292 (0900 9292).",
@@ -3061,6 +3099,10 @@
    {
     "fact": "address",
     "url": "https://franshalsmuseum.nl/nl/tickets-openingstijden"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://franshalsmuseum.nl/nl/bezoek/bereikbaarheid"
    }
   ],
   "notes": [
@@ -3075,6 +3117,8 @@
   "description_nl": "De Pont Museum is een internationaal museum voor hedendaagse kunst, gevestigd in een voormalige wolspinnerij in Tilburg. Het industriële gebouw met karakteristiek zaagtanddak werd door Benthem Crouwel Architecten getransformeerd tot een open, lichte ruimte. Sinds de opening in 1992 wisselt het museum meerdere keren per jaar van tentoonstellingen en collectiepresentaties; schilder- en beeldhouwkunst, installaties, film, performance en fotografie vormen het hart van het programma. In 2016 kreeg het museum een vleugel voor fotografie, video en multimedia-installaties, met daarin ook het museumcafé. De collectie telt meer dan duizend werken van ruim honderd kunstenaars; het museum is vernoemd naar Jan de Pont (1915-1987).",
   "description_en": "De Pont Museum is an international museum for contemporary art, housed in a former wool mill in Tilburg. Benthem Crouwel Architects transformed the industrial building with its distinctive sawtooth roof into an open, light-filled space. Since opening in 1992, the museum has changed its exhibitions and collection displays several times a year; painting and sculpture, along with installations, film, performance and photography, form the heart of the programme. In 2016 the museum opened a new wing for photography, video and multimedia installations, which also houses the museum café. The collection holds over a thousand works by more than a hundred artists; the museum is named after Jan de Pont (1915-1987).",
   "address": "Wilhelminapark 1, 5041 EA Tilburg",
+  "lat": 51.567339,
+  "lon": 5.074158,
   "hours_nl": "Let op: van 31 augustus t/m 19 september 2026 is het museum gesloten in verband met de tentoonstellingswissel; ook het café, de winkel, de bibliotheek en de tuin zijn gesloten. Heropening op 20 september 2026.\nMaandag: gesloten\nDi en wo: 11.00 - 17.00 uur\nDonderdag: 11.00 - 20.00 uur\nVr t/m zo: 11.00 - 17.00 uur\nFeestdagen: Koningsdag gesloten; Eerste en Tweede Paasdag 11.00-17.00; Hemelvaartsdag 11.00-20.00; Eerste en Tweede Pinksterdag 11.00-17.00; Eerste Kerstdag gesloten; Tweede Kerstdag 11.00-17.00; Oudjaarsdag 11.00-17.00; Nieuwjaarsdag gesloten.",
   "hours_en": "Please note: the museum is closed from 31 August to 19 September 2026 while the exhibition is being changed; the café, shop, library and garden are closed too. Reopening on 20 September 2026.\nMonday: closed\nTue and Wed: 11:00 - 17:00\nThursday: 11:00 - 20:00\nFri to Sun: 11:00 - 17:00\nPublic holidays: King's Day closed; Easter Sunday and Monday 11:00-17:00; Ascension Day 11:00-20:00; Pentecost Sunday and Monday 11:00-17:00; Christmas Day closed; Boxing Day 11:00-17:00; 31 December 11:00-17:00; New Year's Day closed.",
   "transit_nl": "Vanaf station Tilburg Centraal is het circa 15 minuten lopen naar De Pont Museum (verlaat het station aan de noordkant, linksaf Burgemeester Brokxlaan, rechtsaf bij de Gasthuisring, net voorbij het Wilhelminapark linksaf). Bus vanaf Tilburg station: bus 5 richting Noord-Stokhasselt, halte Textielmuseum; bus 7 richting West ETZ Tweesteden, halte Kwaadeindstraat. Actuele trein- en bustijden: 9292.nl.",
@@ -3175,6 +3219,10 @@
    {
     "fact": "vriendenloterij (not valid)",
     "url": "https://www.depont.nl/bezoek-tickets"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie"
    }
   ],
   "notes": [
@@ -3188,6 +3236,8 @@
   "description_nl": "Het Van Abbemuseum in Eindhoven is een van de meest toonaangevende musea voor hedendaagse kunst in Europa. De internationale collectie telt ruim 3.600 kunstwerken, met sleutelwerken van onder anderen Joseph Beuys, Marc Chagall, René Daniëls, Marlene Dumas, El Lissitzky, Pablo Picasso en Lidwien van de Ven; een selectie daarvan wordt getoond. Het museum stelt vragen op het gebied van kunst en samenleving op een experimentele manier aan de orde; openheid, gastvrijheid en kennisuitwisseling zijn voor het museum van belang.",
   "description_en": "The Van Abbemuseum in Eindhoven is one of the first public museums for contemporary art to be established in Europe. Its collection of over 3,600 works of art includes key works by artists such as Joseph Beuys, Marc Chagall, René Daniëls, Marlene Dumas, El Lissitzky, Pablo Picasso and Lidwien van de Ven. The museum has an experimental approach towards art's role in society; openness, hospitality and knowledge exchange are important to it.",
   "address": "Stratumsedijk 2, 5611 ND Eindhoven",
+  "lat": 51.434464,
+  "lon": 5.481831,
   "hours_nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nExtra geopend op: 6 april 2026 (tweede paasdag), 14 mei 2026 (hemelvaartsdag), 25 mei 2026 (tweede pinksterdag), 19 oktober 2026 (Dutch Design Week) en 26 december 2026 (tweede kerstdag)\nGesloten op: 1 januari 2026 (nieuwjaarsdag), 14 februari 2026 (zaterdag tijdens carnaval), 27 april 2026 (Koningsdag), 11 oktober 2026 (Marathon Eindhoven) en 25 december 2026 (eerste kerstdag)",
   "hours_en": "Tuesday to Sunday: 11 AM - 5 PM\nThe museum is also open on: 6 April 2026 (Easter Monday), 14 May 2026 (Ascension Day), 25 May 2026 (Whit Monday), 19 October 2026 (Dutch Design Week) and 26 December 2026 (second day of Christmas)\nThe museum is closed on: 1 January 2026 (New Year's Day), 14 February 2026 (Saturday during carnival), 27 April 2026 (King's Day), 11 October 2026 (Marathon Eindhoven) and 25 December 2026 (first day of Christmas)",
   "transit_nl": "Vanaf station Eindhoven Centraal loop je in 15 minuten door het autovrije stadscentrum naar het museum. Treinen uit Amsterdam, Utrecht, Den Haag, Rotterdam, Venlo, Heerlen en Maastricht komen elk half uur aan in Eindhoven (ns.nl). Bus: het busstation ligt aan de noordkant van het NS-station; haltes bij het museum zijn onder meer Bilderdijklaan (1 minuut lopen), Smalle Haven (3 minuten), Stadhuisplein (4 minuten), PC Hooftlaan (4 minuten) en Keizersgracht (9 minuten). Actuele reisinformatie: 9292.nl.",
@@ -3284,6 +3334,10 @@
    {
     "fact": "access_nl",
     "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.openstreetmap.org/node/2759556931"
    }
   ],
   "notes": [
@@ -3296,6 +3350,8 @@
   "description_nl": "Het Bonnefanten is hét kunstmuseum van Limburg, in Maastricht. Het museum presenteert vaste collecties en wisselende tentoonstellingen van niet-mainstream kunst en kunstenaars. Het museum wijdt een permanent eerbetoon aan architect Aldo Rossi, de architect van het Bonnefanten.",
   "description_en": "The Bonnefanten is the art museum of Limburg, in Maastricht. It presents permanent collections and changing exhibitions with non-mainstream art and artists. The museum dedicates a permanent tribute to architect Aldo Rossi, the architect of the Bonnefanten.",
   "address": "Avenue Céramique 250, 6221 KX Maastricht",
+  "lat": 50.842539,
+  "lon": 5.701899,
   "hours_nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nOpeningstijden 2026 - open op: carnaval (14 en 17 februari; op carnavalszondag 15 februari gesloten), Eerste en Tweede Paasdag (5 en 6 april), Hemelvaartsdag (14 mei), Eerste en Tweede Pinksterdag (24 en 25 mei), Tweede Kerstdag (26 december) en Oudjaarsdag (31 december)\nGesloten op: carnavalszondag (15 februari), Koningsdag (27 april), Eerste Kerstdag (25 december) en Nieuwjaarsdag (1 januari)",
   "hours_en": "Tuesday to Sunday: 11:00 - 17:00\nOpening hours 2026 - open on: Carnival (14 and 17 February; the museum is closed on Sunday 15 February), Easter Sunday and Easter Monday (5 and 6 April), Ascension Day (14 May), Pentecost and Whit Monday (24 and 25 May), Boxing Day (26 December) and New Year's Eve (31 December)\nClosed on: Carnival Sunday (15 February), King's Day (27 April), Christmas Day (25 December) and New Year's Day (1 January)",
   "transit_nl": "Vanaf Maastricht Centraal Station: bus 1 richting De Heeg, bus 5 richting Eijsden, bus 57 richting Gulpen (via Mheer), bus 78 richting Luik en bus 350 richting Aachen. Uitstappen bij halte 'Bonnefantenmuseum'.",
@@ -3396,6 +3452,10 @@
    {
     "fact": "address",
     "url": "https://www.bonnefanten.nl/en/see-and-do/practical-information/prices-address-and-route"
+   },
+   {
+    "fact": "coordinates",
+    "url": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid"
    }
   ],
   "notes": [
