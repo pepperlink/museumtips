@@ -11,7 +11,7 @@
 {{ $prev := .Site.GetPage (printf "/%s" ($prevTime.Format "2006-01")) }}
 {{ $next := .Site.GetPage (printf "/%s" ($nextTime.Format "2006-01")) }}
 {{ if or $prev $next }}
-<nav>
+<nav class="contentnav">
   <p>
     {{- with $prev -}}
       {{- $pt := time.AsTime (printf "%s-01" .Params.month) -}}
