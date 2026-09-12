@@ -31,7 +31,7 @@
       <h2>{{ $city }}</h2>
       {{ range where $museums "city" $city }}
         <article>
-          <h3>{{ .name }}</h3>
+          <h3 id="{{ .name | urlize }}">{{ .name }}</h3>
           <p>
             <a href="{{ .site }}">{{ i18n "website" }}</a>
           </p>

@@ -1,7 +1,13 @@
+{{ $museums := site.GetPage "museums" }}
+{{ $museumURL := "" }}{{ $cityURL := "" }}
+{{ with $museums }}{{ $museumURL = printf "%s#%s" .RelPermalink ($.museum | urlize) }}{{ $cityURL = printf "%s#%s" .RelPermalink ($.city | urlize) }}{{ end }}
+{{ $museumOK := false }}{{ $cityOK := false }}
+{{ with where hugo.Data.exhibitions.museums "name" .museum }}{{ $museumOK = true }}{{ end }}
+{{ with where hugo.Data.exhibitions.museums "city" .city }}{{ $cityOK = true }}{{ end }}
 <article>
   <h3><a href="{{ .url }}">{{ .title }}</a></h3>
   <p>
-    <strong>{{ .museum }}</strong>, {{ .city -}}
+    {{ if and $museumURL $museumOK }}<a href="{{ $museumURL }}"><strong>{{ .museum }}</strong></a>{{ else }}<strong>{{ .museum }}</strong>{{ end }}, {{ if and $cityURL $cityOK }}<a href="{{ $cityURL }}">{{ .city }}</a>{{ else }}{{ .city }}{{ end -}}
     {{- $dates := partial "format-date.html" . -}}
     {{- $count := partial "countdown.html" . -}}
     {{- if or $dates $count }}

@@ -28,4 +28,8 @@
 {{ else }}
   <p>{{ i18n "no_exhibitions" }}</p>
 {{ end }}
+
+{{ with .Site.GetPage "museums" }}
+<p><a href="{{ .RelPermalink }}">{{ i18n "view_museums" }}</a></p>
+{{ end }}
 {{ end }}

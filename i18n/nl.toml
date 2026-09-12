@@ -19,6 +19,9 @@ other = "Bijna afgelopen"
 [view_calendar]
 other = "Alles bekijken"
 
+[view_museums]
+other = "Bekijk alle musea per stad"
+
 [subscribe_all]
 other = "Abonneer: alle tentoonstellingen"
 
