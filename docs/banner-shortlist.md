@@ -42,3 +42,5 @@
 ## Pick and swap
 
 **OPERATOR PICK: 1033** — swap instructions: change the id wherever the pick is recorded (this line + ST-4-12's vendored filename/source record); nothing else depends on the choice. The chosen image is vendored locally by ST-4-12 (desktop + mobile files), with its source id + this record kept next to it.
+
+**Vendored (ST-4-12):** `static/images/banner.jpg` (1600×420, from `https://picsum.photos/id/1033/1600/420`). **Photographer:** Erez Attias · https://unsplash.com/photos/KqVHRmHVwwM · **License:** Unsplash License — free to use, no attribution required (credited here anyway). **Picsum metadata:** `https://picsum.photos/id/1033/info` (intrinsic 2048×1365 per endpoint).

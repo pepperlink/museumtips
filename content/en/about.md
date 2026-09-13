@@ -1,5 +1,6 @@
 ---
 title: About
+header: /images/banner.jpg
 subtitle: Feeds, how to subscribe, and how it works
 translationKey: about
 menu:
