@@ -18,8 +18,10 @@
   {{- $lat := false -}}
   {{- $lon := false -}}
   {{- with $info -}}
-    {{- $lat = index . "lat" -}}
-    {{- $lon = index . "lon" -}}
+    {{- with index . "geo" -}}
+      {{- $lat = index . "latitude" -}}
+      {{- $lon = index . "longitude" -}}
+    {{- end -}}
   {{- end -}}
   {{- if and (ne $lat nil) (ne $lon nil) -}}
     {{- if and (eq (printf "%T" $lat) "float64") (eq (printf "%T" $lon) "float64") -}}

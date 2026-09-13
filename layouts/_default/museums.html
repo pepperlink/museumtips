@@ -25,7 +25,7 @@
     {{- range $readyMuseums -}}
     {{- $m := .museum -}}
     {{- $info := .info -}}
-    <li data-lat="{{ index $info "lat" }}" data-lon="{{ index $info "lon" }}" data-name="{{ $m.name }}" data-href="{{ relLangURL (printf "museums/%s/" $m.slug) }}"></li>
+    <li data-lat="{{ index $info.geo "latitude" }}" data-lon="{{ index $info.geo "longitude" }}" data-name="{{ $m.name }}" data-href="{{ relLangURL (printf "museums/%s/" $m.slug) }}"></li>
     {{- end -}}
   </ul>
   <p id="map-unavailable" hidden>{{ i18n "map_unavailable" }}</p>

@@ -26,8 +26,11 @@
 {{- end -}}
 {{- end -}}
 
-{{- $desc := index $info "description_nl" -}}
-{{- if $isEN -}}{{- $desc = index $info "description_en" -}}{{- end -}}
+{{- $desc := "" -}}
+{{- with $info.description -}}
+  {{- $desc = index . "nl" -}}
+  {{- if $isEN -}}{{- $desc = index . "en" -}}{{- end -}}
+{{- end -}}
 {{- with $desc -}}
 <p>{{ . }}</p>
 {{- end -}}
@@ -104,10 +107,12 @@
 </section>
 {{- end -}}
 
-{{- with index $info "verified" -}}
+{{- with index $info "_meta" -}}
+{{- with index . "verified" -}}
 {{- $verified := partial "format-date.html" (dict "value" .) -}}
 {{- with $verified -}}
 <p>{{ i18n "last_verified" }} {{ . }}</p>
+{{- end -}}
 {{- end -}}
 {{- end -}}
 {{ end }}
