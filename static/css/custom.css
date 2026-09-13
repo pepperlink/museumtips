@@ -33,6 +33,17 @@ header nav.contentnav {
   box-shadow: none;
 }
 
+/* The language-switcher bar (second body>nav) paints its full-bleed box-shadow
+ * sheet over the main menu's link text — hit-testing still works, but the
+ * paint hides them. Kill the shadow on the second bar; raise the first bar. */
+body > nav + nav {
+  box-shadow: none !important;
+}
+
+body > nav:first-of-type {
+  z-index: 43;
+}
+
 /* Museum maps (Leaflet). Height/max-width per owner Q4. Classless sets
  * `img, svg { max-width: 100%; object-fit: cover }`, which would squash
  * tiles and marker icons — restore Leaflet’s own sizing inside the map. */
