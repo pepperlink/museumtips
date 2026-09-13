@@ -230,12 +230,12 @@ Reviewed `0042365`, `1b3f34f`, and `a3b497d` against the current Phase 4 plan, c
 
 | Finding | Disposition | Evidence |
 |---|---|---|
-| F1 | **PARTIAL** | Tables 1–3 now exist (§4.4.1, lines 1318–1407), but Table 2’s `name` equality and `sources[].fact` enum are false for live data, `geo.@type` is absent, and Table 3 omits `archiveUrl`. |
+| F1 | **PARTIAL** | Tables 1–3 now exist (§4.4.1, lines 1318–1407), but Table 2’s `name` equality and `sources[].fact` enum are false for live data; `geo.@type`, `_meta.orphaned_since`, and address optionality are absent; and Table 3 omits `archiveUrl`. |
 | F2 | **PARTIAL** | `address_display`, `identifier`, three-state acceptance, and singular/plural-note normalization are specified (lines 1351–1385), but the promised exact fixture/losslessness program is not present. |
 | F3 | **PARTIAL** | Q13 selects the sidecar and §4.4.1.6 correctly denies a root event type (lines 1437–1443), while Goal 1 still calls that store “ExhibitionEvent-shaped” (line 1264). |
 | F4 | **RESOLVED** | Table 1 is additive and §4.4.1.7 gives dual-write → fixture validation → switch → live verification → rollback (lines 1447–1457). |
 | F5 | **RESOLVED** | Q1 chooses the proven shadow removal and leaves the full static-flow resets as a deferred, explicitly specified alternative (§4.4.4 item 1; lines 1506–1507). |
-| F6 | **RESOLVED** | §4.4.2 replaces “drops naturally” with recurring reconciliation and Q15’s one-cycle orphan grace (lines 1473–1480; ST-4-6a lines 1838–1876). |
+| F6 | **PARTIAL** | §4.4.2 replaces “drops naturally” with reconciliation and Q15’s one-cycle orphan grace (lines 1473–1480), but Goal 5 still says links drop when a show ends, and ST-4-6a defines neither a reusable implementation nor valid stub shapes. |
 | F7 | **RESOLVED** | Q4 removes legacy fields inside each domain’s reshape+consumer commit; §4.4.7 explicitly retires the parallel add/cutover/remove path (lines 1522–1526). |
 | F8 | **PARTIAL** | ST-4-2 names every direct reader and runs removed/null/string/out-of-bounds fixtures (lines 1660–1747), but map page/tag totals are printed rather than asserted and the final battery drops two fixture variants. |
 | F9 | **PARTIAL** | §4.4.1.5 says full population and mandatory pre-commit (lines 1426–1433), but supplies no runnable canonical fact diff and contradicts itself about allowed render differences. |
@@ -306,3 +306,19 @@ All named card fixtures reproduce correctly in the source data: the two null val
 12. **major — The final battery still describes exact regressions without asserting them — proposed fix:** Assert `MAP_PAGES == 62` and `SCRIPT_TAGS == 124`, run all removed/null/string/out-of-bounds coordinate fixtures in the final battery, add a representative exhibition page to the map-asset negative list, and reconcile the Home visual wording with Q2. Keep the expanded feed, route, language, and interaction checks.
 
 13. **minor — The risk table is malformed at the big-bang row — proposed fix:** Add the missing leading pipe before “Big-bang migration (owner Q4 override)” at line 2353 so the risk and mitigation remain in the two-column table.
+
+### Follow-up addendum
+
+14. **major — Q15’s completed cadence cycle was mistranscribed as 14 elapsed days — proposed fix:** Track a cadence-cycle ID or completed A/B markers and delete an orphan only after both groups have completed since `orphaned_since`. ST-4-8 explicitly decouples execution from wall-clock timing, so a delayed B run must not allow age-based deletion before a real A+B cycle.
+
+15. **major — Reconciliation is not a defined recurring mechanism and its acceptance conflicts with retained orphans — proposed fix:** Put a repeatable script or exact procedure in scope, define schema-valid museum/exhibition stub records, and test first-seen, retained, reappeared, and expired-orphan fixtures. Replace final `len(e) == 187` with relationships derived from the frozen before snapshot/current generated set; a legitimately retained orphan makes curated count exceed generated count.
+
+16. **major — ST-4-6a re-couples the two domains that Q4 split for independent rollback — proposed fix:** Split museum and exhibition reconciliation changes into separate commits or explicitly withdraw the one-domain rollback claim. A later commit editing both curated files must otherwise be reverted in full before either domain can roll back independently.
+
+17. **major — Address and bookkeeping target contracts remain underspecified or contradictory — proposed fix:** Make H’ART’s missing postcode explicit by defining required/optional/null rules for every `address_v2` component and asserting all 30 expected splits. Either move `refresh_group`, `last_refreshed_extras`, and `next_due` under `_meta`, or amend the rule that says all bookkeeping lives there.
+
+18. **major — Named fixture verification does not prove the exact promised outcomes — proposed fix:** Assert both null cards by `(museum slug, card identifier, exact NL text, exact EN text, "unknown")` and all 27 plural-note values in both languages. Fix the rendered-heading grep (`entrance_cards|kortingskaarten` does not match the current NL “Toegangskaarten”), and do not treat “file changed” as proof that the right note survived. Also correct Q12’s rejected-alternative claim: coercing null to false does **not** match the current template, which renders null as unknown.
+
+19. **major — Weekly data drift can invalidate hard-coded migration and press totals before implementation starts — proposed fix:** Freeze and record the migration baseline commit/file hashes immediately before ST-4-2, derive equality totals from that snapshot, and use dynamic lifecycle assertions in final QA. Keep 30/146/398/102/187/92 only as this review’s dated census, not timeless acceptance constants.
+
+20. **minor — Adapter banner work lacks a direct companion-ICS regression — proposed fix:** In ST-4-12, assert the expected per-exhibition companion count and that every `.ics` starts with `BEGIN:VCALENDAR` and contains no header HTML; the final weekly-feed checks do not cover these adapter-generated files.
