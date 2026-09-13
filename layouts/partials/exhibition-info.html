@@ -1,7 +1,7 @@
 {{- $isEN := eq site.Language.Lang "en" -}}
 {{- $mk := "unknown" -}}
-{{- with index . "admission" -}}
-  {{- with index . "museumkaart" -}}
+{{- with index . "admission_v2" -}}
+  {{- with index . "admissionStatus" -}}
     {{- $mk = . -}}
   {{- end -}}
 {{- end -}}
@@ -18,15 +18,18 @@
       {{- i18n "museumkaart_unknown" -}}
     {{- end -}}
   </p>
-  {{- with index . "admission" -}}
-    {{- $note := index . "note_nl" -}}
-    {{- if $isEN -}}{{- $note = index . "note_en" -}}{{- end -}}
+  {{- with index . "admission_v2" -}}
+    {{- $note := "" -}}
+    {{- with .description -}}
+      {{- $note = index . "nl" -}}
+      {{- if $isEN -}}{{- $note = index . "en" -}}{{- end -}}
+    {{- end -}}
     {{- with $note -}}
     <p>{{ . }}</p>
     {{- end -}}
   {{- end -}}
 </section>
-{{- $press := index . "press" -}}
+{{- $press := index . "subjectOf" -}}
 {{- if and $press (gt (len $press) 0) -}}
 <section>
   <h2>{{ i18n "press" }}</h2>
@@ -34,11 +37,11 @@
     {{- range first 3 $press -}}
     <li>
       {{- if .url -}}
-      <a href="{{ .url }}">{{ .title }}</a>
+      <a href="{{ .url }}">{{ .headline }}</a>
       {{- else -}}
-      {{ .title }}
+      {{ .headline }}
       {{- end -}}
-      {{- with .outlet }} — {{ . }}{{ end -}}
+      {{- with .publisher }} — {{ .name }}{{ end -}}
     </li>
     {{- end -}}
   </ul>

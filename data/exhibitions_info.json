@@ -1,2757 +1,4434 @@
 {
  "de-weerd-mini-maas-island-on-the-forecourt": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Aangelegde tuin voor Bonnefantenmuseum blijft langer liggen: unieke insecten en planten vinden razendsnel nieuw thuis",
-    "outlet": "De Limburger",
+    "@type": "NewsArticle",
+    "headline": "Aangelegde tuin voor Bonnefantenmuseum blijft langer liggen: unieke insecten en planten vinden razendsnel nieuw thuis",
     "url": "https://www.limburger.nl/regio/maastricht/aangelegde-tuin-voor-bonnefantenmuseum-blijft-langer-liggen-unieke-insecten-en-planten-vinden-razendsnel-nieuw-thuis/138749678.html",
-    "lang": "nl",
-    "date": "2026-03-07"
+    "datePublished": "2026-03-07",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "De Limburger"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "bitches-brew": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Kunstenaar Tanja Ritterbex: ‘Ik zou niet weten wat ik anders zou moeten schilderen dan mijn eigen leven’",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Kunstenaar Tanja Ritterbex: ‘Ik zou niet weten wat ik anders zou moeten schilderen dan mijn eigen leven’",
     "url": "https://www.volkskrant.nl/tentoonstellingen/kunstenaar-tanja-ritterbex-ik-zou-niet-weten-wat-ik-anders-zou-moeten-schilderen-dan-mijn-eigen-leven~b148866e/",
-    "lang": "nl",
-    "date": "2026-02-22"
+    "datePublished": "2026-02-22",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Aline, Keetje en Tanja geven kleur aan het leven: ‘Kunst in- en uitademen om niet chagrijnig te worden’",
-    "outlet": "De Limburger",
+    "@type": "NewsArticle",
+    "headline": "Aline, Keetje en Tanja geven kleur aan het leven: ‘Kunst in- en uitademen om niet chagrijnig te worden’",
     "url": "https://www.limburger.nl/media-cultuur/aline-keetje-en-tanja-geven-kleur-aan-het-leven-kunst-in-en-uitademen-om-niet-chagrijnig-te-worden/136663669.html",
-    "lang": "nl",
-    "date": "2026-02-26"
+    "datePublished": "2026-02-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "De Limburger"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "born-to-play-do-dare-like-an-artist": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "the-studio-11-malina-suliman": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "cooking-from-the-fridge": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.bonnefanten.nl/nl/zien-en-doen/praktische-informatie/entreeprijzen-adres-en-bereikbaarheid",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "blik-op-bloemen": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "godenschemering-frans-franciscus": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Bij kunstenaar Frans Franciscus veranderen Bijbelse en mythologische scènes in beelden over seksualiteit, identiteit, machtsverhoudingen en geweld",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Bij kunstenaar Frans Franciscus veranderen Bijbelse en mythologische scènes in beelden over seksualiteit, identiteit, machtsverhoudingen en geweld",
     "url": "https://www.parool.nl/kunst-media/bij-kunstenaar-frans-franciscus-veranderen-bijbelse-en-mythologische-scenes-in-beelden-over-seksualiteit-identiteit-machtsverhoudingen-en-geweld~b0713f61/",
-    "lang": "nl",
-    "date": "2026-07-24"
+    "datePublished": "2026-07-24",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "annex-mathias-poledna": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "gerard-van-honthorst": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Eenmalige toeslag van € 6,- voor deze tentoonstelling, ook voor Museumkaarthouders.",
-   "note_en": "A one-time surcharge of €6 applies to this exhibition, also for Museumkaart holders.",
-   "source": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-anders-dan-rembrandt",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Eenmalige toeslag van € 6,- voor deze tentoonstelling, ook voor Museumkaarthouders.",
+    "en": "A one-time surcharge of €6 applies to this exhibition, also for Museumkaart holders."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/gerard-van-honthorst-in-alles-anders-dan-rembrandt",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "De meeste navolgers haalden het niet bij Caravaggio zelf, maar Gerard van Honthorst kwam heel dicht in de buurt. Wat maakte het werk van deze Nederlander bijzonder?",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "De meeste navolgers haalden het niet bij Caravaggio zelf, maar Gerard van Honthorst kwam heel dicht in de buurt. Wat maakte het werk van deze Nederlander bijzonder?",
     "url": "https://www.nrc.nl/nieuws/2026/05/04/de-17de-eeuwse-caravaggist-gerard-van-honthorst-was-dicht-bij-het-vuur-op-zijn-best-a4926311",
-    "lang": "nl",
-    "date": "2026-05-04"
+    "datePublished": "2026-05-04",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "Kleur, vrolijkheid, zijn eigen dramatiek: ja, de schilder Gerard van Honthorst wás in alles anders dan Rembrandt",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Kleur, vrolijkheid, zijn eigen dramatiek: ja, de schilder Gerard van Honthorst wás in alles anders dan Rembrandt",
     "url": "https://www.volkskrant.nl/cultuur-media/kleur-vrolijkheid-zijn-eigen-dramatiek-ja-de-schilder-gerard-van-honthorst-was-in-alles-anders-dan-rembrandt~b2d7d375/",
-    "lang": "nl",
-    "date": "2026-05-03"
+    "datePublished": "2026-05-03",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Honthorst schilderde graag en veel blote vrouwentepels. Toen dat nog kon",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Honthorst schilderde graag en veel blote vrouwentepels. Toen dat nog kon",
     "url": "https://www.trouw.nl/cultuur-media/honthorst-schilderde-graag-en-veel-blote-vrouwentepels-toen-dat-nog-kon~b2a3fa5e/",
-    "lang": "nl",
-    "date": "2026-05-04"
+    "datePublished": "2026-05-04",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "patchwork-post": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "kunst-op-het-plein-ricardo-van-eyk": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "minami-no-tori": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "graffiti": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "tess-van-zalinge-keurslijf": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "beauty-of-the-beast-dieren-in-de-art-nouveau": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://dmdebuitenplaats.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://dmdebuitenplaats.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Art nouveau in Drentse expositie: alle spullen werden mooier met een dier erop",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Art nouveau in Drentse expositie: alle spullen werden mooier met een dier erop",
     "url": "https://www.nrc.nl/nieuws/2026/05/04/art-nouveau-in-drentse-expositie-alle-spullen-werden-mooier-met-een-dier-erop-a4926365",
-    "lang": "nl",
-    "date": "2026-05-04"
+    "datePublished": "2026-05-04",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "Welke dieren houden zich allemaal schuil in museum De Buitenplaats? Ze hebben nu een eigen tentoonstelling",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Welke dieren houden zich allemaal schuil in museum De Buitenplaats? Ze hebben nu een eigen tentoonstelling",
     "url": "https://www.volkskrant.nl/tentoonstellingen/welke-dieren-houden-zich-allemaal-schuil-in-museum-de-buitenplaats-ze-hebben-nu-een-eigen-tentoonstelling~b856b06c/",
-    "lang": "nl",
-    "date": "2026-04-20"
+    "datePublished": "2026-04-20",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "De Buitenplaats in Eelde als wondere dierentuin. ‘Je moet echt goed kijken. Maar er gebeurt van alles. Prachtig toch?’",
-    "outlet": "DVHN",
+    "@type": "NewsArticle",
+    "headline": "De Buitenplaats in Eelde als wondere dierentuin. ‘Je moet echt goed kijken. Maar er gebeurt van alles. Prachtig toch?’",
     "url": "https://www.dvhn.nl/cultuur/beeldende-kunst/de-buitenplaats-in-eelde-als-wondere-dierentuin.-je-moet-echt-goed-kijken.-maar-er-gebeurt-van-alles.-prachtig-toch/156962419.html",
-    "lang": "nl",
-    "date": "2026-04-24"
+    "datePublished": "2026-04-24",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "DVHN"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "into-nature-haunted-by-waters": {
-  "admission": {
-   "museumkaart": "unknown",
-   "note_nl": "Aparte buitententoonstelling met eigen ticketverkoop via Into Nature (De Buitenplaats is startlocatie); Museumkaart-status niet vermeld.",
-   "note_en": "Separate outdoor exhibition with its own ticketing via Into Nature (De Buitenplaats is the start location); Museumkaart status not stated.",
-   "source": "https://dmdebuitenplaats.nl/tentoonstellingen/into-nature-haunted-by-waters",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "unknown",
+   "description": {
+    "nl": "Aparte buitententoonstelling met eigen ticketverkoop via Into Nature (De Buitenplaats is startlocatie); Museumkaart-status niet vermeld.",
+    "en": "Separate outdoor exhibition with its own ticketing via Into Nature (De Buitenplaats is the start location); Museumkaart status not stated."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://dmdebuitenplaats.nl/tentoonstellingen/into-nature-haunted-by-waters",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Kunst in de buitenlucht is fijn, maar in Drenthe laten ze de bezoeker wel heel veel zoeken",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Kunst in de buitenlucht is fijn, maar in Drenthe laten ze de bezoeker wel heel veel zoeken",
     "url": "https://www.trouw.nl/cultuur-media/kunst-in-de-buitenlucht-is-fijn-maar-in-drenthe-laten-ze-de-bezoeker-wel-heel-veel-zoeken~b643409d/",
-    "lang": "nl",
-    "date": "2026-08-14"
+    "datePublished": "2026-08-14",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    },
    {
-    "title": "Kunstmanifestatie Into Nature strijkt neer in De Onlanden, potentieel paradijs voor mens, flora en fauna",
-    "outlet": "DVHN",
+    "@type": "NewsArticle",
+    "headline": "Kunstmanifestatie Into Nature strijkt neer in De Onlanden, potentieel paradijs voor mens, flora en fauna",
     "url": "https://www.dvhn.nl/cultuur/beeldende-kunst/kunstmanifestatie-into-nature-strijkt-neer-in-de-onlanden-potentieel-paradijs-voor-mens-flora-en-fauna/159160908.html",
-    "lang": "nl",
-    "date": "2026-07-31"
+    "datePublished": "2026-07-31",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "DVHN"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "barbara-wagner-benjamin-de-burca-future-of-yesterday": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.depont.nl/bezoek-tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.depont.nl/bezoek-tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "matthew-monahan-left-hand-path": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.depont.nl/bezoek-tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.depont.nl/bezoek-tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "sigmar-polke-het-weten-van-de-kleuren": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.depont.nl/bezoek-tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.depont.nl/bezoek-tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "De Pont Museum in Tilburg toont ruim vijftig werken van Sigmar Polke",
-    "outlet": "Brabants Dagblad",
+    "@type": "NewsArticle",
+    "headline": "De Pont Museum in Tilburg toont ruim vijftig werken van Sigmar Polke",
     "url": "https://www.bd.nl/tilburg/de-pont-museum-in-tilburg-toont-ruim-vijftig-werken-van-sigmar-polke~adac5d7a/",
-    "lang": "nl",
-    "date": "2026-08-31"
+    "datePublished": "2026-08-31",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Brabants Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "silvia-martes-has-other-plans-for-us": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.depont.nl/bezoek-tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.depont.nl/bezoek-tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "sophie-calle-something-missing": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.depont.nl/bezoek-tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.depont.nl/bezoek-tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "amrita-sher-gil-europa-is-van-picasso-india-is-van-mij": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Museumkaart gratis; bij sommige tentoonstellingen geldt een toeslag.",
-   "note_en": "Museumkaart free; a surcharge applies for some exhibitions.",
-   "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Museumkaart gratis; bij sommige tentoonstellingen geldt een toeslag.",
+    "en": "Museumkaart free; a surcharge applies for some exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "De naaktmodellen van Amrita Sher-Gil waren net zo rebels als de kunstenaar zelf",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "De naaktmodellen van Amrita Sher-Gil waren net zo rebels als de kunstenaar zelf",
     "url": "https://www.trouw.nl/cultuur-media/de-naaktmodellen-van-amrita-sher-gil-waren-net-zo-rebels-als-de-kunstenaar-zelf~ba256567/",
-    "lang": "nl",
-    "date": "2026-06-22"
+    "datePublished": "2026-06-22",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    },
    {
-    "title": "Kijken naar Amrita Sher-Gil is als luisteren naar Janis Joplin en Kurt Cobain",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Kijken naar Amrita Sher-Gil is als luisteren naar Janis Joplin en Kurt Cobain",
     "url": "https://www.volkskrant.nl/tentoonstellingen/kijken-naar-amrita-sher-gil-is-als-luisteren-naar-janis-joplin-en-kurt-cobain~b6a4a09d/",
-    "lang": "nl",
-    "date": "2026-05-19"
+    "datePublished": "2026-05-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Drents Museum in Assen ontvangt 60.000ste bezoeker bij tentoonstelling Amrita Sher-Gil",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "Drents Museum in Assen ontvangt 60.000ste bezoeker bij tentoonstelling Amrita Sher-Gil",
     "url": "https://www.ad.nl/assen/drents-museum-in-assen-ontvangt-60-000ste-bezoeker-bij-tentoonstelling-amrita-sher-gil~ae3341718/",
-    "lang": "nl",
-    "date": "2026-08-28"
+    "datePublished": "2026-08-28",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "christoph-ruckhaberle-the-fourth-wall": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Museumkaart gratis; bij sommige tentoonstellingen geldt een toeslag.",
-   "note_en": "Museumkaart free; a surcharge applies for some exhibitions.",
-   "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Museumkaart gratis; bij sommige tentoonstellingen geldt een toeslag.",
+    "en": "Museumkaart free; a surcharge applies for some exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "dmspotlight-wilhelmina-proos": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Museumkaart gratis; bij sommige tentoonstellingen geldt een toeslag.",
-   "note_en": "Museumkaart free; a surcharge applies for some exhibitions.",
-   "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Museumkaart gratis; bij sommige tentoonstellingen geldt een toeslag.",
+    "en": "Museumkaart free; a surcharge applies for some exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "labyrinthia": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "angkor-het-mysterie-van-cambodja": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "jan-van-der-kooi-morgen-maak-ik-mijn-beste-werk": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "shivangi-kalra-met-mijn-ogen-dicht": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://drentsmuseum.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "hailun-ma-hometown": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.foam.org/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.foam.org/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "keerthana-kunnath-not-what-you-saw": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.foam.org/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.foam.org/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "nadav-kander-the-edge-of-things": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.foam.org/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.foam.org/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "al-nisa": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.foam.org/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.foam.org/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "in-her-own-way": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.foam.org/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.foam.org/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "myriam-boulos": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.foam.org/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.foam.org/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "layers": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Deze presentatie is gratis te bezoeken; er is geen ticket nodig.",
-   "note_en": "This presentation is free to visit; no ticket is required.",
-   "source": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Deze presentatie is gratis te bezoeken; er is geen ticket nodig.",
+    "en": "This presentation is free to visit; no ticket is required."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "eva-besnyo-the-liberated-camera": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Tijdens deze tentoonstelling geldt een toeslag van € 2,50 bovenop de normale entreeprijs, ook voor Museumkaart-houders.",
-   "note_en": "During this exhibition a €2.50 surcharge applies on top of the standard admission price, including for Museumkaart holders.",
-   "source": "https://www.fotomuseumdenhaag.nl/en/visit",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Tijdens deze tentoonstelling geldt een toeslag van € 2,50 bovenop de normale entreeprijs, ook voor Museumkaart-houders.",
+    "en": "During this exhibition a €2.50 surcharge applies on top of the standard admission price, including for Museumkaart holders."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.fotomuseumdenhaag.nl/en/visit",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Expositie topfotograaf Eva Besnyö toont haar onberispelijke instinct voor compositie én hoe maatschappelijk betrokken ze was",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Expositie topfotograaf Eva Besnyö toont haar onberispelijke instinct voor compositie én hoe maatschappelijk betrokken ze was",
     "url": "https://www.nrc.nl/nieuws/2026/09/11/expositie-topfotograaf-eva-besnyo-toont-haar-onberispelijke-instinct-voor-compositie-en-hoe-maatschappelijk-betrokken-ze-was-a4936059",
-    "lang": "nl",
-    "date": "2026-09-11"
+    "datePublished": "2026-09-11",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "Nu eindelijk te zien: de nalatenschap van Eva Besnyö, een van de grote Nederlandse fotografen van de 20ste eeuw",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Nu eindelijk te zien: de nalatenschap van Eva Besnyö, een van de grote Nederlandse fotografen van de 20ste eeuw",
     "url": "https://www.volkskrant.nl/tentoonstellingen/nu-eindelijk-te-zien-de-nalatenschap-van-eva-besnyo-een-van-de-grote-nederlandse-fotografen-van-de-20ste-eeuw~be9b1ad9/",
-    "lang": "nl",
-    "date": "2026-09-01"
+    "datePublished": "2026-09-01",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "het-raadsel-van-het-meisje-in-het-blauw": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://franshalsmuseum.nl/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://franshalsmuseum.nl/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Het mysterieuze ‘meisje in het blauw’ hangt weer even naast haar ouders – maar blijft verder een raadsel",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Het mysterieuze ‘meisje in het blauw’ hangt weer even naast haar ouders – maar blijft verder een raadsel",
     "url": "https://www.volkskrant.nl/tentoonstellingen/het-mysterieuze-meisje-in-het-blauw-hangt-weer-even-naast-haar-ouders-maar-blijft-verder-een-raadsel~bbf5c058a/",
-    "lang": "nl",
-    "date": "2026-03-10"
+    "datePublished": "2026-03-10",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Wordt het iconische meisje in het blauw uit het Rijksmuseum herenigd met haar ouders? ‘Het kan bijna niet anders of ze horen bij elkaar’",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Wordt het iconische meisje in het blauw uit het Rijksmuseum herenigd met haar ouders? ‘Het kan bijna niet anders of ze horen bij elkaar’",
     "url": "https://www.parool.nl/kunst-media/wordt-het-iconische-meisje-in-het-blauw-uit-het-rijksmuseum-herenigd-met-haar-ouders-het-kan-bijna-niet-anders-of-ze-horen-bij-elkaar~b7d2c65c/",
-    "lang": "nl",
-    "date": "2026-03-10"
+    "datePublished": "2026-03-10",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "hals-rembrandt": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://franshalsmuseum.nl/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://franshalsmuseum.nl/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Tentoonstelling Hals-Rembrandt opent in november in Haarlem",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "Tentoonstelling Hals-Rembrandt opent in november in Haarlem",
     "url": "https://www.ad.nl/haarlem/tentoonstelling-hals-rembrandt-opent-in-november-in-haarlem~a810c902/",
-    "lang": "nl",
-    "date": "2026-05-27"
+    "datePublished": "2026-05-27",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "oesters-citroenen": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://franshalsmuseum.nl/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://franshalsmuseum.nl/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "een-gevoel-van-ongeveer": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://franshalsmuseum.nl/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://franshalsmuseum.nl/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "else-berg": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://franshalsmuseum.nl/en/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://franshalsmuseum.nl/en/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "tina-farifteh-toen-ik-de-zon-en-de-maan-tegelijk-zag": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "voorbij-de-horizon": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "de-levens-van-mata-hari": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "robert-zandvliet-aan-de-oevers-van-de-tijd": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Schilder Robert Zandvliet wil géén geëngageerde kunst maken: ‘Je ziet nu overal hetzelfde’",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Schilder Robert Zandvliet wil géén geëngageerde kunst maken: ‘Je ziet nu overal hetzelfde’",
     "url": "https://www.trouw.nl/cultuur-media/schilder-robert-zandvliet-wil-geen-geengageerde-kunst-maken-je-ziet-nu-overal-hetzelfde~b8d63e67/",
-    "lang": "nl",
-    "date": "2026-05-26"
+    "datePublished": "2026-05-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "de-poptaschat-fries-zilver-op-wereldschaal": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "redbad-de-legendarische-koning": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.friesmuseum.nl/bezoekinfo/openingstijden-en-entreeprijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Fries Museum opent tentoonstelling over Redbad in Leeuwarden met gratis activiteiten",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "Fries Museum opent tentoonstelling over Redbad in Leeuwarden met gratis activiteiten",
     "url": "https://www.ad.nl/leeuwarden/fries-museum-opent-tentoonstelling-over-redbad-in-leeuwarden-met-gratis-activiteiten~a61a905f/",
-    "lang": "nl",
-    "date": "2026-08-20"
+    "datePublished": "2026-08-20",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "nieuw-licht-de-ploeg": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.groningermuseum.nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.groningermuseum.nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "keramikos-carrier-bag": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "playing-house": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "the-architect-the-housewife": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "the-convent-of-pleasure": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://tickets.groningermuseum.nl/nl/2025/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "american-identities-david-levinthal-chicano-prints": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.hartmuseum.nl/en/exhibitions/american-identities/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.hartmuseum.nl/en/exhibitions/american-identities/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "De foto’s van David Levinthal tonen flitsen uit het Amerikaanse geheugen vanuit een ander perspectief",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "De foto’s van David Levinthal tonen flitsen uit het Amerikaanse geheugen vanuit een ander perspectief",
     "url": "https://www.volkskrant.nl/tentoonstellingen/de-foto-s-van-david-levinthal-tonen-flitsen-uit-het-amerikaanse-geheugen-vanuit-een-ander-perspectief~b8831c07/",
-    "lang": "nl",
-    "date": "2026-03-19"
+    "datePublished": "2026-03-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Amerikaanse kunstenaar David Levinthal: ‘Wacht met publicatie van dit interview tot ik weer in de VS ben’",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Amerikaanse kunstenaar David Levinthal: ‘Wacht met publicatie van dit interview tot ik weer in de VS ben’",
     "url": "https://www.trouw.nl/cultuur-media/amerikaanse-kunstenaar-david-levinthal-wacht-met-publicatie-van-dit-interview-tot-ik-weer-in-de-vs-ben~b32d2248/",
-    "lang": "nl",
-    "date": "2026-02-17"
+    "datePublished": "2026-02-17",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "the-land-of-chocolate-sprinkles": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.hartmuseum.nl/en/exhibitions/the-land-of-chocolate-sprinkles/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.hartmuseum.nl/en/exhibitions/the-land-of-chocolate-sprinkles/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "chez-matisse-masterpieces-from-centre-pompidou": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Museumkaarthouders betalen een toeslag van € 7 voor deze tentoonstelling.",
-   "note_en": "Museumkaart holders pay a € 7 surcharge for this exhibition.",
-   "source": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Museumkaarthouders betalen een toeslag van € 7 voor deze tentoonstelling.",
+    "en": "Museumkaart holders pay a € 7 surcharge for this exhibition."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Werk van Franse kunstenaar Henri Matisse komt naar H’art Museum in Amsterdam",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Werk van Franse kunstenaar Henri Matisse komt naar H’art Museum in Amsterdam",
     "url": "https://www.parool.nl/kunst-media/werk-van-franse-kunstenaar-henri-matisse-komt-naar-h-art-museum-in-amsterdam~b725547e/",
-    "lang": "nl",
-    "date": "2026-05-26"
+    "datePublished": "2026-05-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "Werk van Franse kunstenaar Henri Matisse komt naar Amsterdam: ‘Uitzonderlijke tentoonstelling’",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "Werk van Franse kunstenaar Henri Matisse komt naar Amsterdam: ‘Uitzonderlijke tentoonstelling’",
     "url": "https://www.ad.nl/show/werk-van-franse-kunstenaar-henri-matisse-komt-naar-amsterdam-uitzonderlijke-tentoonstelling~a725547e/",
-    "lang": "nl",
-    "date": "2026-05-26"
+    "datePublished": "2026-05-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "martine-gutierrez-wunderkind": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://huismarseille.nl/bezoek/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://huismarseille.nl/bezoek/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Kunstenaar Martine Gutierrez over haar tentoonstelling in Huis Marseille: ‘Ik presenteer een beeld van mezelf, maar wat je ziet ben ik niet altijd’",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Kunstenaar Martine Gutierrez over haar tentoonstelling in Huis Marseille: ‘Ik presenteer een beeld van mezelf, maar wat je ziet ben ik niet altijd’",
     "url": "https://www.parool.nl/kunst-media/kunstenaar-martine-gutierrez-over-haar-tentoonstelling-in-huis-marseille-ik-presenteer-een-beeld-van-mezelf-maar-wat-je-ziet-ben-ik-niet-altijd~b310b36b/",
-    "lang": "nl",
-    "date": "2026-06-26"
+    "datePublished": "2026-06-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "adolphe-de-meyer-the-substance-of-a-venetian-dream": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://huismarseille.nl/bezoek/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://huismarseille.nl/bezoek/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "andrzej-steinbach-hier": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://huismarseille.nl/bezoek/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://huismarseille.nl/bezoek/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "maya-ines-touam-belongings": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://huismarseille.nl/bezoek/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://huismarseille.nl/bezoek/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "pak-een-terrasje-met-vincent": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "ruimtereis": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Ruimtereis in het Kröller-Müller Museum toont kosmische kunst",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "Ruimtereis in het Kröller-Müller Museum toont kosmische kunst",
     "url": "https://www.ad.nl/ede/ruimtereis-in-het-kroller-muller-museum-toont-kosmische-kunst~a152ab8b/",
-    "lang": "nl",
-    "date": "2026-03-12"
+    "datePublished": "2026-03-12",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "wessel-couzijn-rendez-vous-van-tafel-en-stoel": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "anouk-griffioen-nu-het-er-nog-is": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Bomen hebben al gauw iets leuks – ook de kale, fragiele bossen op deze enorme muurtekeningen",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Bomen hebben al gauw iets leuks – ook de kale, fragiele bossen op deze enorme muurtekeningen",
     "url": "https://www.volkskrant.nl/cultuur-media/bomen-hebben-al-gauw-iets-leuks-ook-de-kale-fragiele-bossen-op-deze-enorme-muurtekeningen~ba86f5d2/",
-    "lang": "nl",
-    "date": "2026-04-14"
+    "datePublished": "2026-04-14",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "ruud-kuijer": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "In de vernieuwde beeldentuin van Kröller-Müller moet het bloed weer sneller gaan stromen",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "In de vernieuwde beeldentuin van Kröller-Müller moet het bloed weer sneller gaan stromen",
     "url": "https://www.trouw.nl/cultuur-media/in-de-vernieuwde-beeldentuin-van-kroller-muller-moet-het-bloed-weer-sneller-gaan-stromen~bb666c1a/",
-    "lang": "nl",
-    "date": "2026-07-28"
+    "datePublished": "2026-07-28",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "gilbert-george-drifters": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "van-gogh-al-onze-schilderijen": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "bart-van-der-leck-charley-toorop": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
-   "note_en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85).",
-   "source": "https://krollermuller.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Entree tot het museum is gratis met de Museumkaart, maar je hebt een dagkaart voor Het Nationale Park De Hoge Veluwe nodig (€ 13,85).",
+    "en": "Museum admission is free with the Museumkaart, but a day ticket for Het Nationale Park De Hoge Veluwe is required (€ 13.85)."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://krollermuller.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "benedikte-bjerre-when-the-wind-blows": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
-   "note_en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free.",
-   "source": "https://www.kunsthal.nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
+    "en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "helen-levitt-city-at-play": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
-   "note_en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free.",
-   "source": "https://www.kunsthal.nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
+    "en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Nooit eerder te zien, nu wel in Rotterdam: werk van de New Yorkse straatfotograaf Helen Levitt",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Nooit eerder te zien, nu wel in Rotterdam: werk van de New Yorkse straatfotograaf Helen Levitt",
     "url": "https://www.volkskrant.nl/tentoonstellingen/nooit-eerder-te-zien-nu-wel-in-rotterdam-werk-van-de-new-yorkse-straatfotograaf-helen-levitt~b254ef4d/",
-    "lang": "nl",
-    "date": "2026-06-02"
+    "datePublished": "2026-06-02",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Maar zelden werd het New Yorkse straatleven zo mooi vastgelegd als door Helen Levitt",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Maar zelden werd het New Yorkse straatleven zo mooi vastgelegd als door Helen Levitt",
     "url": "https://www.nrc.nl/nieuws/2026/06/15/maar-zelden-werd-het-new-yorkse-straatleven-zo-mooi-vastgelegd-als-door-helen-levitt-a4929421",
-    "lang": "nl",
-    "date": "2026-06-15"
+    "datePublished": "2026-06-15",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "woody-van-amen-the-best-of": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
-   "note_en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free.",
-   "source": "https://www.kunsthal.nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
+    "en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "kunsthal-inside-out-sabine-marcelis-continuum": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
-   "note_en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free.",
-   "source": "https://www.kunsthal.nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
+    "en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "50-years-north-sea-jazz-photography": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
-   "note_en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free.",
-   "source": "https://www.kunsthal.nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een ticket met starttijd is verplicht, ook met een Museumkaart; de toegang is gratis.",
+    "en": "Booking a time-slot ticket in advance is required, also with a Museumkaart; admission is free."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "a-chair-and-you": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
-   "note_en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart.",
-   "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
+    "en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "plastic-sea-perfect-storm": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
-   "note_en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart.",
-   "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
+    "en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "drawn-rotterdam-night-work": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
-   "note_en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart.",
-   "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
+    "en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "signac-symphony-of-colours": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
-   "note_en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart.",
-   "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Geen toeslag voor grote tentoonstellingen; ook met Museumkaart is vooraf een online ticket met starttijd verplicht.",
+    "en": "No surcharge for major exhibitions; a timed online ticket must be booked in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "base-line-music-meets-art": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Hoe klinkt een instrument uit de tijd van Rembrandt? In het Kunstmuseum Den Haag worden historische blaasinstrumenten weer wakker gekust",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Hoe klinkt een instrument uit de tijd van Rembrandt? In het Kunstmuseum Den Haag worden historische blaasinstrumenten weer wakker gekust",
     "url": "https://www.volkskrant.nl/tentoonstellingen/hoe-klinkt-een-instrument-uit-de-tijd-van-rembrandt-in-het-kunstmuseum-den-haag-worden-historische-blaasinstrumenten-weer-wakker-gekust~bab90ddf/",
-    "lang": "nl",
-    "date": "2026-07-16"
+    "datePublished": "2026-07-16",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "‘Geen enkel zintuig roept zo sterk emoties en herinneringen op als reuk’",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "‘Geen enkel zintuig roept zo sterk emoties en herinneringen op als reuk’",
     "url": "https://www.nrc.nl/nieuws/2026/05/03/geen-enkel-zintuig-roept-zo-sterk-emoties-en-herinneringen-op-als-geur-a4926588",
-    "lang": "nl",
-    "date": "2026-05-03"
+    "datePublished": "2026-05-03",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "can-love-be-a-photograph-40-years-of-inez-vinoodh": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Retrospectief Inez & Vinoodh: baanbrekende modefotografie en persoonlijke verhalen",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Retrospectief Inez & Vinoodh: baanbrekende modefotografie en persoonlijke verhalen",
     "url": "https://www.nrc.nl/nieuws/2026/03/20/fotografenduo-inez-amp-vinoodh-staat-al-jaren-aan-de-top-in-de-modewereld-je-wordt-binnen-twee-seconden-verliefd-op-de-persoon-die-je-fotografeert-a4922590",
-    "lang": "nl",
-    "date": "2026-03-20"
+    "datePublished": "2026-03-20",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "De ontregelende foto’s van het duo Inez & Vinoodh: wat is nep, wat is echt?",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "De ontregelende foto’s van het duo Inez & Vinoodh: wat is nep, wat is echt?",
     "url": "https://www.trouw.nl/tijdgeest/de-ontregelende-foto-s-van-het-duo-inez-vinoodh-wat-is-nep-wat-is-echt~b82f1e94/",
-    "lang": "nl",
-    "date": "2026-03-19"
+    "datePublished": "2026-03-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    },
    {
-    "title": "35 jaar sollen met de tijd en de werkelijkheid: Inez en Vinoodh werden er een wereldberoemd fotoduo mee",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "35 jaar sollen met de tijd en de werkelijkheid: Inez en Vinoodh werden er een wereldberoemd fotoduo mee",
     "url": "https://www.volkskrant.nl/volkskrant-magazine/35-jaar-sollen-met-de-tijd-en-de-werkelijkheid-inez-en-vinoodh-werden-er-een-wereldberoemd-fotoduo-mee~b970258f/",
-    "lang": "nl",
-    "date": "2026-03-19"
+    "datePublished": "2026-03-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "jan-van-der-vaart-for-jan-and-all": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Keramist Jan van der Vaart was een perfectionist, weten zijn oud-studenten van de Rietveld Academie: ‘Zijn werk oogt simpel, maar dat is het zeker niet’",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Keramist Jan van der Vaart was een perfectionist, weten zijn oud-studenten van de Rietveld Academie: ‘Zijn werk oogt simpel, maar dat is het zeker niet’",
     "url": "https://www.parool.nl/ps/keramist-jan-van-der-vaart-was-een-perfectionist-weten-zijn-oud-studenten-van-de-rietveld-academie-zijn-werk-oogt-simpel-maar-dat-is-het-zeker-niet~bee6db2c/",
-    "lang": "nl",
-    "date": "2025-11-13"
+    "datePublished": "2025-11-13",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "Paul Kooiker fotografeerde de vazen van Jan van der Vaart. ‘Aan alle kanten gebeurt er iets’",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Paul Kooiker fotografeerde de vazen van Jan van der Vaart. ‘Aan alle kanten gebeurt er iets’",
     "url": "https://www.nrc.nl/nieuws/2025/10/30/paul-kooiker-fotografeerde-de-vazen-van-jan-van-der-vaart-aan-alle-kanten-gebeurt-er-iets-a4910181",
-    "lang": "nl",
-    "date": "2025-10-30"
+    "datePublished": "2025-10-30",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "marlow-moss-a-suitcase-full-of-sketches": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "mix-match-antonis-pittas": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "mix-match-kamalia-talhaoui-beauty-from-the-world-of-islam": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "reflections-on-fashion-75-years": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Jan Taminiau en andere modekenners kiezen hun favorieten uit de grootste modecollectie van Nederland",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Jan Taminiau en andere modekenners kiezen hun favorieten uit de grootste modecollectie van Nederland",
     "url": "https://www.trouw.nl/cultuur-media/jan-taminiau-en-andere-modekenners-kiezen-hun-favorieten-uit-de-grootste-modecollectie-van-nederland~b302f551/",
-    "lang": "nl",
-    "date": "2026-07-10"
+    "datePublished": "2026-07-10",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "ex-hibited": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "future-fashion": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "mondrians-final-masterpieces-to-be-reunited": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
-   "note_en": "A time slot must be reserved in advance, also with a Museumkaart.",
-   "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Ook met Museumkaart is vooraf het reserveren van een tijdslot verplicht.",
+    "en": "A time slot must be reserved in advance, also with a Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.kunstmuseum.nl/nl/bezoek/tickets-kopen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "beeldentuin": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "ont-moeten": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "dieren-in-arnhem-erfgoedcentrum": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Let op: deze presentatie is in het Erfgoedcentrum in Rozet (Kortestraat 16) en is gratis toegankelijk voor alle bezoekers.",
-   "note_en": "Note: this presentation is at the Erfgoedcentrum in Rozet (Kortestraat 16) and is free for all visitors.",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek/erfgoedcentrum",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Let op: deze presentatie is in het Erfgoedcentrum in Rozet (Kortestraat 16) en is gratis toegankelijk voor alle bezoekers.",
+    "en": "Note: this presentation is at the Erfgoedcentrum in Rozet (Kortestraat 16) and is free for all visitors."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek/erfgoedcentrum",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "bakudengar": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Tentoonstelling Bakudengar opent in Arnhem",
-    "outlet": "De Gelderlander",
+    "@type": "NewsArticle",
+    "headline": "Tentoonstelling Bakudengar opent in Arnhem",
     "url": "https://www.gelderlander.nl/arnhem/tentoonstelling-bakudengar-opent-in-arnhem~a74ec52f/",
-    "lang": "nl",
-    "date": "2026-02-27"
+    "datePublished": "2026-02-27",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "De Gelderlander"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "naakt-dat-raakt": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "‘Naakt dat raakt!’ in Museum Arnhem: activisme zonder kunsthistorische verdieping",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "‘Naakt dat raakt!’ in Museum Arnhem: activisme zonder kunsthistorische verdieping",
     "url": "https://www.nrc.nl/nieuws/2026/03/26/tentoonstelling-naakt-dat-raakt-is-urgent-maar-er-ontbreekt-context-en-verdieping-a4921341",
-    "lang": "nl",
-    "date": "2026-03-26"
+    "datePublished": "2026-03-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "Hoe bijzonder de werken in ‘Naakt dat raakt’ soms ook zijn, door het gebrek aan context weten ze nauwelijks te raken",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Hoe bijzonder de werken in ‘Naakt dat raakt’ soms ook zijn, door het gebrek aan context weten ze nauwelijks te raken",
     "url": "https://www.volkskrant.nl/tentoonstellingen/hoe-bijzonder-de-werken-in-naakt-dat-raakt-soms-ook-zijn-door-het-gebrek-aan-context-weten-ze-nauwelijks-te-raken~b5a2b07b/",
-    "lang": "nl",
-    "date": "2026-04-16"
+    "datePublished": "2026-04-16",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Lichamen in alle vormen, kleuren, leeftijden en genders; Voorbij de eenzijdige kijk op naakt",
-    "outlet": "De Gelderlander",
+    "@type": "NewsArticle",
+    "headline": "Lichamen in alle vormen, kleuren, leeftijden en genders; Voorbij de eenzijdige kijk op naakt",
     "url": "https://www.gelderlander.nl/arnhem/lichamen-in-alle-vormen-kleuren-leeftijden-en-genders-voorbij-de-eenzijdige-kijk-op-naakt~a552835b/",
-    "lang": "nl",
-    "date": "2026-03-13"
+    "datePublished": "2026-03-13",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "De Gelderlander"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "sonsbeek-2026-ik-hoef-geen-tuin-ik-deel-een-park": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Sonsbeek 2026 is gratis toegankelijk in de openbare ruimte. De presentatie in Museum Arnhem is gratis met de Museumkaart.",
-   "note_en": "Sonsbeek 2026 is free of charge in the public space. The presentation at Museum Arnhem is free with the Museumkaart.",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Sonsbeek 2026 is gratis toegankelijk in de openbare ruimte. De presentatie in Museum Arnhem is gratis met de Museumkaart.",
+    "en": "Sonsbeek 2026 is free of charge in the public space. The presentation at Museum Arnhem is free with the Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Het begin van de wederopstanding van Sonsbeek: na jarenlang intern gesteggel kijkt de driejaarlijkse expo nu optimistisch vooruit",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Het begin van de wederopstanding van Sonsbeek: na jarenlang intern gesteggel kijkt de driejaarlijkse expo nu optimistisch vooruit",
     "url": "https://www.nrc.nl/nieuws/2026/07/06/het-begin-van-de-wederopstanding-van-sonsbeek-na-jarenlang-intern-gesteggel-kijkt-de-driejaarlijkse-expo-nu-optimistisch-vooruit-a4930857",
-    "lang": "nl",
-    "date": "2026-07-06"
+    "datePublished": "2026-07-06",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "Sonsbeek is terug met een mooie, ingetogen tentoonstelling in het groen",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Sonsbeek is terug met een mooie, ingetogen tentoonstelling in het groen",
     "url": "https://www.volkskrant.nl/tentoonstellingen/sonsbeek-is-terug-met-een-mooie-ingetogen-tentoonstelling-in-het-groen~bc289000/",
-    "lang": "nl",
-    "date": "2026-07-09"
+    "datePublished": "2026-07-09",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Loesje op de muur van Sonsbeek 2026, en dit is er nog meer te zien bij honderd dagen kunst in Arnhems park",
-    "outlet": "De Gelderlander",
+    "@type": "NewsArticle",
+    "headline": "Loesje op de muur van Sonsbeek 2026, en dit is er nog meer te zien bij honderd dagen kunst in Arnhems park",
     "url": "https://www.gelderlander.nl/arnhem/loesje-op-de-muur-van-sonsbeek-2026-en-dit-is-er-nog-meer-te-zien-bij-honderd-dagen-kunst-in-arnhems-park~a1593677/",
-    "lang": "nl",
-    "date": "2026-07-03"
+    "datePublished": "2026-07-03",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "De Gelderlander"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "henk-mual-kunstenaar-in-drie-werelden": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "sarah-maple-dubbelleven": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "de-wereld-uitvergroot-installatiekunst-van-museum-arnhem": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "art-award-arnhem-2026": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "hoe-hoort-het-eigenlijk-niet": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "a-diary-of-things": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "depot-solo-mandy-el-sayegh": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "In Rotterdam, Mandy El-Sayegh Offers Up an Assault on the Senses",
-    "outlet": "Observer",
+    "@type": "NewsArticle",
+    "headline": "In Rotterdam, Mandy El-Sayegh Offers Up an Assault on the Senses",
     "url": "https://observer.com/2025/12/exhibition-review-artist-mandy-el-sayegh-figure-field-grid-depot-boijmans-van-beuningen/",
-    "lang": "en",
-    "date": "2025-12-30"
+    "datePublished": "2025-12-30",
+    "inLanguage": "en",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Observer"
+    }
    },
    {
-    "title": "MANDY EL-SAYEGH with Chloe Stagaman",
-    "outlet": "The Brooklyn Rail",
+    "@type": "NewsArticle",
+    "headline": "MANDY EL-SAYEGH with Chloe Stagaman",
     "url": "https://brooklynrail.org/2026/02/art/mandy-el-sayegh-with-chloe-stagaman/",
-    "lang": "en",
-    "date": "2026-01-27"
+    "datePublished": "2026-01-27",
+    "inLanguage": "en",
+    "publisher": {
+     "@type": "Organization",
+     "name": "The Brooklyn Rail"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "endless-reflections": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht. Let op: tijdens de Marisol-tentoonstelling (9 oktober 2026 t/m 29 maart 2027) geldt een toeslag van € 2,50 op de ticketprijs van het Depot.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop. Please note: during the Marisol exhibition (9 October 2026 – 29 March 2027) a surcharge of € 2.50 applies to the Depot ticket price.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht. Let op: tijdens de Marisol-tentoonstelling (9 oktober 2026 t/m 29 maart 2027) geldt een toeslag van € 2,50 op de ticketprijs van het Depot.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop. Please note: during the Marisol exhibition (9 October 2026 – 29 March 2027) a surcharge of € 2.50 applies to the Depot ticket price."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "harvest-2026-pip-greenaway": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht. Let op: tijdens de Marisol-tentoonstelling (9 oktober 2026 t/m 29 maart 2027) geldt een toeslag van € 2,50 op de ticketprijs van het Depot.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop. Please note: during the Marisol exhibition (9 October 2026 – 29 March 2027) a surcharge of € 2.50 applies to the Depot ticket price.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht. Let op: tijdens de Marisol-tentoonstelling (9 oktober 2026 t/m 29 maart 2027) geldt een toeslag van € 2,50 op de ticketprijs van het Depot.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop. Please note: during the Marisol exhibition (9 October 2026 – 29 March 2027) a surcharge of € 2.50 applies to the Depot ticket price."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "lost-charley-toorop-painting-comes-home-after-100-years": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "pixel-pioneers": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "research-on-track-van-goghs-poplars-near-nuenen": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht. Let op: tijdens de Marisol-tentoonstelling (9 oktober 2026 t/m 29 maart 2027) geldt een toeslag van € 2,50 op de ticketprijs van het Depot.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop. Please note: during the Marisol exhibition (9 October 2026 – 29 March 2027) a surcharge of € 2.50 applies to the Depot ticket price.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht. Let op: tijdens de Marisol-tentoonstelling (9 oktober 2026 t/m 29 maart 2027) geldt een toeslag van € 2,50 op de ticketprijs van het Depot.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop. Please note: during the Marisol exhibition (9 October 2026 – 29 March 2027) a surcharge of € 2.50 applies to the Depot ticket price."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "salty-tears-a-bare-wall-and-a-playful-emergency-button": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "the-peanut-butter-floor": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
-   "note_en": "Free with Museumkaart; a time slot must be booked in advance through the webshop.",
-   "source": "https://www.boijmans.nl/Praktische%20informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; vooraf een tijdslot boeken via de webshop is verplicht.",
+    "en": "Free with Museumkaart; a time slot must be booked in advance through the webshop."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/Praktische%20informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "marisol": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Toeslag van € 2,50 op de ticketprijs van het Depot tijdens deze tentoonstelling (niet voor kinderen t/m 18 jaar, Vrienden van Boijmans, Rotterdampas, ICOM/CIMAM/AICA/IAA, Rembrandtkaart en Stichting Vluchtelingenwerk); vooraf een tijdslot boeken is verplicht.",
-   "note_en": "€ 2.50 surcharge on the Depot ticket price during this exhibition (not applicable to children up to 18, Friends of Boijmans, Rotterdampas, ICOM/CIMAM/AICA/IAA, Rembrandtkaart and Stichting Vluchtelingenwerk); booking a time slot in advance is required.",
-   "source": "https://www.boijmans.nl/tickets-depot",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Toeslag van € 2,50 op de ticketprijs van het Depot tijdens deze tentoonstelling (niet voor kinderen t/m 18 jaar, Vrienden van Boijmans, Rotterdampas, ICOM/CIMAM/AICA/IAA, Rembrandtkaart en Stichting Vluchtelingenwerk); vooraf een tijdslot boeken is verplicht.",
+    "en": "€ 2.50 surcharge on the Depot ticket price during this exhibition (not applicable to children up to 18, Friends of Boijmans, Rotterdampas, ICOM/CIMAM/AICA/IAA, Rembrandtkaart and Stichting Vluchtelingenwerk); booking a time slot in advance is required."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.boijmans.nl/tickets-depot",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "alles-verandert-niets-vergaat-iris-le-rutte": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://kranenburgh.nl/bezoek/praktische-informatie/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://kranenburgh.nl/bezoek/praktische-informatie/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Lezing biedt kijkje in werk van Iris Le Rütte",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "Lezing biedt kijkje in werk van Iris Le Rütte",
     "url": "https://www.ad.nl/bergen-nh/lezing-biedt-kijkje-in-werk-van-iris-le-rutte~a9bacc548/",
-    "lang": "nl",
-    "date": "2026-08-31"
+    "datePublished": "2026-08-31",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    },
    {
-    "title": "Kranenburgh heropent met drie nieuwe tentoonstellingen. Houtsnedes, dierfiguren en mode in Bergens museum",
-    "outlet": "Noordhollands Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Kranenburgh heropent met drie nieuwe tentoonstellingen. Houtsnedes, dierfiguren en mode in Bergens museum",
     "url": "https://www.noordhollandsdagblad.nl/regio/alkmaar/kranenburgh-heropent-met-drie-nieuwe-tentoonstellingen.-houtsnedes-dierfiguren-en-mode-in-bergens-museum/153184726.html",
-    "lang": "nl",
-    "date": "2026-05-26"
+    "datePublished": "2026-05-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Noordhollands Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "dromen-in-het-duin-bernard-essers": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://kranenburgh.nl/bezoek/praktische-informatie/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://kranenburgh.nl/bezoek/praktische-informatie/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Kranenburgh heropent met drie nieuwe tentoonstellingen. Houtsnedes, dierfiguren en mode in Bergens museum",
-    "outlet": "Noordhollands Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Kranenburgh heropent met drie nieuwe tentoonstellingen. Houtsnedes, dierfiguren en mode in Bergens museum",
     "url": "https://www.noordhollandsdagblad.nl/regio/alkmaar/kranenburgh-heropent-met-drie-nieuwe-tentoonstellingen.-houtsnedes-dierfiguren-en-mode-in-bergens-museum/153184726.html",
-    "lang": "nl",
-    "date": "2026-05-26"
+    "datePublished": "2026-05-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Noordhollands Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "lisa-konno-paul-kooiker": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://kranenburgh.nl/bezoek/praktische-informatie/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://kranenburgh.nl/bezoek/praktische-informatie/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Expositie over kleding als vorm van controle in Museum Kranenburgh: ‘Ik hou heel erg van mode, maar zie ook de beperkingen ervan’",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Expositie over kleding als vorm van controle in Museum Kranenburgh: ‘Ik hou heel erg van mode, maar zie ook de beperkingen ervan’",
     "url": "https://www.parool.nl/kunst-media/expositie-over-kleding-als-vorm-van-controle-in-museum-kranenburgh-ik-hou-heel-erg-van-mode-maar-zie-ook-de-beperkingen-ervan~bae9fc08/",
-    "lang": "nl",
-    "date": "2026-05-26"
+    "datePublished": "2026-05-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "Kranenburgh heropent met drie nieuwe tentoonstellingen. Houtsnedes, dierfiguren en mode in Bergens museum",
-    "outlet": "Noordhollands Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Kranenburgh heropent met drie nieuwe tentoonstellingen. Houtsnedes, dierfiguren en mode in Bergens museum",
     "url": "https://www.noordhollandsdagblad.nl/regio/alkmaar/kranenburgh-heropent-met-drie-nieuwe-tentoonstellingen.-houtsnedes-dierfiguren-en-mode-in-bergens-museum/153184726.html",
-    "lang": "nl",
-    "date": "2026-05-26"
+    "datePublished": "2026-05-26",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Noordhollands Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "kabinet-maeve-van-klaveren": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "robin-wen-bobbi-essers-nothing-makes-me-feel-as-good": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "charley-toorop-pyke-koch-alles-of-niets": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Charley Toorop en Pyke Koch: dat spetterde tijdens hun leven – en nu ook in het museum",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Charley Toorop en Pyke Koch: dat spetterde tijdens hun leven – en nu ook in het museum",
     "url": "https://www.volkskrant.nl/tentoonstellingen/charley-toorop-en-pyke-koch-dat-spetterde-tijdens-hun-leven-en-nu-ook-in-het-museum~b2df8464b/",
-    "lang": "nl",
-    "date": "2026-07-13"
+    "datePublished": "2026-07-13",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "sam-drukker-de-ouder-wordende-mens": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.moreruurlo.nl/plan-je-bezoek/tickets-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.moreruurlo.nl/plan-je-bezoek/tickets-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "into-the-woods": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.moretwickel.nl/plan-je-bezoek/tickets-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.moretwickel.nl/plan-je-bezoek/tickets-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "junk-space": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "deshima-experience": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "hanuman-reist-de-wereld-over": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "tijd-voor-papoea": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "yuki-kihara-darwin-in-paradise-camp": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "k-pop-a-snapshot": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Dít succes hadden ze bij het Wereldmuseum niet zien aankomen: ‘De Koreaanse levensstijl verovert de wereld’",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Dít succes hadden ze bij het Wereldmuseum niet zien aankomen: ‘De Koreaanse levensstijl verovert de wereld’",
     "url": "https://www.parool.nl/nederland/dit-succes-hadden-ze-bij-het-wereldmuseum-niet-zien-aankomen-de-koreaanse-levensstijl-verovert-de-wereld~b9516e28/",
-    "lang": "nl",
-    "date": "2025-10-20"
+    "datePublished": "2025-10-20",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "K-pop, K-beauty, K-watte? De magie van de K-cultuur sluit goed aan bij de tijdgeest",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "K-pop, K-beauty, K-watte? De magie van de K-cultuur sluit goed aan bij de tijdgeest",
     "url": "https://www.trouw.nl/binnenland/k-pop-k-beauty-k-watte-de-magie-van-de-k-cultuur-sluit-goed-aan-bij-de-tijdgeest~b9516e28/",
-    "lang": "nl",
-    "date": "2025-10-19"
+    "datePublished": "2025-10-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "sami-art-land-power": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://leiden.wereldmuseum.nl/nl/plan-je-bezoek-in-wereldmuseum-leiden/openingstijden-en-prijzen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Wereldmuseum Leiden opent nieuwe kunsttentoonstellingen",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "Wereldmuseum Leiden opent nieuwe kunsttentoonstellingen",
     "url": "https://www.ad.nl/leiden/wereldmuseum-leiden-opent-nieuwe-kunsttentoonstellingen~ae0323e4/",
-    "lang": "nl",
-    "date": "2026-06-18"
+    "datePublished": "2026-06-18",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "buiten-de-oevers": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "museum-murals": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "schilder-voor-iedereen": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Werk van Elly Tamminga na decennia weer te zien in Heino",
-    "outlet": "de Stentor",
+    "@type": "NewsArticle",
+    "headline": "Werk van Elly Tamminga na decennia weer te zien in Heino",
     "url": "https://www.destentor.nl/raalte/werk-van-elly-tamminga-na-decennia-weer-te-zien-in-heino~a8221b08/",
-    "lang": "nl",
-    "date": "2026-04-30"
+    "datePublished": "2026-04-30",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Stentor"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "ntu": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "kijk-om-je-heen-de-fundatie-collectie": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Museum de Fundatie toont nieuwe werken van twaalf kunstenaars in Zwolle en Heino",
-    "outlet": "de Stentor",
+    "@type": "NewsArticle",
+    "headline": "Museum de Fundatie toont nieuwe werken van twaalf kunstenaars in Zwolle en Heino",
     "url": "https://www.destentor.nl/zwolle/museum-de-fundatie-toont-nieuwe-werken-van-twaalf-kunstenaars-in-zwolle-en-heino~a8da2e14/",
-    "lang": "nl",
-    "date": "2026-07-02"
+    "datePublished": "2026-07-02",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Stentor"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "in-de-17e-hemel": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "umbild": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "deep-dive-natalia-dominguez-rangel": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "digital-by-nature-de-kunst-van-miguel-chevalier": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "symbio-diana-scherer": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "geen-weg-terug-be-thoden-van-velzen": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "no-future-linder": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "cremer-in-context-de-vroege-jaren": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Museum De Fundatie eert Jan Cremer met een grote overzichtstentoonstelling",
-    "outlet": "de Stentor",
+    "@type": "NewsArticle",
+    "headline": "Museum De Fundatie eert Jan Cremer met een grote overzichtstentoonstelling",
     "url": "https://www.destentor.nl/zwolle/museum-de-fundatie-eert-jan-cremer-met-een-grote-overzichtstentoonstelling~abdc7f7f/",
-    "lang": "nl",
-    "date": "2026-06-23"
+    "datePublished": "2026-06-23",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Stentor"
+    }
    },
    {
-    "title": "Een schilderij dat een miljoen moest opbrengen en kunst met materiaal uit de vuilnisbak: Jan Cremer leeft in Zwolle",
-    "outlet": "de Stentor",
+    "@type": "NewsArticle",
+    "headline": "Een schilderij dat een miljoen moest opbrengen en kunst met materiaal uit de vuilnisbak: Jan Cremer leeft in Zwolle",
     "url": "https://www.destentor.nl/zwolle/een-schilderij-dat-een-miljoen-moest-opbrengen-en-kunst-met-materiaal-uit-de-vuilnisbak-jan-cremer-leeft-in-zwolle~a6e45ad3/",
-    "lang": "nl",
-    "date": "2026-09-02"
+    "datePublished": "2026-09-02",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Stentor"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "good-food": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; let op: voor iedere bezoeker is een geldig ticket vereist.",
-   "note_en": "Free with Museumkaart; note: a valid ticket is required for every visitor.",
-   "source": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; let op: voor iedere bezoeker is een geldig ticket vereist.",
+    "en": "Free with Museumkaart; note: a valid ticket is required for every visitor."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "quickscan-3": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart; let op: voor iedere bezoeker is een geldig ticket vereist.",
-   "note_en": "Free with Museumkaart; note: a valid ticket is required for every visitor.",
-   "source": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart; let op: voor iedere bezoeker is een geldig ticket vereist.",
+    "en": "Free with Museumkaart; note: a valid ticket is required for every visitor."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "‘Quickscan 3: Fotografie nu’ is een avontuurlijke tentoonstelling die een frontale aanval op de zintuigen doet",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "‘Quickscan 3: Fotografie nu’ is een avontuurlijke tentoonstelling die een frontale aanval op de zintuigen doet",
     "url": "https://www.volkskrant.nl/cultuur-media/quickscan-3-fotografie-nu-is-een-avontuurlijke-tentoonstelling-die-een-frontale-aanval-op-de-zintuigen-doet~b9cd1b6a/",
-    "lang": "nl",
-    "date": "2026-07-23"
+    "datePublished": "2026-07-23",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "carel-visser-in-the-rijksmuseum-gardens": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "De beeldententoonstelling in de Rijksmuseumtuinen is gratis toegankelijk.",
-   "note_en": "The sculpture exhibition in the Rijksmuseum Gardens is free to visit.",
-   "source": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/carel-visser",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "De beeldententoonstelling in de Rijksmuseumtuinen is gratis toegankelijk.",
+    "en": "The sculpture exhibition in the Rijksmuseum Gardens is free to visit."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/carel-visser",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Voor het eerst tentoonstelling van Nederlandse kunstenaar in de tuinen van het Rijksmuseum",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Voor het eerst tentoonstelling van Nederlandse kunstenaar in de tuinen van het Rijksmuseum",
     "url": "https://www.parool.nl/kunst-media/voor-het-eerst-tentoonstelling-van-nederlandse-kunstenaar-in-de-tuinen-van-het-rijksmuseum~b4cd0f77/",
-    "lang": "nl",
-    "date": "2026-04-16"
+    "datePublished": "2026-04-16",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "De Grote Vier van Carel Visser tijdelijk naar Rijksmuseum",
-    "outlet": "AD",
+    "@type": "NewsArticle",
+    "headline": "De Grote Vier van Carel Visser tijdelijk naar Rijksmuseum",
     "url": "https://www.ad.nl/amersfoort/de-grote-vier-van-carel-visser-tijdelijk-naar-rijksmuseum~aa6456df/",
-    "lang": "nl",
-    "date": "2026-05-06"
+    "datePublished": "2026-05-06",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "AD"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "ed-van-der-elsken-up-close": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
-   "note_en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart.",
-   "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
+    "en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Fotograaf Ed van der Elsken in het Rijksmuseum: conservator onthult nieuwe inzichten na jaren onderzoek",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Fotograaf Ed van der Elsken in het Rijksmuseum: conservator onthult nieuwe inzichten na jaren onderzoek",
     "url": "https://www.volkskrant.nl/tentoonstellingen/fotograaf-ed-van-der-elsken-in-het-rijksmuseum-conservator-onthult-nieuwe-inzichten-na-jaren-onderzoek~b9b52931/",
-    "lang": "nl",
-    "date": "2026-06-18"
+    "datePublished": "2026-06-18",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "De fotografie van Ed van der Elsken kán niet meer bestaan, toont de expositie in het Rijksmuseum",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "De fotografie van Ed van der Elsken kán niet meer bestaan, toont de expositie in het Rijksmuseum",
     "url": "https://www.parool.nl/kunst-media/de-fotografie-van-ed-van-der-elsken-kan-niet-meer-bestaan-toont-de-expositie-in-het-rijksmuseum~b11c2dee2/",
-    "lang": "nl",
-    "date": "2026-06-17"
+    "datePublished": "2026-06-17",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "Lang niet iedereen was van de turende camera van Ed van der Elsken gediend, maar dat laat het Rijksmuseum niet zien",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Lang niet iedereen was van de turende camera van Ed van der Elsken gediend, maar dat laat het Rijksmuseum niet zien",
     "url": "https://www.trouw.nl/cultuur-media/lang-niet-iedereen-was-van-de-turende-camera-van-ed-van-der-elsken-gediend-maar-dat-laat-het-rijksmuseum-niet-zien~b7eb2b34/",
-    "lang": "nl",
-    "date": "2026-07-02"
+    "datePublished": "2026-07-02",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "fiep-westendorp": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
-   "note_en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart.",
-   "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
+    "en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "In het Rijksmuseum kun je nu met eigen ogen zien hoe Fiep Westendorp haar ongelooflijk virtuoze werk opbouwde",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "In het Rijksmuseum kun je nu met eigen ogen zien hoe Fiep Westendorp haar ongelooflijk virtuoze werk opbouwde",
     "url": "https://www.volkskrant.nl/tentoonstellingen/in-het-rijksmuseum-kun-je-nu-met-eigen-ogen-zien-hoe-fiep-westendorp-haar-ongelooflijk-virtuoze-werk-opbouwde~b0f3faf2/",
-    "lang": "nl",
-    "date": "2026-07-05"
+    "datePublished": "2026-07-05",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Vóór Jip, Janneke, Pluk en Floddertje tekende Fiep Westendorp scherpe illustraties vol geëmancipeerde vrouwen",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Vóór Jip, Janneke, Pluk en Floddertje tekende Fiep Westendorp scherpe illustraties vol geëmancipeerde vrouwen",
     "url": "https://www.parool.nl/ps/voor-jip-janneke-pluk-en-floddertje-tekende-fiep-westendorp-scherpe-illustraties-vol-geemancipeerde-vrouwen~b0e19ae0/",
-    "lang": "nl",
-    "date": "2026-06-19"
+    "datePublished": "2026-06-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "Fiep Westendorp had meer in haar mars dan alleen Jip en Janneke",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Fiep Westendorp had meer in haar mars dan alleen Jip en Janneke",
     "url": "https://www.trouw.nl/cultuur-media/fiep-westendorp-had-meer-in-haar-mars-dan-alleen-jip-en-janneke~bc1f1462/",
-    "lang": "nl",
-    "date": "2026-06-19"
+    "datePublished": "2026-06-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "worn": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
-   "note_en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart.",
-   "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
+    "en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "document-netherlands-new-energy": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
-   "note_en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart.",
-   "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
+    "en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "willem-de-kooning-at-work": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
-   "note_en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart.",
-   "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
+    "en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "drawing": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
-   "note_en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart.",
-   "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Vrij met Museumkaart; starttijd reserveren is verplicht, ook met de Museumkaart.",
+    "en": "Free with Museumkaart; booking a start time is required, also with the Museumkaart."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rijksmuseum.nl/nl/bezoek/praktische-info/prijzen-en-openingstijden",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "collectie-reflectie": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "de-schoonheid-van-letters": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "galleria": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Twaalf exposities in één in Rijksmuseum van Oudheden: van tikkende klokken tot tattoos met het Anch-symbool",
-    "outlet": "Leidsch Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Twaalf exposities in één in Rijksmuseum van Oudheden: van tikkende klokken tot tattoos met het Anch-symbool",
     "url": "https://www.leidschdagblad.nl/regio/leiden/twaalf-exposities-in-een-in-rijksmuseum-van-oudheden-van-tikkende-klokken-tot-tattoos-met-het-anch-symbool/156986575.html",
-    "lang": "nl",
-    "date": "2026-06-13"
+    "datePublished": "2026-06-13",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Leidsch Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "monsters-en-mythische-wezens": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Kinderen moeten monsters in Rijksmuseum van Oudheden tot bedaren zien te brengen",
-    "outlet": "Leidsch Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Kinderen moeten monsters in Rijksmuseum van Oudheden tot bedaren zien te brengen",
     "url": "https://www.leidschdagblad.nl/regio/leiden/kinderen-moeten-monsters-in-rijksmuseum-van-oudheden-tot-bedaren-zien-te-brengen/78856699.html",
-    "lang": "nl",
-    "date": "2025-07-20"
+    "datePublished": "2025-07-20",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Leidsch Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "tin": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Een leven lang tinnen bodemschatten verzamelen leidt tot lijvig boek en expositie in Rijksmuseum van Oudheden",
-    "outlet": "Leidsch Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Een leven lang tinnen bodemschatten verzamelen leidt tot lijvig boek en expositie in Rijksmuseum van Oudheden",
     "url": "https://www.leidschdagblad.nl/regio/leiden/een-leven-lang-tinnen-bodemschatten-verzamelen-leidt-tot-lijvig-boek-en-expositie-in-rijksmuseum-van-oudheden/35679536.html",
-    "lang": "nl",
-    "date": "2025-01-24"
+    "datePublished": "2025-01-24",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Leidsch Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "romeins-leer": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "echos-van-oud-egypte": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.rmo.nl/en/visit/opening-hours-fees-address/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "carlijn-kingma-de-machinerie-van-de-volkshuisvesting": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "dichter-bij-de-denker": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Iconisch meesterwerk ’De Denker’ in volle glorie te zien in Singer Laren",
-    "outlet": "De Gooi- en Eemlander",
+    "@type": "NewsArticle",
+    "headline": "Iconisch meesterwerk ’De Denker’ in volle glorie te zien in Singer Laren",
     "url": "https://www.gooieneemlander.nl/regio/gooi-en-eemland/iconisch-meesterwerk-de-denker-in-volle-glorie-te-zien-in-singer-laren/150272163.html",
-    "lang": "nl",
-    "date": "2026-04-29"
+    "datePublished": "2026-04-29",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "De Gooi- en Eemlander"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "etha-fles-medardo-rosso-voor-de-kunst": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "meesterwerken-uit-le-havre-renoir-monet-dufy-matisse": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Beeldende kunst ’Meesterwerken uit Le Havre’ in Singer Laren: Fotografie bracht het impressionisme tot bloei",
-    "outlet": "Noordhollands Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Beeldende kunst ’Meesterwerken uit Le Havre’ in Singer Laren: Fotografie bracht het impressionisme tot bloei",
     "url": "https://www.noordhollandsdagblad.nl/extra/cultuur/beeldende-kunst-meesterwerken-uit-le-havre-in-singer-laren-fotografie-bracht-het-impressionisme-tot-bloei/152569341.html",
-    "lang": "nl",
-    "date": "2026-05-23"
+    "datePublished": "2026-05-23",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Noordhollands Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "vincent-de-boer-omgeven-window-of-opportunity": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "herman-kruyder-expressionist-van-de-ziel": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "’Singer Laren leent wel eens werk van ons’",
-    "outlet": "Noordhollands Dagblad",
+    "@type": "NewsArticle",
+    "headline": "’Singer Laren leent wel eens werk van ons’",
     "url": "https://www.noordhollandsdagblad.nl/regio/gooi/singer-laren-leent-wel-eens-werk-van-ons/160442712.html",
-    "lang": "nl",
-    "date": "2026-08-25"
+    "datePublished": "2026-08-25",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Noordhollands Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "humus-blues": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "merlijn-hooijsma-in-west-australie": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "modernites-matisse-tot-bacon": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "jan-hendrik-weissenbruch-hollands-licht": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
-   "note_en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions.",
-   "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Reserveren van een starttijd is verplicht, ook voor Museumkaart-houders; één reservering geeft toegang tot alle lopende tentoonstellingen.",
+    "en": "Booking a start time is required, including for Museumkaart holders; one reservation covers all current exhibitions."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.singerlaren.nl/nl/pQ2rzcv/veelgestelde-vragen",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "experimental-jetset-circuits": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.stedelijk.nl/en/visit/faq",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit/faq",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "kho-liang-ie-mid-century-modernist": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.stedelijk.nl/en/visit/faq",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit/faq",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Modernist Kho Liang Ie was een van onze beste industriële ontwerpers, met oog voor menselijk gemak",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Modernist Kho Liang Ie was een van onze beste industriële ontwerpers, met oog voor menselijk gemak",
     "url": "https://www.volkskrant.nl/tentoonstellingen/modernist-kho-liang-ie-was-een-van-onze-beste-industriele-ontwerpers-met-oog-voor-menselijk-gemak~b6315bc9/",
-    "lang": "nl",
-    "date": "2026-05-21"
+    "datePublished": "2026-05-21",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Kho Liang Ie maakte Nederland mooier",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Kho Liang Ie maakte Nederland mooier",
     "url": "https://www.nrc.nl/nieuws/2026/04/02/kho-liang-ie-maakte-nederland-mooier-a4922027",
-    "lang": "nl",
-    "date": "2026-04-02"
+    "datePublished": "2026-04-02",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "Kleinbehuisd? Deze bijna vergeten ontwerper blonk decennia geleden al uit in slimme interieurs die een ruimte groter doen lijken",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Kleinbehuisd? Deze bijna vergeten ontwerper blonk decennia geleden al uit in slimme interieurs die een ruimte groter doen lijken",
     "url": "https://www.parool.nl/kunst-media/kleinbehuisd-deze-bijna-vergeten-ontwerper-blonk-decennia-geleden-al-uit-in-slimme-interieurs-die-een-ruimte-groter-doen-lijken~b67e94a5/",
-    "lang": "nl",
-    "date": "2026-05-18"
+    "datePublished": "2026-05-18",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "post-no-bills-7-kexin-hao-anatomy-of-obstruction": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.stedelijk.nl/en/visit/faq",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit/faq",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "yayoi-kusama": {
-  "admission": {
-   "museumkaart": "supplement",
-   "note_nl": "Toeslag van € 10 voor Museumkaart-houders (per bezoek); verlaagd tarief € 5 voor studenten/CJP/EYCA; vrijgesteld o.a. bezoekers t/m 18 jaar, Vriendenloterij, ICOM, Stadspas en Stedelijk-leden.",
-   "note_en": "€10 surcharge for Museumkaart holders (per visit); reduced €5 rate for students/CJP/EYCA; exemptions include visitors up to 18, Vriendenloterij, ICOM, Stadspas and Stedelijk members.",
-   "source": "https://www.stedelijk.nl/en/surcharge",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "supplement",
+   "description": {
+    "nl": "Toeslag van € 10 voor Museumkaart-houders (per bezoek); verlaagd tarief € 5 voor studenten/CJP/EYCA; vrijgesteld o.a. bezoekers t/m 18 jaar, Vriendenloterij, ICOM, Stadspas en Stedelijk-leden.",
+    "en": "€10 surcharge for Museumkaart holders (per visit); reduced €5 rate for students/CJP/EYCA; exemptions include visitors up to 18, Vriendenloterij, ICOM, Stadspas and Stedelijk members."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/surcharge",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Wat valt er nog te ontdekken aan de alomtegenwoordige kunst van Yayoi Kusama? Veel, zo blijkt",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Wat valt er nog te ontdekken aan de alomtegenwoordige kunst van Yayoi Kusama? Veel, zo blijkt",
     "url": "https://www.volkskrant.nl/tentoonstellingen/wat-valt-er-nog-te-ontdekken-aan-de-alomtegenwoordige-kunst-van-yayoi-kusama-veel-zo-blijkt~be3ce196/",
-    "lang": "nl",
-    "date": "2026-09-10"
+    "datePublished": "2026-09-10",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Kusama in het Stedelijk: niet alleen een spectaculair pretpark voor instagrammers",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Kusama in het Stedelijk: niet alleen een spectaculair pretpark voor instagrammers",
     "url": "https://www.parool.nl/kunst-media/kusama-in-het-stedelijk-niet-alleen-een-spectaculair-pretpark-voor-instagrammers~bde4c5aa/",
-    "lang": "nl",
-    "date": "2026-09-10"
+    "datePublished": "2026-09-10",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    },
    {
-    "title": "Lose Yourself in Yayoi Kusama’s Last Show",
-    "outlet": "The New York Times",
+    "@type": "NewsArticle",
+    "headline": "Lose Yourself in Yayoi Kusama’s Last Show",
     "url": "https://www.nytimes.com/2026/09/11/arts/design/yayoi-kusama-retrospective-stedelijk-museum.html",
-    "lang": "en",
-    "date": "2026-09-11"
+    "datePublished": "2026-09-11",
+    "inLanguage": "en",
+    "publisher": {
+     "@type": "Organization",
+     "name": "The New York Times"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "adam-pendleton-some-wild-kind-of-language": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.stedelijk.nl/en/visit/faq",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit/faq",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "collaborative-artistic-practices-proposals-for-the-museum-collection": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.stedelijk.nl/en/visit/faq",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit/faq",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "luc-tuymans-silent-music": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.stedelijk.nl/en/visit/faq",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit/faq",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "abn-amro-art-award-2026-hend-samir": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Museumkaart gratis; het museum vraagt bezoekers een tijdslot te reserveren.",
-   "note_en": "Museumkaart free; the museum asks visitors to reserve a time slot.",
-   "source": "https://www.stedelijk.nl/en/visit",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Museumkaart gratis; het museum vraagt bezoekers een tijdslot te reserveren.",
+    "en": "Museumkaart free; the museum asks visitors to reserve a time slot."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Hend Samir wint ABN Amro Kunstprijs",
-    "outlet": "Het Parool",
+    "@type": "NewsArticle",
+    "headline": "Hend Samir wint ABN Amro Kunstprijs",
     "url": "https://www.parool.nl/kunst-media/hend-samir-wint-abn-amro-kunstprijs~bed475a1/",
-    "lang": "nl",
-    "date": "2026-05-27"
+    "datePublished": "2026-05-27",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Het Parool"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "ibrahim-mahama-zilijafa": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Museumkaart gratis; het museum vraagt bezoekers een tijdslot te reserveren.",
-   "note_en": "Museumkaart free; the museum asks visitors to reserve a time slot.",
-   "source": "https://www.stedelijk.nl/en/visit",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Museumkaart gratis; het museum vraagt bezoekers een tijdslot te reserveren.",
+    "en": "Museumkaart free; the museum asks visitors to reserve a time slot."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "marc-chagall": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Museumkaart gratis; het museum vraagt bezoekers een tijdslot te reserveren.",
-   "note_en": "Museumkaart free; the museum asks visitors to reserve a time slot.",
-   "source": "https://www.stedelijk.nl/en/visit",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Museumkaart gratis; het museum vraagt bezoekers een tijdslot te reserveren.",
+    "en": "Museumkaart free; the museum asks visitors to reserve a time slot."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.stedelijk.nl/en/visit",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "zeker-weten": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://teylersmuseum.nl/nl/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://teylersmuseum.nl/nl/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "ad-minoliti-feminist-school-of-painting-dommelplein": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Van Abbemuseum in Eindhoven heropent met vernieuwde collectiepresentatie en Dommelplein",
-    "outlet": "Algemeen Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Van Abbemuseum in Eindhoven heropent met vernieuwde collectiepresentatie en Dommelplein",
     "url": "https://www.ad.nl/eindhoven/van-abbemuseum-in-eindhoven-heropent-met-vernieuwde-collectiepresentatie-en-dommelplein~a1953099/",
-    "lang": "nl",
-    "date": "2026-05-21"
+    "datePublished": "2026-05-21",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Algemeen Dagblad"
+    }
    },
    {
-    "title": "Van Abbemuseum maakt van begane grond een ‘Dommelplein’",
-    "outlet": "Eindhovens Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Van Abbemuseum maakt van begane grond een ‘Dommelplein’",
     "url": "https://www.ed.nl/eindhoven/van-abbemuseum-maakt-van-begane-grond-een-dommelplein~a522f935/",
-    "lang": "nl",
-    "date": "2026-04-01"
+    "datePublished": "2026-04-01",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Eindhovens Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "ayoung-kim-dommelplein": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "collectie-als-kosmos": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Nieuwe collectiepresentatie Van Abbemuseum: speelse en associatieve tocht door elf zalen",
-    "outlet": "NRC",
+    "@type": "NewsArticle",
+    "headline": "Nieuwe collectiepresentatie Van Abbemuseum: speelse en associatieve tocht door elf zalen",
     "url": "https://www.nrc.nl/nieuws/2026/06/15/nieuwe-collectiepresentatie-van-abbemuseum-speelse-en-associatieve-tocht-door-elf-zalen-a4928346",
-    "lang": "nl",
-    "date": "2026-06-15"
+    "datePublished": "2026-06-15",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "NRC"
+    }
    },
    {
-    "title": "Van Abbemuseum viert 90-jarig bestaan, maar als bezoeker beleef je er weinig plezier aan",
-    "outlet": "de Volkskrant",
+    "@type": "NewsArticle",
+    "headline": "Van Abbemuseum viert 90-jarig bestaan, maar als bezoeker beleef je er weinig plezier aan",
     "url": "https://www.volkskrant.nl/tentoonstellingen/van-abbemuseum-viert-90-jarig-bestaan-maar-als-bezoeker-beleef-je-er-weinig-plezier-aan~b0977dfd/",
-    "lang": "nl",
-    "date": "2026-06-22"
+    "datePublished": "2026-06-22",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "de Volkskrant"
+    }
    },
    {
-    "title": "Sterren kijken in volledig opgefrist Van Abbe: ‘We willen het sensuele terugbrengen’",
-    "outlet": "Eindhovens Dagblad",
+    "@type": "NewsArticle",
+    "headline": "Sterren kijken in volledig opgefrist Van Abbe: ‘We willen het sensuele terugbrengen’",
     "url": "https://www.ed.nl/eindhoven/sterren-kijken-in-volledig-opgefrist-van-abbe-we-willen-het-sensuele-terugbrengen~a00fa947/",
-    "lang": "nl",
-    "date": "2026-06-06"
+    "datePublished": "2026-06-06",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Eindhovens Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "context-verborgen-verbanden": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "Van Abbemuseum gaat eigen koloniale erfenis te lijf met diversiteit",
-    "outlet": "Trouw",
+    "@type": "NewsArticle",
+    "headline": "Van Abbemuseum gaat eigen koloniale erfenis te lijf met diversiteit",
     "url": "https://www.trouw.nl/cultuur-media/van-abbemuseum-gaat-eigen-koloniale-erfenis-te-lijf-met-diversiteit~b9e35dc6/",
-    "lang": "nl",
-    "date": "2024-03-19"
+    "datePublished": "2024-03-19",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Trouw"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "john-gerrard-ghost-feed-dommelplein": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "simultane-kleur-in-onderzoek-boek-en-alledaags-spelen": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "make-some-noise-desire-stage-change": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [
+  "subjectOf": [
    {
-    "title": "‘Make some noise’: pittige expo met aaibare rustpunten in het Van Abbe",
-    "outlet": "Eindhovens Dagblad",
+    "@type": "NewsArticle",
+    "headline": "‘Make some noise’: pittige expo met aaibare rustpunten in het Van Abbe",
     "url": "https://www.ed.nl/eindhoven/make-some-noise-pittige-expo-met-aaibare-rustpunten-in-het-van-abbe~ab932ff5/",
-    "lang": "nl",
-    "date": "2026-02-21"
+    "datePublished": "2026-02-21",
+    "inLanguage": "nl",
+    "publisher": {
+     "@type": "Organization",
+     "name": "Eindhovens Dagblad"
+    }
    }
-  ],
-  "verified": "2026-09-12"
+  ]
  },
  "plug-play-studio-woensel-west": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "museum-als-zonnewijzer": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://vanabbemuseum.nl/nl/praktische-informatie",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "the-reframers-present-in-search-of-an-anchor": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
-   "note_en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry.",
-   "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
+    "en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "vincents-path-to-fame": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
-   "note_en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry.",
-   "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
+    "en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "yoshitoshi-master-of-the-moon": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
-   "note_en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry.",
-   "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
+    "en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "whistler-dandy-and-disruptor": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
-   "note_en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry.",
-   "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
+    "en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "eva-gonzales-a-new-perspective": {
-  "admission": {
-   "museumkaart": "included",
-   "note_nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
-   "note_en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry.",
-   "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "included",
+   "description": {
+    "nl": "Gratis met Museumkaart, maar reserveer online een gratis ticket met starttijd; zonder starttijd geen toegang.",
+    "en": "Free with Museumkaart, but reserve a free ticket with start time online; without a start time there is no entry."
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.vangoghmuseum.nl/en/visit/tickets",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  },
  "celebrating-the-icons-of-art": {
-  "admission": {
-   "museumkaart": "not_covered",
-   "note_nl": "",
-   "note_en": "",
-   "source": "https://www.voorlinden.nl/tickets/",
+  "admission_v2": {
+   "@type": "Offer",
+   "admissionStatus": "not_covered",
+   "description": {
+    "nl": "",
+    "en": ""
+   }
+  },
+  "_meta": {
+   "admission": {
+    "source": "https://www.voorlinden.nl/tickets/",
+    "verified": "2026-09-12"
+   },
    "verified": "2026-09-12"
   },
-  "press": [],
-  "verified": "2026-09-12"
+  "subjectOf": []
  }
 }
