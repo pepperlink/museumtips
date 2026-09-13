@@ -440,7 +440,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Trouw"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -451,7 +454,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "DVHN"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -1393,7 +1399,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Het Parool"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -1959,7 +1968,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Het Parool"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -1970,7 +1982,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "NRC"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -2225,7 +2240,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "NRC"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -2236,7 +2254,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "de Volkskrant"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -2247,7 +2268,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "De Gelderlander"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -2708,7 +2732,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Het Parool"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -2719,7 +2746,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Noordhollands Dagblad"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -2944,7 +2974,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Het Parool"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -2955,7 +2988,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Trouw"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -3099,7 +3135,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "de Stentor"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -3660,7 +3699,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Leidsch Dagblad"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -3825,7 +3867,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Noordhollands Dagblad"
-    }
+    },
+    "verifiedAccess": false,
+    "accessNote": "http_403",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -3996,7 +4041,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "de Volkskrant"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -4007,7 +4055,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "NRC"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    },
    {
     "@type": "NewsArticle",
@@ -4018,7 +4069,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Het Parool"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
@@ -4454,7 +4508,10 @@
     "publisher": {
      "@type": "Organization",
      "name": "Eindhovens Dagblad"
-    }
+    },
+    "verifiedAccess": true,
+    "accessNote": "ok",
+    "accessChecked": "2026-09-13"
    }
   ]
  },
