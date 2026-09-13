@@ -221,3 +221,88 @@ ST-4-2 and ST-4-3 contain placeholder target names (“or the exact new key name
 ## Required plan disposition
 
 Resolve findings 1–4 before owner sign-off or any ST-4 implementation run. Findings 5–18 should be folded into the affected decisions/subtasks and verification battery. The plan can retain its six-workstream scope and non-goals; it does not need implementation code in this review cycle.
+
+## Delta review (post-fold + owner decisions)
+
+Reviewed `0042365`, `1b3f34f`, and `a3b497d` against the current Phase 4 plan, current data, CSS, adapters, site templates, and pinned theme templates. Verdict: **still not build-ready**. The fold substantially improved the plan, but the claimed authoritative contract disagrees with live data and the big-bang pre-commit proof is not yet an executable gate. The owner’s domain split is the right split; combining both stores and all consumers into one larger commit would increase blast radius without adding atomicity.
+
+### Part A — F1–F21 dispositions
+
+| Finding | Disposition | Evidence |
+|---|---|---|
+| F1 | **PARTIAL** | Tables 1–3 now exist (§4.4.1, lines 1318–1407), but Table 2’s `name` equality and `sources[].fact` enum are false for live data, `geo.@type` is absent, and Table 3 omits `archiveUrl`. |
+| F2 | **PARTIAL** | `address_display`, `identifier`, three-state acceptance, and singular/plural-note normalization are specified (lines 1351–1385), but the promised exact fixture/losslessness program is not present. |
+| F3 | **PARTIAL** | Q13 selects the sidecar and §4.4.1.6 correctly denies a root event type (lines 1437–1443), while Goal 1 still calls that store “ExhibitionEvent-shaped” (line 1264). |
+| F4 | **RESOLVED** | Table 1 is additive and §4.4.1.7 gives dual-write → fixture validation → switch → live verification → rollback (lines 1447–1457). |
+| F5 | **RESOLVED** | Q1 chooses the proven shadow removal and leaves the full static-flow resets as a deferred, explicitly specified alternative (§4.4.4 item 1; lines 1506–1507). |
+| F6 | **RESOLVED** | §4.4.2 replaces “drops naturally” with recurring reconciliation and Q15’s one-cycle orphan grace (lines 1473–1480; ST-4-6a lines 1838–1876). |
+| F7 | **RESOLVED** | Q4 removes legacy fields inside each domain’s reshape+consumer commit; §4.4.7 explicitly retires the parallel add/cutover/remove path (lines 1522–1526). |
+| F8 | **PARTIAL** | ST-4-2 names every direct reader and runs removed/null/string/out-of-bounds fixtures (lines 1660–1747), but map page/tag totals are printed rather than asserted and the final battery drops two fixture variants. |
+| F9 | **PARTIAL** | §4.4.1.5 says full population and mandatory pre-commit (lines 1426–1433), but supplies no runnable canonical fact diff and contradicts itself about allowed render differences. |
+| F10 | **UNRESOLVED** | Most verify blocks still lack fail-fast handling and use bare `hugo`; the exact ST-4-1 and ST-4-12 blocks both returned exit 0 on this pre-implementation tree after required checks failed. |
+| F11 | **PARTIAL** | ST-4-13 now requires screenshots, computed styles, and mouse/keyboard activation (lines 2078–2088), but it runs after the changes and no earlier step captures the required “before” artifacts. |
+| F12 | **UNRESOLVED** | Stable groups and honest seeding are specified (§4.4.2), but ST-4-7/8’s `or any(s["url"]...)` is true for unchanged records and there is no `changed > 0` assertion (lines 1895–1907, 1931–1943). |
+| F13 | **PARTIAL** | The three-step fallback and vocabulary are concrete (§4.4.3), but `archiveUrl` is not in Table 3 and the named Leeuwarder Courant/~5-show baseline does not exist in current data. |
+| F14 | **PARTIAL** | Sizes were increased and no-op evidence was added, but F10/F12 leave several subtasks not independently verifiable; ST-4-15 also remains conditional after Q6 was answered. |
+| F15 | **RESOLVED** | Q11–Q16 now record address, card/null, sidecar, rollout, orphan, full-proof, and language decisions (lines 1580–1612). |
+| F16 | **PARTIAL** | Adapter scope, repo-local partial override, vendoring, and license recording were added (lines 1508–1510, 2040–2075), but the gate omits month pages/404 and the Picsum patch contradicts the owner-pick dependency. |
+| F17 | **PARTIAL** | §4.10 has a domain commit matrix and pipeline rollback (lines 2322–2345), but “single revert” is only true per domain, and new-shape refresh commits cannot simply be cherry-picked onto restored legacy JSON. |
+| F18 | **PARTIAL** | Feed equality, route/language checks, JS checks, and coordinate fixtures were added (§4.8), but exact 62/124 map assertions, all four coordinate variants, and a non-map exhibition negative check are still absent. |
+| F19 | **PARTIAL** | The six-row matrix exists (§4.7.1), but its copy row knowingly has no decided input and the Home/banner acceptance references are inconsistent with Q2/Q3. |
+| F20 | **RESOLVED** | §4.3 now says “no pre-Phase-4 repo specification or implementation” rather than claiming zero present-day PLAN hits (line 1297). |
+| F21 | **PARTIAL** | `$HUGO` is defined and version-printed (lines 1620–1627), yet later literal blocks still invoke bare `hugo`, including ST-4-10 and ST-4-12. |
+
+No active Q4 dependency points to the retired ST-4-3/4/4b/4c path. Remaining hits are explicitly labeled historical, rejected, or “no longer exist”; they are noisy but not orphaned execution steps.
+
+### Contract/data spot-check
+
+The full census, not just the requested sample, reproduced 30 museums, 187 exhibitions, 146 cards, 398 museum sources, 102 museum notes, 187 admissions, and 92 press articles. Generated rows have exactly the six/eight fields in Table 1; `start` is null on 67 exhibitions and `end` on 6, matching the stated nullable types. Three museum checks (`rijksmuseum`, `h-art-museum`, `museum-more`) and three exhibition checks (`ed-van-der-elsken-up-close`, `into-nature-haunted-by-waters`, `yayoi-kusama`) reproduced the source shapes and nullable/admission variants.
+
+Two exceptions invalidate the “authoritative” museum contract:
+
+- Seven curated names are not equal to the generated name for the same slug: `de-buitenplaats`, `h-art-museum`, `huis-marseille`, `museum-boijmans-van-beuningen`, `museum-volkenkunde`, `stedelijk-museum`, and `voorlinden`.
+- Table 2’s nine-value `sources[].fact` enum excludes 17 live values covering 49/398 source rows, including `description_nl`, `description_en`, `hours_nl`, `pricing - toeslag`, and `access (FAQ details)`.
+
+All named card fixtures reproduce correctly in the source data: the two null values are `huis-marseille/vriendenloterij` and `museum-kranenburgh/vriendenloterij`; the 27 plural-note cards are Foam 6, Museum Boijmans Van Beuningen 5, Kunsthal 5, Nederlands Fotomuseum 5, and Museum MORE 6. On every plural card, `notes_nl/en` exists and `note_nl/en` does not.
+
+### Part B — post-review owner changes
+
+- **Q4:** The two domain commits are sane and should stay split. The direct consumer sets are disjoint, so a single all-store commit would only make review and rollback coarser. Each domain remains big-bang internally. The current plan does not, however, provide the runnable proof needed to make that risk acceptable, and a whole-migration rollback is two structural reverts (plus dependent reverts), not one.
+- **Q3:** The repo-local override and adapter file scope are correctly identified; the theme need not be edited. The micro-patch changed the gate from mandatory owner choice to an operator default without updating §4.4.4, Q3, acceptance, docs, risks, or the log. Coverage and licensing defects remain below.
+- **Q2:** The answer is not closed consistently. Q2/ST-4-13 say Home looks like the other links, while Goal 7, acceptance, and §4.8 still demand “unmistakable” or “visually distinct.” ST-4-11 also remains numbered and in final dependencies despite being described as removed from the critical path.
+- **Q5–Q16 transcription spot-check:** Q5 and Q7–Q12/Q14–Q15 are faithfully reflected. Q13 is reflected in §4.4.1.6 but not Goal 1. Q16 is reflected as prose but not as a real gate. Q6 is stale: §4.4.6 still asks the resolved question and ST-4-15 still carries both conditional branches.
+
+### Part C — verification rerun
+
+- All 17 Phase-4 `sh` fences pass `bash -n`.
+- Exact pre-implementation ST-4-1 verify block: required file/grep checks failed, but the block exited **0** because its final `git diff --name-only` succeeded.
+- Exact pre-implementation ST-4-12 verify block: the header assertion failed and `docs/banner-shortlist.md` was absent, but the block exited **0** because its final negated external-script grep succeeded.
+- `hugo v0.165.0 … +extended` (local fallback) `--minify`: exit **0**, **0 WARN**, 496 NL + 494 EN pages. The authoritative v0.166.0 pin is not installed on this lane and still requires operator rerun.
+
+### Numbered delta findings
+
+1. **blocker — The authoritative contract rejects the live store — proposed fix:** Decide whether generated or curated museum names own display identity and map all seven deliberate name variants without an impossible equality assertion; replace the invented `sources[].fact` enum with the actual open-string contract or enumerate all 26 current values; add the missing `geo.@type` constant and `subjectOf[].archiveUrl` row, including types/null rules.
+
+2. **blocker — The big-bang losslessness gate is mandatory only in prose, not real or internally satisfiable — proposed fix:** Add a literal, fail-fast validator (or a named checked-in script in ST-4-2 scope) that reads immutable before snapshots plus the candidate tree, checks every mapped value/count and exact named fixture, allowlists constants/derived address fields, and rejects every unconsumed source or unexplained target. “No after fact absent from before” cannot coexist literally with required `@type`, `category`, parsed address, and other derived fields. Also resolve the “three gates” numbered 1–4 ambiguity.
+
+3. **major — Render equality permits contradictory and over-broad exceptions — proposed fix:** Permit changes only to the ten NL/EN museum-detail HTML files for the five plural-note museums; require equality for address and null-acceptance pages, then inspect those as snapshots without exempting them. Do not use `diff -x <museum-slug>`, which excludes each museum’s entire subtree, including all exhibition pages and companion ICS files. Capture each domain’s baseline before edits in an explicit setup command.
+
+4. **major — Verification blocks can report success after failed acceptance checks — proposed fix:** Put every multi-command block under `set -euo pipefail`, use `"$HUGO"` literally everywhere, and make scope checks assert exact sets (including staged/index state) rather than ending with informational `git diff --name-only`. The two rerun blocks’ false exit-0 results are direct reproductions, not hypothetical portability concerns.
+
+5. **major — The Picsum micro-patch silently replaced the owner-pick gate and weakened license evidence — proposed fix:** Choose one rule and update every reference. If the operator default is the new directive, replace “owner-picked/owner pick blocks” throughout §4.4.4, Q3, §4.7, §4.9, §4.11, and §4.12. For each fixed Picsum ID, record the metadata endpoint, photographer, original source URL, exact governing license/CC0 evidence, and any depicted-person/art/trademark clearance concern; Picsum’s homepage documents delivery and source metadata, not a blanket license grant.
+
+6. **major — Banner coverage is not “every page,” and responsive behavior is still unspecified — proposed fix:** Add every NL/EN calendar-month output and both 404 outputs to the exact expected set; explicitly assert no banner markup enters root/static/per-show ICS outputs. Define concrete desktop/mobile height or aspect-ratio rules, crop/object-position behavior, and image intrinsic dimensions. The present ST-4-12 verifier checks 442 HTML files but omits all month pages and 404 pages.
+
+7. **major — Q2’s Home de-scope was not subtracted consistently — proposed fix:** Remove ST-4-11, renumber later subtasks and cross-references (or explicitly reserve the number without making it a dependency), and change Goal 7, §4.7, and §4.8 to the owner-approved condition: Home is visible and behaves like the other nav links, with no distinct styling. Delete the contradictory “visually distinct” gate at line 2307.
+
+8. **major — Q6 was answered “defer all,” but the plan still presents and schedules an unresolved branch — proposed fix:** Rewrite §4.4.6 and ST-4-15 as a closed no-op disposition, or remove the subtask and renumber/correct dependencies; delete the mailto fold-in scope, verification, and commit branch from this approved plan.
+
+9. **major — Cadence acceptance still passes a bookkeeping-only refresh — proposed fix:** Remove `or any(s["url"] …)` (all current records have source URLs), require a real `_meta.verified` advance backed by the run plus an explicit per-record checked-source result, and assert the expected 15 records and a nonzero/complete verification count. Define source-check timestamps instead of referring to “source dates” on `_meta.sources[]`, whose rows contain only `fact` and `url`.
+
+10. **major — The press fallback contract and fixtures do not match the store — proposed fix:** Add `archiveUrl` to Table 3 and validate `accessChecked` type/date plus `verifiedAccess`/`accessNote` consistency. Replace “DVHN, Leeuwarder Courant, ~5 shows” with the current census (two DVHN shows, zero Leeuwarder Courant entries) or make discovery dynamic and stop naming nonexistent fixtures.
+
+11. **major — Rollback is atomic per domain, not for the migration as a whole, and refreshed facts are not portable across schema rollback — proposed fix:** State explicitly that full structural rollback requires two domain reverts after reverting dependents. Preserve ST-4-7/8 facts via a schema-neutral before/after fact export or forward-translation procedure; do not suggest cherry-picking commits that edit `_visitor`/`offers` onto a legacy file containing flat visitor fields/`cards`.
+
+12. **major — The final battery still describes exact regressions without asserting them — proposed fix:** Assert `MAP_PAGES == 62` and `SCRIPT_TAGS == 124`, run all removed/null/string/out-of-bounds coordinate fixtures in the final battery, add a representative exhibition page to the map-asset negative list, and reconcile the Home visual wording with Q2. Keep the expanded feed, route, language, and interaction checks.
+
+13. **minor — The risk table is malformed at the big-bang row — proposed fix:** Add the missing leading pipe before “Big-bang migration (owner Q4 override)” at line 2353 so the risk and mitigation remain in the two-column table.
