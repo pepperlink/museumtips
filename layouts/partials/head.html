@@ -7,7 +7,7 @@
     {{- with index hugo.Data.museums_info .Params.slug -}}
       {{- $info = . -}}
     {{- end -}}
-    {{- $mapReady = partial "museum-map-ready.html" (dict "page" . "info" $info) -}}
+    {{- $mapReady = partial "museum-map-ready.html" (dict "page" . "info" $info "geo" (index $info "geo")) -}}
   {{- else if eq .Layout "museums" -}}
     {{- $indexPage := . -}}
     {{- range hugo.Data.exhibitions.museums -}}
@@ -16,7 +16,7 @@
         {{- with index hugo.Data.museums_info . -}}
           {{- $info = . -}}
         {{- end -}}
-        {{- if partial "museum-map-ready.html" (dict "page" $indexPage "info" $info) -}}
+        {{- if partial "museum-map-ready.html" (dict "page" $indexPage "info" $info "geo" (index $info "geo")) -}}
           {{- $mapReady = true -}}
         {{- end -}}
       {{- end -}}

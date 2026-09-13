@@ -1,5 +1,6 @@
 ---
 title: Over
+header: /images/banner.jpg
 subtitle: Feeds, abonneren en hoe het werkt
 translationKey: about
 url: /over/

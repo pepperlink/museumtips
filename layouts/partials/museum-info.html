@@ -2,18 +2,19 @@
 {{- $museum := .museum -}}
 {{- $info := .info -}}
 {{- $isEN := eq site.Language.Lang "en" -}}
-{{- $address := $info.address -}}
-{{- $hours := $info.hours_nl -}}
-{{- $transit := $info.transit_nl -}}
-{{- $parking := $info.parking_nl -}}
-{{- $access := $info.access_nl -}}
-{{- $pricing := $info.pricing_nl -}}
+{{- $address := $info.address_display -}}
+{{- $visitor := index $info "_visitor" -}}
+{{- $hours := index (index $visitor "hours") "nl" -}}
+{{- $transit := index (index $visitor "transit") "nl" -}}
+{{- $parking := index (index $visitor "parking") "nl" -}}
+{{- $access := index (index $visitor "access") "nl" -}}
+{{- $pricing := index (index $visitor "pricing") "nl" -}}
 {{- if $isEN -}}
-  {{- $hours = $info.hours_en -}}
-  {{- $transit = $info.transit_en -}}
-  {{- $parking = $info.parking_en -}}
-  {{- $access = $info.access_en -}}
-  {{- $pricing = $info.pricing_en -}}
+  {{- $hours = index (index $visitor "hours") "en" -}}
+  {{- $transit = index (index $visitor "transit") "en" -}}
+  {{- $parking = index (index $visitor "parking") "en" -}}
+  {{- $access = index (index $visitor "access") "en" -}}
+  {{- $pricing = index (index $visitor "pricing") "en" -}}
 {{- end -}}
 {{- $mapReady := partial "museum-map-ready.html" (dict "page" $page "info" $info) -}}
 {{- $museumName := "" -}}
@@ -24,7 +25,7 @@
   <h2>{{ i18n "location" }}</h2>
   <p>{{ . }}</p>
   {{- if $mapReady -}}
-  <div id="map" hidden data-lat="{{ index $info "lat" }}" data-lon="{{ index $info "lon" }}" data-name="{{ $museumName }}" data-address="{{ . }}"></div>
+  <div id="map" hidden data-lat="{{ index $info.geo "latitude" }}" data-lon="{{ index $info.geo "longitude" }}" data-name="{{ $museumName }}" data-address="{{ . }}"></div>
   <p id="map-unavailable" hidden>{{ i18n "map_unavailable" }}</p>
   {{- else -}}
   <p id="map-unavailable">{{ i18n "map_unavailable" }}</p>
@@ -60,21 +61,24 @@
 </section>
 {{- end -}}
 
-{{- with $info.cards -}}
+{{- with $info.offers -}}
 <section>
   <h2>{{ i18n "entrance_cards" }}</h2>
   <ul>
     {{- range . -}}
     <li>
-      {{- $label := .label -}}
-      {{- if not $label -}}{{- $label = .id -}}{{- end -}}
+      {{- $label := .name -}}
+      {{- if not $label -}}{{- $label = .identifier -}}{{- end -}}
       <strong>{{ $label }}</strong>
-      {{- if eq .accepted false }} — {{ i18n "card_not_accepted" -}}
-      {{- else if .accepted }} — {{ i18n "card_accepted" -}}
+      {{- if eq .acceptance "not_accepted" }} — {{ i18n "card_not_accepted" -}}
+      {{- else if eq .acceptance "accepted" }} — {{ i18n "card_accepted" -}}
       {{- else }} — {{ i18n "card_status_unknown" -}}
       {{- end -}}
-      {{- $note := .note_nl -}}
-      {{- if $isEN -}}{{- $note = .note_en -}}{{- end -}}
+      {{- $note := "" -}}
+      {{- with .description -}}
+        {{- $note = index . "nl" -}}
+        {{- if $isEN -}}{{- $note = index . "en" -}}{{- end -}}
+      {{- end -}}
       {{- with $note }} ({{ . }}){{ end -}}
     </li>
     {{- end -}}

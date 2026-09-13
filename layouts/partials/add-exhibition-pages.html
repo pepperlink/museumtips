@@ -36,7 +36,7 @@
         "layout" "exhibition-page"
         "type" "exhibition-page"
         "translationKey" (printf "exhibition-%s" $slug)
-        "params" (dict "slug" $slug)
+        "params" (dict "slug" $slug "header" "/images/banner.jpg")
       -}}
       {{- $.AddPage $page -}}
       {{- if or $ex.start $ex.end -}}

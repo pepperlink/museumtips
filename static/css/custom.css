@@ -33,6 +33,45 @@ header nav.contentnav {
   box-shadow: none;
 }
 
+/* The language-switcher bar (second body>nav) paints its full-bleed box-shadow
+ * sheet over the main menu's link text — hit-testing still works, but the
+ * paint hides them. Kill the shadow on the second bar; raise the first bar. */
+body > nav + nav {
+  box-shadow: none !important;
+}
+
+body > nav:first-of-type {
+  z-index: 43;
+}
+
+/* Licensed photo banner (ST-4-12). Full-bleed band; crop via object-fit. */
+.header-band {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 32vh;
+  max-height: 420px;
+  overflow: hidden;
+}
+
+.header-band img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 375px) {
+  .header-band {
+    height: 22vh;
+    max-height: 220px;
+  }
+}
+
 /* Museum maps (Leaflet). Height/max-width per owner Q4. Classless sets
  * `img, svg { max-width: 100%; object-fit: cover }`, which would squash
  * tiles and marker icons — restore Leaflet’s own sizing inside the map. */

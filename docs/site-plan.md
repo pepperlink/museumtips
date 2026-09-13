@@ -1,6 +1,6 @@
 # Museumtips website — site plan
 
-> Phase 2 (calendar UX + polish) implementation is specified in [PLAN.md](PLAN.md) at the repo root. Phase 3b (museum & exhibition pages) is in [PLAN.md §3b](PLAN.md#plan--phase-3b-museum--exhibition-pages-plan). Phase 3c (museum maps + calendar heatmap) is in [PLAN.md §3c](PLAN.md#plan--phase-3c-museum-maps--calendar-heatmap-plan).
+> Phase 2 (calendar UX + polish) implementation is specified in [PLAN.md](PLAN.md) at the repo root. Phase 3b (museum & exhibition pages) is in [PLAN.md §3b](PLAN.md#plan--phase-3b-museum--exhibition-pages-plan). Phase 3c (museum maps + calendar heatmap) is in [PLAN.md §3c](PLAN.md#plan--phase-3c-museum-maps--calendar-heatmap-plan). **Phase 4** (structured-data migration, extras cadence, press fallback, navigation/banner) is in [PLAN.md §4](PLAN.md#plan--phase-4-structured-data-cadence-navigation-plan) — authoritative field contract in [`docs/structured-data-schema.md`](structured-data-schema.md).
 
 This document outlines options for evolving the [museumtips](https://museumtips.pepperlink.nl/) project from a pair of iCalendar feeds into a browsable, multilingual website with calendar views. It is a planning artifact only — the stack has since been chosen and the site is live; phase-2 implementation is specified in PLAN.md.
 

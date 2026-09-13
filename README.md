@@ -96,9 +96,45 @@ external services. The weekly pipeline writes the feed files at the repo root an
 
 `data/exhibitions.json` is **generated** by the weekly pipeline — never hand-edit it.
 
-`data/museums_info.json` and `data/exhibitions_info.json` are **curated by hand** (collection
-process) for visitor extras (hours, prices, cards, press, …). The weekly pipeline must not
-touch or overwrite them.
+`data/museums_info.json` and `data/exhibitions_info.json` are **curated by hand** for visitor
+extras (hours, prices, cards, press, coordinates, …). The weekly pipeline must not touch or
+overwrite them. Phase 4 reshaped both files to a schema.org-aligned internal contract while
+keeping the same filenames and **frozen slugs** (record keys must match
+`exhibitions.json` `museums[].slug` / `exhibitions[].slug`; URLs under `/museums/<slug>/` and
+`/museums/<slug>/tentoonstelling/<slug>/` depend on those keys — never rename them). Full
+field-by-field mapping: [`docs/structured-data-schema.md`](docs/structured-data-schema.md).
+
+**Curated store shapes (summary):**
+
+| File | Root shape | Main subtrees |
+|---|---|---|
+| `museums_info.json` | each record `"@type": "Museum"` | `address_v2` (`PostalAddress`) + verbatim `address_display`; `geo` (`GeoCoordinates`); `offers[]` (admission cards); `_visitor.*` (hours/transit/parking/access/pricing, bilingual `{nl,en}`); `_meta` (provenance: `sources[]`, `notes[]`, `verified`); cadence fields at top level (see below) |
+| `exhibitions_info.json` | **sidecar** — no root `@type` | `admission_v2` (`Offer`); `subjectOf[]` (`NewsArticle` press links); `_meta` (`verified`, optional `orphaned_since`) |
+
+Extension subtrees **`_visitor`** and **`_meta`** hold facts schema.org has no literal node for;
+they sit at the top level next to the schema.org-shaped keys. Cadence scheduling
+(`refresh_group`, `last_refreshed_extras`, `next_due`) deliberately lives **outside** `_meta`
+(operational scheduling, not provenance). A file-level **`_cadence`** sibling key
+(`last_completed_a` / `last_completed_b`) records when each refresh half last finished — read by
+`scripts/reconcile-curated.py` for orphan grace.
+
+**Extras refresh cadence (~15 museums per week, alternating A/B):** every museum carries
+`refresh_group: "A"|"B"` (seeded 15/15, alphabetical-by-slug; new museums get the smaller
+group via `scripts/reconcile-curated.py --domain museums`). Each refresh batch re-verifies one
+group against the museum’s own site, stamps `_meta.sources[].checked` on rows actually
+rechecked, advances `_meta.verified` and `last_refreshed_extras`, sets `next_due`, and marks
+`_cadence.last_completed_a` or `_cadence.last_completed_b`. Run reconciliation before each
+cycle (`python3 scripts/reconcile-curated.py --domain museums` then `--domain exhibitions`).
+Exhibition orphans (ended shows) get `_meta.orphaned_since` and are deleted only after **both**
+A and B batches have completed since that date (Q15 grace rule — four named fixtures in the
+script’s test harness).
+
+**Press links (`subjectOf[]`):** each article carries `verifiedAccess` (bool), `accessNote`
+(from a controlled vocabulary: `ok`, `archived`, `http_403`, `http_404`, `http_410`, `timeout`,
+`paywall`, `redirect_loop`), `accessChecked` (ISO date), and optionally `archiveUrl` (Wayback
+snapshot, **never** overwrites the live `url`). Auditing follows a bounded three-step ladder
+(alternate URL → rendered access check → Wayback); if all steps fail, the original link stays
+and records an honest terminal state (`verifiedAccess: false` + specific `accessNote`).
 
 Exhibition copy for the website comes from `data/exhibitions.json`:
 
@@ -118,6 +154,22 @@ museums). Every Thursday the pipeline regenerates `data/exhibitions.json`, the r
 `.ics` feeds, and the `static/*.ics` copies, commits to `main`, and publishes the rebuilt
 site to GitHub Pages. The `.ics` files stay at the repo root and keep the same public
 URLs.
+
+### Navigation and banner (phase 4)
+
+The main menu and language switcher are two adjacent floating `<nav>` bars. The theme paints a
+full-bleed box-shadow on the second bar that covered the first bar’s link text (links still
+worked, but were invisible). **Fix (Q1):** `body > nav + nav { box-shadow: none !important; }`
+plus `body > nav:first-of-type { z-index: 43 }` in `static/css/custom.css` — smallest proven
+patch; static-in-flow nav is deferred. **Home (Q2):** already the first menu item; no chip or
+extra styling — visibility only.
+
+**Photo banner (Q3):** a licensed museum-atrium image (operator default: Picsum id 1033,
+vendored as `static/images/banner.jpg`) renders on every page via a repo override of
+`layouts/partials/headerimage.html`. License and swap candidates:
+[`docs/banner-shortlist.md`](docs/banner-shortlist.md). Hugo minification strips quotes from
+`class=` attributes; the partial carries a `data-header-band` marker so verify scripts can
+grep for banner presence without weakening the check.
 
 ## Theme notes
 

@@ -1,0 +1,9 @@
+{{- $header := .Params.header -}}
+{{- if and (not $header) (eq .Kind "404") -}}
+  {{- $header = "/images/banner.jpg" -}}
+{{- end -}}
+{{- if $header -}}
+<header class="header-band" data-header-band='class="header-band"'>
+  <img src="{{ $header | relURL }}" alt="" width="1600" height="420" decoding="async">
+</header>
+{{- end -}}

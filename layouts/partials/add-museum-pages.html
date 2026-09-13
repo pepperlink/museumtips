@@ -17,7 +17,7 @@
       "layout" "museum-page"
       "type" "museum-page"
       "translationKey" (printf "museum-%s" $slug)
-      "params" (dict "slug" $slug)
+      "params" (dict "slug" $slug "header" "/images/banner.jpg")
     -}}
     {{- $.AddPage $page -}}
   {{- end -}}

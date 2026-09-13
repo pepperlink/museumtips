@@ -1,5 +1,6 @@
 ---
 title: Museumtips
+header: /images/banner.jpg
 subtitle: Temporary exhibitions at Dutch museums
 introduction: Updated every week. Put it in your calendar, or browse what’s about to close.
 translationKey: home

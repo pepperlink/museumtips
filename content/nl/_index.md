@@ -1,5 +1,6 @@
 ---
 title: Museumtips
+header: /images/banner.jpg
 subtitle: Tijdelijke tentoonstellingen in Nederlandse musea
 introduction: Elke week bijgewerkt. Zet ’m in je agenda, of blader naar wat bijna afloopt.
 translationKey: home
