@@ -2022,7 +2022,7 @@ echo "ST-4-11: closed by design (owner Q2, 2026-09-13) — visibility fix only, 
 
 - **Model:** `composer-2.5` · **Size:** S · **Depends:** owner Q3 (photo banner chosen, 2026-09-13)
 - **Scope:** new `docs/banner-shortlist.md` only. No template/CSS/content changes — this subtask never renders anything on the site.
-- **Work:** source **3–5 licensed candidate images** suitable for a site-wide banner (desktop + 375px mobile crops considered); for each candidate record the source, exact license/terms, required attribution text, and a one-line fit note (subject matter, aspect ratio, color palette vs. the site's classless theme). Present the shortlist to the owner for pick — this subtask's output is the shortlist itself; it does **not** choose on the owner's behalf, and no candidate is wired into any template yet.
+- **Work:** owner directive (2026-09-13): use **Lorem Picsum** for the banner photo — no separate licensing hunt. Select **3–5 candidate photos** from Lorem Picsum (fixed image IDs; deterministic; Unsplash-derived, free to use — record each ID + terms and the resolved image URL), each with a one-line fit note (subject matter, aspect ratio, palette vs. the classless theme) and desktop + 375px crop suitability; mark a **default pick** (`OPERATOR PICK: <picsum-id>`) with a swap note. Owner review is optional — the default stands unless the owner swaps it. No candidate is wired into any template yet; ST-4-12 vendors the picked image into `static/images/` when it builds.
 - **Verify:**
 
 ```sh
@@ -2030,17 +2030,17 @@ test -f docs/banner-shortlist.md
 CANDIDATES=$(grep -c '^## Candidate' docs/banner-shortlist.md)
 test "$CANDIDATES" -ge 3 -a "$CANDIDATES" -le 5
 grep -qi 'license' docs/banner-shortlist.md
-grep -q 'OWNER PICK: pending' docs/banner-shortlist.md
+grep -qE 'OPERATOR PICK: ' docs/banner-shortlist.md
 git diff --name-only  # expect only docs/banner-shortlist.md
 ```
 
-- **Blocking gate:** ST-4-12 (the actual banner build) may not start until this doc records an owner pick (`OWNER PICK: pending` replaced with the chosen candidate's name + license). **Until the pick happens, no banner renders** — status quo, plain top bar, exactly as today; this is the enforced default state, not a soft preference.
-- **Commit:** `docs(header): prepare licensed banner asset shortlist for owner pick`
+- **Blocking gate:** ST-4-12 (the actual banner build) may not start until this doc records a default pick (`OPERATOR PICK` present; owner swap optional at any time — a one-line change). **Until then, no banner renders** — status quo, plain top bar, exactly as today; this is the enforced default state, not a soft preference.
+- **Commit:** `docs(header): prepare banner photo shortlist (Lorem Picsum, owner directive)`
 
 #### ST-4-12 — Top-bar / banner treatment (photo banner build) [F16]
 
-- **Model:** `composer-2.5` · **Size:** L *(per §4.4.4 item 3's expanded scope — owner Q3 picked the photo banner, not the plain-bar status quo)* · **Depends:** ST-4-10, ST-4-12a (owner pick recorded)
-- **Scope:** `content/{nl,en}/*.md` front matter (`header:` field, the four hand-authored pages) **and** the adapter code generating museum/exhibition/month pages (`layouts/partials/add-museum-pages.html`, `add-exhibition-pages.html`, `add-calendar-month-pages.html` — set the equivalent parameter on pages that have no front matter of their own, so **every** adapter-generated page gets the same banner, not just the four hand-authored ones) **and** a `layouts/partials/headerimage.html` **override in this repo** (never `themes/huguette`) sized for the picked photo **and** `static/css/custom.css` for the responsive dimensions (desktop and 375px mobile width — no fixed-height image that overflows or crops badly) **and** the licensed image asset itself (e.g. under `static/images/`) plus its license/attribution record (carried over from ST-4-12a's shortlist pick into this override's doc comment or a dedicated line in `docs/structured-data-schema.md`'s neighbor doc — kept adjacent to the shortlist, not scattered).
+- **Model:** `composer-2.5` · **Size:** L *(per §4.4.4 item 3's expanded scope — owner Q3 picked the photo banner, not the plain-bar status quo)* · **Depends:** ST-4-10, ST-4-12a (banner photo recorded)
+- **Scope:** `content/{nl,en}/*.md` front matter (`header:` field, the four hand-authored pages) **and** the adapter code generating museum/exhibition/month pages (`layouts/partials/add-museum-pages.html`, `add-exhibition-pages.html`, `add-calendar-month-pages.html` — set the equivalent parameter on pages that have no front matter of their own, so **every** adapter-generated page gets the same banner, not just the four hand-authored ones) **and** a `layouts/partials/headerimage.html` **override in this repo** (never `themes/huguette`) sized for the picked photo **and** `static/css/custom.css` for the responsive dimensions (desktop and 375px mobile width — no fixed-height image that overflows or crops badly) **and** the picked image asset itself (vendored locally under `static/images/` — no runtime hotlink to picsum.photos) plus its source/license record (carried over from ST-4-12a's shortlist pick into this override's doc comment or a dedicated line in `docs/structured-data-schema.md`'s neighbor doc — kept adjacent to the shortlist, not scattered).
 - **Work:** implement the owner-picked banner consistently across **every** page type (home, calendar index + month pages, museums index, every museum detail, every exhibition detail, about) × both languages; specify and verify the responsive dimensions at both widths; record the final license/attribution line.
 - **Verify (asserts the exact expected file set, F10, not just markdown-authored pages, plus the license record):**
 
