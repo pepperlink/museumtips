@@ -4,9 +4,9 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-de-wereld-uitvergroot-installatiekunst-van-museum-arnhem@museumtips.pepperlink.nl
-DTSTAMP:20260912T000000Z
+DTSTAMP:20260917T000000Z
 DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270405
 SUMMARY:De wereld uitvergroot – Installatiekunst van Museum Arnhem - Museum
   Arnhem
 LOCATION:Museum Arnhem\, Arnhem

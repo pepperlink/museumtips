@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-collectie-reflectie@museumtips.pepperlink.nl
-DTSTAMP:20260912T000000Z
-DTSTART;VALUE=DATE:20260912
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20261116
 SUMMARY:Collectie // Reflectie - Rijksmuseum van Oudheden
 LOCATION:Rijksmuseum van Oudheden\, Leiden

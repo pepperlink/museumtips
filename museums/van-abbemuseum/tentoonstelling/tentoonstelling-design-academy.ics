@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-tentoonstelling-design-academy@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20270402
+SUMMARY:Tentoonstelling Design Academy - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Hoe meten we dingen? En wie bepaalt wat telt? Geo-Design presen
+ teert een installatie over meten\, kunst en ontwerp.\nhttps://vanabbemuseu
+ m.nl/nl/zien-en-doen/tentoonstellingen/tentoonstelling-design-academy
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/tentoonstell
+ ing-design-academy
+END:VEVENT
+END:VCALENDAR

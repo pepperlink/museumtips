@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-ad-minoliti-feminist-school-of-painting-dommelplein-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20300503
+SUMMARY:Ad Minoliti - Feminist School of Painting (Dommelplein) - Van Abbem
+ useum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Ad Minoliti&#39;s Feminist School of Painting at the Dommelplein (n
+ o stated end date).\nhttps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstell
+ ingen/ad-minoliti
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/ad-minoliti
+END:VEVENT
+END:VCALENDAR

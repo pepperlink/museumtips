@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-ayoung-kim-dommelplein-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20270402
+SUMMARY:Ayoung Kim (Dommelplein) - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Solo exhibition at the Dommelplein (no stated end date).\nhttps
+ ://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/ayoung-kim
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/ayoung-kim
+END:VEVENT
+END:VCALENDAR

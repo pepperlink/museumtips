@@ -4,9 +4,9 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-context-verborgen-verbanden@museumtips.pepperlink.nl
-DTSTAMP:20260912T000000Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20280607
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20280605
 SUMMARY:Context: Verborgen Verbanden - Van Abbemuseum
 LOCATION:Van Abbemuseum\, Eindhoven
 DESCRIPTION:Colonial past of the Van Abbemuseum made visible.\nhttps://vana

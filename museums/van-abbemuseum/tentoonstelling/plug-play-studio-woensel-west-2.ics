@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-plug-play-studio-woensel-west-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20300503
+SUMMARY:Plug &amp; Play: Studio Woensel West - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Plug &amp; Play: Studio Woensel West at the Van Abbemuseum.\nhttps:
+ //vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/plug--play-studio-woe
+ nsel-west
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/plug--play-s
+ tudio-woensel-west
+END:VEVENT
+END:VCALENDAR

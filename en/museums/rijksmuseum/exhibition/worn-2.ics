@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-worn-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20270322
+SUMMARY:WORN - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Contemporary fashion and jewellery in the Rijksmuseum.\nhttps:/
+ /www.rijksmuseum.nl/en/whats-on/exhibitions/worn
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/worn
+END:VEVENT
+END:VCALENDAR

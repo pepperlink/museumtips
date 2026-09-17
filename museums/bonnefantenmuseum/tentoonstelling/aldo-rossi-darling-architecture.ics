@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-aldo-rossi-darling-architecture@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20270101
+SUMMARY:Aldo Rossi: Darling Architecture - Bonnefantenmuseum
+LOCATION:Bonnefantenmuseum\, Maastricht
+DESCRIPTION:A permanent tribute to the architect of the Bonnefanten.\nhttps
+ ://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architecture
+URL:https://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architectu
+ re
+END:VEVENT
+END:VCALENDAR

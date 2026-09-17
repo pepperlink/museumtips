@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-violette-cornelius-herontdekt@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20270301
+SUMMARY:Violette Cornelius herontdekt - Nederlands Fotomuseum
+LOCATION:Nederlands Fotomuseum\, Rotterdam
+DESCRIPTION:Ruim 200 werken brengen het leven en werk van fotograaf en verz
+ etsstrijder Violette Cornelius (1919-1998) samen\; na uitgebreid archiefon
+ derzoek voor het eerst op deze schaal getoond.\nhttps://nederlandsfotomuse
+ um.nl/nu-te-zien/violette-cornelius-herontdekt/
+URL:https://nederlandsfotomuseum.nl/nu-te-zien/violette-cornelius-herontdek
+ t/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-singer-highlights@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20250909
+DTEND;VALUE=DATE:20261001
+SUMMARY:Singer Highlights - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Hoogtepunten uit de collectie van Singer Laren: een persoonlijk
+ e selectie topstukken uit de eigen collectie.\nhttps://www.singerlaren.nl/
+ nl/agenda/singer-highlights-1sm4
+URL:https://www.singerlaren.nl/nl/agenda/singer-highlights-1sm4
+END:VEVENT
+END:VCALENDAR

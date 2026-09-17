@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-collectie-als-kosmos-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20300503
+SUMMARY:Collectie als kosmos - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:New collection presentation - a different look at time.\nhttps:
+ //vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/collectie-als-kosmos
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/collectie-al
+ s-kosmos
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-research-on-track-van-goghs-poplars-near-nuenen-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20270208
+SUMMARY:Research on track - Van Gogh&#39;s Poplars near Nuenen - Museum Boijman
+ s Van Beuningen (Depot)
+LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
+DESCRIPTION:Research on track at the Conservation studios in the Depot.\nht
+ tps://www.boijmans.nl/en/exhibitions/research-on-track-van-gogh-s-poplars-
+ near-nuenen
+URL:https://www.boijmans.nl/en/exhibitions/research-on-track-van-gogh-s-pop
+ lars-near-nuenen
+END:VEVENT
+END:VCALENDAR

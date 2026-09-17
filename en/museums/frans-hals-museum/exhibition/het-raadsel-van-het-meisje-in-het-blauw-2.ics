@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-het-raadsel-van-het-meisje-in-het-blauw-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20261012
+SUMMARY:Het raadsel van het meisje in het blauw - Frans Hals Museum
+LOCATION:Frans Hals Museum\, Haarlem
+DESCRIPTION:Collectiepresentatie.\nhttps://franshalsmuseum.nl/nl/zien-en-do
+ en/versproncks-meisje-in-het-blauw
+URL:https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-bl
+ auw
+END:VEVENT
+END:VCALENDAR

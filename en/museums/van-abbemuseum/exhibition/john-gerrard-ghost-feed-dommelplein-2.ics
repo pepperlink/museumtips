@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-john-gerrard-ghost-feed-dommelplein-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20300607
+SUMMARY:john gerrard - Ghost Feed (Dommelplein) - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:john gerrard&#39;s Ghost Feed at the Dommelplein (no stated end dat
+ e).\nhttps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/john-gerra
+ rd
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/john-gerrard
+END:VEVENT
+END:VCALENDAR

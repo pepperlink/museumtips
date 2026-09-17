@@ -4,9 +4,9 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-hoe-hoort-het-eigenlijk-niet@museumtips.pepperlink.nl
-DTSTAMP:20260912T000000Z
+DTSTAMP:20260917T000000Z
 DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271003
 SUMMARY:Hoe hoort het eigenlijk (niet)? - Museum Arnhem
 LOCATION:Museum Arnhem\, Arnhem
 DESCRIPTION:In Hoe hoort het eigenlijk (niet)? ontdek je in het Erfgoedcent

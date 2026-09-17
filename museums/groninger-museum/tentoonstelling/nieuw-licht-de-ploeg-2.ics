@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-nieuw-licht-de-ploeg-2@museumtips.pepperlink.nl
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20251025
+DTEND;VALUE=DATE:20290101
+SUMMARY:Nieuw licht - De Ploeg - Groninger Museum
+LOCATION:Groninger Museum\, Groningen
+DESCRIPTION:Renewed presentation of De Ploeg works from the collection.\nht
+ tps://www.groningermuseum.nl/de-ploeg-nieuw-licht
+URL:https://www.groningermuseum.nl/de-ploeg-nieuw-licht
+END:VEVENT
+END:VCALENDAR
