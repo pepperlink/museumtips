@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-09-12",
+ "compiled": "2026-09-17",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -278,11 +278,11 @@
    "title": "WORN",
    "museum": "Rijksmuseum",
    "city": "Amsterdam",
-   "start": null,
+   "start": "2026-03-27",
    "end": "2027-03-21",
    "description": "Contemporary fashion and jewellery in the Rijksmuseum.",
-   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/now-on-view",
-   "slug": "worn"
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/worn",
+   "slug": "worn-2"
   },
   {
    "title": "Vincent's Path to Fame",
@@ -431,8 +431,8 @@
    "start": null,
    "end": "2027-02-07",
    "description": "Research on track at the Conservation studios in the Depot.",
-   "url": "https://www.boijmans.nl/en/seeing-and-doing",
-   "slug": "research-on-track-van-goghs-poplars-near-nuenen"
+   "url": "https://www.boijmans.nl/en/exhibitions/research-on-track-van-gogh-s-poplars-near-nuenen",
+   "slug": "research-on-track-van-goghs-poplars-near-nuenen-2"
   },
   {
    "title": "Woody van Amen - The Best Of",
@@ -619,7 +619,7 @@
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
    "start": "2025-10-16",
-   "end": "2026-09-10",
+   "end": "2026-09-17",
    "description": "Bibliotheektentoonstelling over kleur in onderzoek, boek en alledaags spelen.",
    "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/simultane",
    "slug": "simultane-kleur-in-onderzoek-boek-en-alledaags-spelen"
@@ -639,17 +639,17 @@
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
    "start": "2026-06-06",
-   "end": "2028-06-06",
+   "end": "2030-05-02",
    "description": "Plug & Play: Studio Woensel West at the Van Abbemuseum.",
-   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen",
-   "slug": "plug-play-studio-woensel-west"
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/plug--play-studio-woensel-west",
+   "slug": "plug-play-studio-woensel-west-2"
   },
   {
    "title": "Context: Verborgen Verbanden",
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
    "start": null,
-   "end": "2028-06-06",
+   "end": "2028-06-04",
    "description": "Colonial past of the Van Abbemuseum made visible.",
    "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/verborgen-verbanden",
    "slug": "context-verborgen-verbanden"
@@ -658,51 +658,51 @@
    "title": "Collectie als kosmos",
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
-   "start": null,
+   "start": "2026-06-06",
    "end": "2030-05-02",
    "description": "New collection presentation - a different look at time.",
-   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/collectiealskosmos",
-   "slug": "collectie-als-kosmos"
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/collectie-als-kosmos",
+   "slug": "collectie-als-kosmos-2"
   },
   {
    "title": "Ayoung Kim (Dommelplein)",
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
-   "start": null,
-   "end": null,
+   "start": "2026-06-06",
+   "end": "2027-04-01",
    "description": "Solo exhibition at the Dommelplein (no stated end date).",
-   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein/ayoung-kim",
-   "slug": "ayoung-kim-dommelplein"
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/ayoung-kim",
+   "slug": "ayoung-kim-dommelplein-2"
   },
   {
    "title": "john gerrard - Ghost Feed (Dommelplein)",
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
-   "start": null,
-   "end": null,
+   "start": "2026-06-06",
+   "end": "2030-06-06",
    "description": "john gerrard's Ghost Feed at the Dommelplein (no stated end date).",
-   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein/john-gerrard",
-   "slug": "john-gerrard-ghost-feed-dommelplein"
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/john-gerrard",
+   "slug": "john-gerrard-ghost-feed-dommelplein-2"
   },
   {
    "title": "Ad Minoliti - Feminist School of Painting (Dommelplein)",
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
-   "start": null,
-   "end": null,
+   "start": "2026-06-06",
+   "end": "2030-05-02",
    "description": "Ad Minoliti's Feminist School of Painting at the Dommelplein (no stated end date).",
-   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein/ad-minoliti",
-   "slug": "ad-minoliti-feminist-school-of-painting-dommelplein"
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/ad-minoliti",
+   "slug": "ad-minoliti-feminist-school-of-painting-dommelplein-2"
   },
   {
    "title": "Nieuw licht - De Ploeg",
    "museum": "Groninger Museum",
    "city": "Groningen",
-   "start": null,
+   "start": "2025-10-25",
    "end": "2028-12-31",
    "description": "Renewed presentation of De Ploeg works from the collection.",
-   "url": "https://www.groningermuseum.nl/kunst/tentoonstellingen/nieuw-licht-de-ploeg",
-   "slug": "nieuw-licht-de-ploeg"
+   "url": "https://www.groningermuseum.nl/de-ploeg-nieuw-licht",
+   "slug": "nieuw-licht-de-ploeg-2"
   },
   {
    "title": "Het raadsel van het meisje in het blauw",
@@ -711,8 +711,8 @@
    "start": "2026-03-12",
    "end": "2026-10-11",
    "description": "Collectiepresentatie.",
-   "url": "https://franshalsmuseum.nl/nl/zien-en-doen",
-   "slug": "het-raadsel-van-het-meisje-in-het-blauw"
+   "url": "https://franshalsmuseum.nl/nl/zien-en-doen/versproncks-meisje-in-het-blauw",
+   "slug": "het-raadsel-van-het-meisje-in-het-blauw-2"
   },
   {
    "title": "De schoonheid van letters",
@@ -1008,7 +1008,7 @@
    "title": "Pak een terrasje met Vincent",
    "museum": "Kröller-Müller Museum",
    "city": "Otterlo",
-   "start": null,
+   "start": "2025-09-05",
    "end": "2026-09-20",
    "description": "Zomerse presentatie rond Vincent van Gogh in de beeldentuin.",
    "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terrasje-met-vincent",
@@ -1038,7 +1038,7 @@
    "title": "Ruimtereis",
    "museum": "Kröller-Müller Museum",
    "city": "Otterlo",
-   "start": null,
+   "start": "2026-03-25",
    "end": "2026-11-22",
    "description": "Ruimtereis door de collectie.",
    "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/ruimtereis",
@@ -1048,7 +1048,7 @@
    "title": "Wessel Couzijn. Rendez-vous van tafel en stoel",
    "museum": "Kröller-Müller Museum",
    "city": "Otterlo",
-   "start": null,
+   "start": "2026-01-17",
    "end": "2026-11-22",
    "description": "Wessel Couzijn: Rendez-vous van tafel en stoel.",
    "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van-tafel-en-stoel",
@@ -1118,7 +1118,7 @@
    "title": "Tina Farifteh: Toen ik de zon en de maan tegelijk zag",
    "museum": "Fries Museum",
    "city": "Leeuwarden",
-   "start": null,
+   "start": "2025-05-24",
    "end": "2027-03-21",
    "description": "Solotentoonstelling van Tina Farifteh.",
    "url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/tina-farifteh",
@@ -1128,7 +1128,7 @@
    "title": "Voorbij de horizon",
    "museum": "Fries Museum",
    "city": "Leeuwarden",
-   "start": null,
+   "start": "2025-05-24",
    "end": "2027-03-21",
    "description": "Tentoonstelling over landschap en horizon.",
    "url": "https://www.friesmuseum.nl/te-zien-en-te-doen/tentoonstellingen/voorbij-de-horizon",
@@ -1161,8 +1161,8 @@
    "start": "2026-05-14",
    "end": "2026-11-15",
    "description": "Duo-tentoonstelling van Robin Wen en Bobbi Essers in MORE Gorssel.",
-   "url": "https://www.moregorssel.nl/tentoonstellingen/robin-bobbi",
-   "slug": "robin-wen-bobbi-essers-nothing-makes-me-feel-as-good"
+   "url": "https://www.moregorssel.nl/tentoonstellingen/robin-wen-en-bobbi-essers",
+   "slug": "robin-wen-bobbi-essers-nothing-makes-me-feel-as-good-2"
   },
   {
    "title": "Kabinet: Maeve van Klaveren",
@@ -1469,7 +1469,7 @@
    "museum": "Museum Arnhem",
    "city": "Arnhem",
    "start": "2026-09-19",
-   "end": "2027-02-21",
+   "end": "2027-03-07",
    "description": "In Henk Mual - Kunstenaar in drie werelden maak je kennis met het werk van Henk Mual (1932-2015), een kunstenaar met wortels in de Molukken, Java en Nederland.",
    "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/henk-mual",
    "slug": "henk-mual-kunstenaar-in-drie-werelden"
@@ -1639,7 +1639,7 @@
    "museum": "Museum Arnhem",
    "city": "Arnhem",
    "start": "2026-10-03",
-   "end": "2027-04-11",
+   "end": "2027-04-04",
    "description": "In haar werk onderzoekt Maple wat het betekent om moslima, kunstenaar, moeder en vrouw met een Zuid-Aziatische achtergrond te zijn in een westerse wereld.",
    "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/sarah-maple",
    "slug": "sarah-maple-dubbelleven"
@@ -1729,7 +1729,7 @@
    "museum": "Museum Arnhem",
    "city": "Arnhem",
    "start": "2026-10-10",
-   "end": "2027-04-11",
+   "end": "2027-04-04",
    "description": "In de tentoonstelling De wereld uitvergroot zijn installatiekunstwerken en andere grote, indrukwekkende kunstwerken uit de collectie van het museum te beleven.",
    "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/de-wereld-uitvergroot",
    "slug": "de-wereld-uitvergroot-installatiekunst-van-museum-arnhem"
@@ -1789,7 +1789,7 @@
    "museum": "Museum Arnhem",
    "city": "Arnhem",
    "start": "2026-10-17",
-   "end": "2027-10-03",
+   "end": "2027-10-02",
    "description": "In Hoe hoort het eigenlijk (niet)? ontdek je in het Erfgoedcentrum bij Rozet hoe Arnhemse mannen en vrouwen vanaf de negentiende eeuw te maken kregen met regels en verwachtingen over gedrag, uiterlijk en hun plek in de samenleving.",
    "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/hoe-hoort-het-eigenlijk-niet",
    "slug": "hoe-hoort-het-eigenlijk-niet"
@@ -2113,6 +2113,46 @@
    "description": "Het Frans Hals Museum zet kunstenaar Else Berg (1877-1942) in de schijnwerpers.",
    "url": "https://franshalsmuseum.nl/nl/zien-en-doen/else-berg",
    "slug": "else-berg"
+  },
+  {
+   "museum": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "title": "Aldo Rossi: Darling Architecture",
+   "start": "2026-09-19",
+   "end": "2026-12-31",
+   "description": "A permanent tribute to the architect of the Bonnefanten.",
+   "url": "https://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architecture",
+   "slug": "aldo-rossi-darling-architecture"
+  },
+  {
+   "museum": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "title": "Violette Cornelius herontdekt",
+   "start": "2026-11-20",
+   "end": "2027-02-28",
+   "description": "Ruim 200 werken brengen het leven en werk van fotograaf en verzetsstrijder Violette Cornelius (1919-1998) samen; na uitgebreid archiefonderzoek voor het eerst op deze schaal getoond.",
+   "url": "https://nederlandsfotomuseum.nl/nu-te-zien/violette-cornelius-herontdekt/",
+   "slug": "violette-cornelius-herontdekt"
+  },
+  {
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "title": "Tentoonstelling Design Academy",
+   "start": "2026-06-06",
+   "end": "2027-04-01",
+   "description": "Hoe meten we dingen? En wie bepaalt wat telt? Geo-Design presenteert een installatie over meten, kunst en ontwerp.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/tentoonstelling-design-academy",
+   "slug": "tentoonstelling-design-academy"
+  },
+  {
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "title": "Singer Highlights",
+   "start": "2025-09-09",
+   "end": "2026-09-30",
+   "description": "Hoogtepunten uit de collectie van Singer Laren: een persoonlijke selectie topstukken uit de eigen collectie.",
+   "url": "https://www.singerlaren.nl/nl/agenda/singer-highlights-1sm4",
+   "slug": "singer-highlights"
   }
  ]
 }
