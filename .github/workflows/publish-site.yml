@@ -18,7 +18,8 @@ name: publish site
 
 on:
   schedule:
-    - cron: "0 17 * * 4"   # Thursdays 17:00 UTC — same slot as the pod cron it replaces
+    - cron: "12 0 * * *"   # daily just after 00:00 UTC — keeps the relative dates ("in 3 days") correct; the museum data update stays weekly
+    - cron: "0 17 * * 4"   # Thursdays 17:00 UTC — weekly same-day safety rebuild (replaces the pod cron slot)
   workflow_dispatch:
     inputs:
       force:
