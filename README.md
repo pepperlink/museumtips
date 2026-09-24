@@ -92,6 +92,10 @@ from `static/` (Hugo does not follow symlinks). Host `public/` as static files �
 external services. The weekly pipeline writes the feed files at the repo root and the
 `static/*.ics` copies in the same commit, then rebuilds and publishes the site.
 
+### Publish
+
+The site build + `gh-pages` publish runs as a GitHub Action: [`.github/workflows/publish-site.yml`](.github/workflows/publish-site.yml) (added in [#17](https://github.com/pepperlink/museumtips/pull/17)) — scheduled Thursdays 17:00 UTC, with `workflow_dispatch` for on-demand runs (the `force` input publishes even when unchanged). It builds `main` with pinned Hugo v0.166.0 extended (theme submodule included), copies the root `.ics` feeds plus `.nojekyll` into the output, and force-pushes the result to `gh-pages` — the branch GitHub Pages serves at <https://museumtips.pepperlink.nl/>. The publish is idempotent: an unchanged build pushes nothing. The legacy pod-side rebuild runs in parallel until cutover.
+
 ### Data refresh
 
 `data/exhibitions.json` is **generated** by the weekly pipeline — never hand-edit it.
