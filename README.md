@@ -94,7 +94,7 @@ external services. The weekly pipeline writes the feed files at the repo root an
 
 ### Publish
 
-The site build + `gh-pages` publish runs as a GitHub Action: [`.github/workflows/publish-site.yml`](.github/workflows/publish-site.yml) (added in [#17](https://github.com/pepperlink/museumtips/pull/17)) — scheduled Thursdays 17:00 UTC, with `workflow_dispatch` for on-demand runs (the `force` input publishes even when unchanged). It builds `main` with pinned Hugo v0.166.0 extended (theme submodule included), copies the root `.ics` feeds plus `.nojekyll` into the output, and force-pushes the result to `gh-pages` — the branch GitHub Pages serves at <https://museumtips.pepperlink.nl/>. The publish is idempotent: an unchanged build pushes nothing. The legacy pod-side rebuild runs in parallel until cutover.
+The site build + `gh-pages` publish runs as a GitHub Action: [`.github/workflows/publish-site.yml`](.github/workflows/publish-site.yml) (added in [#17](https://github.com/pepperlink/museumtips/pull/17)) — scheduled daily 00:12 UTC + Thursdays 17:00 UTC, with `workflow_dispatch` for on-demand runs (the `force` input publishes even when unchanged). It builds `main` with pinned Hugo v0.166.0 extended (theme submodule included), copies the root `.ics` feeds plus `.nojekyll` into the output, and force-pushes the result to `gh-pages` — the branch GitHub Pages serves at <https://museumtips.pepperlink.nl/>. The publish is idempotent: an unchanged build pushes nothing. The legacy pod-side safety-net cron was retired at the W3.2c cutover (2026-09-24); the weekly pipeline still publishes the feeds + data and verifies this Action is green before the digest goes out.
 
 ### Data refresh
 
