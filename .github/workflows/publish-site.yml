@@ -1,0 +1,122 @@
+name: publish site
+
+# Builds the museumtips site from main and publishes it to the gh-pages branch
+# that GitHub Pages serves (museumtips.pepperlink.nl). This is the GitHub
+# Actions successor of the pod-side publish_site.py; while the pod cron still
+# runs (parallel run), both publishes are safe: the publish is idempotent —
+# an unchanged build exits without pushing.
+#
+# Notes for maintainers:
+#   * Hugo is pinned to v0.166.0 (extended, linux-amd64) with a checksum —
+#     the same toolchain as the pod build. Do not float it; bump deliberately.
+#   * Pushes made with the default GITHUB_TOKEN do not trigger a Pages build
+#     ("Commits pushed by a GitHub Actions workflow that uses the GITHUB_TOKEN
+#     do not trigger a GitHub Pages build" — docs.github.com), so after a real
+#     publish the workflow requests one explicitly via the Pages API.
+#   * This workflow only builds what is on main. Feed/data generation stays
+#     with the weekly pipeline.
+
+on:
+  schedule:
+    - cron: "0 17 * * 4"   # Thursdays 17:00 UTC — same slot as the pod cron it replaces
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish even if the built site matches gh-pages (verification escape hatch)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publish-site
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: "0.166.0"
+  HUGO_SHA256: "0e39b901e3f919f1daae05c8ff64f0c14c8a348ef46886d63f8e6d1bb2653885"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout main (with theme submodule)
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          submodules: recursive
+          fetch-depth: 1
+
+      - name: Install Hugo extended (pinned)
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL -o "$RUNNER_TEMP/hugo.tar.gz" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          echo "${HUGO_SHA256}  ${RUNNER_TEMP}/hugo.tar.gz" | sha256sum -c -
+          tar -xzf "$RUNNER_TEMP/hugo.tar.gz" -C "$HOME/.local/bin" hugo
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/hugo" version
+
+      - name: Build site
+        run: |
+          set -euo pipefail
+          OUT="$RUNNER_TEMP/site"
+          mkdir -p "$OUT"
+          hugo --minify -d "$OUT"
+          for f in museumtips.ics closing-soon.ics; do
+            if [ -f "$f" ]; then cp "$f" "$OUT/$f"; fi
+          done
+          touch "$OUT/.nojekyll"
+          test -f "$OUT/index.html"
+          test -f "$OUT/en/index.html"
+          echo "Built $(find "$OUT" -type f | wc -l) files."
+
+      - name: Checkout current gh-pages
+        uses: actions/checkout@v7
+        with:
+          ref: gh-pages
+          path: gh-pages
+          fetch-depth: 1
+
+      - name: Publish if changed
+        id: publish
+        run: |
+          set -euo pipefail
+          REV="$(git rev-parse --short HEAD)"
+          FORCE='${{ github.event.inputs.force }}'
+          cd gh-pages
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a "$RUNNER_TEMP/site/." .
+          git add -A
+          CHANGED=1
+          if [ -z "$(git status --porcelain)" ] && [ "$FORCE" != "true" ]; then
+            CHANGED=0
+            echo "Site unchanged (main @${REV}) — nothing to publish."
+          else
+            git config user.name "Diane Evans (Blue Rose Task Force)"
+            git config user.email "hermes@pepperlink.nl"
+            git commit -q --allow-empty -m "deploy: site build from main @${REV} ($(date -u +%F))"
+            git push --force origin HEAD:gh-pages
+            echo "Published gh-pages from main @${REV}."
+          fi
+          echo "changed=${CHANGED}" >> "$GITHUB_OUTPUT"
+          {
+            echo "### publish site"
+            echo ""
+            echo "- main: \`${REV}\`"
+            echo "- gh-pages updated: ${CHANGED}"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Request Pages build
+        if: steps.publish.outputs.changed == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # The GITHUB_TOKEN push above does not re-trigger the legacy Pages
+          # build on its own; request one so the live site picks up the change.
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" --jq '.status'
