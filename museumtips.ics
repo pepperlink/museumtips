@@ -9,366 +9,11 @@ X-WR-CALDESC:Temporary exhibitions at Dutch museums, updated weekly. Subscr
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:museum-0ce4abb3abbe@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20250712
-DTEND;VALUE=DATE:20260918
-SUMMARY:Last week: Experimental Jetset Circuits - Stedelijk Museum
-LOCATION:Stedelijk Museum\, Amsterdam
-DESCRIPTION:The Amsterdam design studio Experimental Jetset presents Circui
- ts\, on graphic design and the city.\\nhttps://www.stedelijk.nl/en/exhibit
- ions/EN-experimental-jetset
-URL:https://www.stedelijk.nl/en/exhibitions/EN-experimental-jetset
-CATEGORIES:Museum,Amsterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-0ce4abb3abbe-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Last day: Experimental Jetset Circuits - Stedelijk Museum
-LOCATION:Stedelijk Museum\, Amsterdam
-DESCRIPTION:The Amsterdam design studio Experimental Jetset presents Circui
- ts\, on graphic design and the city.\\nhttps://www.stedelijk.nl/en/exhibit
- ions/EN-experimental-jetset
-URL:https://www.stedelijk.nl/en/exhibitions/EN-experimental-jetset
-CATEGORIES:Museum,Amsterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-f9b5dec467ce@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20260918
-SUMMARY:Last week: Simultane - Kleur in onderzoek\, boek en alledaags spele
- n - Van Abbemuseum
-LOCATION:Van Abbemuseum\, Eindhoven
-DESCRIPTION:Bibliotheektentoonstelling over kleur in onderzoek\, boek en al
- ledaags spelen.\\nhttps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstelling
- en/simultane
-URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/simultane
-CATEGORIES:Museum,Eindhoven
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-f9b5dec467ce-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Last day: Simultane - Kleur in onderzoek\, boek en alledaags spelen
-  - Van Abbemuseum
-LOCATION:Van Abbemuseum\, Eindhoven
-DESCRIPTION:Bibliotheektentoonstelling over kleur in onderzoek\, boek en al
- ledaags spelen.\\nhttps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstelling
- en/simultane
-URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/simultane
-CATEGORIES:Museum,Eindhoven
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-80d93a8c95df-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: The ReFramers present: In Search of an Anchor - Van Gogh 
- Museum
-LOCATION:Van Gogh Museum\, Amsterdam
-DESCRIPTION:Contemporary perspectives on Vincent's art - religion\, relatio
- nships\, daily rituals.\\nhttps://www.vangoghmuseum.nl/en/visit/whats-on/e
- xhibitions/in-search-of-an-anchor
-URL:https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions/in-search-of
- -an-anchor
-CATEGORIES:Museum,Amsterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-365b30fb1995@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260131
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Make Some Noise: Desire. Stage. Change. - Van Abbemuseum
-LOCATION:Van Abbemuseum\, Eindhoven
-DESCRIPTION:International exhibition about desire\, daring and change.\\nht
- tps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-noise-d
- esire-stage-change
-URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-no
- ise-desire-stage-change
-CATEGORIES:Museum,Eindhoven
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-365b30fb1995-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Make Some Noise: Desire. Stage. Change. - Van Abbemuseum
-LOCATION:Van Abbemuseum\, Eindhoven
-DESCRIPTION:International exhibition about desire\, daring and change.\\nht
- tps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-noise-d
- esire-stage-change
-URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/make-some-no
- ise-desire-stage-change
-CATEGORIES:Museum,Eindhoven
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-517710de7fec@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260321
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Cremer in context - de vroege jaren - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:First overview after Jan Cremer's death\; his position as visua
- l artist in the 1950s-60s.\\nhttps://museumdefundatie.nl/nl/te-zien/cremer
- -context
-URL:https://museumdefundatie.nl/nl/te-zien/cremer-context
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-517710de7fec-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Cremer in context - de vroege jaren - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:First overview after Jan Cremer's death\; his position as visua
- l artist in the 1950s-60s.\\nhttps://museumdefundatie.nl/nl/te-zien/cremer
- -context
-URL:https://museumdefundatie.nl/nl/te-zien/cremer-context
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-1ccf425b6211@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260523
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Umbild - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:Jules van Hulst & Wieger Steenhuis: Umbild.\\nhttps://museumdef
- undatie.nl/nl/te-zien/umbild
-URL:https://museumdefundatie.nl/nl/te-zien/umbild
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-1ccf425b6211-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Umbild - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:Jules van Hulst & Wieger Steenhuis: Umbild.\\nhttps://museumdef
- undatie.nl/nl/te-zien/umbild
-URL:https://museumdefundatie.nl/nl/te-zien/umbild
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-755a4c1d029e@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260321
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Ntu - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:Buhlebezwe Siwani: Ntu.\\nhttps://museumdefundatie.nl/nl/te-zie
- n/ntu
-URL:https://museumdefundatie.nl/nl/te-zien/ntu
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-755a4c1d029e-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Ntu - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:Buhlebezwe Siwani: Ntu.\\nhttps://museumdefundatie.nl/nl/te-zie
- n/ntu
-URL:https://museumdefundatie.nl/nl/te-zien/ntu
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-0438efeff45d@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260523
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: In de 17e Hemel - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:Art installation by Chourouk Hriech.\\nhttps://museumdefundatie
- .nl/nl/te-zien/de-17e-hemel
-URL:https://museumdefundatie.nl/nl/te-zien/de-17e-hemel
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-0438efeff45d-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: In de 17e Hemel - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:Art installation by Chourouk Hriech.\\nhttps://museumdefundatie
- .nl/nl/te-zien/de-17e-hemel
-URL:https://museumdefundatie.nl/nl/te-zien/de-17e-hemel
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-3465076b5a10@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260314
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Naakt dat raakt - Museum Arnhem
-LOCATION:Museum Arnhem\, Arnhem
-DESCRIPTION:Artists use the naked body to discuss freedom\, identity and in
- equality.\\nhttps://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raa
- kt
-URL:https://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raakt
-CATEGORIES:Museum,Arnhem
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-3465076b5a10-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Naakt dat raakt - Museum Arnhem
-LOCATION:Museum Arnhem\, Arnhem
-DESCRIPTION:Artists use the naked body to discuss freedom\, identity and in
- equality.\\nhttps://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raa
- kt
-URL:https://www.museumarnhem.nl/nl/tentoonstellingen/naakt-dat-raakt
-CATEGORIES:Museum,Arnhem
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-8a3e7b6632ad@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260310
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Bakudengar - Museum Arnhem
-LOCATION:Museum Arnhem\, Arnhem
-DESCRIPTION:Bakudengar in Museum Arnhem.\\nhttps://www.museumarnhem.nl/nl/t
- entoonstellingen/bakudengar
-URL:https://www.museumarnhem.nl/nl/tentoonstellingen/bakudengar
-CATEGORIES:Museum,Arnhem
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-8a3e7b6632ad-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Bakudengar - Museum Arnhem
-LOCATION:Museum Arnhem\, Arnhem
-DESCRIPTION:Bakudengar in Museum Arnhem.\\nhttps://www.museumarnhem.nl/nl/t
- entoonstellingen/bakudengar
-URL:https://www.museumarnhem.nl/nl/tentoonstellingen/bakudengar
-CATEGORIES:Museum,Arnhem
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-6ab1facb3878@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20250905
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Pak een terrasje met Vincent - Kröller-Müller Museum
-LOCATION:Kröller-Müller Museum\, Otterlo
-DESCRIPTION:Zomerse presentatie rond Vincent van Gogh in de beeldentuin.\\n
- https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terrasje-
- met-vincent
-URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terras
- je-met-vincent
-CATEGORIES:Museum,Otterlo
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-6ab1facb3878-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Pak een terrasje met Vincent - Kröller-Müller Museum
-LOCATION:Kröller-Müller Museum\, Otterlo
-DESCRIPTION:Zomerse presentatie rond Vincent van Gogh in de beeldentuin.\\n
- https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terrasje-
- met-vincent
-URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/pak-een-terras
- je-met-vincent
-CATEGORIES:Museum,Otterlo
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-6c2dd0c75181@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260509
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Anouk Griffioen. Nu het er nog is - Kröller-Müller Museu
- m
-LOCATION:Kröller-Müller Museum\, Otterlo
-DESCRIPTION:Anouk Griffioen in het Kroller-Muller Museum.\\nhttps://kroller
- muller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioen-nu-het-er-nog-is
-URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioe
- n-nu-het-er-nog-is
-CATEGORIES:Museum,Otterlo
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-6c2dd0c75181-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Anouk Griffioen. Nu het er nog is - Kröller-Müller Museum
-LOCATION:Kröller-Müller Museum\, Otterlo
-DESCRIPTION:Anouk Griffioen in het Kroller-Muller Museum.\\nhttps://kroller
- muller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioen-nu-het-er-nog-is
-URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/anouk-griffioe
- n-nu-het-er-nog-is
-CATEGORIES:Museum,Otterlo
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-fc50685f5949-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last day: Amrita Sher-Gil: Europa is van Picasso\, India is van mij
-  - Drents Museum
-LOCATION:Drents Museum\, Assen
-DESCRIPTION:Tentoonstelling over Amrita Sher-Gil in de Singelzaal van het D
- rents Museum.\\nhttps://drentsmuseum.nl/tentoonstellingen/amrita-sher-gil-
- europa-is-van-picasso-india-is-van-mij
-URL:https://drentsmuseum.nl/tentoonstellingen/amrita-sher-gil-europa-is-van
- -picasso-india-is-van-mij
-CATEGORIES:Museum,Assen
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-8e9dd883bd31-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:Last day: Salty Tears\, a Bare Wall\, and a Playful Emergency Butto
- n - Museum Boijmans Van Beuningen (Depot)
-LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
-DESCRIPTION:Temporary exhibition at the Depot.\\nhttps://www.boijmans.nl/en
- /exhibitions/salty-tears-a-bare-wall-playful-emergency
-URL:https://www.boijmans.nl/en/exhibitions/salty-tears-a-bare-wall-playful-
- emergency
-CATEGORIES:Museum,Rotterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-7180fc842d49-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:Last day: Depot Solo - Mandy El-Sayegh - Museum Boijmans Van Beunin
- gen (Depot)
-LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
-DESCRIPTION:First edition of the new Depot Solo series\, made possible by A
- mmodo Art.\\nhttps://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sa
- yegh
-URL:https://www.boijmans.nl/en/exhibitions/depot-solo-mandy-el-sayegh
-CATEGORIES:Museum,Rotterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-ca57747c6bc4-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:Last day: A Diary of Things - Museum Boijmans Van Beuningen (Depot)
-LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
-DESCRIPTION:Reveals the eventful histories of artworks (donated\, sold\, cu
- t up\, stolen).\\nhttps://www.boijmans.nl/en/exhibitions/diary-of-things
-URL:https://www.boijmans.nl/en/exhibitions/diary-of-things
-CATEGORIES:Museum,Rotterdam
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-617452700b91@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20251018
-DTEND;VALUE=DATE:20260928
-SUMMARY:Last 2 weeks: Dieren in Arnhem (Erfgoedcentrum) - Museum Arnhem
+DTEND;VALUE=DATE:20260927
+SUMMARY:Last week: Dieren in Arnhem (Erfgoedcentrum) - Museum Arnhem
 LOCATION:Museum Arnhem\, Arnhem
 DESCRIPTION:Animals in Arnhem - heritage centre show.\\nhttps://www.museuma
  rnhem.nl/nl/tentoonstellingen/dieren-in-arnhem
@@ -377,9 +22,9 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-617452700b91-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
 SUMMARY:Last day: Dieren in Arnhem (Erfgoedcentrum) - Museum Arnhem
 LOCATION:Museum Arnhem\, Arnhem
 DESCRIPTION:Animals in Arnhem - heritage centre show.\\nhttps://www.museuma
@@ -389,7 +34,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-62c3ec2f7231-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Last day: Beauty of the Beast: Dieren in de art nouveau - De Buiten
@@ -403,26 +48,11 @@ URL:https://dmdebuitenplaats.nl/tentoonstellingen/beauty-of-the-beast-diere
 CATEGORIES:Museum,Eelde
 END:VEVENT
 BEGIN:VEVENT
-UID:museum-62c3ec2f7231-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Last week: Beauty of the Beast: Dieren in de art nouveau - De Buite
- nplaats
-LOCATION:De Buitenplaats\, Eelde
-DESCRIPTION:Tentoonstelling over dieren in de art nouveau in Drents Museum 
- De Buitenplaats (verlengd t/m 27 september).\\nhttps://dmdebuitenplaats.nl
- /tentoonstellingen/beauty-of-the-beast-dieren-in-de-art-nouveau
-URL:https://dmdebuitenplaats.nl/tentoonstellingen/beauty-of-the-beast-diere
- n-in-de-art-nouveau
-CATEGORIES:Museum,Eelde
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-dcdf7b74bd84@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260928
-SUMMARY:Last 2 weeks: Minami-no-tori - Centraal Museum
+SUMMARY:Last week: Minami-no-tori - Centraal Museum
 LOCATION:Centraal Museum\, Utrecht
 DESCRIPTION:Een audiovisuele installatie van Daniel Cross in Utrecht Lokaal
  .\\nhttps://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/minami-n
@@ -433,7 +63,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-dcdf7b74bd84-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Last day: Minami-no-tori - Centraal Museum
@@ -447,10 +77,10 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9543106ad745@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20250909
 DTEND;VALUE=DATE:20261001
-SUMMARY:Last 2 weeks: Singer Highlights - Singer Laren
+SUMMARY:Last week: Singer Highlights - Singer Laren
 LOCATION:Singer Laren\, Laren
 DESCRIPTION:Hoogtepunten uit de collectie van Singer Laren: een persoonlijk
  e selectie topstukken uit de eigen collectie.\\nhttps://www.singerlaren.nl
@@ -460,7 +90,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9543106ad745-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Last day: Singer Highlights - Singer Laren
@@ -472,11 +102,43 @@ URL:https://www.singerlaren.nl/nl/agenda/singer-highlights-1sm4
 CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
+UID:museum-f428841524ae@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20261001
+SUMMARY:Last week: Forecourt: a tribute to Aldo Rossi - Bonnefantenmuseum
+LOCATION:Bonnefantenmuseum\, Maastricht
+DESCRIPTION:The Russian Box\, designed by Aldo Rossi (1931-1997)\, welcomes
+  visitors to the forecourt of the Bonnefanten as a colourful eye-catcher a
+ nd tribute to the architect of the museum building.\\nhttps://www.bonnefan
+ ten.nl/en/whats-on/exhibitions/a-new-eye-catcher-on-the-forecourt-a-tribut
+ e-to-aldo-rossi
+URL:https://www.bonnefanten.nl/en/whats-on/exhibitions/a-new-eye-catcher-on
+ -the-forecourt-a-tribute-to-aldo-rossi
+CATEGORIES:Museum,Maastricht
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-f428841524ae-ld@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Last day: Forecourt: a tribute to Aldo Rossi - Bonnefantenmuseum
+LOCATION:Bonnefantenmuseum\, Maastricht
+DESCRIPTION:The Russian Box\, designed by Aldo Rossi (1931-1997)\, welcomes
+  visitors to the forecourt of the Bonnefanten as a colourful eye-catcher a
+ nd tribute to the architect of the museum building.\\nhttps://www.bonnefan
+ ten.nl/en/whats-on/exhibitions/a-new-eye-catcher-on-the-forecourt-a-tribut
+ e-to-aldo-rossi
+URL:https://www.bonnefanten.nl/en/whats-on/exhibitions/a-new-eye-catcher-on
+ -the-forecourt-a-tribute-to-aldo-rossi
+CATEGORIES:Museum,Maastricht
+END:VEVENT
+BEGIN:VEVENT
 UID:museum-1e6dfe265741@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20261004
-SUMMARY:Last 3 weeks: Patchwork Post - Centraal Museum
+SUMMARY:Last 2 weeks: Patchwork Post - Centraal Museum
 LOCATION:Centraal Museum\, Utrecht
 DESCRIPTION:Colourful landing spot designed by Simone Post.\\nhttps://www.c
  entraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/patchwork-post
@@ -486,7 +148,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1e6dfe265741-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Last day: Patchwork Post - Centraal Museum
@@ -499,7 +161,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-69b9877877b9-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Last day: Woody van Amen - The Best Of - Kunsthal
@@ -511,7 +173,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-69b9877877b9-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Last week: Woody van Amen - The Best Of - Kunsthal
@@ -523,7 +185,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b42b6b7a2a58-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Last day: Helen Levitt - City at Play - Kunsthal
@@ -535,7 +197,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b42b6b7a2a58-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Last week: Helen Levitt - City at Play - Kunsthal
@@ -547,7 +209,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-856245e3dc28-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Last day: De schoonheid van letters - Rijksmuseum van Oudheden
@@ -561,7 +223,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-856245e3dc28-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Last week: De schoonheid van letters - Rijksmuseum van Oudheden
@@ -575,10 +237,10 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2caaa87d1d74@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20261005
-SUMMARY:Last 3 weeks: Ruud Kuijer - Kröller-Müller Museum
+SUMMARY:Last 2 weeks: Ruud Kuijer - Kröller-Müller Museum
 LOCATION:Kröller-Müller Museum\, Otterlo
 DESCRIPTION:Beelden van Ruud Kuijer in de beeldentuin.\\nhttps://krollermul
  ler.nl/nl/nu-te-doen/tentoonstellingen/ruud-kuijer
@@ -587,7 +249,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2caaa87d1d74-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Last day: Ruud Kuijer - Kröller-Müller Museum
@@ -599,11 +261,11 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-13f0f72ac48d@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260312
 DTEND;VALUE=DATE:20261012
-SUMMARY:Last month: Het raadsel van het meisje in het blauw - Frans Hals Mu
- seum
+SUMMARY:Last 3 weeks: Het raadsel van het meisje in het blauw - Frans Hals 
+ Museum
 LOCATION:Frans Hals Museum\, Haarlem
 DESCRIPTION:Collectiepresentatie.\\nhttps://franshalsmuseum.nl/nl/zien-en-d
  oen/versproncks-meisje-in-het-blauw
@@ -613,7 +275,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-13f0f72ac48d-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Last day: Het raadsel van het meisje in het blauw - Frans Hals Muse
@@ -627,7 +289,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6c4d8b211f56-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Last day: Etha Fles & Medardo Rosso. Voor de kunst - Singer Laren
@@ -641,7 +303,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6c4d8b211f56-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Last week: Etha Fles & Medardo Rosso. Voor de kunst - Singer Laren
@@ -655,11 +317,11 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8a5ef5e346de@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20261012
-SUMMARY:Last month: Sonsbeek 2026: Ik hoef geen tuin\, ik deel een park - M
- useum Arnhem
+SUMMARY:Last 3 weeks: Sonsbeek 2026: Ik hoef geen tuin\, ik deel een park -
+  Museum Arnhem
 LOCATION:Museum Arnhem\, Arnhem
 DESCRIPTION:Europe's oldest recurring exhibition of art in public space\; 1
  3th edition on remembrance as a living act.\\nhttps://www.museumarnhem.nl/
@@ -669,7 +331,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8a5ef5e346de-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Last day: Sonsbeek 2026: Ik hoef geen tuin\, ik deel een park - Mus
@@ -683,10 +345,10 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-299dd975a526@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20261012
-SUMMARY:Last month: 50 Years North Sea Jazz Photography - Kunsthal
+SUMMARY:Last 3 weeks: 50 Years North Sea Jazz Photography - Kunsthal
 LOCATION:Kunsthal\, Rotterdam
 DESCRIPTION:Festival photography from 50 years of North Sea Jazz by Paul Be
  rgen\, Rico D'Rozario and Andreas Terlaak (zaal 7).\\nhttps://www.kunsthal
@@ -697,7 +359,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-299dd975a526-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Last day: 50 Years North Sea Jazz Photography - Kunsthal
@@ -711,10 +373,10 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8cc830466be0@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20261019
-SUMMARY:Kho Liang Ie Mid-Century Modernist - Stedelijk Museum
+SUMMARY:Last month: Kho Liang Ie Mid-Century Modernist - Stedelijk Museum
 LOCATION:Stedelijk Museum\, Amsterdam
 DESCRIPTION:First museum retrospective of Dutch-Chinese designer and interi
  or architect Kho Liang Ie.\\nhttps://www.stedelijk.nl/en/exhibitions/kho-l
@@ -724,7 +386,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8cc830466be0-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Last day: Kho Liang Ie Mid-Century Modernist - Stedelijk Museum
@@ -737,7 +399,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9dba4a20c963-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Last day: Martine Gutierrez: Wunderkind - Huis Marseille
@@ -749,7 +411,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9dba4a20c963-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Last week: Martine Gutierrez: Wunderkind - Huis Marseille
@@ -761,7 +423,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-69df31e16ca3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last day: Carel Visser in the Rijksmuseum Gardens - Rijksmuseum
@@ -773,7 +435,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-69df31e16ca3-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Last week: Carel Visser in the Rijksmuseum Gardens - Rijksmuseum
@@ -785,7 +447,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e2efcb1c6bcd-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last day: Endless Reflections - Museum Boijmans Van Beuningen (Depo
@@ -798,7 +460,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e2efcb1c6bcd-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Last week: Endless Reflections - Museum Boijmans Van Beuningen (Dep
@@ -811,7 +473,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f59f12f384bb-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last day: Jan van der Vaart: for Jan and all - Kunstmuseum Den Haag
@@ -824,7 +486,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f59f12f384bb-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Last week: Jan van der Vaart: for Jan and all - Kunstmuseum Den Haa
@@ -838,7 +500,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5a688b9d68eb-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last day: Mix & Match - Kamalia Talhaoui: Beauty from the world of 
@@ -851,7 +513,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5a688b9d68eb-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Last week: Mix & Match - Kamalia Talhaoui: Beauty from the world of
@@ -864,7 +526,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-37822fffeb17@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20261026
 SUMMARY:Charley Toorop & Pyke Koch: Alles of niets - Museum MORE
@@ -878,7 +540,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-37822fffeb17-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last day: Charley Toorop & Pyke Koch: Alles of niets - Museum MORE
@@ -892,7 +554,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a5df963c0b28-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last day: Into Nature: Haunted by Waters - De Buitenplaats
@@ -905,7 +567,7 @@ CATEGORIES:Museum,Eelde
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a5df963c0b28-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Last week: Into Nature: Haunted by Waters - De Buitenplaats
@@ -918,7 +580,7 @@ CATEGORIES:Museum,Eelde
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-15db5502a51a@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261030
 SUMMARY:In Her Own Way / شوية وراجعة - Foam
@@ -931,7 +593,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-15db5502a51a-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Last day: In Her Own Way / شوية وراجعة - Foam
@@ -944,7 +606,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-48626b893b3f-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Last day: Harvest 2026 - Pip Greenaway - Museum Boijmans Van Beunin
@@ -957,7 +619,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-48626b893b3f-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Last week: Harvest 2026 - Pip Greenaway - Museum Boijmans Van Beuni
@@ -970,7 +632,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-acbdd7162a19@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260217
 DTEND;VALUE=DATE:20261102
 SUMMARY:Kunsthal Inside/Out: Sabine Marcelis - Continuum - Kunsthal
@@ -984,7 +646,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-acbdd7162a19-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last day: Kunsthal Inside/Out: Sabine Marcelis - Continuum - Kunsth
@@ -999,7 +661,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-60860e99941c-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last day: Benedikte Bjerre - When the Wind Blows - Kunsthal
@@ -1012,7 +674,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-60860e99941c-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last week: Benedikte Bjerre - When the Wind Blows - Kunsthal
@@ -1025,7 +687,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5cd350f5cccb-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last day: Good Food - Nederlands Fotomuseum
@@ -1037,7 +699,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5cd350f5cccb-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last week: Good Food - Nederlands Fotomuseum
@@ -1049,7 +711,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f18af7270db0-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last day: Galleria - Rijksmuseum van Oudheden
@@ -1063,7 +725,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f18af7270db0-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last week: Galleria - Rijksmuseum van Oudheden
@@ -1077,7 +739,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b41fc21e0a5a-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last day: Lisa Konno Paul Kooiker - Museum Kranenburgh
@@ -1090,7 +752,7 @@ CATEGORIES:Museum,Bergen NH
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b41fc21e0a5a-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last week: Lisa Konno Paul Kooiker - Museum Kranenburgh
@@ -1103,7 +765,7 @@ CATEGORIES:Museum,Bergen NH
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2f9fed7655a3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last day: Dromen in het duin (Bernard Essers) - Museum Kranenburgh
@@ -1115,7 +777,7 @@ CATEGORIES:Museum,Bergen NH
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2f9fed7655a3-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last week: Dromen in het duin (Bernard Essers) - Museum Kranenburgh
@@ -1127,7 +789,7 @@ CATEGORIES:Museum,Bergen NH
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7ca4c1c7835a-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last day: Alles verandert\, niets vergaat (Iris Le Rutte) - Museum 
@@ -1141,7 +803,7 @@ CATEGORIES:Museum,Bergen NH
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7ca4c1c7835a-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Last week: Alles verandert\, niets vergaat (Iris Le Rutte) - Museum
@@ -1155,7 +817,7 @@ CATEGORIES:Museum,Bergen NH
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-afad0ebacc50-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last day: The Land of Chocolate Sprinkles - H'ART Museum (ex-Hermit
@@ -1169,7 +831,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-afad0ebacc50-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last week: The Land of Chocolate Sprinkles - H'ART Museum (ex-Hermi
@@ -1183,7 +845,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6d288dc4c050-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last day: Buiten de oevers - Museum de Fundatie
@@ -1196,7 +858,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6d288dc4c050-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Last week: Buiten de oevers - Museum de Fundatie
@@ -1209,7 +871,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-81ce78a80f51@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261110
 SUMMARY:Art Award Arnhem 2026 - Museum Arnhem
@@ -1222,7 +884,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-81ce78a80f51-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Last day: Art Award Arnhem 2026 - Museum Arnhem
@@ -1234,8 +896,40 @@ URL:https://www.museumarnhem.nl/nl/tentoonstellingen/art-award-arnhem-2026
 CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
+UID:museum-26c3e78714e9-ld@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Last day: 20th-century Galleries - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Every six months the Rijksmuseum presents new spotlight display
+ s in the 20th-century galleries\; this edition highlights Madelon Vriesend
+ orp's drawings\, Charley Toorop's artistic circle\, and the influence of p
+ hotography on 20th-century advertising.\\nhttps://www.rijksmuseum.nl/en/wh
+ ats-on/exhibitions/new-displays-in-the-20th-century-galleries
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/new-displays-in-the-
+ 20th-century-galleries
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-26c3e78714e9-lw@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Last week: 20th-century Galleries - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Every six months the Rijksmuseum presents new spotlight display
+ s in the 20th-century galleries\; this edition highlights Madelon Vriesend
+ orp's drawings\, Charley Toorop's artistic circle\, and the influence of p
+ hotography on 20th-century advertising.\\nhttps://www.rijksmuseum.nl/en/wh
+ ats-on/exhibitions/new-displays-in-the-20th-century-galleries
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/new-displays-in-the-
+ 20th-century-galleries
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
 UID:museum-1c819ebb62cd-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Dichter bij De denker - Singer Laren
@@ -1248,7 +942,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1c819ebb62cd-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: Dichter bij De denker - Singer Laren
@@ -1261,7 +955,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bee8f26235d3@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20261116
 SUMMARY:Robin Wen & Bobbi Essers: Nothing Makes Me Feel As Good - Museum MO
@@ -1275,7 +969,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bee8f26235d3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Robin Wen & Bobbi Essers: Nothing Makes Me Feel As Good -
@@ -1289,7 +983,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-80cc083230e6@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20261116
 SUMMARY:Kabinet: Maeve van Klaveren - Museum MORE
@@ -1302,7 +996,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-80cc083230e6-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Kabinet: Maeve van Klaveren - Museum MORE
@@ -1315,7 +1009,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bb0e0fe3e5b9-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Christoph Ruckhaberle: The Fourth Wall - Drents Museum
@@ -1328,7 +1022,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bb0e0fe3e5b9-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: Christoph Ruckhaberle: The Fourth Wall - Drents Museum
@@ -1341,7 +1035,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f18e3168bd1c-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: DMspotlight: Wilhelmina Proos - Drents Museum
@@ -1354,7 +1048,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f18e3168bd1c-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: DMspotlight: Wilhelmina Proos - Drents Museum
@@ -1367,7 +1061,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-76e365eef7b7-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Collectie // Reflectie - Rijksmuseum van Oudheden
@@ -1381,7 +1075,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-76e365eef7b7-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: Collectie // Reflectie - Rijksmuseum van Oudheden
@@ -1395,7 +1089,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-55feaa5d66a8-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Quickscan 3 - Nederlands Fotomuseum
@@ -1407,7 +1101,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-55feaa5d66a8-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last week: Quickscan 3 - Nederlands Fotomuseum
@@ -1419,7 +1113,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b7f8e3e51486-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Godenschemering - Frans Franciscus - Centraal Museum
@@ -1433,7 +1127,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b7f8e3e51486-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last week: Godenschemering - Frans Franciscus - Centraal Museum
@@ -1447,7 +1141,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-48bfb48fe0ea@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20261123
 SUMMARY:Ruimtereis - Kröller-Müller Museum
@@ -1459,7 +1153,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-48bfb48fe0ea-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Ruimtereis - Kröller-Müller Museum
@@ -1471,7 +1165,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b84337348f4b@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260117
 DTEND;VALUE=DATE:20261123
 SUMMARY:Wessel Couzijn. Rendez-vous van tafel en stoel - Kröller-Müller Mus
@@ -1486,7 +1180,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b84337348f4b-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Wessel Couzijn. Rendez-vous van tafel en stoel - Kröller-
@@ -1501,7 +1195,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5f4bbeb65271@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20261128
 SUMMARY:Keerthana Kunnath: Not What You Saw - Foam
@@ -1513,7 +1207,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5f4bbeb65271-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Last day: Keerthana Kunnath: Not What You Saw - Foam
@@ -1525,7 +1219,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1f3dc90c4345@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20261130
 SUMMARY:Layers - Fotomuseum Den Haag
@@ -1539,7 +1233,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1f3dc90c4345-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Last day: Layers - Fotomuseum Den Haag
@@ -1552,8 +1246,38 @@ URL:https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers
 CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
+UID:museum-89c8376e7a5f-ld@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Last day: In the Rijksmuseum print cabinets - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:This presentation in the print cabinets focuses on Roman street
+  art\, social satire and Japanese fairy tales\, with a cabinet dedicated t
+ o the recently gifted 17th-century Van Eeghen Drawing Book.\\nhttps://www.
+ rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-print-cabinets
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-p
+ rint-cabinets
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-89c8376e7a5f-lw@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Last week: In the Rijksmuseum print cabinets - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:This presentation in the print cabinets focuses on Roman street
+  art\, social satire and Japanese fairy tales\, with a cabinet dedicated t
+ o the recently gifted 17th-century Van Eeghen Drawing Book.\\nhttps://www.
+ rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-print-cabinets
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-p
+ rint-cabinets
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
 UID:museum-cb452d2dba68@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20231209
 DTEND;VALUE=DATE:20261210
 SUMMARY:De levens van Mata Hari - Fries Museum
@@ -1566,7 +1290,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-cb452d2dba68-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Last day: De levens van Mata Hari - Fries Museum
@@ -1579,7 +1303,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-0cdd581d280d@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261221
 SUMMARY:Al Nisa / النساء - Foam
@@ -1592,7 +1316,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-0cdd581d280d-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Last day: Al Nisa / النساء - Foam
@@ -1605,7 +1329,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-477566ee0707-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Last day: Blik op Bloemen - Centraal Museum
@@ -1618,7 +1342,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-477566ee0707-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Last week: Blik op Bloemen - Centraal Museum
@@ -1631,7 +1355,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4491a50c6546@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20251018
 DTEND;VALUE=DATE:20270101
 SUMMARY:K-pop: A Snapshot - Museum Volkenkunde
@@ -1646,7 +1370,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4491a50c6546-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Last day: K-pop: A Snapshot - Museum Volkenkunde
@@ -1661,7 +1385,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-cea188238904-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Last day: Museum Murals - Museum de Fundatie
@@ -1673,7 +1397,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-cea188238904-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Last week: Museum Murals - Museum de Fundatie
@@ -1684,34 +1408,8 @@ URL:https://museumdefundatie.nl/nl/te-zien/museum-murals
 CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
-UID:museum-62ee3bd215b2@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20270101
-SUMMARY:Aldo Rossi: Darling Architecture - Bonnefantenmuseum
-LOCATION:Bonnefantenmuseum\, Maastricht
-DESCRIPTION:A permanent tribute to the architect of the Bonnefanten.\\nhttp
- s://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architecture
-URL:https://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architectu
- re
-CATEGORIES:Museum,Maastricht
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-62ee3bd215b2-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-SUMMARY:Last day: Aldo Rossi: Darling Architecture - Bonnefantenmuseum
-LOCATION:Bonnefantenmuseum\, Maastricht
-DESCRIPTION:A permanent tribute to the architect of the Bonnefanten.\\nhttp
- s://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architecture
-URL:https://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architectu
- re
-CATEGORIES:Museum,Maastricht
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-4d785de83764-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Last day: Reflections on Fashion: 75 Years - Kunstmuseum Den Haag
@@ -1723,7 +1421,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4d785de83764-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Last week: Reflections on Fashion: 75 Years - Kunstmuseum Den Haag
@@ -1735,7 +1433,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1981166df78d-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Last day: Tijd voor Papoea - Museum Volkenkunde
@@ -1748,7 +1446,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1981166df78d-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Last week: Tijd voor Papoea - Museum Volkenkunde
@@ -1761,7 +1459,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-23413e2d53ec-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Last day: Yuki Kihara: Darwin in Paradise Camp - Museum Volkenkunde
@@ -1775,7 +1473,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-23413e2d53ec-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Last week: Yuki Kihara: Darwin in Paradise Camp - Museum Volkenkund
@@ -1790,7 +1488,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9b65b92ed2f9@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20270104
 SUMMARY:Van Gogh\, al onze schilderijen - Kröller-Müller Museum
@@ -1804,7 +1502,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9b65b92ed2f9-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Last day: Van Gogh\, al onze schilderijen - Kröller-Müller Museum
@@ -1818,7 +1516,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-29f3c26b9a51@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270105
 SUMMARY:Yoshitoshi. Master of the Moon - Van Gogh Museum
@@ -1832,7 +1530,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-29f3c26b9a51-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Last day: Yoshitoshi. Master of the Moon - Van Gogh Museum
@@ -1846,7 +1544,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bf110307d514-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Last day: Carlijn Kingma. De machinerie van de volkshuisvesting - S
@@ -1861,7 +1559,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bf110307d514-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:Last week: Carlijn Kingma. De machinerie van de volkshuisvesting - 
@@ -1876,7 +1574,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8b8958f3cc2d@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270111
 SUMMARY:Playing House - Groninger Museum
@@ -1889,7 +1587,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8b8958f3cc2d-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Last day: Playing House - Groninger Museum
@@ -1902,7 +1600,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-af55fc9b05a5@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270111
 SUMMARY:Keramikos Carrier Bag - Groninger Museum
@@ -1916,7 +1614,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-af55fc9b05a5-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Last day: Keramikos Carrier Bag - Groninger Museum
@@ -1930,7 +1628,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bfdced20da63@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270111
 SUMMARY:Whistler. Dandy and Disruptor - Van Gogh Museum
@@ -1943,7 +1641,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bfdced20da63-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Last day: Whistler. Dandy and Disruptor - Van Gogh Museum
@@ -1956,7 +1654,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f230fbc36c60@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20270111
 SUMMARY:Merlijn Hooijsma in West-Australië - Singer Laren
@@ -1972,7 +1670,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f230fbc36c60-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:Last day: Merlijn Hooijsma in West-Australië - Singer Laren
@@ -1988,7 +1686,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-58c748d38be7@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20270118
 SUMMARY:Yayoi Kusama - Stedelijk Museum
@@ -2002,7 +1700,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-58c748d38be7-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Last day: Yayoi Kusama - Stedelijk Museum
@@ -2016,7 +1714,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-037ea16d77aa@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20270118
 SUMMARY:Willem de Kooning at work - Rijksmuseum
@@ -2031,7 +1729,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-037ea16d77aa-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Last day: Willem de Kooning at work - Rijksmuseum
@@ -2046,7 +1744,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6915e89175ab@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20270118
 SUMMARY:Document Netherlands: New Energy - Rijksmuseum
@@ -2060,7 +1758,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6915e89175ab-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Last day: Document Netherlands: New Energy - Rijksmuseum
@@ -2074,7 +1772,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4a2ac0e2a483@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270118
 SUMMARY:Adam Pendleton — Some Wild Kind of Language - Stedelijk Museum
@@ -2087,7 +1785,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4a2ac0e2a483-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Last day: Adam Pendleton — Some Wild Kind of Language - Stedelijk M
@@ -2100,8 +1798,38 @@ URL:https://www.stedelijk.nl/en/exhibitions/adam-pendleton-en
 CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
+UID:museum-7b875328e11a@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20270118
+SUMMARY:Theater Rotterdam (Sur)render - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Kunsthal Rotterdam and Theater Rotterdam translate Alida Dors's
+  performance (Sur)render into an immersive exhibition in which you become 
+ part of the performance yourself.\\nhttps://www.kunsthal.nl/en/plan-your-v
+ isit/exhibitions/theater-rotterdam/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/theater-rotterda
+ m/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-7b875328e11a-ld@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Last day: Theater Rotterdam (Sur)render - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Kunsthal Rotterdam and Theater Rotterdam translate Alida Dors's
+  performance (Sur)render into an immersive exhibition in which you become 
+ part of the performance yourself.\\nhttps://www.kunsthal.nl/en/plan-your-v
+ isit/exhibitions/theater-rotterdam/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/theater-rotterda
+ m/
+CATEGORIES:Museum,Rotterdam
+END:VEVENT
+BEGIN:VEVENT
 UID:museum-503a9b401874@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20270121
 SUMMARY:Hailun Ma: Hometown - Foam
@@ -2114,7 +1842,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-503a9b401874-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Last day: Hailun Ma: Hometown - Foam
@@ -2127,7 +1855,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-32208c3ad7f5@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270201
 SUMMARY:Eva Besnyö: The Liberated Camera - Fotomuseum Den Haag
@@ -2140,7 +1868,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-32208c3ad7f5-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Last day: Eva Besnyö: The Liberated Camera - Fotomuseum Den Haag
@@ -2153,7 +1881,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7b00f6d9794f@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20270201
 SUMMARY:Nadav Kander: The edge of things - Foam
@@ -2166,7 +1894,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7b00f6d9794f-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Last day: Nadav Kander: The edge of things - Foam
@@ -2179,7 +1907,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e53e23b746e7@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20270201
 SUMMARY:A Chair and You - Kunsthal
@@ -2192,7 +1920,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e53e23b746e7-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Last day: A Chair and You - Kunsthal
@@ -2205,7 +1933,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e715833af4a5-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last day: Research on track - Van Gogh's Poplars near Nuenen - Muse
@@ -2220,7 +1948,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e715833af4a5-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Last week: Research on track - Van Gogh's Poplars near Nuenen - Mus
@@ -2235,7 +1963,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1933d454bf73@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20270208
 SUMMARY:Sam Drukker: De ouder wordende mens - Museum MORE
@@ -2249,7 +1977,7 @@ CATEGORIES:Museum,Ruurlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1933d454bf73-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last day: Sam Drukker: De ouder wordende mens - Museum MORE
@@ -2263,7 +1991,7 @@ CATEGORIES:Museum,Ruurlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-350734f34bc7@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20270208
 SUMMARY:REDBAD: de legendarische koning - Fries Museum
@@ -2276,7 +2004,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-350734f34bc7-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last day: REDBAD: de legendarische koning - Fries Museum
@@ -2289,7 +2017,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-30fb743257d1@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20270208
 SUMMARY:Drawn: Rotterdam! Night Work - Kunsthal
@@ -2304,7 +2032,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-30fb743257d1-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last day: Drawn: Rotterdam! Night Work - Kunsthal
@@ -2319,7 +2047,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6153fe07d554@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20270208
 SUMMARY:Maya Inès Touam: Belongings - Huis Marseille
@@ -2333,7 +2061,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-6153fe07d554-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last day: Maya Inès Touam: Belongings - Huis Marseille
@@ -2347,7 +2075,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-074b959923ab@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20270208
 SUMMARY:Andrzej Steinbach: Hier - Huis Marseille
@@ -2360,7 +2088,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-074b959923ab-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last day: Andrzej Steinbach: Hier - Huis Marseille
@@ -2373,7 +2101,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-51058791e2ab@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20270208
 SUMMARY:Adolphe de Meyer: The Substance of a Venetian Dream - Huis Marseill
@@ -2387,7 +2115,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-51058791e2ab-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last day: Adolphe de Meyer: The Substance of a Venetian Dream - Hui
@@ -2401,7 +2129,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fede08c4e4bc-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Last day: Base Line: Music Meets Art - Kunstmuseum Den Haag
@@ -2413,7 +2141,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fede08c4e4bc-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:Last week: Base Line: Music Meets Art - Kunstmuseum Den Haag
@@ -2425,7 +2153,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1dd5a572a98f@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20270215
 SUMMARY:Herman Kruyder. Expressionist van de ziel - Singer Laren
@@ -2440,7 +2168,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1dd5a572a98f-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Last day: Herman Kruyder. Expressionist van de ziel - Singer Laren
@@ -2455,7 +2183,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-161a2296bc2b@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20270215
 SUMMARY:Chez Matisse - Masterpieces from Centre Pompidou - H'ART Museum (ex
@@ -2469,7 +2197,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-161a2296bc2b-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Last day: Chez Matisse - Masterpieces from Centre Pompidou - H'ART 
@@ -2483,7 +2211,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9d9c556b2449@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270218
 SUMMARY:Myriam Boulos - Foam
@@ -2496,7 +2224,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9d9c556b2449-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Last day: Myriam Boulos - Foam
@@ -2509,7 +2237,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b6e62ab52ff2@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20270222
 SUMMARY:Museum als Zonnewijzer - Van Abbemuseum
@@ -2524,7 +2252,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b6e62ab52ff2-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:Last day: Museum als Zonnewijzer - Van Abbemuseum
@@ -2539,7 +2267,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-eb00c6a85b18@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20270301
 SUMMARY:Sigmar Polke – Het weten van de kleuren - De Pont Museum
@@ -2553,7 +2281,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-eb00c6a85b18-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Sigmar Polke – Het weten van de kleuren - De Pont Museum
@@ -2567,7 +2295,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2932e230ca7c@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20270301
 SUMMARY:Matthew Monahan – Left Hand Path - De Pont Museum
@@ -2582,7 +2310,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2932e230ca7c-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Matthew Monahan – Left Hand Path - De Pont Museum
@@ -2597,7 +2325,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4065e0bfa821@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20270301
 SUMMARY:Bárbara Wagner & Benjamin de Burca – Future of Yesterday - De Pont 
@@ -2613,7 +2341,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4065e0bfa821-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Bárbara Wagner & Benjamin de Burca – Future of Yesterday 
@@ -2629,7 +2357,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-002b290f6db3@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20270301
 SUMMARY:Signac - Symphony of Colours - Kunsthal
@@ -2644,7 +2372,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-002b290f6db3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Signac - Symphony of Colours - Kunsthal
@@ -2659,7 +2387,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7de29420b4f3@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20270301
 SUMMARY:Humus Blues - Singer Laren
@@ -2672,7 +2400,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7de29420b4f3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Humus Blues - Singer Laren
@@ -2685,7 +2413,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-ca04094d2844@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20270301
 SUMMARY:Hals-Rembrandt - Frans Hals Museum
@@ -2698,7 +2426,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-ca04094d2844-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Hals-Rembrandt - Frans Hals Museum
@@ -2711,7 +2439,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-73851f1a6b0e@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20270301
 SUMMARY:Junk Space - Museum MORE
@@ -2726,7 +2454,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-73851f1a6b0e-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Junk Space - Museum MORE
@@ -2741,7 +2469,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-df4641aa5184@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20270301
 SUMMARY:Violette Cornelius herontdekt - Nederlands Fotomuseum
@@ -2756,7 +2484,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-df4641aa5184-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last day: Violette Cornelius herontdekt - Nederlands Fotomuseum
@@ -2771,7 +2499,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-50b920a8d69d-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Last day: Mix & Match - Antonis Pittas - Kunstmuseum Den Haag
@@ -2784,7 +2512,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-50b920a8d69d-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last week: Mix & Match - Antonis Pittas - Kunstmuseum Den Haag
@@ -2797,7 +2525,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2a7dc0e14297@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20270308
 SUMMARY:Vincent de Boer - Omgeven (Window of Opportunity) - Singer Laren
@@ -2809,7 +2537,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-2a7dc0e14297-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Last day: Vincent de Boer - Omgeven (Window of Opportunity) - Singe
@@ -2822,7 +2550,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-266c954aa3e8-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Last day: Schilder voor iedereen - Museum de Fundatie
@@ -2834,7 +2562,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-266c954aa3e8-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Last week: Schilder voor iedereen - Museum de Fundatie
@@ -2846,7 +2574,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-36daed896f80@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20270308
 SUMMARY:Celebrating the Icons of Art - Voorlinden
@@ -2859,7 +2587,7 @@ CATEGORIES:Museum,Wassenaar
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-36daed896f80-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Last day: Celebrating the Icons of Art - Voorlinden
@@ -2872,7 +2600,7 @@ CATEGORIES:Museum,Wassenaar
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f3cb68b35f30@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270308
 SUMMARY:Henk Mual – Kunstenaar in drie werelden - Museum Arnhem
@@ -2886,7 +2614,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f3cb68b35f30-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Last day: Henk Mual – Kunstenaar in drie werelden - Museum Arnhem
@@ -2900,7 +2628,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8f545f714326@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20270308
 SUMMARY:Plastic Sea\, Perfect Storm - Kunsthal
@@ -2915,7 +2643,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8f545f714326-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Last day: Plastic Sea\, Perfect Storm - Kunsthal
@@ -2930,7 +2658,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fe9c9d8fda00@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20270308
 SUMMARY:Geen weg terug – Bé Thoden van Velzen - Museum de Fundatie
@@ -2943,7 +2671,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fe9c9d8fda00-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:Last day: Geen weg terug – Bé Thoden van Velzen - Museum de Fundati
@@ -2957,7 +2685,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-001cafc863e6@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20270315
 SUMMARY:Born to play: do & dare like an artist - Bonnefantenmuseum
@@ -2971,7 +2699,7 @@ CATEGORIES:Museum,Maastricht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-001cafc863e6-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:Last day: Born to play: do & dare like an artist - Bonnefantenmuseu
@@ -2986,7 +2714,7 @@ CATEGORIES:Museum,Maastricht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-748f21fe8800@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20270322
 SUMMARY:WORN - Rijksmuseum
@@ -2998,7 +2726,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-748f21fe8800-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Last day: WORN - Rijksmuseum
@@ -3010,7 +2738,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b54e60de4ec9@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260523
 DTEND;VALUE=DATE:20270322
 SUMMARY:Robert Zandvliet: Aan de oevers van de tijd - Fries Museum
@@ -3024,7 +2752,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b54e60de4ec9-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Last day: Robert Zandvliet: Aan de oevers van de tijd - Fries Museu
@@ -3039,7 +2767,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9c0b732ca814@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20250524
 DTEND;VALUE=DATE:20270322
 SUMMARY:Tina Farifteh: Toen ik de zon en de maan tegelijk zag - Fries Museu
@@ -3053,7 +2781,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9c0b732ca814-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Last day: Tina Farifteh: Toen ik de zon en de maan tegelijk zag - F
@@ -3067,7 +2795,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b37b1f142cd3@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20250524
 DTEND;VALUE=DATE:20270322
 SUMMARY:Voorbij de horizon - Fries Museum
@@ -3080,7 +2808,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b37b1f142cd3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Last day: Voorbij de horizon - Fries Museum
@@ -3093,7 +2821,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-20c163fcf7df@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20270322
 SUMMARY:Into the Woods - Museum MORE
@@ -3107,7 +2835,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-20c163fcf7df-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Last day: Into the Woods - Museum MORE
@@ -3121,7 +2849,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fe39aa6584fb@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20270330
 SUMMARY:Marisol - Museum Boijmans Van Beuningen (Depot)
@@ -3134,7 +2862,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fe39aa6584fb-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:Last day: Marisol - Museum Boijmans Van Beuningen (Depot)
@@ -3147,7 +2875,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-26521cd9e1a8@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270330
 SUMMARY:Graffiti - Centraal Museum
@@ -3161,7 +2889,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-26521cd9e1a8-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:Last day: Graffiti - Centraal Museum
@@ -3175,7 +2903,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1fb32360273b@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20270402
 SUMMARY:Ayoung Kim (Dommelplein) - Van Abbemuseum
@@ -3187,7 +2915,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1fb32360273b-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Last day: Ayoung Kim (Dommelplein) - Van Abbemuseum
@@ -3199,7 +2927,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-afba8cda19d6@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20270402
 SUMMARY:Gilbert & George. Drifters - Kröller-Müller Museum
@@ -3213,7 +2941,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-afba8cda19d6-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Last day: Gilbert & George. Drifters - Kröller-Müller Museum
@@ -3227,7 +2955,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-aebb66b5c85f@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20270402
 SUMMARY:Tentoonstelling Design Academy - Van Abbemuseum
@@ -3241,7 +2969,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-aebb66b5c85f-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Last day: Tentoonstelling Design Academy - Van Abbemuseum
@@ -3255,7 +2983,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1dcd8488e66f@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20270405
 SUMMARY:kijk om je heen! (de Fundatie Collectie) - Museum de Fundatie
@@ -3267,7 +2995,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1dcd8488e66f-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: kijk om je heen! (de Fundatie Collectie) - Museum de Fund
@@ -3280,7 +3008,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-56a3ff28b4e2@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20250509
 DTEND;VALUE=DATE:20270405
 SUMMARY:De Weerd: mini Maas island on the forecourt - Bonnefantenmuseum
@@ -3294,7 +3022,7 @@ CATEGORIES:Museum,Maastricht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-56a3ff28b4e2-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: De Weerd: mini Maas island on the forecourt - Bonnefanten
@@ -3309,7 +3037,7 @@ CATEGORIES:Museum,Maastricht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-140a5947f122@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20270405
 SUMMARY:Sarah Maple – Dubbelleven - Museum Arnhem
@@ -3323,7 +3051,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-140a5947f122-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: Sarah Maple – Dubbelleven - Museum Arnhem
@@ -3337,7 +3065,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e93df3749905@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20270405
 SUMMARY:Digital by Nature – de kunst van Miguel Chevalier - Museum de Funda
@@ -3352,7 +3080,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e93df3749905-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: Digital by Nature – de kunst van Miguel Chevalier - Museu
@@ -3367,7 +3095,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-261447e0a180@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20270405
 SUMMARY:DEEP DIVE – Natalia Domínguez Rangel - Museum de Fundatie
@@ -3380,7 +3108,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-261447e0a180-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: DEEP DIVE – Natalia Domínguez Rangel - Museum de Fundatie
@@ -3393,7 +3121,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b907f3e75966@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20270405
 SUMMARY:De wereld uitvergroot – Installatiekunst van Museum Arnhem - Museum
@@ -3408,7 +3136,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b907f3e75966-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: De wereld uitvergroot – Installatiekunst van Museum Arnhe
@@ -3423,7 +3151,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-250ca0cdf025@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20270405
 SUMMARY:Collaborative Artistic Practices - Proposals for the Museum Collect
@@ -3439,7 +3167,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-250ca0cdf025-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: Collaborative Artistic Practices - Proposals for the Muse
@@ -3455,7 +3183,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5a8de4272980@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20270405
 SUMMARY:Jan van der Kooi – Morgen maak ik mijn beste werk - Drents Museum
@@ -3469,7 +3197,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5a8de4272980-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: Jan van der Kooi – Morgen maak ik mijn beste werk - Drent
@@ -3484,7 +3212,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a703f65c0ffd@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20270405
 SUMMARY:Shivangi Kalra – Met mijn ogen dicht - Drents Museum
@@ -3498,7 +3226,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a703f65c0ffd-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
 SUMMARY:Last day: Shivangi Kalra – Met mijn ogen dicht - Drents Museum
@@ -3512,7 +3240,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-585b5471edea@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20270501
 SUMMARY:Post/No/Bills #7: Kexin Hao - Anatomy of Obstruction - Stedelijk Mu
@@ -3526,7 +3254,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-585b5471edea-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:Last day: Post/No/Bills #7: Kexin Hao - Anatomy of Obstruction - St
@@ -3540,7 +3268,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8e7e81227c86@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270510
 SUMMARY:The Architect & the Housewife - Groninger Museum
@@ -3554,7 +3282,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-8e7e81227c86-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Last day: The Architect & the Housewife - Groninger Museum
@@ -3568,7 +3296,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7b0a54503c29@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270510
 SUMMARY:The Convent of Pleasure - Groninger Museum
@@ -3582,7 +3310,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7b0a54503c29-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Last day: The Convent of Pleasure - Groninger Museum
@@ -3596,7 +3324,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b9b218096e63@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20270510
 SUMMARY:Angkor – Het mysterie van Cambodja - Drents Museum
@@ -3610,7 +3338,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b9b218096e63-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:Last day: Angkor – Het mysterie van Cambodja - Drents Museum
@@ -3624,7 +3352,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4a7684236c3e@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20270518
 SUMMARY:Tess van Zalinge - keurslijf - Centraal Museum
@@ -3638,7 +3366,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4a7684236c3e-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:Last day: Tess van Zalinge - keurslijf - Centraal Museum
@@ -3651,8 +3379,38 @@ URL:https://www.centraalmuseum.nl/nl/nu-te-zien/tentoonstellingen/tess-van-
 CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
+UID:museum-1bad7bae1325@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20270518
+SUMMARY:Kabinet | Jeanne Oosting Prijs 2026 - Museum MORE
+LOCATION:Museum MORE\, Gorssel
+DESCRIPTION:Werk van de winnaars van de Jeanne Oosting Prijs 2026\, Caren v
+ an Herwaarden en Robert Zandvliet\, te zien in het kabinet van MORE Gorsse
+ l.\\nhttps://www.moregorssel.nl/tentoonstellingen/kabinet-jeanne-oosting-p
+ rijs-2026
+URL:https://www.moregorssel.nl/tentoonstellingen/kabinet-jeanne-oosting-pri
+ js-2026
+CATEGORIES:Museum,Gorssel
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-1bad7bae1325-ld@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Last day: Kabinet | Jeanne Oosting Prijs 2026 - Museum MORE
+LOCATION:Museum MORE\, Gorssel
+DESCRIPTION:Werk van de winnaars van de Jeanne Oosting Prijs 2026\, Caren v
+ an Herwaarden en Robert Zandvliet\, te zien in het kabinet van MORE Gorsse
+ l.\\nhttps://www.moregorssel.nl/tentoonstellingen/kabinet-jeanne-oosting-p
+ rijs-2026
+URL:https://www.moregorssel.nl/tentoonstellingen/kabinet-jeanne-oosting-pri
+ js-2026
+CATEGORIES:Museum,Gorssel
+END:VEVENT
+BEGIN:VEVENT
 UID:museum-429e2f60aae8@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270524
 SUMMARY:Ex Hibited - Kunstmuseum Den Haag
@@ -3665,7 +3423,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-429e2f60aae8-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Last day: Ex Hibited - Kunstmuseum Den Haag
@@ -3678,7 +3436,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-72b497e634ad@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270524
 SUMMARY:Drawing! - Rijksmuseum
@@ -3691,7 +3449,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-72b497e634ad-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Last day: Drawing! - Rijksmuseum
@@ -3704,7 +3462,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7e162bc8ef3d@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20270531
 SUMMARY:De Poptaschat: Fries zilver op wereldschaal - Fries Museum
@@ -3718,7 +3476,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-7e162bc8ef3d-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:Last day: De Poptaschat: Fries zilver op wereldschaal - Fries Museu
@@ -3733,7 +3491,7 @@ CATEGORIES:Museum,Leeuwarden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-92539e2ff186@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270607
 SUMMARY:Modernités! Matisse tot Bacon - Singer Laren
@@ -3746,7 +3504,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-92539e2ff186-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:Last day: Modernités! Matisse tot Bacon - Singer Laren
@@ -3759,7 +3517,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-61539a15c720@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270621
 SUMMARY:Eva Gonzalès. A New Perspective - Van Gogh Museum
@@ -3773,7 +3531,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-61539a15c720-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Last day: Eva Gonzalès. A New Perspective - Van Gogh Museum
@@ -3787,7 +3545,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-ca1ac44a0c89@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270621
 SUMMARY:ABN AMRO Art Award 2026 — Hend Samir - Stedelijk Museum
@@ -3800,7 +3558,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-ca1ac44a0c89-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Last day: ABN AMRO Art Award 2026 — Hend Samir - Stedelijk Museum
@@ -3813,7 +3571,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-04ef865e7032-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:Last day: Monsters en mythische wezens - Rijksmuseum van Oudheden
@@ -3827,7 +3585,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-04ef865e7032-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270621
 SUMMARY:Last week: Monsters en mythische wezens - Rijksmuseum van Oudheden
@@ -3841,7 +3599,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-99b79707ba5a@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20270628
 SUMMARY:Echo’s van oud Egypte - Rijksmuseum van Oudheden
@@ -3856,7 +3614,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-99b79707ba5a-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270627
 DTEND;VALUE=DATE:20270628
 SUMMARY:Last day: Echo’s van oud Egypte - Rijksmuseum van Oudheden
@@ -3871,7 +3629,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-81cbd301e3b5@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270712
 SUMMARY:Luc Tuymans — Silent Music - Stedelijk Museum
@@ -3884,7 +3642,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-81cbd301e3b5-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:Last day: Luc Tuymans — Silent Music - Stedelijk Museum
@@ -3897,7 +3655,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-56dfc3dd6af7@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270802
 SUMMARY:Ibrahim Mahama — ZILIJAFA - Stedelijk Museum
@@ -3910,7 +3668,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-56dfc3dd6af7-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270802
 SUMMARY:Last day: Ibrahim Mahama — ZILIJAFA - Stedelijk Museum
@@ -3923,7 +3681,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-c703d9f8525c@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270816
 SUMMARY:Future Fashion - Kunstmuseum Den Haag
@@ -3936,7 +3694,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-c703d9f8525c-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270815
 DTEND;VALUE=DATE:20270816
 SUMMARY:Last day: Future Fashion - Kunstmuseum Den Haag
@@ -3949,7 +3707,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a35abf2f5bc9@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270823
 SUMMARY:Marc Chagall - Stedelijk Museum
@@ -3962,7 +3720,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a35abf2f5bc9-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270822
 DTEND;VALUE=DATE:20270823
 SUMMARY:Last day: Marc Chagall - Stedelijk Museum
@@ -3975,7 +3733,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9d89b0862a23@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20270830
 SUMMARY:Zeker weten? - Teylers Museum
@@ -3988,7 +3746,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-9d89b0862a23-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270829
 DTEND;VALUE=DATE:20270830
 SUMMARY:Last day: Zeker weten? - Teylers Museum
@@ -4001,7 +3759,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-0567322f9168@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270830
 SUMMARY:Oesters & citroenen - Frans Hals Museum
@@ -4015,7 +3773,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-0567322f9168-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270829
 DTEND;VALUE=DATE:20270830
 SUMMARY:Last day: Oesters & citroenen - Frans Hals Museum
@@ -4029,7 +3787,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-abd99f1470d3@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20270902
 SUMMARY:Kunst op het plein: Ricardo van Eyk - Centraal Museum
@@ -4043,7 +3801,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-abd99f1470d3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
 SUMMARY:Last day: Kunst op het plein: Ricardo van Eyk - Centraal Museum
@@ -4057,7 +3815,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b5be55353ca2@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20270902
 SUMMARY:Bart van der Leck / Charley Toorop - Kröller-Müller Museum
@@ -4073,7 +3831,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b5be55353ca2-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
 SUMMARY:Last day: Bart van der Leck / Charley Toorop - Kröller-Müller Museu
@@ -4090,7 +3848,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1dfd33817e99@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20270906
 SUMMARY:Sami Art\, Land\, Power - Museum Volkenkunde
@@ -4103,7 +3861,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1dfd33817e99-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270906
 SUMMARY:Last day: Sami Art\, Land\, Power - Museum Volkenkunde
@@ -4116,7 +3874,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-480f98505603@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20270906
 SUMMARY:Cooking from the Fridge - Bonnefantenmuseum
@@ -4130,7 +3888,7 @@ CATEGORIES:Museum,Maastricht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-480f98505603-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270906
 SUMMARY:Last day: Cooking from the Fridge - Bonnefantenmuseum
@@ -4144,7 +3902,7 @@ CATEGORIES:Museum,Maastricht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-d1618c8c1ea3@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270906
 SUMMARY:Sophie Calle – Something Missing? - De Pont Museum
@@ -4157,7 +3915,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-d1618c8c1ea3-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270906
 SUMMARY:Last day: Sophie Calle – Something Missing? - De Pont Museum
@@ -4170,7 +3928,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-c2d4ea2c6f92@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270906
 SUMMARY:Silvia Martes – ... has other plans for us - De Pont Museum
@@ -4183,7 +3941,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-c2d4ea2c6f92-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270906
 SUMMARY:Last day: Silvia Martes – ... has other plans for us - De Pont Muse
@@ -4197,7 +3955,7 @@ CATEGORIES:Museum,Tilburg
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fc930c5551ae@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270927
 SUMMARY:No Future – Linder - Museum de Fundatie
@@ -4209,7 +3967,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fc930c5551ae-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 SUMMARY:Last day: No Future – Linder - Museum de Fundatie
@@ -4221,7 +3979,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a24303e79254@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20270927
 SUMMARY:Jan Hendrik Weissenbruch. Hollands licht - Singer Laren
@@ -4236,7 +3994,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a24303e79254-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270926
 DTEND;VALUE=DATE:20270927
 SUMMARY:Last day: Jan Hendrik Weissenbruch. Hollands licht - Singer Laren
@@ -4251,7 +4009,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-c50bc3b58cec@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20271003
 SUMMARY:Hoe hoort het eigenlijk (niet)? - Museum Arnhem
@@ -4267,7 +4025,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-c50bc3b58cec-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271003
 SUMMARY:Last day: Hoe hoort het eigenlijk (niet)? - Museum Arnhem
@@ -4283,7 +4041,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f3ab20fc98f4@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20271004
 SUMMARY:Symbio – Diana Scherer - Museum de Fundatie
@@ -4295,7 +4053,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f3ab20fc98f4-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20271003
 DTEND;VALUE=DATE:20271004
 SUMMARY:Last day: Symbio – Diana Scherer - Museum de Fundatie
@@ -4307,7 +4065,7 @@ CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-85da0c03cec0-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Last day: Tin - Rijksmuseum van Oudheden
@@ -4319,7 +4077,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-85da0c03cec0-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20271224
 DTEND;VALUE=DATE:20271225
 SUMMARY:Last week: Tin - Rijksmuseum van Oudheden
@@ -4331,7 +4089,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f54a6a1b6cde@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20250125
 DTEND;VALUE=DATE:20280101
 SUMMARY:Ont-moeten - Museum Arnhem
@@ -4343,7 +4101,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f54a6a1b6cde-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20271231
 DTEND;VALUE=DATE:20280101
 SUMMARY:Last day: Ont-moeten - Museum Arnhem
@@ -4355,7 +4113,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-0704376f7bbe@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20280131
 SUMMARY:Mondrian's final masterpieces to be reunited - Kunstmuseum Den Haag
@@ -4370,7 +4128,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-0704376f7bbe-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20280130
 DTEND;VALUE=DATE:20280131
 SUMMARY:Last day: Mondrian's final masterpieces to be reunited - Kunstmuseu
@@ -4386,7 +4144,7 @@ CATEGORIES:Museum,Den Haag
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bc94d492de13@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20280207
 SUMMARY:Een gevoel van ongeveer - Frans Hals Museum
@@ -4400,7 +4158,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bc94d492de13-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20280206
 DTEND;VALUE=DATE:20280207
 SUMMARY:Last day: Een gevoel van ongeveer - Frans Hals Museum
@@ -4414,7 +4172,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4334e55c0a55-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20280604
 DTEND;VALUE=DATE:20280605
 SUMMARY:Last day: Context: Verborgen Verbanden - Van Abbemuseum
@@ -4427,7 +4185,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-4334e55c0a55-lw@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20280528
 DTEND;VALUE=DATE:20280529
 SUMMARY:Last week: Context: Verborgen Verbanden - Van Abbemuseum
@@ -4440,7 +4198,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-d3110adc765f@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20251025
 DTEND;VALUE=DATE:20290101
 SUMMARY:Nieuw licht - De Ploeg - Groninger Museum
@@ -4452,7 +4210,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-d3110adc765f-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20281231
 DTEND;VALUE=DATE:20290101
 SUMMARY:Last day: Nieuw licht - De Ploeg - Groninger Museum
@@ -4464,7 +4222,7 @@ CATEGORIES:Museum,Groningen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a8fcbe5bbaff@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20240911
 DTEND;VALUE=DATE:20290101
 SUMMARY:Beeldentuin - Museum Arnhem
@@ -4476,7 +4234,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-a8fcbe5bbaff-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20281231
 DTEND;VALUE=DATE:20290101
 SUMMARY:Last day: Beeldentuin - Museum Arnhem
@@ -4488,7 +4246,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-3c09cecf71a8@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20281006
 DTEND;VALUE=DATE:20290226
 SUMMARY:Else Berg - Frans Hals Museum
@@ -4500,7 +4258,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-3c09cecf71a8-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20290225
 DTEND;VALUE=DATE:20290226
 SUMMARY:Last day: Else Berg - Frans Hals Museum
@@ -4512,7 +4270,7 @@ CATEGORIES:Museum,Haarlem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e016d38f31fe@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20300503
 SUMMARY:Plug & Play: Studio Woensel West - Van Abbemuseum
@@ -4526,7 +4284,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-e016d38f31fe-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20300502
 DTEND;VALUE=DATE:20300503
 SUMMARY:Last day: Plug & Play: Studio Woensel West - Van Abbemuseum
@@ -4540,7 +4298,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-203f3f6b0c53@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20300503
 SUMMARY:Collectie als kosmos - Van Abbemuseum
@@ -4553,7 +4311,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-203f3f6b0c53-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20300502
 DTEND;VALUE=DATE:20300503
 SUMMARY:Last day: Collectie als kosmos - Van Abbemuseum
@@ -4566,7 +4324,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b8e582a35c63@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20300503
 SUMMARY:Ad Minoliti - Feminist School of Painting (Dommelplein) - Van Abbem
@@ -4580,7 +4338,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b8e582a35c63-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20300502
 DTEND;VALUE=DATE:20300503
 SUMMARY:Last day: Ad Minoliti - Feminist School of Painting (Dommelplein) -
@@ -4593,8 +4351,38 @@ URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/ad-minoliti
 CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
+UID:museum-a996d73e0a49@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20300503
+SUMMARY:Forever Summer - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Participatief kunstwerk van De Onkruidenier waarin de tomaat ce
+ ntraal staat: jaarlijks kweken zo'n dertig huishoudens mee als onderdeel v
+ an de tomatengemeenschap van het museum.\\nhttps://vanabbemuseum.nl/nl/zie
+ n-en-doen/tentoonstellingen/forever-summer
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/forever-summ
+ er
+CATEGORIES:Museum,Eindhoven
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-a996d73e0a49-ld@hermes.museumtracker
+DTSTAMP:20260924T102138Z
+DTSTART;VALUE=DATE:20300502
+DTEND;VALUE=DATE:20300503
+SUMMARY:Last day: Forever Summer - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Participatief kunstwerk van De Onkruidenier waarin de tomaat ce
+ ntraal staat: jaarlijks kweken zo'n dertig huishoudens mee als onderdeel v
+ an de tomatengemeenschap van het museum.\\nhttps://vanabbemuseum.nl/nl/zie
+ n-en-doen/tentoonstellingen/forever-summer
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/forever-summ
+ er
+CATEGORIES:Museum,Eindhoven
+END:VEVENT
+BEGIN:VEVENT
 UID:museum-dc993d7d9d08@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20300607
 SUMMARY:john gerrard - Ghost Feed (Dommelplein) - Van Abbemuseum
@@ -4607,7 +4395,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-dc993d7d9d08-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20300606
 DTEND;VALUE=DATE:20300607
 SUMMARY:Last day: john gerrard - Ghost Feed (Dommelplein) - Van Abbemuseum
@@ -4620,7 +4408,7 @@ CATEGORIES:Museum,Eindhoven
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fca2738e6094@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20241221
 DTEND;VALUE=DATE:20340106
 SUMMARY:Labyrinthia - Drents Museum
@@ -4632,7 +4420,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-fca2738e6094-ld@hermes.museumtracker
-DTSTAMP:20260917T102712Z
+DTSTAMP:20260924T102138Z
 DTSTART;VALUE=DATE:20340105
 DTEND;VALUE=DATE:20340106
 SUMMARY:Last day: Labyrinthia - Drents Museum

@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-09-17",
+ "compiled": "2026-09-24",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -969,7 +969,7 @@
    "museum": "Museum Arnhem",
    "city": "Arnhem",
    "start": "2025-10-18",
-   "end": "2026-09-27",
+   "end": "2026-09-26",
    "description": "Animals in Arnhem - heritage centre show.",
    "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/dieren-in-arnhem",
    "slug": "dieren-in-arnhem-erfgoedcentrum"
@@ -2119,7 +2119,7 @@
    "city": "Maastricht",
    "title": "Aldo Rossi: Darling Architecture",
    "start": "2026-09-19",
-   "end": "2026-12-31",
+   "end": null,
    "description": "A permanent tribute to the architect of the Bonnefanten.",
    "url": "https://www.bonnefanten.nl/en/exhibitions/aldo-rossi-darling-architecture",
    "slug": "aldo-rossi-darling-architecture"
@@ -2153,6 +2153,66 @@
    "description": "Hoogtepunten uit de collectie van Singer Laren: een persoonlijke selectie topstukken uit de eigen collectie.",
    "url": "https://www.singerlaren.nl/nl/agenda/singer-highlights-1sm4",
    "slug": "singer-highlights"
+  },
+  {
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "title": "In the Rijksmuseum print cabinets",
+   "start": null,
+   "end": "2026-11-29",
+   "description": "This presentation in the print cabinets focuses on Roman street art, social satire and Japanese fairy tales, with a cabinet dedicated to the recently gifted 17th-century Van Eeghen Drawing Book.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-print-cabinets",
+   "slug": "in-the-rijksmuseum-print-cabinets"
+  },
+  {
+   "museum": "Rijksmuseum",
+   "city": "Amsterdam",
+   "title": "20th-century Galleries",
+   "start": null,
+   "end": "2026-11-09",
+   "description": "Every six months the Rijksmuseum presents new spotlight displays in the 20th-century galleries; this edition highlights Madelon Vriesendorp's drawings, Charley Toorop's artistic circle, and the influence of photography on 20th-century advertising.",
+   "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/new-displays-in-the-20th-century-galleries",
+   "slug": "20th-century-galleries"
+  },
+  {
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "title": "Theater Rotterdam (Sur)render",
+   "start": "2026-10-17",
+   "end": "2027-01-17",
+   "description": "Kunsthal Rotterdam and Theater Rotterdam translate Alida Dors's performance (Sur)render into an immersive exhibition in which you become part of the performance yourself.",
+   "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/theater-rotterdam/",
+   "slug": "theater-rotterdam-sur-render"
+  },
+  {
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "title": "Forever Summer",
+   "start": "2026-06-06",
+   "end": "2030-05-02",
+   "description": "Participatief kunstwerk van De Onkruidenier waarin de tomaat centraal staat: jaarlijks kweken zo'n dertig huishoudens mee als onderdeel van de tomatengemeenschap van het museum.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/forever-summer",
+   "slug": "forever-summer"
+  },
+  {
+   "museum": "Museum MORE",
+   "city": "Gorssel",
+   "title": "Kabinet | Jeanne Oosting Prijs 2026",
+   "start": "2026-11-28",
+   "end": "2027-05-17",
+   "description": "Werk van de winnaars van de Jeanne Oosting Prijs 2026, Caren van Herwaarden en Robert Zandvliet, te zien in het kabinet van MORE Gorssel.",
+   "url": "https://www.moregorssel.nl/tentoonstellingen/kabinet-jeanne-oosting-prijs-2026",
+   "slug": "kabinet-jeanne-oosting-prijs-2026"
+  },
+  {
+   "museum": "Bonnefantenmuseum",
+   "city": "Maastricht",
+   "title": "Forecourt: a tribute to Aldo Rossi",
+   "start": "2026-06-29",
+   "end": "2026-09-30",
+   "description": "The Russian Box, designed by Aldo Rossi (1931-1997), welcomes visitors to the forecourt of the Bonnefanten as a colourful eye-catcher and tribute to the architect of the museum building.",
+   "url": "https://www.bonnefanten.nl/en/whats-on/exhibitions/a-new-eye-catcher-on-the-forecourt-a-tribute-to-aldo-rossi",
+   "slug": "forecourt-a-tribute-to-aldo-rossi"
   }
  ]
 }
