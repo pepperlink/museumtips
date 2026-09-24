@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-kabinet-jeanne-oosting-prijs-2026@museumtips.pepperlink.nl
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20270518
+SUMMARY:Kabinet | Jeanne Oosting Prijs 2026 - Museum MORE
+LOCATION:Museum MORE\, Gorssel
+DESCRIPTION:Werk van de winnaars van de Jeanne Oosting Prijs 2026\, Caren v
+ an Herwaarden en Robert Zandvliet\, te zien in het kabinet van MORE Gorsse
+ l.\nhttps://www.moregorssel.nl/tentoonstellingen/kabinet-jeanne-oosting-pr
+ ijs-2026
+URL:https://www.moregorssel.nl/tentoonstellingen/kabinet-jeanne-oosting-pri
+ js-2026
+END:VEVENT
+END:VCALENDAR

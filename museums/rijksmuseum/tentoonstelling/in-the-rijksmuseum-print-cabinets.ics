@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-in-the-rijksmuseum-print-cabinets@museumtips.pepperlink.nl
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20261130
+SUMMARY:In the Rijksmuseum print cabinets - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:This presentation in the print cabinets focuses on Roman street
+  art\, social satire and Japanese fairy tales\, with a cabinet dedicated t
+ o the recently gifted 17th-century Van Eeghen Drawing Book.\nhttps://www.r
+ ijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-print-cabinets
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-p
+ rint-cabinets
+END:VEVENT
+END:VCALENDAR

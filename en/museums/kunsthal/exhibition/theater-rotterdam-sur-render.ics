@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-theater-rotterdam-sur-render@museumtips.pepperlink.nl
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20270118
+SUMMARY:Theater Rotterdam (Sur)render - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Kunsthal Rotterdam and Theater Rotterdam translate Alida Dors&#39;s
+  performance (Sur)render into an immersive exhibition in which you become 
+ part of the performance yourself.\nhttps://www.kunsthal.nl/en/plan-your-vi
+ sit/exhibitions/theater-rotterdam/
+URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/theater-rotterda
+ m/
+END:VEVENT
+END:VCALENDAR

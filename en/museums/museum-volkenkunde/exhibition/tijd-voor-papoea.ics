@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-tijd-voor-papoea@museumtips.pepperlink.nl
-DTSTAMP:20260917T000000Z
-DTSTART;VALUE=DATE:20260917
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20270104
 SUMMARY:Tijd voor Papoea - Museum Volkenkunde
 LOCATION:Museum Volkenkunde\, Leiden

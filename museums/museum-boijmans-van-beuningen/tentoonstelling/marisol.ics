@@ -4,7 +4,7 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-marisol@museumtips.pepperlink.nl
-DTSTAMP:20260917T000000Z
+DTSTAMP:20260924T000000Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20270330
 SUMMARY:Marisol - Museum Boijmans Van Beuningen (Depot)

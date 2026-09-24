@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-forecourt-a-tribute-to-aldo-rossi@museumtips.pepperlink.nl
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20261001
+SUMMARY:Forecourt: a tribute to Aldo Rossi - Bonnefantenmuseum
+LOCATION:Bonnefantenmuseum\, Maastricht
+DESCRIPTION:The Russian Box\, designed by Aldo Rossi (1931-1997)\, welcomes
+  visitors to the forecourt of the Bonnefanten as a colourful eye-catcher a
+ nd tribute to the architect of the museum building.\nhttps://www.bonnefant
+ en.nl/en/whats-on/exhibitions/a-new-eye-catcher-on-the-forecourt-a-tribute
+ -to-aldo-rossi
+URL:https://www.bonnefanten.nl/en/whats-on/exhibitions/a-new-eye-catcher-on
+ -the-forecourt-a-tribute-to-aldo-rossi
+END:VEVENT
+END:VCALENDAR

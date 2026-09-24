@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-forever-summer@museumtips.pepperlink.nl
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20300503
+SUMMARY:Forever Summer - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Participatief kunstwerk van De Onkruidenier waarin de tomaat ce
+ ntraal staat: jaarlijks kweken zo&#39;n dertig huishoudens mee als onderdeel v
+ an de tomatengemeenschap van het museum.\nhttps://vanabbemuseum.nl/nl/zien
+ -en-doen/tentoonstellingen/forever-summer
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/forever-summ
+ er
+END:VEVENT
+END:VCALENDAR

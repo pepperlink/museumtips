@@ -4,7 +4,7 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-the-peanut-butter-floor@museumtips.pepperlink.nl
-DTSTAMP:20260917T000000Z
+DTSTAMP:20260924T000000Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:The Peanut Butter Floor - Museum Boijmans Van Beuningen (Depot)

@@ -4,7 +4,7 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-document-netherlands-new-energy@museumtips.pepperlink.nl
-DTSTAMP:20260917T000000Z
+DTSTAMP:20260924T000000Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20270118
 SUMMARY:Document Netherlands: New Energy - Rijksmuseum

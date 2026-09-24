@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-20th-century-galleries@museumtips.pepperlink.nl
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20261110
+SUMMARY:20th-century Galleries - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:Every six months the Rijksmuseum presents new spotlight display
+ s in the 20th-century galleries\; this edition highlights Madelon Vriesend
+ orp&#39;s drawings\, Charley Toorop&#39;s artistic circle\, and the influence of p
+ hotography on 20th-century advertising.\nhttps://www.rijksmuseum.nl/en/wha
+ ts-on/exhibitions/new-displays-in-the-20th-century-galleries
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/new-displays-in-the-
+ 20th-century-galleries
+END:VEVENT
+END:VCALENDAR
