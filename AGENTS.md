@@ -33,7 +33,7 @@ Multilingual (NL default, English under `/en/`) Hugo static site — plus two we
 | refresh feeds + data | `python3 /opt/data/museum_tracker/publish_feeds.py` *(pipeline host only)* | regenerates feeds + copies `data/exhibitions.json` into the clone, commits + pushes `main`, then triggers the site publish |
 | publish site | `python3 /opt/data/museum_tracker/publish_site.py` *(pipeline host only)* | builds from `main` and pushes the result to `gh-pages` |
 
-Weekly automation (Hermes cron): tracker + digest Thu 10:05 UTC; site rebuild → `gh-pages` Thu 17:00 UTC.
+Weekly automation: tracker + digest (Hermes cron) Thu 10:05 UTC; site rebuild → `gh-pages` is the `publish site` GitHub Action (Thu 17:00 UTC + daily 00:12 UTC, or `workflow_dispatch` from the pipeline) — feeds/data stay pipeline-side.
 
 ## Extras refresh cadence (phase 4)
 
