@@ -30,8 +30,8 @@ Multilingual (NL default, English under `/en/`) Hugo static site — plus two we
 | build | `hugo --minify` | output `public/`; pipeline pins `hugo` v0.166.0 at `/opt/data/museum_tracker/bin/hugo` |
 | Hugo pin (operator) | `HUGO="${HUGO:-/opt/data/museum_tracker/bin/hugo}"` | use in verify scripts; Mac lane may have v0.165 — operator re-runs on v0.166 before sign-off |
 | reconcile curated | `python3 scripts/reconcile-curated.py --domain museums` then `--domain exhibitions` | run each cadence cycle before refresh batches; read-only against `exhibitions.json` |
-| refresh feeds + data | `python3 /opt/data/museum_tracker/publish_feeds.py` *(pipeline host only)* | regenerates feeds + copies `data/exhibitions.json` into the clone, commits + pushes `main`, then triggers the site publish |
-| publish site | `python3 /opt/data/museum_tracker/publish_site.py` *(pipeline host only)* | builds from `main` and pushes the result to `gh-pages` |
+| refresh feeds + data | `python3 /opt/data/museum_tracker/publish_feeds.py` *(pipeline host only)* | regenerates feeds + copies `data/exhibitions.json` into the clone, commits + pushes `main` (feeds + data only — the site publish is the GitHub Action, ordered by the pipeline's `trigger_site_build.py` gate) |
+| publish site | GitHub Action `.github/workflows/publish-site.yml` (`workflow_dispatch`; scheduled Thu 17:00 + daily 00:12 UTC) | builds from `main` and pushes the result to `gh-pages`; the pipeline gates the weekly send on it via `trigger_site_build.py`. The legacy pod-side `publish_site.py` is retired/unscheduled. |
 
 Weekly automation: tracker + digest (Hermes cron) Thu 10:05 UTC; site rebuild → `gh-pages` is the `publish site` GitHub Action (Thu 17:00 UTC + daily 00:12 UTC, or `workflow_dispatch` from the pipeline) — feeds/data stay pipeline-side.
 
