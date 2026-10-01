@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-09-24",
+ "compiled": "2026-10-01",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -2213,6 +2213,26 @@
    "description": "The Russian Box, designed by Aldo Rossi (1931-1997), welcomes visitors to the forecourt of the Bonnefanten as a colourful eye-catcher and tribute to the architect of the museum building.",
    "url": "https://www.bonnefanten.nl/en/whats-on/exhibitions/a-new-eye-catcher-on-the-forecourt-a-tribute-to-aldo-rossi",
    "slug": "forecourt-a-tribute-to-aldo-rossi"
+  },
+  {
+   "title": "Dag Nederland — Marwan Magroun",
+   "start": "2026-12-11",
+   "end": "2027-04-11",
+   "description": "Van 11 december 2026 tot en met 11 april 2027 presenteert het Nederlands Fotomuseum 'Dag Nederland', een tentoonstelling van fotograaf en filmmaker Marwan Magroun met bestaand werk uit verschillende perioden.",
+   "url": "https://nederlandsfotomuseum.nl/nu-te-zien/dag-nederland/",
+   "museum": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "slug": "dag-nederland-marwan-magroun"
+  },
+  {
+   "title": "Birds of a Feather | naoorlogse kunst uit de collectie",
+   "start": "2027-01-23",
+   "end": "2027-09-05",
+   "description": "In Birds of a Feather zie je een uiteenlopende selectie van naoorlogse kunstwerken uit de collectie; centraal staat Series of Five Paintings van Ellsworth Kelly (23.1-5.9.2027).",
+   "url": "https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/birds-of-a-feather",
+   "museum": "Kröller-Müller Museum",
+   "city": "Otterlo",
+   "slug": "birds-of-a-feather-naoorlogse-kunst-uit-de-collectie"
   }
  ]
 }
