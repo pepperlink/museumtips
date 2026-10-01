@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-birds-of-a-feather-naoorlogse-kunst-uit-de-collectie@museumtips.pepperlink.nl
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270906
+SUMMARY:Birds of a Feather | naoorlogse kunst uit de collectie - Kröller-Mü
+ ller Museum
+LOCATION:Kröller-Müller Museum\, Otterlo
+DESCRIPTION:In Birds of a Feather zie je een uiteenlopende selectie van nao
+ orlogse kunstwerken uit de collectie\; centraal staat Series of Five Paint
+ ings van Ellsworth Kelly (23.1-5.9.2027).\nhttps://krollermuller.nl/nl/nu-
+ te-doen/tentoonstellingen/birds-of-a-feather
+URL:https://krollermuller.nl/nl/nu-te-doen/tentoonstellingen/birds-of-a-fea
+ ther
+END:VEVENT
+END:VCALENDAR

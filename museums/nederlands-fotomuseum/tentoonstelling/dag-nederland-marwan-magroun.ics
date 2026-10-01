@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-dag-nederland-marwan-magroun@museumtips.pepperlink.nl
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20270412
+SUMMARY:Dag Nederland — Marwan Magroun - Nederlands Fotomuseum
+LOCATION:Nederlands Fotomuseum\, Rotterdam
+DESCRIPTION:Van 11 december 2026 tot en met 11 april 2027 presenteert het N
+ ederlands Fotomuseum &#39;Dag Nederland&#39;\, een tentoonstelling van fotograaf e
+ n filmmaker Marwan Magroun met bestaand werk uit verschillende perioden.\n
+ https://nederlandsfotomuseum.nl/nu-te-zien/dag-nederland/
+URL:https://nederlandsfotomuseum.nl/nu-te-zien/dag-nederland/
+END:VEVENT
+END:VCALENDAR

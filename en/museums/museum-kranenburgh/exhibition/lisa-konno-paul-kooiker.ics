@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-lisa-konno-paul-kooiker@museumtips.pepperlink.nl
-DTSTAMP:20260924T000000Z
-DTSTART;VALUE=DATE:20260924
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261102
 SUMMARY:Lisa Konno Paul Kooiker - Museum Kranenburgh
 LOCATION:Museum Kranenburgh\, Bergen NH
