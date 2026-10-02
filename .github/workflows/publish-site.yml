@@ -2,9 +2,9 @@ name: publish site
 
 # Builds the museumtips site from main and publishes it to the gh-pages branch
 # that GitHub Pages serves (museumtips.pepperlink.nl). This is the GitHub
-# Actions successor of the pod-side publish_site.py; while the pod cron still
-# runs (parallel run), both publishes are safe: the publish is idempotent —
-# an unchanged build exits without pushing.
+# This is the sole site publisher: the pod-side publish_site.py and its cron
+# were retired in the W3.2c decommission (2026-10-01, t_481696cb). The
+# publish is idempotent — an unchanged build exits without pushing.
 #
 # Notes for maintainers:
 #   * Hugo is pinned to v0.166.0 (extended, linux-amd64) with a checksum —
