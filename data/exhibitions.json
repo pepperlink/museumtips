@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-10-01",
+ "compiled": "2026-10-08",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -1139,7 +1139,7 @@
    "museum": "Fries Museum",
    "city": "Leeuwarden",
    "start": "2023-12-09",
-   "end": "2026-12-09",
+   "end": "2031-12-31",
    "description": "Intieme presentatie over de vele kanten van Mata Hari, met hoogtepunten uit de collectie Mata Hari-memorabilia.",
    "url": "https://www.friesmuseum.nl/tentoonstellingen/delevensvanmatahari",
    "slug": "de-levens-van-mata-hari"
@@ -2233,6 +2233,16 @@
    "museum": "Kröller-Müller Museum",
    "city": "Otterlo",
    "slug": "birds-of-a-feather-naoorlogse-kunst-uit-de-collectie"
+  },
+  {
+   "title": "Glazen urn uit Tripoli",
+   "start": null,
+   "end": "2026-12-13",
+   "description": "Mini-tentoonstelling: in 2026 is een glazen urn uit Tripoli opnieuw gerestaureerd, dankzij steun van het Nico en Riekie Bijnsdorp Glasfonds.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/glazen-urn-uit-tripoli/",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "slug": "glazen-urn-uit-tripoli"
   }
  ]
 }
