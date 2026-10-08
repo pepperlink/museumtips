@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-glazen-urn-uit-tripoli@museumtips.pepperlink.nl
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261214
+SUMMARY:Glazen urn uit Tripoli - Rijksmuseum van Oudheden
+LOCATION:Rijksmuseum van Oudheden\, Leiden
+DESCRIPTION:Mini-tentoonstelling: in 2026 is een glazen urn uit Tripoli opn
+ ieuw gerestaureerd\, dankzij steun van het Nico en Riekie Bijnsdorp Glasfo
+ nds.\nhttps://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/gl
+ azen-urn-uit-tripoli/
+URL:https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/glaze
+ n-urn-uit-tripoli/
+END:VEVENT
+END:VCALENDAR

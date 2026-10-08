@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-harvest-2026-pip-greenaway@museumtips.pepperlink.nl
-DTSTAMP:20261001T000000Z
-DTSTART;VALUE=DATE:20261001
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261031
 SUMMARY:Harvest 2026 - Pip Greenaway - Museum Boijmans Van Beuningen (Depot
  )

@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-woody-van-amen-the-best-of@museumtips.pepperlink.nl
-DTSTAMP:20261001T000000Z
-DTSTART;VALUE=DATE:20261001
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Woody van Amen - The Best Of - Kunsthal
 LOCATION:Kunsthal\, Rotterdam

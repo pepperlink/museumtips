@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-dromen-in-het-duin-bernard-essers@museumtips.pepperlink.nl
-DTSTAMP:20261001T000000Z
-DTSTART;VALUE=DATE:20261001
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261102
 SUMMARY:Dromen in het duin (Bernard Essers) - Museum Kranenburgh
 LOCATION:Museum Kranenburgh\, Bergen NH
