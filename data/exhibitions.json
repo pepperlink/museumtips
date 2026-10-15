@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-10-08",
+ "compiled": "2026-10-15",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -2243,6 +2243,76 @@
    "museum": "Rijksmuseum van Oudheden",
    "city": "Leiden",
    "slug": "glazen-urn-uit-tripoli"
+  },
+  {
+   "title": "Jip van den Toorn. Now That You're Here",
+   "start": "2026-11-07",
+   "end": "2027-03-07",
+   "description": "Retrospective with more than 250 drawings from the past six years of Jip van den Toorn's career, offering a glimpse into what it is like to be a cartoonist today.",
+   "url": "https://www.kunsthal.nl/en/exhibitions/jip-van-den-toorn-now-that-youre-here/",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "slug": "jip-van-den-toorn-now-that-youre-here"
+  },
+  {
+   "title": "Theater Rotterdam",
+   "start": "2026-10-17",
+   "end": "2027-01-17",
+   "description": "Kunsthal Rotterdam and Theater Rotterdam join forces: the production (Sur)render by Alida Dors is the starting point for an immersive exhibition you become part of yourself.",
+   "url": "https://www.kunsthal.nl/en/exhibitions/theater-rotterdam/",
+   "museum": "Kunsthal",
+   "city": "Rotterdam",
+   "slug": "theater-rotterdam"
+  },
+  {
+   "title": "Kleur bekennen",
+   "start": "2026-11-07",
+   "end": "2027-02-06",
+   "description": "Uit bijna duizend inzendingen van vrijetijdskunstenaars uit heel Nederland toont Museum Arnhem de tweede MAAK!-tentoonstelling.",
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/maak-kleur-bekennen",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "slug": "kleur-bekennen"
+  },
+  {
+   "title": "Li Yi-Fan. Screen Melancholy",
+   "start": "2027-01-22",
+   "end": "2027-04-11",
+   "description": "Van 22 januari tot en met 11 april 2027 presenteert het Nederlands Fotomuseum de installatie Li Yi-Fan. Screen Melancholy.",
+   "url": "https://nederlandsfotomuseum.nl/nu-te-zien/li-yi-fan-screen-melancholy/",
+   "museum": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "slug": "li-yi-fan-screen-melancholy"
+  },
+  {
+   "title": "Olafur Eliasson",
+   "start": "2027-03-20",
+   "end": "2027-09-05",
+   "description": "Met licht, water, kleuren en reflecties laat Olafur Eliasson bij Voorlinden je ervaren hoe jouw bewegingen en aanwezigheid die wereld vormgeven.",
+   "url": "https://www.voorlinden.nl/tentoonstelling/olafur-eliasson/",
+   "museum": "Voorlinden",
+   "city": "Wassenaar",
+   "slug": "olafur-eliasson"
+  },
+  {
+   "title": "Dora Hitz - Een stem voor vrouwen in de kunst",
+   "start": "2026-10-10",
+   "end": "2027-03-14",
+   "description": "Solotentoonstelling over Dora Hitz, een stem voor vrouwen in de kunst.",
+   "url": "https://dmdebuitenplaats.nl/tentoonstellingen/dora-hitz",
+   "museum": "De Buitenplaats",
+   "city": "Eelde",
+   "slug": "dora-hitz-een-stem-voor-vrouwen-in-de-kunst"
+  },
+  {
+   "title": "Dommelplein",
+   "start": "2026-06-06",
+   "end": "2030-05-02",
+   "description": "Welkom op het Dommelplein in het Van Abbemuseum.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "slug": "dommelplein"
   }
  ]
 }
