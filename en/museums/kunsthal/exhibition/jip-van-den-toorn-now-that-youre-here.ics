@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-jip-van-den-toorn-now-that-youre-here@museumtips.pepperlink.nl
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20270308
+SUMMARY:Jip van den Toorn. Now That You&#39;re Here - Kunsthal
+LOCATION:Kunsthal\, Rotterdam
+DESCRIPTION:Retrospective with more than 250 drawings from the past six yea
+ rs of Jip van den Toorn&#39;s career\, offering a glimpse into what it is like
+  to be a cartoonist today.\nhttps://www.kunsthal.nl/en/exhibitions/jip-van
+ -den-toorn-now-that-youre-here/
+URL:https://www.kunsthal.nl/en/exhibitions/jip-van-den-toorn-now-that-youre
+ -here/
+END:VEVENT
+END:VCALENDAR

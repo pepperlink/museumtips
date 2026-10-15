@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-dommelplein@museumtips.pepperlink.nl
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20300503
+SUMMARY:Dommelplein - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Welkom op het Dommelplein in het Van Abbemuseum.\nhttps://vanab
+ bemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/dommelplein
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-li-yi-fan-screen-melancholy@museumtips.pepperlink.nl
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270412
+SUMMARY:Li Yi-Fan. Screen Melancholy - Nederlands Fotomuseum
+LOCATION:Nederlands Fotomuseum\, Rotterdam
+DESCRIPTION:Van 22 januari tot en met 11 april 2027 presenteert het Nederla
+ nds Fotomuseum de installatie Li Yi-Fan. Screen Melancholy.\nhttps://neder
+ landsfotomuseum.nl/nu-te-zien/li-yi-fan-screen-melancholy/
+URL:https://nederlandsfotomuseum.nl/nu-te-zien/li-yi-fan-screen-melancholy/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-olafur-eliasson@museumtips.pepperlink.nl
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270906
+SUMMARY:Olafur Eliasson - Voorlinden
+LOCATION:Voorlinden\, Wassenaar
+DESCRIPTION:Met licht\, water\, kleuren en reflecties laat Olafur Eliasson 
+ bij Voorlinden je ervaren hoe jouw bewegingen en aanwezigheid die wereld v
+ ormgeven.\nhttps://www.voorlinden.nl/tentoonstelling/olafur-eliasson/
+URL:https://www.voorlinden.nl/tentoonstelling/olafur-eliasson/
+END:VEVENT
+END:VCALENDAR

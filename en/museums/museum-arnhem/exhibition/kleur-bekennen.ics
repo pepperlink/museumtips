@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-kleur-bekennen@museumtips.pepperlink.nl
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20270207
+SUMMARY:Kleur bekennen - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:Uit bijna duizend inzendingen van vrijetijdskunstenaars uit hee
+ l Nederland toont Museum Arnhem de tweede MAAK!-tentoonstelling.\nhttps://
+ www.museumarnhem.nl/nl/tentoonstellingen/maak-kleur-bekennen
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/maak-kleur-bekennen
+END:VEVENT
+END:VCALENDAR

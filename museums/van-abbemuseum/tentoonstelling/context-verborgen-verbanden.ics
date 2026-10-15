@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-context-verborgen-verbanden@museumtips.pepperlink.nl
-DTSTAMP:20261008T000000Z
-DTSTART;VALUE=DATE:20261008
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20280605
 SUMMARY:Context: Verborgen Verbanden - Van Abbemuseum
 LOCATION:Van Abbemuseum\, Eindhoven

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-dora-hitz-een-stem-voor-vrouwen-in-de-kunst@museumtips.pepperlink.nl
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20270315
+SUMMARY:Dora Hitz - Een stem voor vrouwen in de kunst - De Buitenplaats
+LOCATION:De Buitenplaats\, Eelde
+DESCRIPTION:Solotentoonstelling over Dora Hitz\, een stem voor vrouwen in d
+ e kunst.\nhttps://dmdebuitenplaats.nl/tentoonstellingen/dora-hitz
+URL:https://dmdebuitenplaats.nl/tentoonstellingen/dora-hitz
+END:VEVENT
+END:VCALENDAR
