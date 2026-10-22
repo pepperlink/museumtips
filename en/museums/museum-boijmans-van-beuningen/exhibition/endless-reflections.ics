@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-endless-reflections@museumtips.pepperlink.nl
-DTSTAMP:20261015T000000Z
-DTSTART;VALUE=DATE:20261015
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261026
 SUMMARY:Endless Reflections - Museum Boijmans Van Beuningen (Depot)
 LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam

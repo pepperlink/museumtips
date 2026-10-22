@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-martine-gutierrez-wunderkind@museumtips.pepperlink.nl
-DTSTAMP:20261015T000000Z
-DTSTART;VALUE=DATE:20261015
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Martine Gutierrez: Wunderkind - Huis Marseille
 LOCATION:Huis Marseille\, Amsterdam

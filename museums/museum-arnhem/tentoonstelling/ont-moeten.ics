@@ -4,9 +4,9 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-ont-moeten@museumtips.pepperlink.nl
-DTSTAMP:20261015T000000Z
+DTSTAMP:20261022T000000Z
 DTSTART;VALUE=DATE:20250125
-DTEND;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280731
 SUMMARY:Ont-moeten - Museum Arnhem
 LOCATION:Museum Arnhem\, Arnhem
 DESCRIPTION:Collection presentation on identity\, decolonisation and climat

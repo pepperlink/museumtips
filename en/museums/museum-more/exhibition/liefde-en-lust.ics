@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-liefde-en-lust@museumtips.pepperlink.nl
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20270518
+SUMMARY:Liefde en lust - Museum MORE
+LOCATION:Museum MORE\, Gorssel
+DESCRIPTION:Groepstentoonstelling in de tuinzaal van MORE Gorssel over de l
+ iefde: &#39;Niets lijkt zo veelomvattend als de liefde. Niets lijkt zo ongrijp
+ baar of onbeschrijfelijk.&#39;\nhttps://www.moregorssel.nl/tentoonstellingen/l
+ iefde-en-lust
+URL:https://www.moregorssel.nl/tentoonstellingen/liefde-en-lust
+END:VEVENT
+END:VCALENDAR

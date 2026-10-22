@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-bezieling@museumtips.pepperlink.nl
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20270208
+SUMMARY:Bezieling - Museum Arnhem
+LOCATION:Museum Arnhem\, Arnhem
+DESCRIPTION:https://www.museumarnhem.nl/nl/tentoonstellingen/bezieling
+URL:https://www.museumarnhem.nl/nl/tentoonstellingen/bezieling
+END:VEVENT
+END:VCALENDAR

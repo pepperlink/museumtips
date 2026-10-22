@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-foam-x-middle-east-archive@museumtips.pepperlink.nl
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261221
+SUMMARY:Foam x Middle East Archive - Foam
+LOCATION:Foam\, Amsterdam
+DESCRIPTION:Exhibition at Mercatorplein and MAQAM with work from the Middle
+  East Archive.\nhttps://www.foam.org/events/middle-east-archive
+URL:https://www.foam.org/events/middle-east-archive
+END:VEVENT
+END:VCALENDAR
