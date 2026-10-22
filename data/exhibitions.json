@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-10-15",
+ "compiled": "2026-10-22",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -459,7 +459,7 @@
    "museum": "Kunsthal",
    "city": "Rotterdam",
    "start": "2026-02-17",
-   "end": "2026-11-01",
+   "end": "2027-01-23",
    "description": "Architectural intervention by Rotterdam designer Sabine Marcelis.",
    "url": "https://www.kunsthal.nl/en/plan-your-visit/exhibitions/kunsthal-insideout-sabine-marcelis/",
    "slug": "kunsthal-inside-out-sabine-marcelis-continuum"
@@ -989,7 +989,7 @@
    "museum": "Museum Arnhem",
    "city": "Arnhem",
    "start": "2025-01-25",
-   "end": "2027-12-31",
+   "end": "2028-07-30",
    "description": "Collection presentation on identity, decolonisation and climate.",
    "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/ontmoeten",
    "slug": "ont-moeten"
@@ -1738,7 +1738,7 @@
    "title": "Myriam Boulos",
    "museum": "Foam",
    "city": "Amsterdam",
-   "start": "2026-10-16",
+   "start": "2026-10-23",
    "end": "2027-02-17",
    "description": "Foam presents the exhibition of Myriam Boulos (1992, Lebanon), the 19th winner of the Foam Paul Huf Award.",
    "url": "https://www.foam.org/events/myriam-boulos",
@@ -2255,16 +2255,6 @@
    "slug": "jip-van-den-toorn-now-that-youre-here"
   },
   {
-   "title": "Theater Rotterdam",
-   "start": "2026-10-17",
-   "end": "2027-01-17",
-   "description": "Kunsthal Rotterdam and Theater Rotterdam join forces: the production (Sur)render by Alida Dors is the starting point for an immersive exhibition you become part of yourself.",
-   "url": "https://www.kunsthal.nl/en/exhibitions/theater-rotterdam/",
-   "museum": "Kunsthal",
-   "city": "Rotterdam",
-   "slug": "theater-rotterdam"
-  },
-  {
    "title": "Kleur bekennen",
    "start": "2026-11-07",
    "end": "2027-02-06",
@@ -2313,6 +2303,36 @@
    "museum": "Van Abbemuseum",
    "city": "Eindhoven",
    "slug": "dommelplein"
+  },
+  {
+   "title": "Bezieling",
+   "start": "2026-11-21",
+   "end": "2027-02-07",
+   "description": null,
+   "url": "https://www.museumarnhem.nl/nl/tentoonstellingen/bezieling",
+   "museum": "Museum Arnhem",
+   "city": "Arnhem",
+   "slug": "bezieling"
+  },
+  {
+   "title": "Liefde en lust",
+   "start": "2026-11-29",
+   "end": "2027-05-17",
+   "description": "Groepstentoonstelling in de tuinzaal van MORE Gorssel over de liefde: 'Niets lijkt zo veelomvattend als de liefde. Niets lijkt zo ongrijpbaar of onbeschrijfelijk.'",
+   "url": "https://www.moregorssel.nl/tentoonstellingen/liefde-en-lust",
+   "museum": "Museum MORE",
+   "city": "Gorssel",
+   "slug": "liefde-en-lust"
+  },
+  {
+   "title": "Foam x Middle East Archive",
+   "start": null,
+   "end": "2026-12-20",
+   "description": "Exhibition at Mercatorplein and MAQAM with work from the Middle East Archive.",
+   "url": "https://www.foam.org/events/middle-east-archive",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "slug": "foam-x-middle-east-archive"
   }
  ]
 }
