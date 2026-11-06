@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-10-22",
+ "compiled": "2026-11-06",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -1739,7 +1739,7 @@
    "museum": "Foam",
    "city": "Amsterdam",
    "start": "2026-10-23",
-   "end": "2027-02-17",
+   "end": "2027-01-20",
    "description": "Foam presents the exhibition of Myriam Boulos (1992, Lebanon), the 19th winner of the Foam Paul Huf Award.",
    "url": "https://www.foam.org/events/myriam-boulos",
    "slug": "myriam-boulos"
@@ -2333,6 +2333,76 @@
    "museum": "Foam",
    "city": "Amsterdam",
    "slug": "foam-x-middle-east-archive"
+  },
+  {
+   "title": "Yorgos Lanthimos: Photographs",
+   "start": "2027-02-12",
+   "end": "2027-06-06",
+   "description": "Photographs by film director Yorgos Lanthimos, opening at Foam in February 2027.",
+   "url": "https://www.foam.org/events/yorgos-lanthimos-photographs",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "slug": "yorgos-lanthimos-photographs"
+  },
+  {
+   "title": "August Sander",
+   "start": "2027-02-20",
+   "end": "2027-06-20",
+   "description": "Exhibition on the German photographer August Sander; the museum says more information is coming soon.",
+   "url": "https://huismarseille.nl/en/exhibitions/august-sander/",
+   "museum": "Huis Marseille",
+   "city": "Amsterdam",
+   "slug": "august-sander"
+  },
+  {
+   "title": "Bibliotheektentoonstelling Constellaties van collectiviteit",
+   "start": "2026-11-05",
+   "end": "2027-05-27",
+   "description": "Library exhibition on constellations of collectivity, drawn from the Van Abbemuseum library collection.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/constellaties-van-collectiviteit",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "slug": "bibliotheektentoonstelling-constellaties-van-collectiviteit"
+  },
+  {
+   "title": "Kunst gemaakt met, door en tegen AI",
+   "start": "2026-11-15",
+   "end": "2027-05-09",
+   "description": "Exhibition on art made with, by and against AI, opening when the museum reopens on 15 November 2026 (Zaal 5).",
+   "url": "https://kranenburgh.nl/tentoonstelling/ai-artist/",
+   "museum": "Museum Kranenburgh",
+   "city": "Bergen NH",
+   "slug": "kunst-gemaakt-met-door-en-tegen-ai"
+  },
+  {
+   "title": "Loes Riphagen: Van Coco tot snuitkever",
+   "start": "2026-11-15",
+   "end": "2027-05-09",
+   "description": "Educational family exhibition with busy gnomes, adventurous insects, brave little birds and other creatures (Zaal 2, 3, 4).",
+   "url": "https://kranenburgh.nl/tentoonstelling/loes-riphagen/",
+   "museum": "Museum Kranenburgh",
+   "city": "Bergen NH",
+   "slug": "loes-riphagen-van-coco-tot-snuitkever"
+  },
+  {
+   "title": "Adriaan van Dis en Harald Vlugt: Mijn kust",
+   "start": "2026-11-15",
+   "end": "2027-05-09",
+   "description": "Collaboration between writer Adriaan van Dis and artist Harald Vlugt (Villa).",
+   "url": "https://kranenburgh.nl/tentoonstelling/mijn-kust/",
+   "museum": "Museum Kranenburgh",
+   "city": "Bergen NH",
+   "slug": "adriaan-van-dis-en-harald-vlugt-mijn-kust"
+  },
+  {
+   "title": "Angèle Etoundi Essamba",
+   "start": "2027-03-19",
+   "end": null,
+   "description": "Retrospective of photographer and artist Angèle Etoundi Essamba, with work from four decades of photography, opening 19 March 2027.",
+   "url": "https://nederlandsfotomuseum.nl/nu-te-zien/angele-etoundi-essamba/",
+   "museum": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "slug": "angele-etoundi-essamba"
   }
  ]
 }

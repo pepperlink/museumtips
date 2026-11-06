@@ -9,125 +9,8 @@ X-WR-CALDESC:Exhibitions closing within 30 days. Subscribe: https://museumt
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
-UID:museum-15db5502a51a@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261030
-SUMMARY:Last week: In Her Own Way / شوية وراجعة - Foam
-LOCATION:Foam\, Amsterdam
-DESCRIPTION:At Mercatorplein there is a solo exhibition\, showcasing the wo
- rk of Yomna El Beyaly titled In Her Own Way / شوية وراجعة.\\nhttps://www.f
- oam.org/events/middle-east-archive
-URL:https://www.foam.org/events/middle-east-archive
-CATEGORIES:Museum,Amsterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-15db5502a51a-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:Last day: In Her Own Way / شوية وراجعة - Foam
-LOCATION:Foam\, Amsterdam
-DESCRIPTION:At Mercatorplein there is a solo exhibition\, showcasing the wo
- rk of Yomna El Beyaly titled In Her Own Way / شوية وراجعة.\\nhttps://www.f
- oam.org/events/middle-east-archive
-URL:https://www.foam.org/events/middle-east-archive
-CATEGORIES:Museum,Amsterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-48626b893b3f-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Last day: Harvest 2026 - Pip Greenaway - Museum Boijmans Van Beunin
- gen (Depot)
-LOCATION:Museum Boijmans Van Beuningen (Depot)\, Rotterdam
-DESCRIPTION:New Depot presentation by Pip Greenaway.\\nhttps://www.boijmans
- .nl/en/exhibitions/Harvest-2026-Pip-Greenaway
-URL:https://www.boijmans.nl/en/exhibitions/Harvest-2026-Pip-Greenaway
-CATEGORIES:Museum,Rotterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-60860e99941c-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Benedikte Bjerre - When the Wind Blows - Kunsthal
-LOCATION:Kunsthal\, Rotterdam
-DESCRIPTION:Hundreds of helium-filled baby penguins.\\nhttps://www.kunsthal
- .nl/en/plan-your-visit/exhibitions/benedikte-bjerre-en/
-URL:https://www.kunsthal.nl/en/plan-your-visit/exhibitions/benedikte-bjerre
- -en/
-CATEGORIES:Museum,Rotterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-5cd350f5cccb-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Good Food - Nederlands Fotomuseum
-LOCATION:Nederlands Fotomuseum\, Rotterdam
-DESCRIPTION:Farming\, gardening and sustainable food (photo).\\nhttps://ned
- erlandsfotomuseum.nl/nu-te-zien/good-food/
-URL:https://nederlandsfotomuseum.nl/nu-te-zien/good-food/
-CATEGORIES:Museum,Rotterdam
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-f18af7270db0-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Galleria - Rijksmuseum van Oudheden
-LOCATION:Rijksmuseum van Oudheden\, Leiden
-DESCRIPTION:Twaalf kleine exposities in een\, met raakvlakken met de oudhei
- d.\\nhttps://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/gal
- leria/
-URL:https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/galle
- ria/
-CATEGORIES:Museum,Leiden
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-b41fc21e0a5a-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Lisa Konno Paul Kooiker - Museum Kranenburgh
-LOCATION:Museum Kranenburgh\, Bergen NH
-DESCRIPTION:Fashion designer Lisa Konno and photographer Paul Kooiker on fa
- shion and identity.\\nhttps://kranenburgh.nl/tentoonstelling/lisa-konno-pa
- ul-kooiker/
-URL:https://kranenburgh.nl/tentoonstelling/lisa-konno-paul-kooiker/
-CATEGORIES:Museum,Bergen NH
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-2f9fed7655a3-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Dromen in het duin (Bernard Essers) - Museum Kranenburgh
-LOCATION:Museum Kranenburgh\, Bergen NH
-DESCRIPTION:Graphic work from the early 20th century\, incl. book illustrat
- ions.\\nhttps://kranenburgh.nl/tentoonstelling/bernard-essers/
-URL:https://kranenburgh.nl/tentoonstelling/bernard-essers/
-CATEGORIES:Museum,Bergen NH
-END:VEVENT
-BEGIN:VEVENT
-UID:museum-7ca4c1c7835a-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last day: Alles verandert\, niets vergaat (Iris Le Rutte) - Museum 
- Kranenburgh
-LOCATION:Museum Kranenburgh\, Bergen NH
-DESCRIPTION:Ovid's Metamorphoses: people\, animals\, plants change into hyb
- rids.\\nhttps://kranenburgh.nl/tentoonstelling/alles-verandert-niets-verga
- at/
-URL:https://kranenburgh.nl/tentoonstelling/alles-verandert-niets-vergaat/
-CATEGORIES:Museum,Bergen NH
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-afad0ebacc50-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last day: The Land of Chocolate Sprinkles - H'ART Museum (ex-Hermit
@@ -140,22 +23,8 @@ URL:https://www.hartmuseum.nl/en/exhibitions/the-land-of-chocolate-sprinkle
 CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
-UID:museum-afad0ebacc50-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last week: The Land of Chocolate Sprinkles - H'ART Museum (ex-Hermi
- tage Amsterdam)
-LOCATION:H'ART Museum (ex-Hermitage Amsterdam)\, Amsterdam
-DESCRIPTION:Building a new world together.\\nhttps://www.hartmuseum.nl/en/e
- xhibitions/the-land-of-chocolate-sprinkles/
-URL:https://www.hartmuseum.nl/en/exhibitions/the-land-of-chocolate-sprinkle
- s/
-CATEGORIES:Museum,Amsterdam
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-6d288dc4c050-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last day: Buiten de oevers - Museum de Fundatie
@@ -167,24 +36,11 @@ URL:https://museumdefundatie.nl/nl/te-zien/buiten-de-oevers
 CATEGORIES:Museum,Zwolle
 END:VEVENT
 BEGIN:VEVENT
-UID:museum-6d288dc4c050-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Last week: Buiten de oevers - Museum de Fundatie
-LOCATION:Museum de Fundatie\, Zwolle
-DESCRIPTION:Wilma Wilbrink's works from 2\,000-year-old bog-oaks on water a
- nd landscape change.\\nhttps://museumdefundatie.nl/nl/te-zien/buiten-de-oe
- vers
-URL:https://museumdefundatie.nl/nl/te-zien/buiten-de-oevers
-CATEGORIES:Museum,Zwolle
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-81ce78a80f51@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261110
-SUMMARY:Last 2 weeks: Art Award Arnhem 2026 - Museum Arnhem
+SUMMARY:Last week: Art Award Arnhem 2026 - Museum Arnhem
 LOCATION:Museum Arnhem\, Arnhem
 DESCRIPTION:Ontdek de drie genomineerden van de Art Award Arnhem 2026: Milo
  u Laroussiyen\, Jeongmin Park en Enrico Manzella.\\nhttps://www.museumarnh
@@ -194,7 +50,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-81ce78a80f51-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Last day: Art Award Arnhem 2026 - Museum Arnhem
@@ -207,7 +63,7 @@ CATEGORIES:Museum,Arnhem
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-26c3e78714e9-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Last day: 20th-century Galleries - Rijksmuseum
@@ -222,24 +78,8 @@ URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/new-displays-in-the-
 CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
-UID:museum-26c3e78714e9-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:Last week: 20th-century Galleries - Rijksmuseum
-LOCATION:Rijksmuseum\, Amsterdam
-DESCRIPTION:Every six months the Rijksmuseum presents new spotlight display
- s in the 20th-century galleries\; this edition highlights Madelon Vriesend
- orp's drawings\, Charley Toorop's artistic circle\, and the influence of p
- hotography on 20th-century advertising.\\nhttps://www.rijksmuseum.nl/en/wh
- ats-on/exhibitions/new-displays-in-the-20th-century-galleries
-URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/new-displays-in-the-
- 20th-century-galleries
-CATEGORIES:Museum,Amsterdam
-END:VEVENT
-BEGIN:VEVENT
 UID:museum-1c819ebb62cd-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Dichter bij De denker - Singer Laren
@@ -252,7 +92,7 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-1c819ebb62cd-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: Dichter bij De denker - Singer Laren
@@ -265,10 +105,10 @@ CATEGORIES:Museum,Laren
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bee8f26235d3@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20261116
-SUMMARY:Last 3 weeks: Robin Wen & Bobbi Essers: Nothing Makes Me Feel As Go
+SUMMARY:Last 2 weeks: Robin Wen & Bobbi Essers: Nothing Makes Me Feel As Go
  od - Museum MORE
 LOCATION:Museum MORE\, Gorssel
 DESCRIPTION:Duo-tentoonstelling van Robin Wen en Bobbi Essers in MORE Gorss
@@ -279,7 +119,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bee8f26235d3-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Robin Wen & Bobbi Essers: Nothing Makes Me Feel As Good -
@@ -293,10 +133,10 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-80cc083230e6@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20260514
 DTEND;VALUE=DATE:20261116
-SUMMARY:Last 3 weeks: Kabinet: Maeve van Klaveren - Museum MORE
+SUMMARY:Last 2 weeks: Kabinet: Maeve van Klaveren - Museum MORE
 LOCATION:Museum MORE\, Gorssel
 DESCRIPTION:Kabinetpresentatie met werk van Maeve van Klaveren in MORE Gors
  sel.\\nhttps://www.moregorssel.nl/tentoonstellingen/kabinet-maeve-van-klav
@@ -306,7 +146,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-80cc083230e6-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Kabinet: Maeve van Klaveren - Museum MORE
@@ -319,7 +159,7 @@ CATEGORIES:Museum,Gorssel
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bb0e0fe3e5b9-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Christoph Ruckhaberle: The Fourth Wall - Drents Museum
@@ -332,7 +172,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-bb0e0fe3e5b9-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: Christoph Ruckhaberle: The Fourth Wall - Drents Museum
@@ -345,7 +185,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f18e3168bd1c-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: DMspotlight: Wilhelmina Proos - Drents Museum
@@ -358,7 +198,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-f18e3168bd1c-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: DMspotlight: Wilhelmina Proos - Drents Museum
@@ -371,7 +211,7 @@ CATEGORIES:Museum,Assen
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-76e365eef7b7-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last day: Collectie // Reflectie - Rijksmuseum van Oudheden
@@ -385,7 +225,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-76e365eef7b7-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Last week: Collectie // Reflectie - Rijksmuseum van Oudheden
@@ -399,7 +239,7 @@ CATEGORIES:Museum,Leiden
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-55feaa5d66a8-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Quickscan 3 - Nederlands Fotomuseum
@@ -411,7 +251,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-55feaa5d66a8-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last week: Quickscan 3 - Nederlands Fotomuseum
@@ -423,7 +263,7 @@ CATEGORIES:Museum,Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b7f8e3e51486-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Godenschemering - Frans Franciscus - Centraal Museum
@@ -437,7 +277,7 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b7f8e3e51486-lw@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Last week: Godenschemering - Frans Franciscus - Centraal Museum
@@ -451,10 +291,10 @@ CATEGORIES:Museum,Utrecht
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-48bfb48fe0ea@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20261123
-SUMMARY:Last month: Ruimtereis - Kröller-Müller Museum
+SUMMARY:Last 3 weeks: Ruimtereis - Kröller-Müller Museum
 LOCATION:Kröller-Müller Museum\, Otterlo
 DESCRIPTION:Ruimtereis door de collectie.\\nhttps://krollermuller.nl/nl/nu-
  te-doen/tentoonstellingen/ruimtereis
@@ -463,7 +303,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-48bfb48fe0ea-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Ruimtereis - Kröller-Müller Museum
@@ -475,11 +315,11 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b84337348f4b@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20260117
 DTEND;VALUE=DATE:20261123
-SUMMARY:Last month: Wessel Couzijn. Rendez-vous van tafel en stoel - Krölle
- r-Müller Museum
+SUMMARY:Last 3 weeks: Wessel Couzijn. Rendez-vous van tafel en stoel - Kröl
+ ler-Müller Museum
 LOCATION:Kröller-Müller Museum\, Otterlo
 DESCRIPTION:Wessel Couzijn: Rendez-vous van tafel en stoel.\\nhttps://kroll
  ermuller.nl/nl/nu-te-doen/tentoonstellingen/wessel-couzijn-rendez-vous-van
@@ -490,7 +330,7 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-b84337348f4b-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Last day: Wessel Couzijn. Rendez-vous van tafel en stoel - Kröller-
@@ -505,10 +345,10 @@ CATEGORIES:Museum,Otterlo
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5f4bbeb65271@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20261128
-SUMMARY:Last month: Keerthana Kunnath: Not What You Saw - Foam
+SUMMARY:Last 3 weeks: Keerthana Kunnath: Not What You Saw - Foam
 LOCATION:Foam\, Amsterdam
 DESCRIPTION:Foam 3h presents the first museum exhibition of photographer Ke
  erthana Kunnath.\\nhttps://www.foam.org/events/keerthana-kunnath
@@ -517,7 +357,7 @@ CATEGORIES:Museum,Amsterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:museum-5f4bbeb65271-ld@hermes.museumtracker
-DTSTAMP:20261029T101017Z
+DTSTAMP:20261106T003621Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Last day: Keerthana Kunnath: Not What You Saw - Foam
@@ -525,6 +365,64 @@ LOCATION:Foam\, Amsterdam
 DESCRIPTION:Foam 3h presents the first museum exhibition of photographer Ke
  erthana Kunnath.\\nhttps://www.foam.org/events/keerthana-kunnath
 URL:https://www.foam.org/events/keerthana-kunnath
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-1f3dc90c4345@hermes.museumtracker
+DTSTAMP:20261106T003621Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20261130
+SUMMARY:Last month: Layers - Fotomuseum Den Haag
+LOCATION:Fotomuseum Den Haag\, Den Haag
+DESCRIPTION:Student exhibition inspired by Farren van Wyk's Mixedness is my
+  Mythology\; pupils of The Hague secondary schools explore colour\, backgr
+ ound and identity. Free to visit.\\nhttps://www.fotomuseumdenhaag.nl/nl/te
+ ntoonstellingen/layers
+URL:https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers
+CATEGORIES:Museum,Den Haag
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-1f3dc90c4345-ld@hermes.museumtracker
+DTSTAMP:20261106T003621Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Last day: Layers - Fotomuseum Den Haag
+LOCATION:Fotomuseum Den Haag\, Den Haag
+DESCRIPTION:Student exhibition inspired by Farren van Wyk's Mixedness is my
+  Mythology\; pupils of The Hague secondary schools explore colour\, backgr
+ ound and identity. Free to visit.\\nhttps://www.fotomuseumdenhaag.nl/nl/te
+ ntoonstellingen/layers
+URL:https://www.fotomuseumdenhaag.nl/nl/tentoonstellingen/layers
+CATEGORIES:Museum,Den Haag
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-89c8376e7a5f-ld@hermes.museumtracker
+DTSTAMP:20261106T003621Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Last day: In the Rijksmuseum print cabinets - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:This presentation in the print cabinets focuses on Roman street
+  art\, social satire and Japanese fairy tales\, with a cabinet dedicated t
+ o the recently gifted 17th-century Van Eeghen Drawing Book.\\nhttps://www.
+ rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-print-cabinets
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-p
+ rint-cabinets
+CATEGORIES:Museum,Amsterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-89c8376e7a5f-lw@hermes.museumtracker
+DTSTAMP:20261106T003621Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Last week: In the Rijksmuseum print cabinets - Rijksmuseum
+LOCATION:Rijksmuseum\, Amsterdam
+DESCRIPTION:This presentation in the print cabinets focuses on Roman street
+  art\, social satire and Japanese fairy tales\, with a cabinet dedicated t
+ o the recently gifted 17th-century Van Eeghen Drawing Book.\\nhttps://www.
+ rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-print-cabinets
+URL:https://www.rijksmuseum.nl/en/whats-on/exhibitions/in-the-rijksmuseum-p
+ rint-cabinets
 CATEGORIES:Museum,Amsterdam
 END:VEVENT
 END:VCALENDAR
