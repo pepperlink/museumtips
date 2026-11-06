@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-loes-riphagen-van-coco-tot-snuitkever@museumtips.pepperlink.nl
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20270510
+SUMMARY:Loes Riphagen: Van Coco tot snuitkever - Museum Kranenburgh
+LOCATION:Museum Kranenburgh\, Bergen NH
+DESCRIPTION:Educational family exhibition with busy gnomes\, adventurous in
+ sects\, brave little birds and other creatures (Zaal 2\, 3\, 4).\nhttps://
+ kranenburgh.nl/tentoonstelling/loes-riphagen/
+URL:https://kranenburgh.nl/tentoonstelling/loes-riphagen/
+END:VEVENT
+END:VCALENDAR

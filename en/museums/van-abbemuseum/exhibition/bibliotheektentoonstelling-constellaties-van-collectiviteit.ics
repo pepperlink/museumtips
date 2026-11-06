@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-bibliotheektentoonstelling-constellaties-van-collectiviteit@museumtips.pepperlink.nl
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20270528
+SUMMARY:Bibliotheektentoonstelling Constellaties van collectiviteit - Van A
+ bbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Library exhibition on constellations of collectivity\, drawn fr
+ om the Van Abbemuseum library collection.\nhttps://vanabbemuseum.nl/nl/zie
+ n-en-doen/tentoonstellingen/constellaties-van-collectiviteit
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/constellatie
+ s-van-collectiviteit
+END:VEVENT
+END:VCALENDAR

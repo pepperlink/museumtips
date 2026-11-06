@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-angele-etoundi-essamba@museumtips.pepperlink.nl
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20270319
+SUMMARY:Angèle Etoundi Essamba - Nederlands Fotomuseum
+LOCATION:Nederlands Fotomuseum\, Rotterdam
+DESCRIPTION:Retrospective of photographer and artist Angèle Etoundi Essamba
+ \, with work from four decades of photography\, opening 19 March 2027.\nht
+ tps://nederlandsfotomuseum.nl/nu-te-zien/angele-etoundi-essamba/
+URL:https://nederlandsfotomuseum.nl/nu-te-zien/angele-etoundi-essamba/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-kunst-gemaakt-met-door-en-tegen-ai@museumtips.pepperlink.nl
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20270510
+SUMMARY:Kunst gemaakt met\, door en tegen AI - Museum Kranenburgh
+LOCATION:Museum Kranenburgh\, Bergen NH
+DESCRIPTION:Exhibition on art made with\, by and against AI\, opening when 
+ the museum reopens on 15 November 2026 (Zaal 5).\nhttps://kranenburgh.nl/t
+ entoonstelling/ai-artist/
+URL:https://kranenburgh.nl/tentoonstelling/ai-artist/
+END:VEVENT
+END:VCALENDAR

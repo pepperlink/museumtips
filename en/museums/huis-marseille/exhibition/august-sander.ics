@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-august-sander@museumtips.pepperlink.nl
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270621
+SUMMARY:August Sander - Huis Marseille
+LOCATION:Huis Marseille\, Amsterdam
+DESCRIPTION:Exhibition on the German photographer August Sander\; the museu
+ m says more information is coming soon.\nhttps://huismarseille.nl/en/exhib
+ itions/august-sander/
+URL:https://huismarseille.nl/en/exhibitions/august-sander/
+END:VEVENT
+END:VCALENDAR

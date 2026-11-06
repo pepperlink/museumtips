@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-in-the-rijksmuseum-print-cabinets@museumtips.pepperlink.nl
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261022
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261130
 SUMMARY:In the Rijksmuseum print cabinets - Rijksmuseum
 LOCATION:Rijksmuseum\, Amsterdam

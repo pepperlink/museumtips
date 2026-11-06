@@ -4,9 +4,9 @@ PRODID:-//Museumtips//Exhibition//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-myriam-boulos@museumtips.pepperlink.nl
-DTSTAMP:20261022T000000Z
+DTSTAMP:20261106T000000Z
 DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270121
 SUMMARY:Myriam Boulos - Foam
 LOCATION:Foam\, Amsterdam
 DESCRIPTION:Foam presents the exhibition of Myriam Boulos (1992\, Lebanon)\

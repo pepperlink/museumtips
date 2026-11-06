@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-yorgos-lanthimos-photographs@museumtips.pepperlink.nl
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270607
+SUMMARY:Yorgos Lanthimos: Photographs - Foam
+LOCATION:Foam\, Amsterdam
+DESCRIPTION:Photographs by film director Yorgos Lanthimos\, opening at Foam
+  in February 2027.\nhttps://www.foam.org/events/yorgos-lanthimos-photograp
+ hs
+URL:https://www.foam.org/events/yorgos-lanthimos-photographs
+END:VEVENT
+END:VCALENDAR
