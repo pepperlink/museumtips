@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-the-best-dutch-book-designs-2025@museumtips.pepperlink.nl
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20270111
+SUMMARY:The Best Dutch Book Designs 2025 - Stedelijk Museum
+LOCATION:Stedelijk Museum\, Amsterdam
+DESCRIPTION:The Stedelijk presents the Dutch Book Designs from the previous
+  year\, showcasing the full spectrum of disciplines and elements that make
+  up contemporary Dutch book design.\nhttps://www.stedelijk.nl/en/exhibitio
+ ns/The-Best-Dutch-Book-Designs-2025
+URL:https://www.stedelijk.nl/en/exhibitions/The-Best-Dutch-Book-Designs-202
+ 5
+END:VEVENT
+END:VCALENDAR

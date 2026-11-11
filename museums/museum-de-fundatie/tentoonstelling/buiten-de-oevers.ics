@@ -4,8 +4,8 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-buiten-de-oevers@museumtips.pepperlink.nl
-DTSTAMP:20261106T000000Z
-DTSTART;VALUE=DATE:20261106
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Buiten de oevers - Museum de Fundatie
 LOCATION:Museum de Fundatie\, Zwolle
