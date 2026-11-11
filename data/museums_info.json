@@ -422,12 +422,12 @@
     "en": "Daily 10:00–18:00, 365 days a year (including holidays).\nLast entry 17:45."
    },
    "transit": {
-    "nl": "Vanaf Amsterdam Centraal: tram 2 of 12, halte Museumplein; metro 52 naar station De Pijp, overstappen op tram 3 of 12.\nVanaf Amsterdam Amstel: tram 12, halte Museumplein.\nVanaf Amsterdam Zuid WTC: tram 5, halte Museumplein (soms omgeroepen als Paulus Potterstraat).\nVanaf Sloterdijk: tram 19 naar Leidseplein, overstappen; vanaf Muiderpoort: tram 3, halte Museumplein.",
-    "en": "From Amsterdam Central Station: tram 2 or 12, stop Museumplein; metro 52 to De Pijp station, change to tram 3 or 12.\nFrom Amsterdam Amstel: tram 12, stop Museumplein.\nFrom Amsterdam Zuid WTC: tram 5, stop Museumplein (sometimes announced as Paulus Potterstraat).\nFrom Sloterdijk: tram 19 to Leidseplein, change; from Muiderpoort: tram 3, stop Museumplein."
+    "nl": "Vanaf Amsterdam Centraal: tram 2 (richting Nieuw Sloten) of tram 12 (richting Amstelstation), halte Museumplein; metro 52 naar station De Pijp, overstappen op tram 12 (richting Centraal station).\nVanaf Amsterdam Amstel: tram 12 (richting Amsterdam Centraal), halte Museumplein.\nVanaf Amsterdam Zuid WTC: tram 5 (richting Westergasfabriek), halte Museumplein (soms omgeroepen als Paulus Potterstraat).\nVanaf station Sloterdijk: tram 19 (richting Diemen Sniep) naar Leidseplein, overstappen op tram 2 (richting Nieuw Sloten) of tram 5 (richting Amstelveen Stadshart).",
+    "en": "From Amsterdam Central Station: tram 2 (towards Nieuw Sloten) or tram 12 (towards Amstelstation), stop Museumplein; metro 52 to De Pijp station, change to tram 12 (towards Central Station).\nFrom Amsterdam Amstel: tram 12 (towards Amsterdam Central), stop Museumplein.\nFrom Amsterdam Zuid WTC: tram 5 (towards Westergasfabriek), stop Museumplein (sometimes announced as Paulus Potterstraat).\nFrom Sloterdijk station: tram 19 (towards Diemen Sniep) to Leidseplein, change to tram 2 (towards Nieuw Sloten) or tram 5 (towards Amstelveen Stadshart)."
    },
    "parking": {
     "nl": "Parkeergarage Q-Park onder het Museumplein (ingang tegenover het Concertgebouw); in de omgeving van het Museumplein geldt betaald parkeren.\nGehandicaptenparkeerplaats bij de groepsentree, Paulus Potterstraat 13; twee plaatsen voor mensen met een fysieke beperking in de Q-Park-garage.\nMet een Europese gehandicaptenparkeerkaart parkeer je gratis op bijna alle plekken in Amsterdam.",
-    "en": "Q-Park garage under Museumplein (entrance opposite the Concertgebouw); paid parking around Museumplein.\nDisability accessible parking at the group entrance, Paulus Potterstraat 13; several disabled parking spaces in the Q-Park garage.\nWith a European disabled parking permit, parking is free in almost all places in Amsterdam."
+    "en": "Q-Park garage under Museumplein (entrance opposite the Concertgebouw); paid parking around Museumplein.\nDisability accessible parking at the group entrance, Paulus Potterstraat 13; two disabled parking spaces in the Q-Park garage.\nWith a European disabled parking permit, parking is free in almost all places in Amsterdam."
    },
    "access": {
     "nl": "Het museum heeft liften, rolstoelliften en rolstoeltoegankelijke toiletten; de liften gebruik je zelfstandig (zie plattegrond).\nRolstoel, rollator, opvouwbare stoel of Alinker zijn gratis te leen bij de informatiebalie (reserveren via reserveringen@stedelijk.nl of 020 5732 911).\nAssistentiehonden zijn welkom; ondersteuners hebben gratis entree; er is een lus voor slechthorenden en er zijn gebarentaalvoorzieningen.\nBij drukte kunnen hulpmiddelen al vergeven zijn – reserveer vooraf.",
@@ -439,8 +439,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -453,33 +453,45 @@
     },
     {
      "fact": "hours",
-     "url": "https://www.stedelijk.nl/en/visit",
-     "checked": "2026-09-13"
+     "url": "https://www.stedelijk.nl/nl/bezoeken",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.stedelijk.nl/en/visit"
+     ]
     },
     {
      "fact": "transit",
-     "url": "https://www.stedelijk.nl/en/visit/address-route",
-     "checked": "2026-09-13"
+     "url": "https://www.stedelijk.nl/nl/bezoeken/bereikbaarheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.stedelijk.nl/en/visit/address-route"
+     ]
     },
     {
      "fact": "parking",
      "url": "https://www.stedelijk.nl/nl/bezoeken/bereikbaarheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://www.stedelijk.nl/nl/bezoeken/toegankelijkheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://www.stedelijk.nl/en/visit",
-     "checked": "2026-09-13"
+     "url": "https://www.stedelijk.nl/nl/bezoeken",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.stedelijk.nl/en/visit"
+     ]
     },
     {
      "fact": "pricing - toeslag",
-     "url": "https://www.stedelijk.nl/en/visit/faq",
-     "checked": "2026-09-13"
+     "url": "https://www.stedelijk.nl/nl/bezoeken",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.stedelijk.nl/en/visit/faq"
+     ]
     },
     {
      "fact": "cards",
@@ -489,14 +501,24 @@
     {
      "fact": "coordinates",
      "url": "https://www.stedelijk.nl/en/visit/address-route"
+    },
+    {
+     "fact": "offers",
+     "url": "https://www.stedelijk.nl/nl/bezoeken",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "Voor populaire tentoonstellingen kan een starttijd en toeslag gelden; Stedelijk Members hoeven nooit een starttijd te boeken en betalen nooit toeslag.",
     "Het museum is 365 dagen per jaar open, ook op feestdagen.",
-    "Bezoekers met Museumkaart of andere kortingskaart kunnen zonder reservering naar de toegangscontrole, tenzij voor een tentoonstelling een starttijd geldt."
+    "Bezoekers met Museumkaart of andere kortingskaart kunnen zonder reservering naar de toegangscontrole, tenzij voor een tentoonstelling een starttijd geldt.",
+    "Transit rewritten to the four origin routes the site currently publishes: metro 52 now connects only to tram 12 (was 'tram 3 of 12'), and from Sloterdijk the transfer is tram 2 or 5 (the page no longer lists a Muiderpoort/tram 3 route).",
+    "Parking EN aligned to the Dutch page: 'two disabled parking spaces' in the Q-Park garage (the Dutch page says 'twee parkeerplaatsen'); the museum's EN route page still says 'several'.",
+    "Hours unchanged (daily 10.00–18.00, last entry 17.45). The site adds that on a few days the museum opens at 09.00 instead of 10.00 — no dates given, so not recorded.",
+    "Pricing unchanged (€ 22,50 / students & CJP € 12,50 / under 19 free / Members free; surcharge note; online tickets only).",
+    "Access unchanged: lifts and wheelchair lifts (self-operated), wheelchair-accessible toilets, assistance dogs welcome, loan wheelchairs at the information desk (reserve via reserveringen@stedelijk.nl or 020 5732 911), hearing loop."
    ],
-   "verified": "2026-09-13",
+   "verified": "2026-11-11",
    "generatedNameVariant": "Stedelijk Museum"
   }
  },
@@ -755,8 +777,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Dagelijks 10.00–18.00 uur; donderdag 10.00–21.00 uur.\nGesloten: 27 april (Koningsdag), 25 december, 1 januari en tijdens de inrichting van nieuwe tentoonstellingen (in de dagen voorafgaand aan de opening).\nOp 31 december is het museum open van 10.00 tot 17.00 uur.\nOpen op alle overige feestdagen, inclusief 2e Paasdag.",
-    "en": "Daily 10:00–18:00; Thursdays 10:00–21:00.\nClosed: 27 April (King's Day), 25 December, 1 January, and during the construction of new exhibitions (in the week preceding the opening).\nOn 31 December the museum is open from 10:00 to 17:00.\nOpen on all other public holidays, including Easter Monday."
+    "nl": "Dagelijks 10.00–18.00 uur; donderdag 10.00–21.00 uur.\nGesloten: 27 april (Koningsdag), 25 december, 1 januari en tijdens de inrichting van nieuwe tentoonstellingen (in de dagen voorafgaand aan de opening).\nOp 31 december is het museum open van 10.00 tot 17.00 uur; op 24 december (kerstavond) is het museum open tot 18.00 uur.\nOpen op alle overige feestdagen, inclusief 2e Paasdag.",
+    "en": "Daily 10:00–18:00; Thursdays 10:00–21:00.\nClosed: 27 April (King's Day), 25 December, 1 January, and during the construction of new exhibitions (in the week preceding the opening).\nOn 31 December the museum is open from 10:00 to 17:00; on 24 December (Christmas Eve) the museum is open until 18:00.\nOpen on all other public holidays, including Easter Monday."
    },
    "transit": {
     "nl": "Vanaf Amsterdam Centraal Station: tram 2, 17 of 24, uitstappen bij halte Keizersgracht en 4 minuten lopen.\nVanaf Amsterdam Zuid Station: metro 52 (Noord-Zuidlijn) naar Station Noord, uitstappen bij halte Rokin en 8 minuten lopen.\nHuis Marseille is het beste te bereiken met de fiets of het openbaar vervoer.",
@@ -771,13 +793,13 @@
     "en": "Due to the historic character and listed status of the two canal houses, the museum is unfortunately not fully accessible; because of the many staircases the galleries are particularly difficult for wheelchair and walker users.\nA pram can be left at reception during the visit.\nIf you need an escort to visit the museum, they are granted free admission.\nRegistered assistance dogs are allowed (with a vest/harness and the handler's identification card); other pets are not.\nGallery texts are available in larger print on request."
    },
    "pricing": {
-    "nl": "Entree € 12,50.\n€ 10,00 voor groepen van 8 personen of meer (minimaal een week van tevoren aanmelden via educatie@huismarseille.nl).\n€ 6,50: studenten, 65+, CJP, Rembrandtpas, Uitpas.\nGratis: kinderen t/m 17 jaar, Museumkaart, I amsterdam City Card, Stadspas, ICOM.\nTickets zijn verkrijgbaar aan de kassa; een entreeticket geeft toegang tot de tentoonstelling(en), de bibliotheek, de tuin en het tuinhuis.",
-    "en": "Admission € 12.50.\n€ 10.00 for groups of 8 or more (notify at least one week in advance via educatie@huismarseille.nl).\n€ 6.50: students, senior citizens (65+), CJP, Rembrandtpas, Uitpas.\nFree: children ages 17 and under, Museumkaart, I amsterdam City Card, Stadspas, ICOM.\nTickets can be purchased at the box office; an entrance ticket provides access to the exhibition(s), the library, the garden and garden house."
+    "nl": "Entree € 12,50.\n€ 10,00 voor groepen van 8 personen of meer (minimaal een week van tevoren aanmelden via educatie@huismarseille.nl).\n€ 6,50: studenten, CJP, Rembrandtpas, Uitpas.\nGratis: kinderen t/m 17 jaar, Museumkaart, I amsterdam City Card, Stadspas, ICOM.\nTickets zijn verkrijgbaar aan de kassa; een entreeticket geeft toegang tot de tentoonstelling(en), de bibliotheek, de tuin en het tuinhuis.",
+    "en": "Admission € 12.50.\n€ 10.00 for groups of 8 or more (notify at least one week in advance via educatie@huismarseille.nl).\n€ 6.50: students, CJP, Rembrandtpas, Uitpas.\nFree: children ages 17 and under, Museumkaart, I amsterdam City Card, Stadspas, ICOM.\nTickets can be purchased at the box office; an entrance ticket provides access to the exhibition(s), the library, the garden and garden house."
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -791,32 +813,35 @@
     {
      "fact": "hours",
      "url": "https://huismarseille.nl/bezoekersinformatie/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
      "url": "https://huismarseille.nl/bezoekersinformatie/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://huismarseille.nl/en/visitor-information/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://huismarseille.nl/bezoekersinformatie/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://huismarseille.nl/en/visitor-information/",
-     "checked": "2026-09-13"
+     "url": "https://huismarseille.nl/bezoekersinformatie/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://huismarseille.nl/en/visitor-information/"
+     ]
     },
     {
      "fact": "cards",
      "url": "https://huismarseille.nl/bezoekersinformatie/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "coordinates",
@@ -826,9 +851,16 @@
    "notes": [
     "Het museum sluit 3–4 keer per jaar ongeveer een week voor de opbouw van nieuwe tentoonstellingen (data staan op de site).",
     "Verschillende pagina's noemen verschillende tramlijnen vanaf Centraal (bezoekersinformatie: 2, 17 of 24; FAQ: 2 of 12) — check de actuele dienstregeling.",
-    "Er is geen permanent collectiepresentatie vanwege de lichtgevoeligheid van fotografie; er is geen café (wel een koffieautomaat)."
+    "Er is geen permanent collectiepresentatie vanwege de lichtgevoeligheid van fotografie; er is geen café (wel een koffieautomaat).",
+    "Admission stays € 12,50; the € 6,50 rate no longer includes 65+ — seniors are not listed as a discount group on either language page.",
+    "Christmas Eve (24 December) closing time 18.00 is now stated; added to hours (31 December 17.00 unchanged).",
+    "Group rate € 10,00 applies from 8 persons (site: 'groepen* > 8 personen'); stored wording 'van 8 personen of meer' kept.",
+    "Free-entry list unchanged: children up to 17, Museumkaart, I amsterdam City Card, Stadspas, ICOM.",
+    "Access page unchanged: not wheelchair accessible (historic canal houses, many stairs), pram can be left at reception, free companion, registered assistance dogs only, large-print gallery texts on request.",
+    "Parking unchanged (Q-Park Europarking Marnixstraat / garage Kalverstraat Singel); site still spells it 'Kalverstaat'.",
+    "Cultuur Ferry (July/August weekend hops-on ferry, €19,50) is mentioned on the visitor page but is a seasonal third-party service, not recorded in transit."
    ],
-   "verified": "2026-09-13",
+   "verified": "2026-11-11",
    "generatedNameVariant": "Huis Marseille"
   }
  },
@@ -922,8 +954,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Dagelijks 10.00–18.00 uur; donderdag en vrijdag tot 21.00 uur.\nLet op: Foam is van 27 augustus t/m 17 september 2026 tijdelijk gesloten wegens verduurzaming; heropening vrijdag 18 september 2026 om 10.00 uur.",
-    "en": "Daily 10.00–18.00; Thursday and Friday until 21.00.\nPlease note: Foam is temporarily closed from 27 August until 17 September 2026 for sustainability works; reopening Friday 18 September 2026 at 10.00."
+    "nl": "Dagelijks 10.00–18.00 uur; donderdag en vrijdag tot 21.00 uur.",
+    "en": "Daily 10.00–18.00; Thursday and Friday until 21.00."
    },
    "transit": {
     "nl": "Volgens Foam is het museum het beste te voet of met het openbaar vervoer te bereiken; plan je route met de OV-reisplanner (9292) of Google Maps. Adres: Keizersgracht 609, Amsterdam.",
@@ -943,8 +975,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -957,28 +989,34 @@
     },
     {
      "fact": "hours",
-     "url": "https://www.foam.org/visit/faq",
-     "checked": "2026-09-13"
+     "url": "https://www.foam.org/visit",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.foam.org/visit/faq"
+     ]
     },
     {
      "fact": "hours",
-     "url": "https://tickets.foam.org/en/tickets",
-     "checked": "2026-09-13"
+     "url": "https://www.foam.org/visit",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://tickets.foam.org/en/tickets"
+     ]
     },
     {
      "fact": "transit",
      "url": "https://www.foam.org/visit/faq",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://www.foam.org/visit",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://www.foam.org/visit/accessibility",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "cards",
@@ -988,12 +1026,15 @@
     {
      "fact": "pricing",
      "url": "https://www.foam.org/visit",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://tickets.foam.org/en/tickets",
-     "checked": "2026-09-13"
+     "url": "https://www.foam.org/visit",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://tickets.foam.org/en/tickets"
+     ]
     },
     {
      "fact": "coordinates",
@@ -1004,9 +1045,14 @@
     "foam.org blokkeert geautomatiseerde verzoeken (429); gegevens zijn via een headless browser van de officiele site gehaald.",
     "De Foam-website is Engelstalig; NL-velden zijn een getrouwe vertaling van de officiele EN-teksten.",
     "Tijdelijke sluiting 27-8 t/m 17-9-2026 wegens verduurzaming; heropening 18-9-2026 om 10.00 uur.",
-    "Geen parkeerinformatie op de site; alleen een afzetzone wordt genoemd."
+    "Geen parkeerinformatie op de site; alleen een afzetzone wordt genoemd.",
+    "Known-stale case fixed: the temporary closure of 27 August-17 September 2026 (reopening 18 September) is no longer announced and the museum is open daily again.",
+    "Hours confirmed as mon-wed 10-18, thu-fri 10-21, sat-sun 10-18, matching the stored daily 10-18 / Thu-Fri until 21 pattern.",
+    "Prices unchanged: adult EUR 16.00, student EUR 12.80, students under 18/CJP EUR 11.75, children up to 12 free, card-only payments.",
+    "Access page carries a live undated notice 'Elevator out of service - due to a technical issue'; it is temporary and undated, so it was not folded into the structural access text.",
+    "Access page confirms: not fully wheelchair accessible, no mobility scooters/electric wheelchairs, elevator + accessible bathroom + drop-off zone, folding stools at the desk, free companion admission, guide dogs, free Dutch sign-language tours."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "museum-boijmans-van-beuningen": {
@@ -1294,8 +1340,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Dinsdag t/m zondag 10.00–17.00 uur (maandag gesloten, behoudens feestdagen).\nOpen (steeds 10.00–17.00 uur): Hemelvaartsdag 14 mei 2026, Eerste en Tweede Pinksterdag (24 en 25 mei), maandag 19 oktober (herfstvakantie), maandag 21 december, zaterdag 26 december en maandag 28 december 2026.\nGesloten: Koningsdag (maandag 27 april 2026), Eerste Kerstdag (vrijdag 25 december 2026), Nieuwjaarsdag (vrijdag 1 januari 2027).\nAfwijkend: vrijdag 18 september 2026 open tot 22.00 uur (Friday Night LIVE); kerstavond (24 december) en oudjaarsdag (31 december) tot 16.00 uur.",
-    "en": "Tuesday to Sunday 10.00–17.00 (closed Mondays, except public holidays).\nOpen (10.00–17.00): Ascension Day 14 May 2026, Whit Sunday and Whit Monday (24 and 25 May), Monday 19 October (autumn break), Monday 21 December, Saturday 26 December and Monday 28 December 2026.\nClosed: King's Day (Monday 27 April 2026), Christmas Day (Friday 25 December 2026), New Year's Day (Friday 1 January 2027).\nSpecial hours: Friday 18 September 2026 open until 22.00 (Friday Night LIVE); Christmas Eve (24 December) and New Year's Eve (31 December) until 16.00."
+    "nl": "Dinsdag t/m zondag 10.00–17.00 uur (maandag gesloten, behoudens feestdagen).\nOpen (steeds 10.00–17.00 uur): maandag 19 oktober 2026 (herfstvakantie), maandag 21 december 2026 (kerstvakantie), zaterdag 26 december 2026 (tweede kerstdag), maandag 28 december 2026 (kerstvakantie), maandag 15 februari 2027, maandag 22 februari 2027 (voorjaarsvakantie), zondag 28 maart 2027 (eerste paasdag), maandag 29 maart 2027 (tweede paasdag), maandag 26 april 2027 en maandag 3 mei 2027 (meivakantie), donderdag 6 mei 2027 (Hemelvaartsdag), zondag 16 mei 2027 (eerste pinksterdag) en maandag 17 mei 2027 (tweede pinksterdag).\nAfwijkend: vrijdag 20 november 2026 open tot 22.00 uur (Friday Night LIVE); kerstavond (donderdag 24 december 2026) en oudjaarsdag (donderdag 31 december 2026) tot 16.00 uur.\nGesloten: Eerste Kerstdag (vrijdag 25 december 2026), Nieuwjaarsdag (vrijdag 1 januari 2027) en Koningsdag (dinsdag 27 april 2027).",
+    "en": "Tuesday to Sunday 10.00–17.00 (closed Mondays, except public holidays).\nOpen (10.00–17.00): Monday 19 October 2026 (autumn break), Monday 21 December 2026 (Christmas break), Saturday 26 December 2026 (Boxing Day), Monday 28 December 2026 (Christmas break), Monday 15 February 2027, Monday 22 February 2027 (spring break), Sunday 28 March 2027 (Easter Sunday), Monday 29 March 2027 (Easter Monday), Monday 26 April 2027 and Monday 3 May 2027 (May break), Thursday 6 May 2027 (Ascension Day), Sunday 16 May 2027 (Whit Sunday) and Monday 17 May 2027 (Whit Monday).\nSpecial hours: Friday 20 November 2026 open until 22.00 (Friday Night LIVE); Christmas Eve (Thursday 24 December 2026) and New Year's Eve (Thursday 31 December 2026) until 16.00.\nClosed: Christmas Day (Friday 25 December 2026), New Year's Day (Friday 1 January 2027) and King's Day (Tuesday 27 April 2027)."
    },
    "transit": {
     "nl": "Vanaf Rotterdam Centraal: tram 8 richting Spangen, halte Kievitslaan (1 minuut lopen); tram 4 of 6 richting Heemraadsplein, halte Eendrachtsplein (7 minuten); metro Eendrachtsplein of Leuvehaven (7 minuten) of Dijkzigt (10 minuten); ca. 20 minuten lopen vanaf Rotterdam Centraal. Let op: door werkzaamheden bij de RET kunnen tramlijnen afwijken — check de RET-reisplanner.",
@@ -1310,13 +1356,13 @@
     "en": "All exhibition spaces except the sloped ramp in HAL 6 are wheelchair accessible, and all corridors are wide enough; staff assist where needed. Wheelchairs can be borrowed free of charge (reserve in advance via 010-4400 300 or receptie@kunsthal.nl). Mobility scooters are allowed if the size of an electric wheelchair. Lightweight folding stools are available at the start and end of HAL 1 and 2. Assistance dogs are welcome. Visitors unable to visit independently may bring a companion free of charge (book a free companion ticket online). The Kunsthal is cashless (card only)."
    },
    "pricing": {
-    "nl": "Volwassenen €19; jongeren t/m 18 jaar gratis; CJP/studenten t/m 26 jaar €12; groepen vanaf 15 personen €17 p.p.\nGratis met: Museumkaart, Rotterdampas, ICOM-pas, Vereniging Rembrandtpas, VriendenLoterij VIP-KAART en voor Kunsthal Vrienden/zakenvrienden. Museumkaart te koop bij de kassa (€75, direct geldig).\nVanaf 1 oktober 2026: volwassenen €20, CJP/studenten €12,50, groepen €18.\nStarttijd online reserveren verplicht, ook met kortingskaart; geen toeslag voor tentoonstellingen; alleen pinnen/contactloos. Combinatieticket Spido-rondvaart + Kunsthal €32.",
-    "en": "Adults €19; youth up to and including 18 free; CJP/students up to 26 €12; groups of 15+ €17 p.p.\nFree with: Museumkaart, Rotterdam Pass, ICOM card, Vereniging Rembrandt pass, VriendenLoterij VIP-KAART and for Kunsthal Friends/business friends. Museumkaart on sale at the desk (€75, valid immediately).\nFrom 1 October 2026: adults €20, CJP/students €12.50, groups €18.\nBooking an online start time is mandatory, also with discount cards; no surcharge for exhibitions; card-only payments. Combination ticket Spido boat tour + Kunsthal €32."
+    "nl": "Volwassenen € 20; jongeren t/m 18 jaar gratis; CJP/studenten t/m 26 jaar € 12,50; groepen vanaf 15 personen € 18 p.p.\nGratis met: Museumkaart, Rotterdampas, ICOM-pas, Rembrandtkaart, VriendenLoterij VIP-KAART en voor Kunsthal Vrienden/zakenvrienden. Museumkaart te koop bij de kassa (€ 75, direct geldig).\nKortingsacties en Rotterdam City Card gelden alleen op het reguliere volwassenentarief; voor schoolbezoeken gelden aparte tarieven. Starttijd online reserveren verplicht, ook met kortingskaart; geen toeslag voor tentoonstellingen; alleen pinnen/contactloos (geen contant).",
+    "en": "Adults € 20; youth up to and including 18 free; CJP/students up to 26 € 12,50; groups of 15+ € 18 p.p.\nFree with: Museumkaart, Rotterdam Pass, ICOM card, Rembrandtkaart, VriendenLoterij VIP-KAART and for Kunsthal Friends/business friends. Museumkaart on sale at the desk (€ 75, valid immediately).\nDiscount offers and the Rotterdam City Card apply to the regular adult rate only; separate rates apply to school visits. Booking an online start time is mandatory, also with discount cards; no surcharge for exhibitions; card payments only (no cash)."
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -1333,63 +1379,99 @@
     },
     {
      "fact": "hours",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/openingstijden-en-prijzen/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/openingstijden-en-prijzen/"
+     ]
     },
     {
      "fact": "hours",
-     "url": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/"
+     ]
     },
     {
      "fact": "transit",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/adres-route-en-parkeren/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/bereikbaarheid/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/adres-route-en-parkeren/"
+     ]
     },
     {
      "fact": "transit",
-     "url": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/address-and-parking/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/bereikbaarheid/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/en/plan-your-visit/practical-information/address-and-parking/"
+     ]
     },
     {
      "fact": "parking",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/adres-route-en-parkeren/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/bereikbaarheid/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/adres-route-en-parkeren/"
+     ]
     },
     {
      "fact": "parking",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/toegankelijkheid/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/bereikbaarheid/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/toegankelijkheid/"
+     ]
     },
     {
      "fact": "access",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/toegankelijkheid/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/toegankelijkheid/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/toegankelijkheid/"
+     ]
     },
     {
      "fact": "access",
-     "url": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/accessibility/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/toegankelijkheid/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/en/plan-your-visit/practical-information/accessibility/"
+     ]
     },
     {
      "fact": "cards",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/openingstijden-en-prijzen/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/openingstijden-en-prijzen/"
+     ]
     },
     {
      "fact": "cards",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/veelgestelde-vragen/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/veelgestelde-vragen/"
+     ]
     },
     {
      "fact": "pricing",
-     "url": "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/openingstijden-en-prijzen/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/nl/plan-je-bezoek/praktische-informatie/openingstijden-en-prijzen/"
+     ]
     },
     {
      "fact": "pricing",
-     "url": "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/",
-     "checked": "2026-09-13"
+     "url": "https://kunsthal.nl/nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.kunsthal.nl/en/plan-your-visit/practical-information/admission-and-opening-hours/"
+     ]
     },
     {
      "fact": "coordinates",
@@ -1400,9 +1482,19 @@
     "FAQ-pagina noemt afwijkende weekendtijden t/m 1 maart 2026 (10.00–18.00 uur); de actuele pagina Openingstijden en prijzen geldt: 10.00–17.00 uur.",
     "Prijswijziging per 1 oktober 2026 (volwassenen €20).",
     "Online starttijd boeken is verplicht voor alle bezoekers, ook met Museumkaart of Rotterdampas.",
-    "Cashless museum; landelijke betaalpas/creditcard of contactloos."
+    "Cashless museum; landelijke betaalpas/creditcard of contactloos.",
+    "Site restructured: /nl/plan-je-bezoek/praktische-informatie/* now 301 to /nl/plan-je-bezoek/, /bereikbaarheid/, /toegankelijkheid/, /veelgestelde-vragen/ — stored _meta.sources URLs are outdated.",
+    "Price rise of 1 October 2026 has taken effect: adults €20 (was €19), CJP/students €12,50 (was €12), groups €18 (was €17).",
+    "Free-entry list now explicitly includes the Rembrandtkaart and Kunsthal Vrienden/zakenvrienden.",
+    "Rolling holiday-Monday list replaced the 2026 list that opened with Ascension Day 14 May 2026 and Whit Monday 25 May 2026 (both passed).",
+    "Friday Night LIVE late opening is now 20 November 2026 (was 18 September 2026 — expired, dropped).",
+    "King's Day closure moved to Tuesday 27 April 2027 (was Monday 27 April 2026).",
+    "Payment: price page says pin only, FAQ says pin, MasterCard and VISA (no cash). Kept the stored cashless/pin wording; discrepancy noted, not resolved.",
+    "Spido combination ticket (€32) is no longer mentioned on any kunsthal.nl page checked (practical info, tickets NL/EN) — dropped from pricing, needs owner confirmation.",
+    "Transit page no longer names tram/metro lines; stored line numbers kept (not contradicted), staff to re-check if wanted.",
+    "Access text unchanged: HAL 6 ramp still too steep, free loan wheelchairs, compact mobility scooters allowed, assistance dogs welcome, free companion ticket."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "nederlands-fotomuseum": {
@@ -1505,8 +1597,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -1524,42 +1616,45 @@
     {
      "fact": "hours",
      "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "hours",
-     "url": "https://nederlandsfotomuseum.nl/veelgestelde-vragen/",
-     "checked": "2026-09-13"
+     "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://nederlandsfotomuseum.nl/veelgestelde-vragen/"
+     ]
     },
     {
      "fact": "transit",
      "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
      "url": "https://nederlandsfotomuseum.nl/en/plan-your-visit/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://nederlandsfotomuseum.nl/en/plan-your-visit/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://nederlandsfotomuseum.nl/en/plan-your-visit/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "cards",
@@ -1574,24 +1669,39 @@
     {
      "fact": "pricing",
      "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://nederlandsfotomuseum.nl/en/plan-your-visit/",
-     "checked": "2026-09-13"
+     "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://nederlandsfotomuseum.nl/en/plan-your-visit/"
+     ]
     },
     {
      "fact": "coordinates",
      "url": "https://www.openstreetmap.org/node/250735558"
+    },
+    {
+     "fact": "offers",
+     "url": "https://nederlandsfotomuseum.nl/plan-je-bezoek/",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "Prijsverschil op de eigen site: plan-pagina noemt 18–25 jaar €10,50, FAQ-pagina noemt €10,00.",
     "FAQ-pagina vermeldt postcode 1072 KD (typefout); de plan-pagina noemt 3072 KD.",
-    "Wegens drukte vraagt het museum bezoekers een tijdslot te reserveren."
+    "Wegens drukte vraagt het museum bezoekers een tijdslot te reserveren.",
+    "Hours unchanged: Tuesday–Sunday 11.00–17.00, closed Mondays; the FAQ confirms the museum opens on both Easter days, Liberation Day, Ascension, both Whit days and Boxing Day.",
+    "Time slot: the FAQ still asks visitors to book a slot online, the visit page adds that tickets are also sold at the desk — stored wording covers both, no change.",
+    "Prices unchanged: € 17,50 adults, € 10,50 for 18–25, free up to 17, CJP € 9; companion of a disabled visitor free; every visitor needs a ticket.",
+    "EN page labels the € 9 rate 'EYCA' where the NL page says 'CJP' (same card); stored EN keeps CJP, no factual difference.",
+    "Access fully confirmed: ramp entrance, lift, accessible toilets, four wheelchair-accessible lockers on the ground floor next to the museum shop, assistance dogs welcome, loan wheelchair via the desk.",
+    "Parking confirmed: Q-Park Rijnhaven (Pudongstraat 4) with accessible bays and lifts; nearest disabled bay opposite the museum in the Bananenstraat (European permit required).",
+    "Transit confirmed: metro Rijnhaven, about 2 minutes' walk, lift at the station."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "museum-more": {
@@ -1685,16 +1795,16 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "MORE Gorssel: dinsdag t/m zondag 10.00–17.00 uur; maandag gesloten (op sommige maandagen in de vakanties open; zie de afwijkende openingstijden op de site).\nGesloten op Koningsdag (27 april), Eerste Kerstdag (25 december) en Nieuwjaarsdag (1 januari).\nMORE Ruurlo en MORE Twickel: dinsdag t/m zondag 11.00–17.00 uur.",
-    "en": "MORE Gorssel: Tuesday to Sunday 10.00–17.00; closed on Mondays (open on some holiday Mondays; see the adjusted opening hours on the website).\nClosed on King's Day (27 April), Christmas Day (25 December) and New Year's Day (1 January).\nMORE Ruurlo and MORE Twickel: Tuesday to Sunday 11.00–17.00."
+    "nl": "MORE Gorssel: dinsdag t/m zondag 10.00–17.00 uur; maandag gesloten.\nExtra open (10.00–17.00 uur): maandag 21 december 2026 en maandag 28 december 2026 (kerstvakantie), maandag 29 maart 2027 (Tweede Paasdag) en maandag 17 mei 2027 (Tweede Pinksterdag).\nGesloten: Koningsdag (dinsdag 27 april 2027), Eerste Kerstdag (25 december) en Nieuwjaarsdag (1 januari).\nMORE Ruurlo en MORE Twickel: dinsdag t/m zondag 11.00–17.00 uur.",
+    "en": "MORE Gorssel: Tuesday to Sunday 10.00–17.00; closed on Mondays.\nOpen on these extra days (10.00–17.00): Monday 21 December 2026 and Monday 28 December 2026 (Christmas holidays), Monday 29 March 2027 (Easter Monday) and Monday 17 May 2027 (Whit Monday).\nClosed: King's Day (Tuesday 27 April 2027), Christmas Day (25 December) and New Year's Day (1 January).\nMORE Ruurlo and MORE Twickel: Tuesday to Sunday 11.00–17.00."
    },
    "transit": {
-    "nl": "Reis naar NS-station Zutphen of NS-station Deventer en neem Arriva buslijn 81; stap na ongeveer 15 minuten uit bij bushalte Museum MORE in Gorssel. In het weekend rijdt vanaf station Zutphen ook Arriva buslijn 450 naar Gorssel (en terug).",
-    "en": "Travel to NS station Zutphen or NS station Deventer and take Arriva bus line 81; get off after about 15 minutes at the Museum MORE bus stop in Gorssel. At weekends, Arriva bus line 450 also runs from Zutphen station to Gorssel (and back)."
+    "nl": "Reis naar NS-station Zutphen of NS-station Deventer en neem RRReis buslijn 81 (richting Deventer respectievelijk Zutphen); stap na ongeveer 15 minuten uit bij bushalte Museum MORE in Gorssel.\nReis plannen: 9292.nl of +31 (0)900 9292; inchecken met OVpay (betaalpas, creditcard of mobiel).",
+    "en": "Travel to NS station Zutphen or NS station Deventer and take RRReis bus line 81 (towards Deventer and Zutphen respectively); get off after about 15 minutes at the Museum MORE bus stop in Gorssel.\nPlan your trip via 9292.nl or +31 (0)900 9292; check in with OVpay (debit card, credit card or phone)."
    },
    "parking": {
-    "nl": "Parkeren is gratis op het museumterrein aan de achterkant van het gebouw; er zijn meerdere mindervalidenparkeerplaatsen naast het museum.",
-    "en": "Parking is free on the museum grounds at the rear of the building; there are several disabled parking spaces next to the museum."
+    "nl": "Gratis parkeren naast het museum, met ruim voldoende plaatsen; enkele oplaadstations voor elektrische auto's in de nabije omgeving.\nDiverse mindervalidenparkeerplaatsen naast het museum.",
+    "en": "Free parking next to the museum, with plenty of spaces; several charging points for electric cars nearby.\nSeveral disabled parking spaces next to the museum."
    },
    "access": {
     "nl": "MORE Gorssel is goed toegankelijk voor mindervaliden en rolstoelgebruikers: er zijn gratis leenrolstoelen (reserveren tot uiterlijk drie dagen vooraf via het formulier op de site), een lift en een rolstoeltoegankelijk toilet met beugels. Rechts van de hoofdingang (draaideur) is een speciale toegangsdeur voor onder andere rolstoelgebruikers; het museumcafé is naast de trap ook via een helling bereikbaar. Hulphonden met tuigje zijn welkom. Museum MORE Gorssel draagt het groene keurmerk van Stichting Uit met Autisme (autismevriendelijke locatie).",
@@ -1706,8 +1816,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -1732,58 +1842,91 @@
     },
     {
      "fact": "hours",
-     "url": "https://www.museummore.nl/openingstijden",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/openingstijden",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/openingstijden"
+     ]
     },
     {
      "fact": "transit",
-     "url": "https://www.museummore.nl/contact",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/adres-en-bereikbaarheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/contact"
+     ]
     },
     {
      "fact": "parking",
-     "url": "https://www.museummore.nl/contact",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/adres-en-bereikbaarheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/contact"
+     ]
     },
     {
      "fact": "parking",
-     "url": "https://www.museummore.nl/toegankelijkheid",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/adres-en-bereikbaarheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/toegankelijkheid"
+     ]
     },
     {
      "fact": "access",
-     "url": "https://www.museummore.nl/toegankelijkheid",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/toegankelijkheid"
+     ]
     },
     {
      "fact": "access",
-     "url": "https://www.museummore.nl/contact",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/contact"
+     ]
     },
     {
      "fact": "cards",
-     "url": "https://www.museummore.nl/contact",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/contact"
+     ]
     },
     {
      "fact": "cards",
-     "url": "https://www.museummore.nl/entreeprijzen/",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/entreeprijzen/"
+     ]
     },
     {
      "fact": "pricing",
-     "url": "https://www.museummore.nl/entreeprijzen/",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/entreeprijzen/"
+     ]
     },
     {
      "fact": "pricing",
-     "url": "https://tickets.museummore.nl/",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://tickets.museummore.nl/"
+     ]
     },
     {
      "fact": "pricing",
-     "url": "https://www.museummore.nl/contact",
-     "checked": "2026-09-13"
+     "url": "https://www.moregorssel.nl/plan-je-bezoek/tickets-prijzen",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museummore.nl/contact"
+     ]
     },
     {
      "fact": "coordinates",
@@ -1795,9 +1938,17 @@
     "De ticketshop vermeldt in een supporttekst nog '€3 toeslag' voor de Museumkaart, terwijl de entreeprijzen- en FAQ-pagina's aangeven: gratis zonder toeslag (sinds 22 mei 2022).",
     "De pagina Openingstijden bevat lege cellen ('–') bij afwijkende data; alleen de expliciet genoemde gesloten dagen zijn overgenomen.",
     "Derde locatie MORE Twickel in Delden opent september 2026 (per aankondiging op de site).",
-    "De EN-versie van de site (/en) bestaat en is gebruikt voor de beschrijving; diepere EN-pagina's (zoals /en/visit) gaven 'page not found', daarom zijn de overige EN-velden getrouwe vertalingen van de NL-pagina's."
+    "De EN-versie van de site (/en) bestaat en is gebruikt voor de beschrijving; diepere EN-pagina's (zoals /en/visit) gaven 'page not found', daarom zijn de overige EN-velden getrouwe vertalingen van de NL-pagina's.",
+    "Site restructured: museummore.nl/nl/bezoek-more-gorssel is a 404; each location now has its own site (moregorssel.nl, moreruurlo.nl, moretwickel.nl). Stored _meta.sources URLs (museummore.nl/openingstijden, /contact) are outdated.",
+    "Hours: the vague 'open on some holiday Mondays' is now spelled out — 21 and 28 December 2026 (10.00–17.00), 29 March 2027 (Easter Monday) and 17 May 2027 (Whit Monday).",
+    "Closed days confirmed: King's Day (27 April 2027), Christmas Day and New Year's Day; the page's own list also carries 25 December 2027 and 1 January 2028 (both Saturdays).",
+    "Prices unchanged: adults € 19,50, youth 12–18 € 8,50, 0–11 free, CJP € 5,50, student card € 8,50, tours € 132,50 (90 min), media tour free, Museumkaart € 75 / youth € 39; pin or credit card only.",
+    "Cards unchanged: Museumkaart, VriendenLoterij VIP, ICOM and AICA free (no surcharge), MORE (Young-)members free, Rembrandtkaart not valid.",
+    "Transit: carrier is now RRReis (was Arriva) for line 81, from both Zutphen and Deventer, ~15 minutes to stop Museum MORE; 9292 / OVpay mentioned.",
+    "A temporary situation is live but not recorded: Hoofdstraat partly closed 13–23 October 2026 (expired) and a temporary bus stop for line 81.",
+    "Access unchanged: disabled parking next to the museum, special entrance door right of the revolving door, lift, accessible toilet, café reachable by ramp, free loan wheelchairs (reserve up to 3 days ahead), assistance dogs with harness welcome without notice, Uit met Autisme green mark."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "kunstmuseum-den-haag": {
@@ -2233,8 +2384,8 @@
     "name": "ICOM-kaart",
     "acceptance": "accepted",
     "description": {
-     "nl": "Kortingstarief: € 9,50 (€ 5,00 tijdens installatieperiode) - niet gratis.",
-     "en": "Discounted rate: € 9.50 (€ 5.00 during installation periods) - not free."
+     "nl": "Kortingstarief: € 7,50 (€ 5,00 tijdens installatieperiode) - niet gratis.",
+     "en": "Discounted rate: € 7.50 (€ 5.00 during installation periods) - not free."
     }
    }
   ],
@@ -2244,8 +2395,8 @@
     "en": "Open every day, 7 days a week and 365 days a year: 11 am - 5 pm.\nThe museum is also open during public holidays."
    },
    "transit": {
-    "nl": "Bus 43 of 44 vanaf NS-station Den Haag Centraal of Leiden Centraal naar halte Wittenburgerweg, Wassenaar.\nVanaf de bushalte is het circa 15 minuten wandelen naar Voorlinden (route aangegeven met bordjes).\nOV-fiets mogelijk; vanaf Den Haag Centraal en Den Haag Laan van NOI circa 25 minuten fietsen.\nKom je vanuit Den Haag? Tot en met midden september 2026 is de Hubertustunnel volledig afgesloten; neem de route via de N44 (Rijksstraatweg) of via de N14 (Noordelijke Randweg).",
-    "en": "Bus 43 or 44 from Den Haag Centraal or Leiden Centraal station to Wittenburgerweg stop, Wassenaar.\nFrom the bus stop it is about a 15-minute walk to Voorlinden (signposted route).\nOV-fiets available; about 25 minutes cycling from Den Haag Centraal or Den Haag Laan van NOI.\nComing from The Hague? Until mid-September 2026 the Hubertustunnel is fully closed; take the route via the N44 or N14."
+    "nl": "Bus 43 of 44 vanaf NS-station Den Haag Centraal of Leiden Centraal naar halte Wittenburgerweg, Wassenaar.\nVanaf de bushalte is het circa 15 minuten wandelen naar Voorlinden (route aangegeven met bordjes).\nOV-fiets mogelijk; vanaf Den Haag Centraal en Den Haag Laan van NOI circa 25 minuten fietsen.\nKom je vanuit Den Haag? De Hubertustunnel is tot nader te bepalen volledig afgesloten voor al het verkeer; neem de route via de N44 (Rijksstraatweg) of via de N14 (Noordelijke Randweg).",
+    "en": "Bus 43 or 44 from Den Haag Centraal or Leiden Centraal station to Wittenburgerweg stop, Wassenaar.\nFrom the bus stop it is about a 15-minute walk to Voorlinden (signposted route).\nOV-fiets available; about 25 minutes cycling from Den Haag Centraal or Den Haag Laan van NOI.\nComing from The Hague? The Hubertustunnel is fully closed to all traffic until further notice; take the route via the N44 (Rijksstraatweg) or via the N14 (Noordelijke Randweg)."
    },
    "parking": {
     "nl": "Op het landgoed kun je gratis parkeren op twee parkeerterreinen:\n- P1: dichtst bij museum en restaurant, net voor de slagboom; met parkeerplaatsen voor mensen met een handicap; ca. 300 m lopen.\n- P2: direct links bij het oprijden van het landgoed; voor touringcars en voor afzetten/ophalen (keren met touringcar op P1 niet mogelijk).\nDichtstbijzijnde laadpaal: parkeerterrein bij het sportcomplex aan de Buurtweg.",
@@ -2256,13 +2407,13 @@
     "en": "Museum Voorlinden is easily accessible for people using a wheelchair, walker, buggy or mobility scooter; the building is mainly on one level and has a special entrance of max. 90 cm wide.\nA wheelchair can be borrowed free of charge (reserve via info@voorlinden.nl at least two working days ahead; € 50 cash deposit).\nUp to 1 assistant free of charge. Registered guide dogs welcome. Hearing teleloop system in the auditorium.\nDisabled parking spaces on P1; adapted toilet in the museum.\nSilent hour ('Stilte op sokken'): every Saturday and Sunday morning 10 - 11 am (limited number of visitors).\nPlease note: a few artworks are of limited accessibility (e.g. Swimming Pool can only be viewed from above with a wheelchair; Open Ended has corners too narrow for most wheelchairs)."
    },
    "pricing": {
-    "nl": "Volwassenen: € 24,00\nJongeren 13 t/m 18 jaar: € 12,00\nKinderen t/m 12 jaar: gratis\nICOM: € 9,50\nMuseumkaart en VriendenLoterij VIP-pas: niet geldig\nInstallatieperiode nieuwe tentoonstelling (afwijkende prijzen): volwassenen € 15,00; jongeren 13-18 € 7,50; kinderen t/m 12 gratis; ICOM € 5,00",
-    "en": "Adults: € 24.00\n13-18 years: € 12.00\nChildren up to 12: free\nICOM: € 9.50\nMuseumkaart and VriendenLoterij VIP card: not valid\nInstallation period of new exhibitions (alternative prices): adults € 15.00; 13-18 years € 7.50; children up to 12 free; ICOM € 5.00"
+    "nl": "Volwassenen: € 24,00\nJongeren 13 t/m 18 jaar: € 12,00\nKinderen t/m 12 jaar: gratis\nICOM: € 7,50\nMuseumkaart en VriendenLoterij VIP-pas: niet geldig\nInstallatieperiode nieuwe tentoonstelling (afwijkende prijzen): volwassenen € 15,00; jongeren 13-18 € 7,50; kinderen t/m 12 gratis; ICOM € 5,00",
+    "en": "Adults: € 24.00\n13-18 years: € 12.00\nChildren up to 12: free\nICOM: € 7.50\nMuseumkaart and VriendenLoterij VIP card: not valid\nInstallation period of new exhibitions (alternative prices): adults € 15.00; 13-18 years € 7.50; children up to 12 free; ICOM € 5.00"
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -2280,22 +2431,22 @@
     {
      "fact": "hours",
      "url": "https://www.voorlinden.nl/bezoek/plan-je-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
      "url": "https://www.voorlinden.nl/bezoek/bereikbaarheid/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://www.voorlinden.nl/bezoek/bereikbaarheid/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://www.voorlinden.nl/bezoek/toegankelijkheid/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "cards",
@@ -2305,11 +2456,16 @@
     {
      "fact": "pricing",
      "url": "https://www.voorlinden.nl/bezoek/plan-je-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "coordinates",
      "url": "https://www.openstreetmap.org/node/5245315292"
+    },
+    {
+     "fact": "offers",
+     "url": "https://www.voorlinden.nl/bezoek/plan-je-bezoek/",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
@@ -2317,9 +2473,16 @@
     "Museumkaart en VriendenLoterij VIP-kaart zijn niet geldig; museum draait volledig op kaartverkoop, restaurant en winkel.",
     "Wandeltijd vanaf bushalte Wittenburgerweg: NL-pagina circa 15 min, EN-pagina 20 min.",
     "Ombouwperiode 24 aug t/m 11 sep 2026 i.v.m. 10-jarig jubileumtentoonstelling (tijdelijk afgesloten deel museum, afwijkende prijzen).",
-    "Hubertustunnel tot midden september 2026 volledig dicht; omrijden via N44 of N14."
+    "Hubertustunnel tot midden september 2026 volledig dicht; omrijden via N44 of N14.",
+    "ICOM dropped from € 9,50 to € 7,50 for regular admission; the € 5,00 installation-period rate is unchanged. Changed in pricing NL/EN and in the ICOM offer description.",
+    "Installation-period prices still € 15,00 adults / € 7,50 13-18 / free up to 12 / ICOM € 5,00 — unchanged.",
+    "Hubertustunnel wording changed from 'tot en met midden september 2026' to 'tot nader te bepalen' (site now says the closure has no end date); route via N44/N14 kept.",
+    "Museumkaart and VriendenLoterij VIP card remain not valid (no subsidy) — confirmed on the NL page; the EN page mentions only the Museumkaart.",
+    "Access unchanged: free loan wheelchair/scooter (max 90 cm wide), reserve 2 working days ahead, € 50 cash deposit, one companion free, guide dogs welcome, P1 disabled bays, ringleiding, 'stilte op sokken' Sat/Sun 10.00–11.00.",
+    "Parking unchanged: free P1 (closest, 300 m, disabled bays) and P2 (coaches), nearest charging point at the sports complex on the Buurtweg.",
+    "Offer changes use the path convention offers[<identifier>].description.<nl|en>; the ICOM text sits at offers[icom].description."
    ],
-   "verified": "2026-09-13",
+   "verified": "2026-11-11",
    "generatedNameVariant": "Voorlinden"
   }
  },
@@ -2752,8 +2915,8 @@
     "en": "Car parks Vaartsche Rijn and Springweg, about a 10-minute walk.\nUtrecht P+R locations: day ticket €5, valid for up to 5 people (goedopweg.nl).\nBicycle: racks next to the entrance; e-bike charging at Museumcafé Centraal."
    },
    "access": {
-    "nl": "Speciale rolstoelroute (vraag bij de kassa of download de PDF).\nEnkele deuren zijn lastig te openen voor rolstoel- en rollatorgebruikers; begeleider kan handig zijn.\nGratis entree voor begeleiders (ticket alleen aan de kassa).\nTwee rolstoeltoegankelijke toiletten.\nScootmobielen tot 120 x 70 x 109 cm toegestaan (in overleg).\nRolstoelen, rollator en krukjes te leen (reserveren: info@centraalmuseum.nl).\nHulphonden toegestaan.\nGehandicaptenparkeerplaatsen op het Nicolaaskerkhof (2).",
-    "en": "Special wheelchair route (ask at the ticket desk or download the PDF).\nSome doors are difficult for wheelchair and walker users to open; a companion may be helpful.\nFree admission for companions (companion ticket only at the box office).\nTwo wheelchair-accessible toilets.\nMobility scooters up to 120 x 70 x 109 cm allowed (in consultation).\nWheelchairs, walker and stools available to borrow (reserve: info@centraalmuseum.nl).\nService dogs welcome.\nDisabled parking spaces at Nicolaaskerkhof (2)."
+    "nl": "Speciale rolstoelroute (vraag bij de kassa of download de PDF).\nEnkele deuren zijn lastig te openen voor rolstoel- en rollatorgebruikers; begeleider kan handig zijn.\nGratis entree voor begeleiders (begeleiderticket online of aan de kassa).\nTwee rolstoeltoegankelijke toiletten.\nScootmobielen tot 120 x 70 x 109 cm toegestaan (in overleg).\nRolstoelen, rollator en krukjes te leen (reserveren: info@centraalmuseum.nl).\nHulphonden toegestaan.\nGehandicaptenparkeerplaatsen op het Nicolaaskerkhof (2).",
+    "en": "Special wheelchair route (ask at the ticket desk or download the PDF).\nSome doors are difficult for wheelchair and walker users to open; a companion may be helpful.\nFree admission for companions (companion ticket online or at the box office).\nTwo wheelchair-accessible toilets.\nMobility scooters up to 120 x 70 x 109 cm allowed (in consultation).\nWheelchairs, walker and stools available to borrow (reserve: info@centraalmuseum.nl).\nService dogs welcome.\nDisabled parking spaces at Nicolaaskerkhof (2)."
    },
    "pricing": {
     "nl": "Dagtickets: € 18 volwassenen; € 10,50 CJP/Studentenkaart; € 10 13-17 jaar; gratis 0-12 jaar, Museumkaart, De Vriendenloterij VIPKAART, Vriendenpas, ICOM, Rembrandtkaart, U-Pas.",
@@ -2761,8 +2924,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -2779,43 +2942,55 @@
     },
     {
      "fact": "hours",
-     "url": "https://www.centraalmuseum.nl/nl/plan-je-bezoek/openingstijden-en-ticketprijzen",
-     "checked": "2026-09-13"
+     "url": "https://www.centraalmuseum.nl/bezoek",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.centraalmuseum.nl/nl/plan-je-bezoek/openingstijden-en-ticketprijzen"
+     ]
     },
     {
      "fact": "hours",
-     "url": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
-     "checked": "2026-09-13"
+     "url": "https://www.centraalmuseum.nl/bezoek",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices"
+     ]
     },
     {
      "fact": "transit",
      "url": "https://www.centraalmuseum.nl/nl/plan-je-bezoek/adres-en-route",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
      "url": "https://www.centraalmuseum.nl/en/visit/adress-and-route",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://www.centraalmuseum.nl/nl/plan-je-bezoek/adres-en-route",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://www.centraalmuseum.nl/en/visit/adress-and-route",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
-     "url": "https://www.centraalmuseum.nl/nl/over-het-museum/toegankelijkheid",
-     "checked": "2026-09-13"
+     "url": "https://www.centraalmuseum.nl/bezoek/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.centraalmuseum.nl/nl/over-het-museum/toegankelijkheid"
+     ]
     },
     {
      "fact": "access",
-     "url": "https://www.centraalmuseum.nl/en/about/accessibility",
-     "checked": "2026-09-13"
+     "url": "https://www.centraalmuseum.nl/bezoek/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.centraalmuseum.nl/en/about/accessibility"
+     ]
     },
     {
      "fact": "cards",
@@ -2824,25 +2999,44 @@
     },
     {
      "fact": "pricing",
-     "url": "https://www.centraalmuseum.nl/nl/plan-je-bezoek/openingstijden-en-ticketprijzen",
-     "checked": "2026-09-13"
+     "url": "https://www.centraalmuseum.nl/bezoek",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.centraalmuseum.nl/nl/plan-je-bezoek/openingstijden-en-ticketprijzen"
+     ]
     },
     {
      "fact": "pricing",
-     "url": "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices",
-     "checked": "2026-09-13"
+     "url": "https://www.centraalmuseum.nl/bezoek",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.centraalmuseum.nl/en/visit/opening-hours-and-ticket-prices"
+     ]
     },
     {
      "fact": "coordinates",
      "url": "https://www.centraalmuseum.nl/nl/plan-je-bezoek/adres-en-route"
+    },
+    {
+     "fact": "offers",
+     "url": "https://www.centraalmuseum.nl/bezoek",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "nijntje museum is een aparte locatie van het Centraal Museum (niet in deze batch meegenomen).",
     "Toeslag van € 6 voor Gerard van Honthorst eindigde op 13-09-2026; reguliere dagtickets gelden daarna.",
-    "EN-ticketpagina vermeldt nog een verouderde sluiting wegens hitte (26 juni); niet overgenomen."
+    "EN-ticketpagina vermeldt nog een verouderde sluiting wegens hitte (26 juni); niet overgenomen.",
+    "Only correction: companion tickets can now be booked online as well as at the box office - the stored text claimed box office only.",
+    "Hours confirmed: Tue-Sun 11.00-17.00, closed on New Year's Day, King's Day and Christmas Day; the page lists no other closures, so the stored 'open' holiday list was kept.",
+    "Prices confirmed unchanged: EUR 18 adults, EUR 10.50 CJP/student card, EUR 10 for 13-17, free for 0-12 and for Museumkaart, Vriendenloterij VIPKAART, Vriendenpas, ICOM, Rembrandtkaart, U-Pas and companions.",
+    "Access page confirms the wheelchair route, 90 cm lift door (160 x 140 cm cabin), two accessible toilets (one 200 x 230 cm with a 100 cm door), two-step-free main level, scooters up to 120 x 70 x 109 cm, loan wheelchairs/rollator/stools, EnChroma glasses (EUR 100 deposit) and certified assistance dogs.",
+    "Transit unchanged: bus 2 from Utrecht Centraal to 'Centraal Museum' stop (about 100 m), or train to Utrecht Vaartsche Rijn (about 800 m).",
+    "Parking unchanged: no museum car park; Vaartsche Rijn and Springweg garages about 800-900 m (roughly 10 minutes); paid parking on Nicolaaskerkhof 50 m away; drop-off at Nicolaaskerkhof 8.",
+    "The accessibility page gives the postal code as 3515 XA where the visit page says 3512 XA; address fields were left untouched as instructed.",
+    "offers[] has no CJP/student-card entry even though the pricing block lists EUR 10.50 for CJP/Studentenkaart - flagged rather than invented as a new offer row."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "museum-de-fundatie": {
@@ -2902,8 +3096,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Maandag gesloten; dinsdag t/m zondag 11.00–17.00 uur.\nUitzondering: locatie Zwolle 21 t/m 25 september 2026 gesloten wegens ombouw; 26 en 27 september alleen de Fundatie Collectie zichtbaar, gratis toegang.\nSilent Sunday: laatste zondag van de maand 10.00–11.00 uur.\nFundatie Friday: eerste vrijdag van de maand 17.00–21.00 uur.",
-    "en": "Closed on Mondays; Tuesday to Sunday 11:00–17:00.\nException: Zwolle location closed from 21 to 25 September 2026 due to renovation; on 26 and 27 September only the Fundatie Collection is visible, free admission.\nSilent Sunday: last Sunday of the month, 10:00–11:00.\nFundatie Friday: first Friday of the month, 17:00–21:00."
+    "nl": "Maandag gesloten; dinsdag t/m zondag 11.00–17.00 uur.\nSilent Sunday: laatste zondag van de maand 10.00–11.00 uur.\nFundatie Friday: eerste vrijdag van de maand 17.00–21.00 uur, gratis toegang.",
+    "en": "Closed on Mondays; Tuesday to Sunday 11:00–17:00.\nSilent Sunday: last Sunday of the month, 10:00–11:00.\nFundatie Friday: first Friday of the month, 17:00–21:00, free admission."
    },
    "transit": {
     "nl": "Trein: station Zwolle, circa 12 minuten lopen naar het museum.",
@@ -2923,8 +3117,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -2950,52 +3144,64 @@
     {
      "fact": "hours",
      "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "hours",
-     "url": "https://museumdefundatie.nl/en/visit-museum/zwolle",
-     "checked": "2026-09-13"
+     "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://museumdefundatie.nl/en/visit-museum/zwolle"
+     ]
     },
     {
      "fact": "transit",
      "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
-     "url": "https://museumdefundatie.nl/en/visit-museum/zwolle",
-     "checked": "2026-09-13"
+     "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://museumdefundatie.nl/en/visit-museum/zwolle"
+     ]
     },
     {
      "fact": "parking",
      "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/toegankelijkheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
-     "url": "https://museumdefundatie.nl/en/visit-museum/zwolle",
-     "checked": "2026-09-13"
+     "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://museumdefundatie.nl/en/visit-museum/zwolle"
+     ]
     },
     {
      "fact": "cards",
      "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
      "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://museumdefundatie.nl/en/visit-museum/zwolle",
-     "checked": "2026-09-13"
+     "url": "https://museumdefundatie.nl/nl/bezoek-het-museum/zwolle",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://museumdefundatie.nl/en/visit-museum/zwolle"
+     ]
     },
     {
      "fact": "coordinates",
@@ -3005,9 +3211,17 @@
    "notes": [
     "Tweede locatie: Kasteel het Nijenhuis in Heino (minder dan 15 km van Zwolle); combiticket Zwolle & Heino € 25.",
     "Silent Sunday (laatste zondag v.d. maand, 10.00–11.00 uur) en Fundatie Friday (eerste vrijdag v.d. maand, 17.00–21.00 uur, gratis) als extra openingen.",
-    "Museum accepteert geen VVV-bonnen of Museum Cadeaukaart."
+    "Museum accepteert geen VVV-bonnen of Museum Cadeaukaart.",
+    "Removed the expired September exception: 'locatie Zwolle 21 t/m 25 september 2026 gesloten wegens ombouw; 26 en 27 september alleen de Fundatie Collectie, gratis toegang' — no closure notice remains on the site.",
+    "Fundatie Friday is free: 'Elke eerste vrijdagavond van de maand is Museum de Fundatie gratis toegankelijk voor Fundatie Friday' (17:00–21:00, programme with music, tours, talks). Recorded in hours rather than pricing.",
+    "Prices unchanged: adults € 17,50, CJP/students € 7,50, groups of 10+ € 13,50 p.p., 18 and under free, combination Zwolle & Heino € 25,00.",
+    "Free-entry list unchanged: Museumkaart, VriendenLoterij VIP-kaart, Vrienden van de Fundatie, Rembrandtkaart, ArtEZ Artisteducator en Art & Design; no VVV voucher or Museum Cadeaukaart; Museumkaart € 75 (19+).",
+    "Access unchanged: wheelchair/walker friendly, partly accessible with mobility scooter, step-free entrance at the rear on Potgietersingel, accessible toilet, loan wheelchairs (0572-388188), gallery stools, free companion, trained assistance dogs, GPK spaces Potgietersingel (2) and Blijmarkt (2).",
+    "Transit unchanged: Zwolle station, about 12 minutes on foot.",
+    "Parking unchanged: four car parks within walking distance (Maagjesbolwerk 350 m, Burg. Van Rooijensingel 450 m, Emmawijk 550 m, Katwolderplein 600 m); max. 60 minutes at the museum itself.",
+    "Site spells the street 'Potgietersingel' in the access text but 'Potgieterssingel' in the parking note; stored spelling kept."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "museum-arnhem": {
@@ -3110,8 +3324,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -3129,52 +3343,64 @@
     {
      "fact": "hours",
      "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek/openingstijden",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "hours",
-     "url": "https://www.museumarnhem.nl/en/plan-your-visit/opening-hours",
-     "checked": "2026-09-13"
+     "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek/openingstijden",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museumarnhem.nl/en/plan-your-visit/opening-hours"
+     ]
     },
     {
      "fact": "transit",
      "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek/route-en-parkeren",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
-     "url": "https://www.museumarnhem.nl/en/plan-your-visit/directions-and-parking",
-     "checked": "2026-09-13"
+     "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek/route-en-parkeren",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museumarnhem.nl/en/plan-your-visit/directions-and-parking"
+     ]
     },
     {
      "fact": "parking",
      "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek/route-en-parkeren",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
-     "url": "https://www.museumarnhem.nl/en/plan-your-visit/directions-and-parking",
-     "checked": "2026-09-13"
+     "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek/route-en-parkeren",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museumarnhem.nl/en/plan-your-visit/directions-and-parking"
+     ]
     },
     {
      "fact": "access",
      "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek/toegankelijkheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "cards",
      "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
      "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://www.museumarnhem.nl/en/plan-your-visit",
-     "checked": "2026-09-13"
+     "url": "https://www.museumarnhem.nl/nl/plan-je-bezoek",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.museumarnhem.nl/en/plan-your-visit"
+     ]
     },
     {
      "fact": "coordinates",
@@ -3183,9 +3409,18 @@
    ],
    "notes": [
     "Museum Arnhem rendert de pagina's client-side (web-app); de inhoud is gecontroleerd via de eigen content-JSON van de site (o.a. /nl/plan-je-bezoek.json).",
-    "In september kan de Airbornemaand invloed hebben op de bereikbaarheid rond Arnhem (zie gemeente)."
+    "In september kan de Airbornemaand invloed hebben op de bereikbaarheid rond Arnhem (zie gemeente).",
+    "Site is a JS-only Vue app: plain HTTP returns a 3.7 kB shell with an empty #root, which is why the fetch layer reported NEEDS BROWSER. All pages read in a real browser session.",
+    "Hours confirmed unchanged in both languages: Tue–Sun 11.00–17.00, Mon closed, Café Pierre 10.30–17.00, garden/café/shop freely accessible during opening hours.",
+    "Holiday table on the site still carries 2026 dates (Good Friday 3 April, Easter 5–6 April, Ascension 14 May, Pentecost 24–25 May) — all past. Stored wording is already undated/structural and matches the pattern (closed 1 Jan, King's Day, 5 May, 25 Dec; open Good Friday, Easter, Ascension, Pentecost, 26 Dec, 28 Dec, 31 Dec), so nothing was changed.",
+    "Prices confirmed unchanged: adults € 15,00, 13–17 € 5,00, 0–12 free, CJP/student card € 5,00, KBO € 13,00; free with Museumkaart, Rembrandtkaart, ICOM, VriendenLoterij VIP, Gelrepas, ArtEZ students, Friends.",
+    "Seasonal promo seen and deliberately not recorded: 'In november mogen houders van een VriendenLoterij VIP-KAART gratis één introducé meenemen' — expires 30 November.",
+    "Conditional discount seen and not recorded: during a Nationaal Hitteplan (heat plan) days, entry from 13.30 is € 5,00 instead of € 15,00.",
+    "Access confirmed unchanged: wheelchair accessible, lift and adapted toilets, garden accessible except the stairs, café entrance advised instead of the steep main ramp, mobility scooter allowed (max. 120 × 70 × 109 cm, may be refused at busy times), wheelchair/walker on loan via receptie@museumarnhem.nl, one free companion, assistance dogs only, four free GPK spaces on Utrechtseweg.",
+    "Transit confirmed unchanged: ~10 minutes' walk from Arnhem Centraal, bus 103/303 direction Ede via Wageningen, stop Museum Arnhem, OV-fiets at the station (<5 min), bike shed next to the entrance.",
+    "Parking confirmed unchanged apart from the spelling conflict: no parking at the museum, drop-off possible, four GPK spaces, car park Centraal Arnhem paid and ~10 minutes' walk, free P+R GelreDome (no parking during GelreDome events, bus to the centre at a reduced fare)."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "kroller-muller-museum": {
@@ -3837,8 +4072,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Di t/m zo 10.00–17.00 uur.\nMaandag gesloten.\nExtra gesloten: vrijdag 18 september 2026, 25 december (1e kerstdag) en 1 januari (Nieuwjaarsdag).",
-    "en": "Tue–Sun 10 am–5 pm.\nClosed on Mondays.\nExtra closures: Friday 18 September 2026, 25 December (Christmas Day) and 1 January (New Year's Day)."
+    "nl": "Di t/m zo 10.00–17.00 uur.\nMaandag gesloten.\nExtra gesloten: 25 december (1e kerstdag) en 1 januari (Nieuwjaarsdag).",
+    "en": "Tue–Sun 10 am–5 pm.\nClosed on Mondays.\nExtra closures: 25 December (Christmas Day) and 1 January (New Year's Day)."
    },
    "transit": {
     "nl": "Trein: het museum ligt op ca. 300 meter van Hoofdstation Groningen.\nGeen businformatie op de bezoekpagina vermeld.",
@@ -3853,13 +4088,13 @@
     "en": "Easily accessible for wheelchairs and mobility scooters; a few wheelchairs, walking frames and a folding stool can be borrowed (reservation recommended: +31 50 366 6555 / info@groningermuseum.nl).\nAccessible toilet on level -1; free companion tickets via the ticket page; assistance dogs welcome.\nLow-stimulus openings, sign-language tours and tours for blind and partially sighted visitors.\nColour-blindness correction glasses available free of charge at the information desk.\nMuseum Shuttle: pick-up and drop-off on request."
    },
    "pricing": {
-    "nl": "Let op: van 24 augustus t/m 17 september is het museum gedeeltelijk in ombouw vanwege de inrichting van nieuwe tentoonstellingen; in deze periode gelden verlaagde ticketprijzen.\nVolwassenen € 10,00; studenten & CJP € 5,00.\nGratis entree: kinderen t/m 18 jaar, Groninger Museum Salon, ICOM-kaart, Museumkaart, Rembrandtkaart, Stadjerspas, Vereniging Vrienden Groninger Museum, VriendenLoterij.",
-    "en": "Please note: from 24 August to 17 September the museum is partially under renovation while we prepare our new exhibitions; ticket prices are reduced during this period.\nAdults € 10.00; students & CJP € 5.00.\nFree admission: children up to and including 18 years old, Groninger Museum Salon, ICOM card, Museumkaart, Rembrandt card, Stadjerspas, Friends of Groninger Museum, VriendenLoterij."
+    "nl": "Volwassenen € 19,50; studenten & CJP € 10,00.\nGratis entree: kinderen t/m 18 jaar, Groninger Museum Salon, Groninger Museum Club, ICOM-kaart, Museumkaart, Rembrandtkaart, Stadjerspas, Vereniging Vrienden Groninger Museum, VriendenLoterij.",
+    "en": "Adults € 19.50; students & CJP € 10.00.\nFree admission: children up to and including 18 years old, Groninger Museum Salon, Groninger Museum Club, ICOM card, Museumkaart, Rembrandt card, Stadjerspas, Friends of Groninger Museum, VriendenLoterij."
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -3877,32 +4112,38 @@
     {
      "fact": "hours",
      "url": "https://www.groningermuseum.nl/plan-je-bezoek",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "hours",
-     "url": "https://www.groningermuseum.nl/en-GB/plan-your-visit",
-     "checked": "2026-09-13"
+     "url": "https://www.groningermuseum.nl/plan-je-bezoek",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.groningermuseum.nl/en-GB/plan-your-visit"
+     ]
     },
     {
      "fact": "transit",
      "url": "https://www.groningermuseum.nl/plan-je-bezoek",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://www.groningermuseum.nl/plan-je-bezoek",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://www.groningermuseum.nl/toegankelijkheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
-     "url": "https://www.groningermuseum.nl/en-GB/accessibility",
-     "checked": "2026-09-13"
+     "url": "https://www.groningermuseum.nl/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.groningermuseum.nl/en-GB/accessibility"
+     ]
     },
     {
      "fact": "cards",
@@ -3912,25 +4153,40 @@
     {
      "fact": "pricing",
      "url": "https://www.groningermuseum.nl/plan-je-bezoek",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://www.groningermuseum.nl/en-GB/plan-your-visit",
-     "checked": "2026-09-13"
+     "url": "https://www.groningermuseum.nl/plan-je-bezoek",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.groningermuseum.nl/en-GB/plan-your-visit"
+     ]
     },
     {
      "fact": "coordinates",
      "url": "https://www.openstreetmap.org/relation/8736528"
+    },
+    {
+     "fact": "offers",
+     "url": "https://www.groningermuseum.nl/plan-je-bezoek",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "Van 24 augustus t/m 17 september 2026 gedeeltelijk in ombouw; verlaagde ticketprijzen in die periode. Reguliere ticketprijzen worden op de bezoekpagina niet vermeld.",
     "Extra gesloten op vrijdag 18 september 2026 (naast feestdagen).",
     "Stadjerspas en 'Groninger Museum Salon' geven gratis entree.",
-    "Geen businformatie op de bezoekpagina; alleen trein (300 m van Hoofdstation) vermeld."
+    "Geen businformatie op de bezoekpagina; alleen trein (300 m van Hoofdstation) vermeld.",
+    "Expired renovation notice removed: the 24 August-17 September reduced-price period (adults EUR 10.00, students EUR 5.00) is over and the visit page now lists the regular tariffs.",
+    "Regular prices are back to adults EUR 19.50 and students/CJP EUR 10.00 - the stored EUR 10/5 figures were the temporary renovation tariffs.",
+    "Groninger Museum Club added to the free-admission list (listed separately from Groninger Museum Salon on the live page).",
+    "Expired extra closure of Friday 18 September 2026 removed; only 25 December and 1 January remain as closure days.",
+    "Access page confirms wheelchairs/rollators for loan (reserve via +31 50 366 6555 / info@groningermuseum.nl), accessible toilet at level -1, free companion tickets via the ticket page, assistance dogs welcome and the two disabled spaces on the Ubbo Emmiussingel.",
+    "Transit remains train-only on the page (about 300 m from Groningen Hoofdstation); no bus lines are published, matching the stored wording.",
+    "Parking unchanged: Q-Park Museum Centrum nearest, P+R on the edge of town, two disabled spaces on the Ubbo Emmiussingel, zero-emission zone since 1 April 2025."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "fries-museum": {
@@ -4555,8 +4811,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Maandag t/m zondag: 10.00 - 17.00 uur\nDonderdagavond: 19.00 - 22.00 uur\nGesloten op 1 januari, 27 april, 3 oktober en 25 december\nDinsdag 22 september 2026: vaste tentoonstelling Archeologie van Nederland 13.00–17.00 uur gesloten wegens onderhoudswerkzaamheden.",
-    "en": "Monday to Sunday: 10:00 - 17:00\nThursday evening: 19:00 - 22:00\nClosed on 1 January, 27 April, 3 October and 25 December\nTuesday 22 September 2026: the permanent exhibition Archaeology of the Netherlands is closed 13:00–17:00 for maintenance work."
+    "nl": "Maandag t/m zondag: 10.00 - 17.00 uur\nDonderdagavond: 19.00 - 22.00 uur\nGesloten op 1 januari, 27 april, 3 oktober en 25 december\nDonderdag 24 en 31 december 2026: museum overdag geopend, maar 's avonds gesloten.",
+    "en": "Monday to Sunday: 10:00 - 17:00\nThursday evening: 19:00 - 22:00\nClosed on 1 January, 27 April, 3 October and 25 December\nThursday 24 and 31 December 2026: museum open during the day, but closed in the evening."
    },
    "transit": {
     "nl": "Het museum ligt in het centrum van Leiden, op circa tien minuten loopafstand van NS-station Leiden Centraal.",
@@ -4576,8 +4832,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -4590,53 +4846,65 @@
     },
     {
      "fact": "hours",
-     "url": "https://www.rmo.nl/en/visit/",
-     "checked": "2026-09-13"
+     "url": "https://www.rmo.nl/uw-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.rmo.nl/en/visit/"
+     ]
     },
     {
      "fact": "hours_nl",
      "url": "https://www.rmo.nl/uw-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://www.rmo.nl/en/visit/",
-     "checked": "2026-09-13"
+     "url": "https://www.rmo.nl/uw-bezoek/openingstijden-prijzen-route/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.rmo.nl/en/visit/"
+     ]
     },
     {
      "fact": "pricing_nl",
-     "url": "https://www.rmo.nl/uw-bezoek/",
-     "checked": "2026-09-13"
+     "url": "https://www.rmo.nl/uw-bezoek/openingstijden-prijzen-route/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.rmo.nl/uw-bezoek/"
+     ]
     },
     {
      "fact": "transit",
-     "url": "https://www.rmo.nl/en/visit/",
-     "checked": "2026-09-13"
+     "url": "https://www.rmo.nl/uw-bezoek/",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.rmo.nl/en/visit/"
+     ]
     },
     {
      "fact": "transit_nl",
      "url": "https://www.rmo.nl/uw-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
      "url": "https://www.rmo.nl/en/visit/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking_nl",
      "url": "https://www.rmo.nl/uw-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://www.rmo.nl/en/visit/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access_nl",
      "url": "https://www.rmo.nl/uw-bezoek/",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "address",
@@ -4645,14 +4913,25 @@
     {
      "fact": "coordinates",
      "url": "https://www.rmo.nl/en/visit/"
+    },
+    {
+     "fact": "offers",
+     "url": "https://www.rmo.nl/uw-bezoek/veel-gestelde-vragen/",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "Tracker-'site'-URL voor dit museum is fout: die verwijst naar https://www.rijksmuseum.nl/en/whats-on (Rijksmuseum Amsterdam). Correcte officiële site: https://www.rmo.nl/.",
     "Vaste tentoonstelling 'Archeologie van Nederland' is op dinsdag 22 september 2026 gesloten van 13.00 tot 17.00 uur wegens onderhoudswerkzaamheden.",
-    "Lichtshow in de Tempelzaal kan momenteel niet worden gegeven wegens een technische storing."
+    "Lichtshow in de Tempelzaal kan momenteel niet worden gegeven wegens een technische storing.",
+    "Expired line removed: 'Dinsdag 22 september 2026: vaste tentoonstelling ... 13.00–17.00 uur gesloten wegens onderhoudswerkzaamheden' (date passed, maintenance finished).",
+    "Added the site's current holiday deviation: 24 and 31 December 2026 open by day, closed in the evening.",
+    "Closure list kept as 1 Jan/27 Apr/3 Oct/25 Dec: the visit page block now shows only 25 December and 1 January, but the sidebar on the same page still lists all four days.",
+    "Site banner reports a lift malfunction (first floor reachable by stairs only); treated as a temporary defect, so _visitor.access still describes the structural lifts.",
+    "VriendenLoterij Museummaand (free entry for 2 on 1 VIP card, 1–30 November 2026) is live but expires within the month; not added.",
+    "Museum shop closed on 7 December 2026 is not a visitor-hours fact; not added."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "frans-hals-museum": {
@@ -4724,8 +5003,8 @@
     "en": "The Houtplein and De Kamp car parks are both a five-minute walk from the museum. With a disabled parking permit (blue badge), cars may park free of charge throughout Haarlem in general disabled parking spaces and general parking bays; the permit is not valid in multi-storey car parks. The city also has 2 disabled parking spaces in De Kamp car park and 11 in Houtplein car park (each a 350-metre walk)."
    },
    "access": {
-    "nl": "Het museum is nagenoeg helemaal gelijkvloers en grotendeels toegankelijk voor rolstoelen, scootmobielen en loopfietsen; de zaal met het Poppenhuis is niet toegankelijk voor rolstoelgebruikers en de regenten- en regentessenkamers zijn via een opstapje met handgreep te bereiken.\nVanaf 17 augustus t/m 15 oktober 2026 zijn drie zalen niet toegankelijk wegens werkzaamheden; alle Frans Hals-werken blijven te zien.\nVoorzieningen: assistentiehonden toegestaan, lichtgewicht meeneemkrukjes, rolstoelvriendelijk toilet midden in het museum bij de schutterszaal, verschoonruimte, kolfruimte, gratis garderobe en kluisjes, gratis wifi, audiotour en papieren plattegrond. Begeleiders van mensen met een beperking krijgen gratis entree; medewerkers kennen het Sunflower Keycord. Rolstoelen zijn te reserveren via info@franshalsmuseum.nl of 023 511 57 75.",
-    "en": "The museum is largely step-free and largely accessible to wheelchairs, mobility scooters and walking bikes; the room with the 18th-century doll's house is not accessible to wheelchair users, and the regents' and regentesses' rooms are reached via two steps with a handrail.\nFrom 17 August to 15 October 2026 three galleries are closed for maintenance work; all Frans Hals works remain on view.\nFacilities: assistance dogs permitted, lightweight portable stools, wheelchair-friendly toilet in the middle of the museum near the militia room, baby changing facilities, breastfeeding room, free cloakroom and lockers, free Wi-Fi, audio tour and paper map. Carers accompanying visitors with disabilities receive free admission; staff are familiar with the Sunflower Keycord. Wheelchairs can be reserved via info@franshalsmuseum.nl or 023 511 57 75."
+    "nl": "Het museum is nagenoeg helemaal gelijkvloers en grotendeels toegankelijk voor rolstoelen, scootmobielen en loopfietsen; de zaal met het Poppenhuis is niet toegankelijk voor rolstoelgebruikers en de regenten- en regentessenkamers zijn via een opstapje met handgreep te bereiken.\nVoorzieningen: assistentiehonden toegestaan, lichtgewicht meeneemkrukjes, rolstoelvriendelijk toilet midden in het museum bij de schutterszaal, verschoonruimte, kolfruimte, gratis garderobe en kluisjes, gratis wifi, audiotour en papieren plattegrond. Begeleiders van mensen met een beperking krijgen gratis entree; medewerkers kennen het Sunflower Keycord. Rolstoelen zijn te reserveren via info@franshalsmuseum.nl of 023 511 57 75.",
+    "en": "The museum is largely step-free and largely accessible to wheelchairs, mobility scooters and walking bikes; the room with the 18th-century doll's house is not accessible to wheelchair users, and the regents' and regentesses' rooms are reached via two steps with a handrail.\nFacilities: assistance dogs permitted, lightweight portable stools, wheelchair-friendly toilet in the middle of the museum near the militia room, baby changing facilities, breastfeeding room, free cloakroom and lockers, free Wi-Fi, audio tour and paper map. Carers accompanying visitors with disabilities receive free admission; staff are familiar with the Sunflower Keycord. Wheelchairs can be reserved via info@franshalsmuseum.nl or 023 511 57 75."
    },
    "pricing": {
     "nl": "0 t/m 18 jaar: gratis\n19 t/m 24 jaar en CJP: € 9,00\nVolwassenen: € 18,50\nGroepen (per persoon, vanaf 10 personen): € 15,50\nGratis: Museumkaart, VriendenLoterij VIP-KAART, Vrienden, Beminnaers en Roemers\nAnder geldig toegangsbewijs wordt geaccepteerd.",
@@ -4733,8 +5012,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -4747,58 +5026,76 @@
     },
     {
      "fact": "hours",
-     "url": "https://franshalsmuseum.nl/en/tickets-and-opening-hours",
-     "checked": "2026-09-13"
+     "url": "https://franshalsmuseum.nl/nl/tickets-openingstijden",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://franshalsmuseum.nl/en/tickets-and-opening-hours"
+     ]
     },
     {
      "fact": "hours_nl",
      "url": "https://franshalsmuseum.nl/nl/tickets-openingstijden",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://franshalsmuseum.nl/en/tickets-and-opening-hours",
-     "checked": "2026-09-13"
+     "url": "https://franshalsmuseum.nl/nl/tickets-openingstijden",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://franshalsmuseum.nl/en/tickets-and-opening-hours"
+     ]
     },
     {
      "fact": "pricing_nl",
      "url": "https://franshalsmuseum.nl/nl/tickets-openingstijden",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
-     "url": "https://franshalsmuseum.nl/en/visit-us/getting-here",
-     "checked": "2026-09-13"
+     "url": "https://franshalsmuseum.nl/nl/bezoek/bereikbaarheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://franshalsmuseum.nl/en/visit-us/getting-here"
+     ]
     },
     {
      "fact": "transit_nl",
      "url": "https://franshalsmuseum.nl/nl/bezoek/bereikbaarheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
-     "url": "https://franshalsmuseum.nl/en/visit-us/getting-here",
-     "checked": "2026-09-13"
+     "url": "https://franshalsmuseum.nl/nl/bezoek/bereikbaarheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://franshalsmuseum.nl/en/visit-us/getting-here"
+     ]
     },
     {
      "fact": "parking_nl",
      "url": "https://franshalsmuseum.nl/nl/bezoek/bereikbaarheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
-     "url": "https://franshalsmuseum.nl/en/visit-us/accessibility",
-     "checked": "2026-09-13"
+     "url": "https://franshalsmuseum.nl/nl/bezoek/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://franshalsmuseum.nl/en/visit-us/accessibility"
+     ]
     },
     {
      "fact": "access_nl",
      "url": "https://franshalsmuseum.nl/nl/bezoek/toegankelijkheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access (FAQ details)",
-     "url": "https://franshalsmuseum.nl/en/visit-us/faq",
-     "checked": "2026-09-13"
+     "url": "https://franshalsmuseum.nl/nl/bezoek/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://franshalsmuseum.nl/en/visit-us/faq"
+     ]
     },
     {
      "fact": "address",
@@ -4807,15 +5104,26 @@
     {
      "fact": "coordinates",
      "url": "https://franshalsmuseum.nl/nl/bezoek/bereikbaarheid"
+    },
+    {
+     "fact": "offers",
+     "url": "https://franshalsmuseum.nl/nl/tickets-openingstijden",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "Van 17 augustus t/m 15 oktober 2026 zijn drie zalen niet toegankelijk wegens werkzaamheden; alle Frans Hals-werken zijn nog te zien.",
     "EN- en NL-pagina verschillen over de fietsenstalling: EN noemt Houtstraat, NL noemt Houtplein.",
     "Op de NL-aboutpagina staat een item 'Het Frans Hals Museum gaat verhuizen'; details daarvan zijn niet opgehaald.",
-    "Museumcafé: dinsdag t/m vrijdag 10.00-16.30 uur; zaterdag, zondag en feestdagen 10.30-16.30 uur; geen museumticket nodig."
+    "Museumcafé: dinsdag t/m vrijdag 10.00-16.30 uur; zaterdag, zondag en feestdagen 10.30-16.30 uur; geen museumticket nodig.",
+    "Expired maintenance notice (three galleries closed 17 August-15 October 2026) removed from both languages; the page now says all galleries are on the ground floor and visitable.",
+    "Hours unchanged and confirmed: Tue-Sun 11.00-17.00, 10.00 opening while the Hals-Rembrandt exhibition runs, extra open on Easter Monday/Whit Monday/28 December, 24 and 31 December close at 16.00, closed on 1 January, King's Day and Christmas Day.",
+    "Prices unchanged and confirmed: free 0-18, EUR 9.00 for 19-24 and CJP, adults EUR 18.50, groups from 10 people EUR 15.50, free with Museumkaart/VriendenLoterij VIP-KAART/Vrienden/Beminnaers/Roemers.",
+    "Transit unchanged: about 20 minutes on foot from Haarlem station, bus 3 to Frans Hals Museum stop plus Houtplein/Turfmarkt/Verwulft stops.",
+    "Parking unchanged: Houtplein and De Kamp car parks five minutes away; 2 disabled spaces in De Kamp and 11 in Houtplein; blue badge valid in general bays but not in the garages.",
+    "Access page adds detail that the regents' rooms have two steps with a handrail and no ramp, and that the pavement in front of the museum is uneven and sloping."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "de-pont-museum": {
@@ -4897,8 +5205,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Let op: van 31 augustus t/m 19 september 2026 is het museum gesloten in verband met de tentoonstellingswissel; ook het café, de winkel, de bibliotheek en de tuin zijn gesloten. Heropening op 20 september 2026.\nMaandag: gesloten\nDi en wo: 11.00 - 17.00 uur\nDonderdag: 11.00 - 20.00 uur\nVr t/m zo: 11.00 - 17.00 uur\nFeestdagen: Koningsdag gesloten; Eerste en Tweede Paasdag 11.00-17.00; Hemelvaartsdag 11.00-20.00; Eerste en Tweede Pinksterdag 11.00-17.00; Eerste Kerstdag gesloten; Tweede Kerstdag 11.00-17.00; Oudjaarsdag 11.00-17.00; Nieuwjaarsdag gesloten.",
-    "en": "Please note: the museum is closed from 31 August to 19 September 2026 while the exhibition is being changed; the café, shop, library and garden are closed too. Reopening on 20 September 2026.\nMonday: closed\nTue and Wed: 11:00 - 17:00\nThursday: 11:00 - 20:00\nFri to Sun: 11:00 - 17:00\nPublic holidays: King's Day closed; Easter Sunday and Monday 11:00-17:00; Ascension Day 11:00-20:00; Pentecost Sunday and Monday 11:00-17:00; Christmas Day closed; Boxing Day 11:00-17:00; 31 December 11:00-17:00; New Year's Day closed."
+    "nl": "Maandag: gesloten\nDi en wo: 11.00 - 17.00 uur\nDonderdag: 11.00 - 20.00 uur\nVr t/m zo: 11.00 - 17.00 uur\nFeestdagen: Koningsdag gesloten; Eerste en Tweede Paasdag 11.00-17.00; Hemelvaartsdag 11.00-20.00; Eerste en Tweede Pinksterdag 11.00-17.00; Kerstavond 11.00-17.00; Eerste Kerstdag gesloten; Tweede Kerstdag 11.00-17.00; Oudjaarsdag 11.00-17.00; Nieuwjaarsdag gesloten.",
+    "en": "Monday: closed\nTue and Wed: 11:00 - 17:00\nThursday: 11:00 - 20:00\nFri to Sun: 11:00 - 17:00\nPublic holidays: King's Day closed; Easter Sunday and Monday 11:00-17:00; Ascension Day 11:00-20:00; Pentecost Sunday and Monday 11:00-17:00; Christmas Eve 11:00-17:00; Christmas Day closed; Boxing Day 11:00-17:00; 31 December 11:00-17:00; New Year's Day closed."
    },
    "transit": {
     "nl": "Vanaf station Tilburg Centraal is het circa 15 minuten lopen naar De Pont Museum (verlaat het station aan de noordkant, linksaf Burgemeester Brokxlaan, rechtsaf bij de Gasthuisring, net voorbij het Wilhelminapark linksaf). Bus vanaf Tilburg station: bus 5 richting Noord-Stokhasselt, halte Textielmuseum; bus 7 richting West ETZ Tweesteden, halte Kwaadeindstraat. Actuele trein- en bustijden: 9292.nl.",
@@ -4918,8 +5226,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -4932,53 +5240,68 @@
     },
     {
      "fact": "hours",
-     "url": "https://www.depont.nl/en/visit-tickets",
-     "checked": "2026-09-13"
+     "url": "https://www.depont.nl/bezoek-tickets",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.depont.nl/en/visit-tickets"
+     ]
     },
     {
      "fact": "hours_nl",
      "url": "https://www.depont.nl/bezoek-tickets",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://www.depont.nl/en/visit-tickets",
-     "checked": "2026-09-13"
+     "url": "https://www.depont.nl/bezoek-tickets",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.depont.nl/en/visit-tickets"
+     ]
     },
     {
      "fact": "pricing_nl",
      "url": "https://www.depont.nl/bezoek-tickets",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
-     "url": "https://www.depont.nl/en/visit-tickets/practical-information",
-     "checked": "2026-09-13"
+     "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.depont.nl/en/visit-tickets/practical-information"
+     ]
     },
     {
      "fact": "transit_nl",
      "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
-     "url": "https://www.depont.nl/en/visit-tickets/practical-information",
-     "checked": "2026-09-13"
+     "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.depont.nl/en/visit-tickets/practical-information"
+     ]
     },
     {
      "fact": "parking_nl",
      "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
-     "url": "https://www.depont.nl/en/visit-tickets/practical-information/accessibility",
-     "checked": "2026-09-13"
+     "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie/toegankelijkheid",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://www.depont.nl/en/visit-tickets/practical-information/accessibility"
+     ]
     },
     {
      "fact": "access_nl",
      "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie/toegankelijkheid",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "vriendenloterij (not valid)",
@@ -4987,14 +5310,24 @@
     {
      "fact": "coordinates",
      "url": "https://www.depont.nl/bezoek-tickets/praktische-informatie"
+    },
+    {
+     "fact": "offers",
+     "url": "https://www.depont.nl/bezoek-tickets",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "Let op: van 31 augustus t/m 19 september 2026 gesloten wegens tentoonstellingswissel; heropening 20 september 2026.",
     "Gratis toegang voor iedereen t/m 26 jaar; op donderdagavond vanaf 17.00 uur is de entree voor iedereen gratis.",
-    "EN-pagina noemt 'Museum Card, ICOM, EYCA' gratis; NL-pagina noemt 'Museumkaart, CJP, ICOM' — CJP/EYCA verschillen tussen de taalversies."
+    "EN-pagina noemt 'Museum Card, ICOM, EYCA' gratis; NL-pagina noemt 'Museumkaart, CJP, ICOM' — CJP/EYCA verschillen tussen de taalversies.",
+    "Exhibition-change closure (31 Aug–19 Sep 2026) has expired; the live page shows normal hours only, so the note was removed.",
+    "Kerstavond 24 December 11.00-17.00 is listed on the NL tickets page and was added to both languages.",
+    "Prices unchanged: adults EUR 20.00, Vereniging Rembrandt EUR 6.50, up to 26 free, Museumkaart/CJP/ICOM free, Thursday evening free; Vriendenloterij VIP still not valid.",
+    "EN pricing line names EYCA where the NL page names CJP; this inconsistency is the museum's own and was left as stored.",
+    "Parking page now states a day ticket of EUR 5 paid by card at the exit terminal; the former desk exit-ticket option is no longer mentioned but was left in place."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "van-abbemuseum": {
@@ -5076,8 +5409,8 @@
   ],
   "_visitor": {
    "hours": {
-    "nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nExtra geopend op: 6 april 2026 (tweede paasdag), 14 mei 2026 (hemelvaartsdag), 25 mei 2026 (tweede pinksterdag), 19 oktober 2026 (Dutch Design Week) en 26 december 2026 (tweede kerstdag)\nGesloten op: 1 januari 2026 (nieuwjaarsdag), 14 februari 2026 (zaterdag tijdens carnaval), 27 april 2026 (Koningsdag), 11 oktober 2026 (Marathon Eindhoven) en 25 december 2026 (eerste kerstdag)",
-    "en": "Tuesday to Sunday: 11 AM - 5 PM\nThe museum is also open on: 6 April 2026 (Easter Monday), 14 May 2026 (Ascension Day), 25 May 2026 (Whit Monday), 19 October 2026 (Dutch Design Week) and 26 December 2026 (second day of Christmas)\nThe museum is closed on: 1 January 2026 (New Year's Day), 14 February 2026 (Saturday during carnival), 27 April 2026 (King's Day), 11 October 2026 (Marathon Eindhoven) and 25 December 2026 (first day of Christmas)"
+    "nl": "Dinsdag t/m zondag: 11.00 - 17.00 uur\nExtra geopend op: 26 december 2026 (tweede kerstdag)\nGesloten op: 25 december 2026 (eerste kerstdag)",
+    "en": "Tuesday to Sunday: 11 AM - 5 PM\nThe museum is also open on: 26 December 2026 (second day of Christmas)\nThe museum is closed on: 25 December 2026 (first day of Christmas)"
    },
    "transit": {
     "nl": "Vanaf station Eindhoven Centraal loop je in 15 minuten door het autovrije stadscentrum naar het museum. Treinen uit Amsterdam, Utrecht, Den Haag, Rotterdam, Venlo, Heerlen en Maastricht komen elk half uur aan in Eindhoven (ns.nl). Bus: het busstation ligt aan de noordkant van het NS-station; haltes bij het museum zijn onder meer Bilderdijklaan (1 minuut lopen), Smalle Haven (3 minuten), Stadhuisplein (4 minuten), PC Hooftlaan (4 minuten) en Keizersgracht (9 minuten). Actuele reisinformatie: 9292.nl.",
@@ -5097,8 +5430,8 @@
    }
   },
   "refresh_group": "B",
-  "last_refreshed_extras": "2026-09-13",
-  "next_due": "2026-09-27",
+  "last_refreshed_extras": "2026-11-11",
+  "next_due": "2026-11-25",
   "_meta": {
    "sources": [
     {
@@ -5111,64 +5444,86 @@
     },
     {
      "fact": "hours",
-     "url": "https://vanabbemuseum.nl/en/plan-your-visit/practical-information",
-     "checked": "2026-09-13"
+     "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://vanabbemuseum.nl/en/plan-your-visit/practical-information"
+     ]
     },
     {
      "fact": "hours_nl",
      "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "pricing",
-     "url": "https://vanabbemuseum.nl/en/plan-your-visit/practical-information",
-     "checked": "2026-09-13"
+     "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://vanabbemuseum.nl/en/plan-your-visit/practical-information"
+     ]
     },
     {
      "fact": "pricing_nl",
      "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "transit",
-     "url": "https://vanabbemuseum.nl/en/plan-your-visit/practical-information",
-     "checked": "2026-09-13"
+     "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://vanabbemuseum.nl/en/plan-your-visit/practical-information"
+     ]
     },
     {
      "fact": "transit_nl",
      "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "parking",
-     "url": "https://vanabbemuseum.nl/en/plan-your-visit/practical-information",
-     "checked": "2026-09-13"
+     "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
+     "checked": "2026-11-11",
+     "url_history": [
+      "https://vanabbemuseum.nl/en/plan-your-visit/practical-information"
+     ]
     },
     {
      "fact": "parking_nl",
      "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access",
      "url": "https://vanabbemuseum.nl/en/plan-your-visit/practical-information",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "access_nl",
      "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
-     "checked": "2026-09-13"
+     "checked": "2026-11-11"
     },
     {
      "fact": "coordinates",
      "url": "https://www.openstreetmap.org/node/2759556931"
+    },
+    {
+     "fact": "offers",
+     "url": "https://vanabbemuseum.nl/nl/plan-je-bezoek/praktische-informatie",
+     "checked": "2026-11-11"
     }
    ],
    "notes": [
     "Dinsdagmiddag 15.00 - 17.00 uur is de entree voor iedereen gratis.",
-    "Het museum hanteert jaarlijkse afwijkende open-/gesloten dagen (o.a. gesloten tijdens carnavalszaterdag, Koningsdag en Marathon Eindhoven); zie de hours-velden."
+    "Het museum hanteert jaarlijkse afwijkende open-/gesloten dagen (o.a. gesloten tijdens carnavalszaterdag, Koningsdag en Marathon Eindhoven); zie de hours-velden.",
+    "Pruned the passed 2026 exception dates: 6 April (Easter Monday), 14 May (Ascension), 25 May (Whit Monday), 19 October (DDW), 1 January, 14 February (carnival Saturday), 27 April (King's Day), 11 October (Marathon Eindhoven).",
+    "Kept the two dates still ahead: open 26 December 2026, closed 25 December 2026 — both still listed on the NL and EN practical-information pages.",
+    "Pricing unchanged: € 16 adults, under 13 free, CJP/students/teacher card € 8, family pass € 32, free Tuesday 15.00–17.00, free with Museumkaart/Rembrandt/VIP/CIMAM/ICOM/AICA/Friends.",
+    "Museumkaart is sold at the desk and online; e-tickets with Museumkaart remain possible — matches the stored offer note.",
+    "Transit and parking unchanged: 15 min walk from Eindhoven Centraal, bus stops Bilderdijklaan/Smalle Haven/Stadhuisplein/PC Hooftlaan/Keizersgracht; garages Stadskantoor, Q-Park Stadhuisplein and Q-Park Heuvel, P+R Genneperparken, two disabled bays at Stratumsedijk 2."
    ],
-   "verified": "2026-09-13"
+   "verified": "2026-11-11"
   }
  },
  "bonnefantenmuseum": {
@@ -5364,6 +5719,6 @@
  },
  "_cadence": {
   "last_completed_a": "2026-11-11",
-  "last_completed_b": "2026-09-13"
+  "last_completed_b": "2026-11-11"
  }
 }
