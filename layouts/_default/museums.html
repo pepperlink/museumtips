@@ -70,19 +70,20 @@
           <p>
             <a href="{{ .site }}">{{ i18n "website" }}</a>
           </p>
+          {{- $today := now.Format "2006-01-02" -}}
           {{ $here := where hugo.Data.exhibitions.exhibitions "museum" $museum.name }}
-          {{ if $here }}
+          {{ $datedHere := slice }}
+          {{ $openHere := slice }}
+          {{ range $here }}
+            {{ if .end }}
+              {{ if ge .end $today }}{{ $datedHere = $datedHere | append . }}{{ end }}
+            {{ else }}
+              {{ $openHere = $openHere | append . }}
+            {{ end }}
+          {{ end }}
+          {{ if or $datedHere $openHere }}
             <h4>{{ i18n "exhibitions_here" }}</h4>
             <ul>
-              {{ $datedHere := slice }}
-              {{ $openHere := slice }}
-              {{ range $here }}
-                {{ if .end }}
-                  {{ $datedHere = $datedHere | append . }}
-                {{ else }}
-                  {{ $openHere = $openHere | append . }}
-                {{ end }}
-              {{ end }}
               {{ range sort $datedHere "end" }}
                 {{ $show := . }}
                 {{ $titleURL := $show.url }}
