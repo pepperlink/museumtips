@@ -2,3 +2,6 @@
 .hugo_build.lock
 public/
 resources/
+
+# review artifacts from scripts/extras_apply.py (never committed)
+data/*.proposed.json
