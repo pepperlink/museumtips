@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-hosgeldin-hier-breken-we-samen-brood@museumtips.pepperlink.nl
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20270302
+SUMMARY:Hoşgeldin - Hier breken we samen brood - Van Abbemuseum
+LOCATION:Van Abbemuseum\, Eindhoven
+DESCRIPTION:Hoşgeldin (&#39;welkom&#39;) - presentatie in Plug &amp; Play van het Van A
+ bbemuseum.\nhttps://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/hos
+ geldin---hier-breken-we-samen-brood
+URL:https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/hosgeldin---
+ hier-breken-we-samen-brood
+END:VEVENT
+END:VCALENDAR

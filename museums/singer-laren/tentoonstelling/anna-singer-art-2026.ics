@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-anna-singer-art-2026@museumtips.pepperlink.nl
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261123
+SUMMARY:Anna Singer Art 2026 - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Gloednieuwe expositie met werk van zorgvuldig geselecteerde hed
+ endaagse kunstenaars\, van schilderkunst en fotografie tot textiel en bron
+ s.\nhttps://www.singerlaren.nl/nl/agenda/anna-singer-art-2026-yzrz
+URL:https://www.singerlaren.nl/nl/agenda/anna-singer-art-2026-yzrz
+END:VEVENT
+END:VCALENDAR

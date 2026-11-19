@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-manual-labour@museumtips.pepperlink.nl
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20270208
+SUMMARY:Manual Labour - Nederlands Fotomuseum
+LOCATION:Nederlands Fotomuseum\, Rotterdam
+DESCRIPTION:In &#39;Manual Labour&#39; onderzoekt kunstenaar Hannah Perry de relati
+ e tussen arbeid\, lichamelijk uithoudingsvermogen\, klasse en gender.\nhtt
+ ps://nederlandsfotomuseum.nl/nu-te-zien/manual-labour/
+URL:https://nederlandsfotomuseum.nl/nu-te-zien/manual-labour/
+END:VEVENT
+END:VCALENDAR

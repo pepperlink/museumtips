@@ -4,9 +4,9 @@ PRODID:-//Museumtips//Exhibition//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:museumtips-jip-van-den-toorn-now-that-youre-here@museumtips.pepperlink.nl
-DTSTAMP:20261111T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270412
 SUMMARY:Jip van den Toorn. Now That You&#39;re Here - Kunsthal
 LOCATION:Kunsthal\, Rotterdam
 DESCRIPTION:Retrospective with more than 250 drawings from the past six yea
