@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-11-11",
+ "compiled": "2026-11-19",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -2247,7 +2247,7 @@
   {
    "title": "Jip van den Toorn. Now That You're Here",
    "start": "2026-11-07",
-   "end": "2027-03-07",
+   "end": "2027-04-11",
    "description": "Retrospective with more than 250 drawings from the past six years of Jip van den Toorn's career, offering a glimpse into what it is like to be a cartoonist today.",
    "url": "https://www.kunsthal.nl/en/exhibitions/jip-van-den-toorn-now-that-youre-here/",
    "museum": "Kunsthal",
@@ -2413,6 +2413,46 @@
    "museum": "Stedelijk Museum",
    "city": "Amsterdam",
    "slug": "the-best-dutch-book-designs-2025"
+  },
+  {
+   "title": "Manual Labour",
+   "start": "2026-11-03",
+   "end": "2027-02-07",
+   "description": "In 'Manual Labour' onderzoekt kunstenaar Hannah Perry de relatie tussen arbeid, lichamelijk uithoudingsvermogen, klasse en gender.",
+   "url": "https://nederlandsfotomuseum.nl/nu-te-zien/manual-labour/",
+   "museum": "Nederlands Fotomuseum",
+   "city": "Rotterdam",
+   "slug": "manual-labour"
+  },
+  {
+   "title": "Hoşgeldin - Hier breken we samen brood",
+   "start": "2026-12-12",
+   "end": "2027-03-01",
+   "description": "Hoşgeldin ('welkom') - presentatie in Plug & Play van het Van Abbemuseum.",
+   "url": "https://vanabbemuseum.nl/nl/zien-en-doen/tentoonstellingen/hosgeldin---hier-breken-we-samen-brood",
+   "museum": "Van Abbemuseum",
+   "city": "Eindhoven",
+   "slug": "hosgeldin-hier-breken-we-samen-brood"
+  },
+  {
+   "title": "Hier & Nu",
+   "start": "2026-11-15",
+   "end": "2027-09-19",
+   "description": "Tentoonstelling met verrassende vondsten uit het depot van Museum Kranenburgh, in Zaal 1.",
+   "url": "https://kranenburgh.nl/tentoonstelling/hier-nu/",
+   "museum": "Museum Kranenburgh",
+   "city": "Bergen",
+   "slug": "hier-nu"
+  },
+  {
+   "title": "Anna Singer Art 2026",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "description": "Gloednieuwe expositie met werk van zorgvuldig geselecteerde hedendaagse kunstenaars, van schilderkunst en fotografie tot textiel en brons.",
+   "url": "https://www.singerlaren.nl/nl/agenda/anna-singer-art-2026-yzrz",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "slug": "anna-singer-art-2026"
   }
  ]
 }
