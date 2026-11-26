@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-bram-van-velde-kleur-als-bevrijding@museumtips.pepperlink.nl
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270531
+SUMMARY:Bram van Velde – Kleur als bevrijding - Singer Laren
+LOCATION:Singer Laren\, Laren
+DESCRIPTION:Tentoonstelling over Bram van Velde en kleur als bevrijding\, i
+ n de Van den Brink Galerij van Singer Laren.\nhttps://www.singerlaren.nl/n
+ l/agenda/bram-van-velde-dfwv
+URL:https://www.singerlaren.nl/nl/agenda/bram-van-velde-dfwv
+END:VEVENT
+END:VCALENDAR

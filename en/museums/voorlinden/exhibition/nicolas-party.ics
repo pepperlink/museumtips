@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-nicolas-party@museumtips.pepperlink.nl
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20280313
+SUMMARY:Nicolas Party - Voorlinden
+LOCATION:Voorlinden\, Wassenaar
+DESCRIPTION:Bij Voorlinden transformeert Nicolas Party de museumzalen tot e
+ en meeslepende totaalervaring vol kleurrijke landschappen\, mysterieuze po
+ rtretten\, raadselachtige stillevens en monumentale muurschilderingen.\nht
+ tps://www.voorlinden.nl/tentoonstelling/nicolas-party/
+URL:https://www.voorlinden.nl/tentoonstelling/nicolas-party/
+END:VEVENT
+END:VCALENDAR

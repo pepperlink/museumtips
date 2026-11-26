@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Museumtips//Exhibition//NL
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:museumtips-foam-3h-fatemeh-rezaei-archive-of-traces@museumtips.pepperlink.nl
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261204
+SUMMARY:Foam 3h: Fatemeh Rezaei – Archive of Traces - Foam
+LOCATION:Foam\, Amsterdam
+DESCRIPTION:Foam 3h presentation by photographer Fatemeh Rezaei\, opening 4
+  December (end date not yet published by Foam).\nhttps://www.foam.org/even
+ ts/fatemeh-rezaei
+URL:https://www.foam.org/events/fatemeh-rezaei
+END:VEVENT
+END:VCALENDAR
