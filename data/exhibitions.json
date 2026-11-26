@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "compiled": "2026-11-19",
+ "compiled": "2026-11-26",
  "museums": [
   {
    "name": "Bonnefantenmuseum",
@@ -2453,6 +2453,46 @@
    "museum": "Singer Laren",
    "city": "Laren",
    "slug": "anna-singer-art-2026"
+  },
+  {
+   "title": "Foam 3h: Fatemeh Rezaei – Archive of Traces",
+   "start": "2026-12-04",
+   "end": null,
+   "description": "Foam 3h presentation by photographer Fatemeh Rezaei, opening 4 December (end date not yet published by Foam).",
+   "url": "https://www.foam.org/events/fatemeh-rezaei",
+   "museum": "Foam",
+   "city": "Amsterdam",
+   "slug": "foam-3h-fatemeh-rezaei-archive-of-traces"
+  },
+  {
+   "title": "Het tapijt van Vlaardingen",
+   "start": "2026-12-18",
+   "end": "2027-03-17",
+   "description": "Op het tapijt van Vlaardingen borduurt een gilde van vrijwilligers de geschiedenis van hun stad en de bredere omgeving, van de laatste ijstijd tot de elfde eeuw.",
+   "url": "https://www.rmo.nl/tentoonstellingen/tijdelijke-tentoonstellingen/het-tapijt-van-vlaardingen/",
+   "museum": "Rijksmuseum van Oudheden",
+   "city": "Leiden",
+   "slug": "het-tapijt-van-vlaardingen"
+  },
+  {
+   "title": "Bram van Velde – Kleur als bevrijding",
+   "start": "2027-01-13",
+   "end": "2027-05-30",
+   "description": "Tentoonstelling over Bram van Velde en kleur als bevrijding, in de Van den Brink Galerij van Singer Laren.",
+   "url": "https://www.singerlaren.nl/nl/agenda/bram-van-velde-dfwv",
+   "museum": "Singer Laren",
+   "city": "Laren",
+   "slug": "bram-van-velde-kleur-als-bevrijding"
+  },
+  {
+   "title": "Nicolas Party",
+   "start": "2027-09-25",
+   "end": "2028-03-12",
+   "description": "Bij Voorlinden transformeert Nicolas Party de museumzalen tot een meeslepende totaalervaring vol kleurrijke landschappen, mysterieuze portretten, raadselachtige stillevens en monumentale muurschilderingen.",
+   "url": "https://www.voorlinden.nl/tentoonstelling/nicolas-party/",
+   "museum": "Voorlinden",
+   "city": "Wassenaar",
+   "slug": "nicolas-party"
   }
  ]
 }
